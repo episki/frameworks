@@ -2,9 +2,9 @@
   "name": "NIST 800-66 r2",
   "short_name": "NIST 800-66 r2",
   "last_updated": "2024-02-14",
-  "description": "<p>NIST Special Publication 800-66 Revision 2 provides guidance on implementing the HIPAA Security Rule, which establishes national standards for the protection of electronic protected health information (ePHI).</p><p>This document is intended to assist covered entities and business associates in understanding and implementing the security requirements of HIPAA.</p>",
+  "description": "NIST Special Publication 800-66 Revision 2 provides guidance on implementing the HIPAA Security Rule, which establishes national standards for the protection of electronic protected health information (ePHI).",
   "url": "https://csrc.nist.gov/publications/detail/sp/800-66/rev-2/final",
-  "category": "framework",
+  "category": "healthcare",
   "keywords": [
     "NIST",
     "HIPAA",

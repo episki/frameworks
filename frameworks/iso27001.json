@@ -2,7 +2,7 @@
   "name": "ISO 27001",
   "short_name": "ISO 27001",
   "last_updated": "2024-02-01",
-  "description": "<p>ISO/IEC 27001 is an international standard for information security management systems (ISMS).</p>",
+  "description": "ISO/IEC 27001 is an international standard for information security management systems (ISMS).",
   "category": "framework",
   "keywords": [
     "ISO 27001",

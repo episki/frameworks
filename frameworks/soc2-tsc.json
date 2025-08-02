@@ -2,7 +2,7 @@
   "name": "SOC2 Trust Service Criteria",
   "short_name": "SOC2 Trust Service Criteria",
   "last_updated": "2023-09-30",
-  "description": "<p>The SOC 2 Trust Service Criteria are a set of standards designed to help measure how well a given service provider manages data to protect the privacy of its clients. The criteria are based on five trust service principles: security, availability, processing integrity, confidentiality, and privacy.</p>",
+  "description": "The SOC 2 Trust Service Criteria are a set of standards designed to help measure how well a given service provider manages data to protect the privacy of its clients. The criteria are based on five trust service principles: security, availability, processing integrity, confidentiality, and privacy.",
   "category": "framework",
   "keywords": [
     "SOC2",
