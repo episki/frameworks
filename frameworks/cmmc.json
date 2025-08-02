@@ -3,7 +3,7 @@
   "name": "Cybersecurity Maturity Model Certification",
   "short_name": "CMMC",
   "last_updated": "2024-10-11",
-  "description": "<p>The Cybersecurity Maturity Model Certification (CMMC) is a unifying standard for implementing cybersecurity across the defense industrial base (DIB).</p>",
+  "description": "The Cybersecurity Maturity Model Certification (CMMC) is a unifying standard for implementing cybersecurity across the defense industrial base (DIB).",
   "category": "regulation",
   "keywords": [
     "CMMC",

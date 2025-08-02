@@ -2,7 +2,7 @@
   "name": "ISO 27002",
   "short_name": "ISO 27002",
   "last_updated": "2022-02-01",
-  "description": "<p>ISO/IEC 27002 provides guidelines for organizational information security standards and information security management practices, including the selection, implementation and management of controls taking into consideration the organization’s information security risk environment(s).</p>",
+  "description": "ISO/IEC 27002 provides guidelines for organizational information security standards and information security management practices, including the selection, implementation and management of controls taking into consideration the organization’s information security risk environment(s).",
   "category": "framework",
   "keywords": [
     "ISO 27002",

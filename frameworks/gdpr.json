@@ -2,7 +2,7 @@
   "name": "General Data Protection Regulation",
   "short_name": "GDPR",
   "last_updated": "2016-05-06",
-  "description": "<p>The General Data Protection Regulation (GDPR) is a comprehensive data protection law in the European Union (EU) that governs the processing of personal data.</p>",
+  "description": "The General Data Protection Regulation (GDPR) is a comprehensive data protection law in the European Union (EU) that governs the processing of personal data.",
   "category": "privacy",
   "keywords": [
     "GDPR",

@@ -2,7 +2,7 @@
   "name": "Health Insurance Portability and Accountability Act",
   "short_name": "HIPAA",
   "last_updated": "1996-03-18",
-  "description": "<p>The Health Insurance Portability and Accountability Act (HIPAA) is a US law designed to provide privacy standards to protect patients' medical records and other health information.</p>",
+  "description": "The Health Insurance Portability and Accountability Act (HIPAA) is a US law designed to provide privacy standards to protect patients' medical records and other health information.",
   "category": "healthcare",
   "keywords": [
     "HIPAA",
