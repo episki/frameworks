@@ -1,10 +1,9 @@
 {
-  "name": "NIST Cybersecurity Framework",
+  "name": "NIST Cybersecurity Framework 2.0",
   "short_name": "NIST CSF 2.0",
   "last_updated": "2021-01-01",
   "description": "The NIST Cybersecurity Framework (CSF) is a voluntary Framework consisting of standards, guidelines, and best practices to manage cybersecurity-related risk. The Cybersecurity Framework’s prioritized, flexible, and cost-effective approach helps to promote the protection and resilience of critical infrastructure and other sectors important to the economy and national security.",
-  "logo": "https://raw.githubusercontent.com/episki/frameworks/refs/heads/main/logos/nist.png",
-  "backgroundClassColor": "bg-gray-400/25",
+  "category": "framework",
   "keywords": [
     "NIST",
     "Cybersecurity",

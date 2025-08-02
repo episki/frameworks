@@ -1,0 +1,926 @@
+{
+  "name": "23 NYCRR Part 500",
+  "short_name": "NY DFS Part 500",
+  "last_updated": "2023-11-01",
+  "description": "<p>23 NYCRR Part 500 establishes cybersecurity requirements for financial services companies regulated by the New York State Department of Financial Services (NYDFS). The regulation aims to protect consumers and ensure the safety and soundness of the financial services industry.</p>",
+  "category": "financial",
+  "keywords": [
+    "NYDFS",
+    "cybersecurity",
+    "financial services",
+    "regulation"
+  ],
+  "controls": [
+    {
+      "ref": "500.2",
+      "control": "<p>Cybersecurity Program</p>",
+      "description": "<p></p>",
+      "controls": [
+        {
+          "ref": "500.2(a)",
+          "control": "<p>Each covered entity shall maintain a cybersecurity program designed to protect the confidentiality, integrity and availability of the covered entity’s information systems and nonpublic information stored on those information systems.</p>",
+          "description": "<p></p>"
+        },
+        {
+          "ref": "500.2(b)",
+          "control": "<p>The cybersecurity program shall be based on the covered entity’s risk assessment and designed to perform the following core cybersecurity functions:</p>",
+          "description": "<p></p>",
+          "controls": [
+            {
+              "ref": "500.2(b)(1)",
+              "control": "<p>identify and assess internal and external cybersecurity risks that may threaten the security or integrity of nonpublic information stored on the covered entity’s information systems;</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "500.2(b)(2)",
+              "control": "<p>use defensive infrastructure and the implementation of policies and procedures to protect the covered entity’s information systems, and the nonpublic information stored on those information systems, from unauthorized access, use or other malicious acts;</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "500.2(b)(3)",
+              "control": "<p>detect cybersecurity events;</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "500.2(b)(4)",
+              "control": "<p>respond to identified or detected cybersecurity events to mitigate any negative effects;</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "500.2(b)(5)",
+              "control": "<p>recover from cybersecurity events and restore normal operations and services; and</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "500.2(b)(6)",
+              "control": "<p>fulfill applicable regulatory reporting obligations.</p>",
+              "description": "<p></p>"
+            }
+          ]
+        },
+        {
+          "ref": "500.2(c)",
+          "control": "<p>Each class A company shall design and conduct independent audits of its cybersecurity program based on its risk assessment.</p>",
+          "description": "<p></p>"
+        },
+        {
+          "ref": "500.2(d)",
+          "control": "<p>A covered entity may meet the requirement(s) of this Part by adopting the relevant and applicable provisions of a cybersecurity program maintained by an affiliate, provided that such provisions satisfy the requirements of this Part, as applicable to the covered entity.</p>",
+          "description": "<p></p>"
+        },
+        {
+          "ref": "500.2(e)",
+          "control": "<p>All documentation and information relevant to the covered entity’s cybersecurity program, including the relevant and applicable provisions of a cybersecurity program maintained by an affiliate and adopted by the covered entity, shall be made available to the superintendent upon</p><p>request.</p>",
+          "description": "<p></p>"
+        }
+      ]
+    },
+    {
+      "ref": "500.3",
+      "control": "<p>Cybersecurity policy.</p>",
+      "description": "<p>Each covered entity shall implement and maintain a written policy or policies, approved at least annually by a senior officer or the covered entity’s senior governing body for the protection of its information systems and nonpublic information stored on those information systems. Procedures shall be developed, documented and implemented in accordance with the written policy or policies. The cybersecurity policy or policies and procedures shall be based on the covered entity’s risk assessment and address, at a minimum, the following areas to the extent applicable to the covered entity’s operations:</p>",
+      "controls": [
+        {
+          "ref": "500.3(a)",
+          "control": "<p>information security;</p>",
+          "description": "<p></p>"
+        },
+        {
+          "ref": "500.3(b)",
+          "control": "<p>data governance, classification and retention;</p>",
+          "description": "<p></p>"
+        },
+        {
+          "ref": "500.3(c)",
+          "control": "<p>asset inventory, device management and end of life management;</p>",
+          "description": "<p></p>"
+        },
+        {
+          "ref": "500.3(d)",
+          "control": "<p>access controls, including remote access and identity management;</p>",
+          "description": "<p></p>"
+        },
+        {
+          "ref": "500.3(e)",
+          "control": "<p>business continuity and disaster recovery planning and resources;</p>",
+          "description": "<p></p>"
+        },
+        {
+          "ref": "500.3(f)",
+          "control": "<p>systems operations and availability concerns;</p>",
+          "description": "<p></p>"
+        },
+        {
+          "ref": "500.3(g)",
+          "control": "<p>systems and network security and monitoring;</p>",
+          "description": "<p></p>"
+        },
+        {
+          "ref": "500.3(h)",
+          "control": "<p>security awareness and training;</p>",
+          "description": "<p></p>"
+        },
+        {
+          "ref": "500.3(i)",
+          "control": "<p>systems and application security and development and quality assurance;</p>",
+          "description": "<p></p>"
+        },
+        {
+          "ref": "500.3(j)",
+          "control": "<p>physical security and environmental controls;</p>",
+          "description": "<p></p>"
+        },
+        {
+          "ref": "500.3(k)",
+          "control": "<p>customer data privacy;</p>",
+          "description": "<p></p>"
+        },
+        {
+          "ref": "500.3(l)",
+          "control": "<p>vendor and third-party service provider management;</p>",
+          "description": "<p></p>"
+        },
+        {
+          "ref": "500.3(m)",
+          "control": "<p>risk assessment;</p>",
+          "description": "<p></p>"
+        },
+        {
+          "ref": "500.3(n)",
+          "control": "<p>incident response and notification; and</p>",
+          "description": "<p></p>"
+        },
+        {
+          "ref": "500.3(o)",
+          "control": "<p>vulnerability management.</p>",
+          "description": "<p></p>"
+        }
+      ]
+    },
+    {
+      "ref": "500.4",
+      "control": "<p>Cybersecurity governance.</p>",
+      "description": "<p></p>",
+      "controls": [
+        {
+          "ref": "500.4(a)",
+          "control": "<p>Chief information security officer. Each covered entity shall designate a CISO. The CISO may be employed by the covered entity, one of its affiliates or a third-party service provider. If the CISO is employed by a third-party service provider or an affiliate, the covered entity shall:</p>",
+          "description": "<p></p>",
+          "controls": [
+            {
+              "ref": "500.4(a)(1)",
+              "control": "<p>retain responsibility for compliance with this Part;</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "500.4(a)(2)",
+              "control": "<p>designate a senior member of the covered entity’s personnel responsible for direction and oversight of the third-party service provider; and</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "500.4(a)(3)",
+              "control": "<p>require the third-party service provider or affiliate to maintain a cybersecurity program that protects the covered entity in accordance with the requirements of this Part.</p>",
+              "description": "<p></p>"
+            }
+          ]
+        },
+        {
+          "ref": "500.4(b)",
+          "control": "<p>Report. The CISO of each covered entity shall report in writing at least annually to the senior governing body on the covered entity’s cybersecurity program, including to the extent applicable:</p>",
+          "description": "<p></p>",
+          "controls": [
+            {
+              "ref": "500.4(b)(1)",
+              "control": "<p>the confidentiality of nonpublic information and the integrity and security of the covered entity’s information systems;</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "500.4(b)(2)",
+              "control": "<p>the covered entity’s cybersecurity policies and procedures;</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "500.4(b)(3)",
+              "control": "<p>material cybersecurity risks to the covered entity;</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "500.4(b)(4)",
+              "control": "<p>overall effectiveness of the covered entity’s cybersecurity program;</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "500.4(b)(5)",
+              "control": "<p>material cybersecurity events involving the covered entity during the time period addressed by the report; and</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "500.4(b)(6)",
+              "control": "<p>plans for remediating material inadequacies.</p>",
+              "description": "<p></p>"
+            }
+          ]
+        },
+        {
+          "ref": "500.4(c)",
+          "control": "<p>The CISO shall timely report to the senior governing body or senior officer(s) on material cybersecurity issues, such as significant cybersecurity events and significant changes to the covered entity’s cybersecurity program.</p>",
+          "description": "<p></p>"
+        },
+        {
+          "ref": "500.4(d)",
+          "control": "<p>The senior governing body of the covered entity shall exercise oversight of the covered entity’s cybersecurity risk management, including by:</p>",
+          "description": "<p></p>",
+          "controls": [
+            {
+              "ref": "500.4(d)(1)",
+              "control": "<p>having sufficient understanding of cybersecurity-related matters to exercise such oversight, which may include the use of advisors;</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "500.4(d)(2)",
+              "control": "<p>requiring the covered entity’s executive management or its designees to develop, implement and maintain the covered entity’s cybersecurity program;</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "500.4(d)(3)",
+              "control": "<p>regularly receiving and reviewing management reports about cybersecurity matters; and</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "500.4(d)(4)",
+              "control": "<p>confirming that the covered entity’s management has allocated sufficient resources to implement and maintain an effective cybersecurity program.</p>",
+              "description": "<p></p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "500.5",
+      "control": "<p>Vulnerability Management</p>",
+      "description": "<p>Each covered entity shall, in accordance with its risk assessment, develop and implement written policies and procedures for vulnerability management that are designed to assess and maintain the effectiveness of its cybersecurity program. These policies and procedures shall be designed to ensure that covered entities:</p>",
+      "controls": [
+        {
+          "ref": "500.5(a)",
+          "control": "<p>conduct, at a minimum:</p>",
+          "description": "<p></p>",
+          "controls": [
+            {
+              "ref": "500.5(a)(1)",
+              "control": "<p>penetration testing of their information systems from both inside and outside the information systems’ boundaries by a qualified internal or external party at least annually; and</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "500.5(a)(2)",
+              "control": "<p>automated scans of information systems, and a manual review of systems not covered by such scans, for the purpose of discovering, analyzing and reporting vulnerabilities at a frequency determined by the risk assessment, and promptly after any material system changes;</p>",
+              "description": "<p></p>"
+            }
+          ]
+        },
+        {
+          "ref": "500.5(b)",
+          "control": "<p>are promptly informed of new security vulnerabilities by having a monitoring process in place; and</p>",
+          "description": "<p></p>"
+        },
+        {
+          "ref": "500.5(c)",
+          "control": "<p>timely remediate vulnerabilities, giving priority to vulnerabilities based on the risk they pose to the covered entity.</p>",
+          "description": "<p></p>"
+        }
+      ]
+    },
+    {
+      "ref": "500.6",
+      "control": "<p>Audit trail.</p>",
+      "description": "<p></p>",
+      "controls": [
+        {
+          "ref": "500.6(a)",
+          "control": "<p>Each covered entity shall securely maintain systems that, to the extent applicable and based on its risk assessment:</p>",
+          "description": "<p></p>",
+          "controls": [
+            {
+              "ref": "500.6(a)(1)",
+              "control": "<p>are designed to reconstruct material financial transactions sufficient to support normal operations and obligations of the covered entity; and</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "500.6(a)(2)",
+              "control": "<p>include audit trails designed to detect and respond to cybersecurity events that have a reasonable likelihood of materially harming any material part of the normal operations of the covered entity.</p>",
+              "description": "<p></p>"
+            }
+          ]
+        },
+        {
+          "ref": "500.6(b)",
+          "control": "<p>Each covered entity shall maintain records required by paragraph (a)(1) of this section for not fewer than five years and shall maintain records required by paragraph (a)(2) of this section for not fewer than three years.</p>",
+          "description": "<p></p>"
+        }
+      ]
+    },
+    {
+      "ref": "500.7",
+      "control": "<p>Access privileges and management.</p>",
+      "description": "<p></p>",
+      "controls": [
+        {
+          "ref": "500.7(a)",
+          "control": "<p>As part of its cybersecurity program, based on the covered entity’s risk assessment each covered entity shall:</p>",
+          "description": "<p></p>",
+          "controls": [
+            {
+              "ref": "500.7(a)(1)",
+              "control": "<p>limit user access privileges to information systems that provide access to nonpublic information to only those necessary to perform the user’s job;</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "500.7(a)(2)",
+              "control": "<p>limit the number of privileged accounts and limit the access functions of privileged accounts to only those necessary to perform the user’s job;</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "500.7(a)(3)",
+              "control": "<p>limit the use of privileged accounts to only when performing functions requiring the use of such access;</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "500.7(a)(4)",
+              "control": "<p>periodically, but at a minimum annually, review all user access privileges and remove or disable accounts and access that are no longer necessary;</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "500.7(a)(5)",
+              "control": "<p>disable or securely configure all protocols that permit remote control of devices; and</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "500.7(a)(6)",
+              "control": "<p>promptly terminate access following departures.</p>",
+              "description": "<p></p>"
+            }
+          ]
+        },
+        {
+          "ref": "500.7(b)",
+          "control": "<p>To the extent passwords are employed as a method of authentication, the covered entity shall implement a written password policy that meets industry standards.</p>",
+          "description": "<p></p>"
+        },
+        {
+          "ref": "500.7(c)",
+          "control": "<p>Each class A company shall monitor privileged access activity and shall implement:</p>",
+          "description": "<p></p>",
+          "controls": [
+            {
+              "ref": "500.7(c)(1)",
+              "control": "<p>a privileged access management solution; and</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "500.7(c)(2)",
+              "control": "<p>an automated method of blocking commonly used passwords for all accounts on information systems owned or controlled by the class A company and wherever feasible for all other accounts. To the extent the class A company determines that blocking commonly used passwords is infeasible, the covered entity’s CISO may instead approve in writing at least annually the infeasibility and the use of reasonably equivalent or more secure compensating controls.</p>",
+              "description": "<p></p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "500.8",
+      "control": "<p>Application security.</p>",
+      "description": "<p></p>",
+      "controls": [
+        {
+          "ref": "500.8(a)",
+          "control": "<p>Each covered entity’s cybersecurity program shall include written procedures, guidelines and standards designed to ensure the use of secure development practices for in-house developed applications utilized by the covered entity, and procedures for evaluating, assessing or testing the security of externally developed applications utilized by the covered entity within the context of the covered entity’s technology environment.</p>",
+          "description": "<p></p>"
+        },
+        {
+          "ref": "500.8(b)",
+          "control": "<p>All such procedures, guidelines and standards shall be reviewed, assessed and updated as necessary by the CISO (or a qualified designee) of the covered entity at least annually.</p>",
+          "description": "<p></p>"
+        }
+      ]
+    },
+    {
+      "ref": "500.9",
+      "control": "<p>Risk assessment.</p>",
+      "description": "<p></p>",
+      "controls": [
+        {
+          "ref": "500.9(a)",
+          "control": "<p>Each covered entity shall conduct a periodic risk assessment of the covered entity’s information systems sufficient to inform the design of the cybersecurity program as required by this Part. Such risk assessment shall be reviewed and updated as reasonably necessary, but at a minimum annually, and whenever a change in the business or technology causes a material change to the covered entity’s cyber risk. The covered entity’s risk assessment shall allow for revision of controls to respond to technological developments and evolving threats and shall consider the particular risks of the covered entity’s business operations related to cybersecurity, nonpublic information collected or stored, information systems utilized and the availability and effectiveness of controls to protect nonpublic information and information systems.</p>",
+          "description": "<p></p>"
+        },
+        {
+          "ref": "500.9(b)",
+          "control": "<p>The risk assessment shall be carried out in accordance with written policies and procedures and shall be documented. Such policies and procedures shall include:</p>",
+          "description": "<p></p>",
+          "controls": [
+            {
+              "ref": "500.9(b)(1)",
+              "control": "<p>criteria for the evaluation and categorization of identified cybersecurity risks or threats facing the covered entity;</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "500.9(b)(2)",
+              "control": "<p>criteria for the assessment of the confidentiality, integrity, security and availability of the covered entity’s information systems and nonpublic information, including the adequacy of existing controls in the context of identified risks; and</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "500.9(b)(3)",
+              "control": "<p>requirements describing how identified risks will be mitigated or accepted based on the risk assessment and how the cybersecurity program will address the risks.</p>",
+              "description": "<p></p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "500.10",
+      "control": "<p>Cybersecurity personnel and intelligence.</p>",
+      "description": "<p></p>",
+      "controls": [
+        {
+          "ref": "500.10(a)",
+          "control": "<p>In addition to the requirements set forth in section 500.4(a) of this Part, each covered entity shall:</p>",
+          "description": "<p></p>",
+          "controls": [
+            {
+              "ref": "500.10(a)(1)",
+              "control": "<p>utilize qualified cybersecurity personnel of the covered entity, an affiliate or a third-party service provider sufficient to manage the covered entity’s cybersecurity risks and to perform or oversee the performance of the core cybersecurity functions specified in section 500.2(b)(1)–(6) of this Part;</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "500.10(a)(2)",
+              "control": "<p>provide cybersecurity personnel with cybersecurity updates and training sufficient to address relevant cybersecurity risks; and</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "500.10(a)(3)",
+              "control": "<p>verify that key cybersecurity personnel take steps to maintain current knowledge of changing cybersecurity threats and countermeasures.</p>",
+              "description": "<p></p>"
+            }
+          ]
+        },
+        {
+          "ref": "500.10(b)",
+          "control": "<p>A covered entity may choose to utilize an affiliate or qualified third-party service provider to assist in complying with the requirements set forth in this Part, subject to the requirements set forth in sections 500.4 and 500.11 of this Part.</p>",
+          "description": "<p></p>"
+        }
+      ]
+    },
+    {
+      "ref": "500.11",
+      "control": "<p>Third-party service provider security policy.</p>",
+      "description": "<p></p>",
+      "controls": [
+        {
+          "ref": "500.11(a)",
+          "control": "<p>Each covered entity shall implement written policies and procedures designed to ensure the security of information systems and nonpublic information that are accessible to, or held by, third-party service providers. Such policies and procedures shall be based on the risk assessment of the covered entity and shall address to the extent applicable:</p>",
+          "description": "<p></p>",
+          "controls": [
+            {
+              "ref": "500.11(a)(1)",
+              "control": "<p>the identification and risk assessment of third-party service providers;</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "500.11(a)(2)",
+              "control": "<p>minimum cybersecurity practices required to be met by such third-party service providers in order for them to do business with the covered entity;</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "500.11(a)(3)",
+              "control": "<p>due diligence processes used to evaluate the adequacy of cybersecurity practices of such third-party service providers; and</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "500.11(a)(4)",
+              "control": "<p>periodic assessment of such third-party service providers based on the risk they present and the continued adequacy of their cybersecurity practices.</p>",
+              "description": "<p></p>"
+            }
+          ]
+        },
+        {
+          "ref": "500.11(b)",
+          "control": "<p>Such policies and procedures shall include relevant guidelines for due diligence and/or contractual protections relating to third-party service providers including to the extent applicable guidelines addressing:</p>",
+          "description": "<p></p>",
+          "controls": [
+            {
+              "ref": "500.11(b)(1)",
+              "control": "<p>the third-party service provider’s policies and procedures for access controls, including its use of multi-factor authentication as required by section 500.12 of this Part, to limit access to relevant information systems and nonpublic information;</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "500.11(b)(2)",
+              "control": "<p>the third-party service provider’s policies and procedures for use of encryption as required by section 500.15 of this Part to protect nonpublic information in transit and at rest;</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "500.11(b)(3)",
+              "control": "<p>notice to be provided to the covered entity in the event of a cybersecurity event directly impacting the covered entity’s information systems or the covered entity’s nonpublic information being held by the third-party service provider; and</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "500.11(b)(4)",
+              "control": "<p>representations and warranties addressing the third-party service provider’s cybersecurity policies and procedures that relate to the security of the covered entity’s information systems or nonpublic information.</p>",
+              "description": "<p></p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "500.12",
+      "control": "<p>Multi-factor authentication</p>",
+      "description": "<p></p>",
+      "controls": [
+        {
+          "ref": "500.12(a)",
+          "control": "<p>Multi-factor authentication shall be utilized for any individual accessing any information systems of a covered entity, unless the covered entity qualifies for a limited exemption pursuant to section 500.19(a) of this Part in which case multi-factor authentication shall be utilized for:</p>",
+          "description": "<p></p>",
+          "controls": [
+            {
+              "ref": "500.12(a)(1)",
+              "control": "<p>remote access to the covered entity’s information systems;</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "500.12(a)(2)",
+              "control": "<p>remote access to third-party applications, including but not limited to those that are cloud based, from which nonpublic information is accessible; and</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "500.12(a)(3)",
+              "control": "<p>all privileged accounts other than service accounts that prohibit interactive login.</p>",
+              "description": "<p></p>"
+            }
+          ]
+        },
+        {
+          "ref": "500.12(b)",
+          "control": "<p>If the covered entity has a CISO, the CISO may approve in writing the use of reasonably equivalent or more secure compensating controls. Such controls shall be reviewed periodically, but at a minimum annually.</p>",
+          "description": "<p></p>"
+        }
+      ]
+    },
+    {
+      "ref": "500.13",
+      "control": "<p>Asset management and data retention requirements.</p>",
+      "description": "<p></p>",
+      "controls": [
+        {
+          "ref": "500.13(a)",
+          "control": "<p>As part of its cybersecurity program, each covered entity shall implement written policies and procedures designed to produce and maintain a complete, accurate and documented asset inventory of the covered entity’s information systems. The asset inventory shall be maintained in accordance with written policies and procedures. At a minimum, such policies and procedures shall include:</p>",
+          "description": "<p></p>",
+          "controls": [
+            {
+              "ref": "500.13(a)(1)",
+              "control": "<p>a method to track key information for each asset, including, as applicable, the following:</p>",
+              "description": "<p></p>",
+              "controls": [
+                {
+                  "ref": "500.13(a)(1)(i)",
+                  "control": "<p>owner;</p>",
+                  "description": "<p></p>"
+                },
+                {
+                  "ref": "500.13(a)(1)(ii)",
+                  "control": "<p>location;</p>",
+                  "description": "<p></p>"
+                },
+                {
+                  "ref": "500.13(a)(1)(iii)",
+                  "control": "<p>classification or sensitivity;</p>",
+                  "description": "<p></p>"
+                },
+                {
+                  "ref": "500.13(a)(1)(iv)",
+                  "control": "<p>support expiration date; and</p>",
+                  "description": "<p></p>"
+                },
+                {
+                  "ref": "500.13(a)(1)(v)",
+                  "control": "<p>recovery time objectives; and</p>",
+                  "description": "<p></p>"
+                }
+              ]
+            },
+            {
+              "ref": "500.13(a)(2)",
+              "control": "<p>the frequency required to update and validate the covered entity’s asset inventory.</p>",
+              "description": "<p></p>"
+            }
+          ]
+        },
+        {
+          "ref": "500.13(b)",
+          "control": "<p>As part of its cybersecurity program, each covered entity shall include policies and procedures for the secure disposal on a periodic basis of any nonpublic information identified in section 500.1(k)(2)–(3) of this Part that is no longer necessary for business operations or for other legitimate business purposes of the covered entity, except where such information is otherwise required to be retained by law or regulation, or where targeted disposal is not reasonably feasible due to the manner in which the information is maintained.</p>",
+          "description": "<p></p>"
+        }
+      ]
+    },
+    {
+      "ref": "500.14",
+      "control": "<p>Monitoring and training.</p>",
+      "description": "<p></p>",
+      "controls": [
+        {
+          "ref": "500.14(a)",
+          "control": "<p>As part of its cybersecurity program, each covered entity shall:</p>",
+          "description": "<p></p>",
+          "controls": [
+            {
+              "ref": "500.14(a)(1)",
+              "control": "<p>implement risk-based policies, procedures and controls designed to monitor the activity of authorized users and detect unauthorized access or use of, or tampering with, nonpublic information by such authorized users;</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "500.14(a)(2)",
+              "control": "<p>implement risk-based controls designed to protect against malicious code, including those that monitor and filter web traffic and electronic mail to block malicious content; and</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "500.14(a)(3)",
+              "control": "<p>provide periodic, but at a minimum annual, cybersecurity awareness training that includes social engineering for all personnel that is updated to reflect risks identified by the covered entity in its risk assessment.</p>",
+              "description": "<p></p>"
+            }
+          ]
+        },
+        {
+          "ref": "500.14(b)",
+          "control": "<p>Each class A company shall implement, unless the CISO has approved in writing the use of reasonably equivalent or more secure compensating controls:</p>",
+          "description": "<p></p>",
+          "controls": [
+            {
+              "ref": "500.14(b)(1)",
+              "control": "<p>an endpoint detection and response solution to monitor anomalous activity, including but not limited to lateral movement; and</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "500.14(b)(2)",
+              "control": "<p>a solution that centralizes logging and security event alerting.</p>",
+              "description": "<p></p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "500.15",
+      "control": "<p>Encryption of nonpublic information.</p>",
+      "description": "<p></p>",
+      "controls": [
+        {
+          "ref": "500.15(a)",
+          "control": "<p>As part of its cybersecurity program, each covered entity shall implement a written policy requiring encryption that meets industry standards, to protect nonpublic information held or transmitted by the covered entity both in transit over external networks and at rest.</p>",
+          "description": "<p></p>"
+        },
+        {
+          "ref": "500.15(b)",
+          "control": "<p>To the extent a covered entity determines that encryption of nonpublic information at rest is infeasible, the covered entity may instead secure such nonpublic information using effective alternative compensating controls that have been reviewed and approved by the covered entity’s CISO in writing. The feasibility of encryption and effectiveness of the compensating controls shall be reviewed by the CISO at least annually.</p>",
+          "description": "<p></p>"
+        }
+      ]
+    },
+    {
+      "ref": "500.16",
+      "control": "<p>Incident response and business continuity management.</p>",
+      "description": "<p></p>",
+      "controls": [
+        {
+          "ref": "500.16(a)",
+          "control": "<p>As part of its cybersecurity program, each covered entity shall establish written plans that contain proactive measures to investigate and mitigate cybersecurity events and to ensure operational resilience, including but not limited to incident response, business continuity and disaster recovery plans.</p>",
+          "description": "<p></p>",
+          "controls": [
+            {
+              "ref": "500.16(a)(1)",
+              "control": "<p>Incident response plan. Incident response plans shall be reasonably designed to enable prompt response to, and recovery from, any cybersecurity event materially affecting the confidentiality, integrity or availability of the covered entity’s information systems or the continuing functionality of any aspect of the covered entity’s business or operations. Such plans shall address the following areas with respect to different types of cybersecurity events, including disruptive events such as ransomware incidents:</p>",
+              "description": "<p></p>",
+              "controls": [
+                {
+                  "ref": "500.16(a)(1)(i)",
+                  "control": "<p>the goals of the incident response plan;</p>",
+                  "description": "<p></p>"
+                },
+                {
+                  "ref": "500.16(a)(1)(ii)",
+                  "control": "<p>the internal processes for responding to a cybersecurity event;</p>",
+                  "description": "<p></p>"
+                },
+                {
+                  "ref": "500.16(a)(1)(iii)",
+                  "control": "<p>the definition of clear roles, responsibilities and levels of decision-making authority;</p>",
+                  "description": "<p></p>"
+                },
+                {
+                  "ref": "500.16(a)(1)(iv)",
+                  "control": "<p>external and internal communications and information sharing;</p>",
+                  "description": "<p></p>"
+                },
+                {
+                  "ref": "500.16(a)(1)(ix)",
+                  "control": "<p>updating of incident response plans as necessary.</p>",
+                  "description": "<p></p>"
+                },
+                {
+                  "ref": "500.16(a)(1)(v)",
+                  "control": "<p>identification of requirements for the remediation of any identified weaknesses in information systems and associated controls;</p>",
+                  "description": "<p></p>"
+                },
+                {
+                  "ref": "500.16(a)(1)(vi)",
+                  "control": "<p>documentation and reporting regarding cybersecurity events and related incident response activities;</p>",
+                  "description": "<p></p>"
+                },
+                {
+                  "ref": "500.16(a)(1)(vii)",
+                  "control": "<p>recovery from backups;</p>",
+                  "description": "<p></p>"
+                },
+                {
+                  "ref": "500.16(a)(1)(viii)",
+                  "control": "<p>preparation of root cause analysis that describes how and why the event occurred, what business impact it had, and what will be done to prevent reoccurrence; and</p>",
+                  "description": "<p></p>"
+                }
+              ]
+            },
+            {
+              "ref": "500.16(a)(2)",
+              "control": "<p>Business continuity and disaster recovery (BCDR) plan. BCDR plans shall be reasonably designed to ensure the availability and functionality of the covered entity’s information systems and material services and protect the covered entity’s personnel, assets and nonpublic information in the event of a cybersecurity-related disruption to its normal business activities. Such plans shall, at minimum:</p>",
+              "description": "<p></p>",
+              "controls": [
+                {
+                  "ref": "500.16(a)(2)(i)",
+                  "control": "<p>identify documents, data, facilities, infrastructure, services, personnel and competencies essential to the continued operations of the covered entity’s business;</p>",
+                  "description": "<p></p>"
+                },
+                {
+                  "ref": "500.16(a)(2)(ii)",
+                  "control": "<p>identify the supervisory personnel responsible for implementing each aspect of the BCDR plan;</p>",
+                  "description": "<p></p>"
+                },
+                {
+                  "ref": "500.16(a)(2)(iii)",
+                  "control": "<p>include a plan to communicate with essential persons in the event of a cybersecurity-related disruption to the operations of the covered entity, including employees, counterparties, regulatory authorities, third-party service providers, disaster recovery specialists, the senior governing body and any other persons essential to the recovery of documentation and data and the resumption of operations;</p>",
+                  "description": "<p></p>"
+                },
+                {
+                  "ref": "500.16(a)(2)(iv)",
+                  "control": "<p>include procedures for the timely recovery of critical data and information systems and to resume operations as soon as reasonably possible following a cybersecurity-related disruption to normal business activities;</p>",
+                  "description": "<p></p>"
+                },
+                {
+                  "ref": "500.16(a)(2)(v)",
+                  "control": "<p>include procedures for backing up or copying, with sufficient frequency, information essential to the operations of the covered entity and storing such information offsite; and</p>",
+                  "description": "<p></p>"
+                },
+                {
+                  "ref": "500.16(a)(2)(vi)",
+                  "control": "<p>identify third parties that are necessary to the continued operations of the covered entity’s information systems.</p>",
+                  "description": "<p></p>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ref": "500.16(b)",
+          "control": "<p>Each covered entity shall ensure that current copies of the plans or relevant portions therein are distributed or are otherwise accessible, including during a cybersecurity event, to all employees necessary to implement such plans.</p>",
+          "description": "<p></p>"
+        },
+        {
+          "ref": "500.16(c)",
+          "control": "<p>Each covered entity shall provide relevant training to all employees responsible for implementing the plans regarding their roles and responsibilities.</p>",
+          "description": "<p></p>"
+        },
+        {
+          "ref": "500.16(d)",
+          "control": "<p>Each covered entity shall periodically, but at a minimum annually, test its:</p>",
+          "description": "<p></p>",
+          "controls": [
+            {
+              "ref": "500.16(d)(1)",
+              "control": "<p>incident response and BCDR plans with all staff and management critical to the response, and shall revise the plan as necessary; and</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "500.16(d)(2)",
+              "control": "<p>ability to restore its critical data and information systems from backups.</p>",
+              "description": "<p></p>"
+            }
+          ]
+        },
+        {
+          "ref": "500.16(e)",
+          "control": "<p>Each covered entity shall maintain backups necessary to restore material operations. The backups shall be adequately protected from unauthorized alterations or destruction.</p>",
+          "description": "<p></p>"
+        }
+      ]
+    },
+    {
+      "ref": "500.17",
+      "control": "<p>Notices to superintendent.</p>",
+      "description": "<p></p>",
+      "controls": [
+        {
+          "ref": "500.17(a)",
+          "control": "<p>Notice of cybersecurity incident.</p>",
+          "description": "<p></p>",
+          "controls": [
+            {
+              "ref": "500.17(a)(1)",
+              "control": "<p>Each covered entity shall notify the superintendent electronically in the form set forth on the department’s website as promptly as possible but in no event later than 72 hours after determining that a cybersecurity incident has occurred at the covered entity, its affiliates, or a third-party service provider.</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "500.17(a)(2)",
+              "control": "<p>Each covered entity shall promptly provide to the superintendent any information requested regarding such incident. Covered entities shall have a continuing obligation to update the superintendent with material changes or new information previously unavailable.</p>",
+              "description": "<p></p>"
+            }
+          ]
+        },
+        {
+          "ref": "500.17(b)",
+          "control": "<p>Notice of compliance.</p>",
+          "description": "<p></p>",
+          "controls": [
+            {
+              "ref": "500.17(b)(1)",
+              "control": "<p>Annually each covered entity shall submit to the superintendent electronically by April 15 either:</p>",
+              "description": "<p></p>",
+              "controls": [
+                {
+                  "ref": "500.17(b)(1)(i)",
+                  "control": "<p>a written certification that:</p>",
+                  "description": "<p></p>",
+                  "controls": [
+                    {
+                      "ref": "500.17(b)(1)(i)(a)",
+                      "control": "<p>certifies that the covered entity materially complied with the requirements set forth in this Part during the prior calendar year; and</p>",
+                      "description": "<p></p>"
+                    },
+                    {
+                      "ref": "500.17(b)(1)(i)(b)",
+                      "control": "<p>shall be based upon data and documentation sufficient to accurately determine and demonstrate such material compliance, including, to the extent necessary, documentation of officers, employees, representatives, outside vendors and other individuals or entities, as well as other documentation, whether in the form of reports, certifications, schedules or otherwise; or</p>",
+                      "description": "<p></p>"
+                    }
+                  ]
+                },
+                {
+                  "ref": "500.17(b)(1)(ii)",
+                  "control": "<p>a written acknowledgment that:</p>",
+                  "description": "<p></p>",
+                  "controls": [
+                    {
+                      "ref": "500.17(b)(1)(ii)(a)",
+                      "control": "<p>acknowledges that, for the prior calendar year, the covered entity did not materially comply with all the requirements of this Part;</p>",
+                      "description": "<p></p>"
+                    },
+                    {
+                      "ref": "500.17(b)(1)(ii)(b)",
+                      "control": "<p>identifies all sections of this Part that the entity has not materially complied with and describes the nature and extent of such noncompliance; and</p>",
+                      "description": "<p></p>"
+                    },
+                    {
+                      "ref": "500.17(b)(1)(ii)(c)",
+                      "control": "<p>provides a remediation timeline or confirmation that remediation has been completed.</p>",
+                      "description": "<p></p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "ref": "500.17(b)(2)",
+              "control": "<p>Such certification or acknowledgment shall be submitted electronically in the form set forth on the department’s website and shall be signed by the covered entity’s highest- ranking executive and its CISO. If the covered entity does not have a CISO, the certification or acknowledgment shall be signed by the highest-ranking executive and by the senior officer responsible for the cybersecurity program of the covered entity.</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "500.17(b)(3)",
+              "control": "<p>Each covered entity shall maintain for examination and inspection by the department upon request all records, schedules and other documentation and data supporting the certification or acknowledgment for a period of five years, including the identification of all areas, systems and processes that require or required material improvement, updating or redesign, all remedial efforts undertaken to address such areas, systems and processes, and remediation plans and timelines for their implementation.</p>",
+              "description": "<p></p>"
+            }
+          ]
+        },
+        {
+          "ref": "500.17(c)",
+          "control": "<p>Notice and explanation of extortion payment. Each covered entity, in the event of an extortion payment made in connection with a cybersecurity event involving the covered entity, shall provide the superintendent electronically, in the form set forth on the department’s website, with the following:</p>",
+          "description": "<p></p>",
+          "controls": [
+            {
+              "ref": "500.17(c)(1)",
+              "control": "<p>within 24 hours of the extortion payment, notice of the payment; and</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "500.17(c)(2)",
+              "control": "<p>within 30 days of the extortion payment, a written description of the reasons payment was necessary, a description of alternatives to payment considered, all diligence performed to find alternatives to payment and all diligence performed to ensure compliance with applicable rules and regulations including those of the Office of Foreign Assets Control.</p>",
+              "description": "<p></p>"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

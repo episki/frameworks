@@ -1,10 +1,9 @@
 {
-  "name": "Security Controls Framework",
+  "name": "Security Controls Framework 2024-2",
   "short_name": "SCF 2024-2",
   "last_updated": "2024-08-28",
   "description": "The Security Controls Framework (SCF) is a comprehensive set of cybersecurity controls that are designed to be used by organizations to protect their information and information systems. The SCF is based on the NIST Cybersecurity Framework (CSF) and is designed to be used by organizations of all sizes and in all industries. The SCF is organized into 20 categories, each of which contains a set of controls that are designed to address specific cybersecurity risks. The SCF is designed to be flexible and scalable, so that organizations can tailor it to meet their specific needs and requirements.",
-  "logo": "https://raw.githubusercontent.com/episki/frameworks/refs/heads/main/logos/scf.png",
-  "backgroundClassColor": "bg-red-400/25",
+  "category": "framework",
   "keywords": [
     "security",
     "controls",

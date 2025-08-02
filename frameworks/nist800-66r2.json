@@ -1,14 +1,15 @@
 {
   "name": "NIST 800-66 r2",
   "short_name": "NIST 800-66 r2",
-  "last_updated": "2021-01-01",
-  "description": "The NIST 800-66 r2 is a guide for implementing the Health Insurance Portability and Accountability Act (HIPAA) Security Rule. It provides a comprehensive framework for organizations to assess their security posture and implement necessary controls to protect electronic protected health information (ePHI). The guide outlines the key components of the HIPAA Security Rule, including administrative, physical, and technical safeguards, and offers practical recommendations for compliance.",
+  "last_updated": "2024-02-14",
+  "description": "<p>NIST Special Publication 800-66 Revision 2 provides guidance on implementing the HIPAA Security Rule, which establishes national standards for the protection of electronic protected health information (ePHI).</p><p>This document is intended to assist covered entities and business associates in understanding and implementing the security requirements of HIPAA.</p>",
   "url": "https://csrc.nist.gov/publications/detail/sp/800-66/rev-2/final",
-  "logo": "https://raw.githubusercontent.com/episki/frameworks/refs/heads/main/logos/nist.png",
-  "backgroundClassColor": "bg-gray-400/25",
+  "category": "framework",
   "keywords": [
     "NIST",
-    "HIPAA"
+    "HIPAA",
+    "security",
+    "ePHI"
   ],
   "controls": [
   {
