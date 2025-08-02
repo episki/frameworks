@@ -1,0 +1,722 @@
+
+{
+  "name": "Cybersecurity Maturity Model Certification",
+  "short_name": "CMMC",
+  "last_updated": "2024-10-11",
+  "description": "<p>The Cybersecurity Maturity Model Certification (CMMC) is a unifying standard for implementing cybersecurity across the defense industrial base (DIB).</p>",
+  "category": "regulation",
+  "keywords": [
+    "CMMC",
+    "Cybersecurity Maturity Model Certification",
+    "NIST SP 800-171",
+    "FAR Clause 52.204-21",
+    "CUI",
+    "Federal Contract Information"
+  ],
+  "controls": [
+    {
+      "ref": "Level 1",
+      "control": "<p>Level 1 focuses on the protection of FCI and consists of only practices that correspond to the basic safeguarding requirements specified in 48 CFR 52.204-21, commonly referred to as the FAR Clause [3].</p>",
+      "description": "<p></p>",
+      "controls": [
+        {
+          "ref": "Access Control (AC)",
+          "control": "<p></p>",
+          "description": "<p></p>",
+          "controls": [
+            {
+              "ref": "AC.L1-3.1.1",
+              "control": "<p>Authorized Access Control</p>",
+              "description": "<p>Limit information system access to authorized users, processes acting on behalf of authorized users, or devices (including other information systems).</p>"
+            },
+            {
+              "ref": "AC.L1-3.1.2",
+              "control": "<p>Transaction &amp; Function Control</p>",
+              "description": "<p>Limit information system access to the types of transactions and functions that authorized users are permitted to execute.</p>"
+            },
+            {
+              "ref": "AC.L1-3.1.20",
+              "control": "<p>External Connections</p>",
+              "description": "<p>Verify and control/limit connections to and use of external information systems.</p>"
+            },
+            {
+              "ref": "AC.L1-3.1.22",
+              "control": "<p>Control Public Information</p>",
+              "description": "<p>Control information posted or processed on publicly accessible information systems.</p>"
+            }
+          ]
+        },
+        {
+          "ref": "Identification and Authentication (IA)",
+          "control": "<p></p>",
+          "description": "<p></p>",
+          "controls": [
+            {
+              "ref": "IA.L1-3.5.1",
+              "control": "<p>Identification</p>",
+              "description": "<p>Identify information system users, processes acting on behalf of users, or devices.</p>"
+            },
+            {
+              "ref": "IA.L1-3.5.2",
+              "control": "<p>Authentication</p>",
+              "description": "<p>Authenticate (or verify) the identities of those users, processes, or devices, as a prerequisite to allowing access to organizational information systems.</p>"
+            }
+          ]
+        },
+        {
+          "ref": "Media Protection (MP)",
+          "control": "<p></p>",
+          "description": "<p></p>",
+          "controls": [
+            {
+              "ref": "MP.L1-3.8.3",
+              "control": "<p>Media Disposal</p>",
+              "description": "<p>Sanitize or destroy information system media containing Federal Contract Information before disposal or release for reuse.</p>"
+            }
+          ]
+        },
+        {
+          "ref": "Physical Protection (PE)",
+          "control": "<p></p>",
+          "description": "<p></p>",
+          "controls": [
+            {
+              "ref": "PE.L1-3.10.1",
+              "control": "<p>Limit Physical Access</p>",
+              "description": "<p>Limit physical access to organizational information systems, equipment, and the respective operating environments to authorized individuals.</p>"
+            },
+            {
+              "ref": "PE.L1-3.10.3",
+              "control": "<p>Escort Visitors</p>",
+              "description": "<p>Escort visitors and monitor visitor activity.</p>"
+            },
+            {
+              "ref": "PE.L1-3.10.4",
+              "control": "<p>Physical Access Logs</p>",
+              "description": "<p>Maintain audit logs of physical access.</p>"
+            },
+            {
+              "ref": "PE.L1-3.10.5",
+              "control": "<p>Manage Physical Access</p>",
+              "description": "<p>Control and manage physical access devices.</p>"
+            }
+          ]
+        },
+        {
+          "ref": "System and Communications Protection (SC)",
+          "control": "<p></p>",
+          "description": "<p></p>",
+          "controls": [
+            {
+              "ref": "SC.L1-3.13.1",
+              "control": "<p>Boundary Protection</p>",
+              "description": "<p>Monitor, control, and protect organizational communications (i.e., information transmitted or received by organizational information systems) at the external boundaries and key internal boundaries of the information systems.</p>"
+            },
+            {
+              "ref": "SC.L1-3.13.5",
+              "control": "<p>Public-Access System Separation</p>",
+              "description": "<p>Implement subnetworks for publicly accessible system components that are physically or logically separated from internal networks.</p>"
+            }
+          ]
+        },
+        {
+          "ref": "System and Information Integrity (SI)",
+          "control": "<p></p>",
+          "description": "<p></p>",
+          "controls": [
+            {
+              "ref": "SI.L1-3.14.1",
+              "control": "<p>Flaw Remediation</p>",
+              "description": "<p>Identify, report, and correct information and information system flaws in a timely manner.</p>"
+            },
+            {
+              "ref": "SI.L1-3.14.2",
+              "control": "<p>Malicious Code Protection</p>",
+              "description": "<p>Identify, report, and correct information and information system flaws in a timely manner.</p>"
+            },
+            {
+              "ref": "SI.L1-3.14.4",
+              "control": "<p>Update Malicious Code Protection</p>",
+              "description": "<p>Update malicious code protection mechanisms when new releases are available.</p>"
+            },
+            {
+              "ref": "SI.L1-3.14.5",
+              "control": "<p>System &amp; File Scanning</p>",
+              "description": "<p>Perform periodic scans of the information system and real-time scans of files from external sources as files are downloaded, opened, or executed.</p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "Level 2",
+      "control": "<p>Level 2 focuses on the protection of CUI and encompasses the 110 security requirements specified in NIST SP 800-171 Rev 2 [4].</p>",
+      "description": "<p></p>",
+      "controls": [
+        {
+          "ref": "Access Control (AC)",
+          "control": "<p></p>",
+          "description": "<p></p>",
+          "controls": [
+            {
+              "ref": "AC.L2-3.1.3",
+              "control": "<p>Control CUI Flow</p>",
+              "description": "<p>Control the flow of CUI in accordance with approved authorizations.</p>"
+            },
+            {
+              "ref": "AC.L2-3.1.4",
+              "control": "<p>Separation of Duties</p>",
+              "description": "<p>Separate the duties of individuals to reduce the risk of malevolent activity without collusion.</p>"
+            },
+            {
+              "ref": "AC.L2-3.1.5",
+              "control": "<p>Least Privilege</p>",
+              "description": "<p>Employ the principle of least privilege, including for specific security functions and privileged accounts.</p>"
+            },
+            {
+              "ref": "AC.L2-3.1.6",
+              "control": "<p>Non-Privileged Account Use</p>",
+              "description": "<p>Use non-privileged accounts or roles when accessing nonsecurity functions.</p>"
+            },
+            {
+              "ref": "AC.L2-3.1.7",
+              "control": "<p>Privileged Functions</p>",
+              "description": "<p>Prevent non-privileged users from executing privileged functions and capture the execution of such functions in audit logs.</p>"
+            },
+            {
+              "ref": "AC.L2-3.1.8",
+              "control": "<p>Unsuccessful Logon Attempts</p>",
+              "description": "<p>Limit unsuccessful logon attempts.</p>"
+            },
+            {
+              "ref": "AC.L2-3.1.9",
+              "control": "<p>Privacy &amp; Security Notices</p>",
+              "description": "<p>Provide privacy and security notices consistent with applicable CUI rules.</p>"
+            },
+            {
+              "ref": "AC.L2-3.1.10",
+              "control": "<p>Session Lock</p>",
+              "description": "<p>Use session lock with pattern-hiding displays to prevent access and viewing of data after a period of inactivity.</p>"
+            },
+            {
+              "ref": "AC.L2-3.1.11",
+              "control": "<p>Session Termination</p>",
+              "description": "<p>Terminate (automatically) a user session after a defined condition.</p>"
+            },
+            {
+              "ref": "AC.L2-3.1.12",
+              "control": "<p>Control Remote Access</p>",
+              "description": "<p>Monitor and control remote access sessions.</p>"
+            },
+            {
+              "ref": "AC.L2-3.1.13",
+              "control": "<p>Remote Access Confidentiality</p>",
+              "description": "<p>Employ cryptographic mechanisms to protect the confidentiality of remote access sessions.</p>"
+            },
+            {
+              "ref": "AC.L2-3.1.14",
+              "control": "<p>Remote Access Routing</p>",
+              "description": "<p>Route remote access via managed access control points.</p>"
+            },
+            {
+              "ref": "AC.L2-3.1.15",
+              "control": "<p>Privileged Remote Access</p>",
+              "description": "<p>Authorize remote execution of privileged commands and remote access to security-relevant information.</p>"
+            },
+            {
+              "ref": "AC.L2-3.1.16",
+              "control": "<p>Wireless Access Authorization</p>",
+              "description": "<p>Authorize wireless access prior to allowing such connections.</p>"
+            },
+            {
+              "ref": "AC.L2-3.1.17",
+              "control": "<p>Wireless Access Protection</p>",
+              "description": "<p>Authorize wireless access prior to allowing such connections.</p>"
+            },
+            {
+              "ref": "AC.L2-3.1.18",
+              "control": "<p>Mobile Device Connection</p>",
+              "description": "<p>Control connection of mobile devices.</p>"
+            },
+            {
+              "ref": "AC.L2-3.1.19",
+              "control": "<p>Encrypt CUI on Mobile</p>",
+              "description": "<p>Encrypt CUI on mobile devices and mobile computing platforms.</p>"
+            },
+            {
+              "ref": "AC.L2-3.1.21",
+              "control": "<p>Portable Storage Use</p>",
+              "description": "<p>Encrypt CUI on mobile devices and mobile computing platforms.</p>"
+            }
+          ]
+        },
+        {
+          "ref": "Audit and Accountability (AU)",
+          "control": "<p></p>",
+          "description": "<p></p>",
+          "controls": [
+            {
+              "ref": "AU.L2-3.3.1",
+              "control": "<p>System Auditing</p>",
+              "description": "<p>Create and retain system audit logs and records to the extent needed to enable the monitoring, analysis, investigation, and reporting of unlawful or unauthorized system activity.</p>"
+            },
+            {
+              "ref": "AU.L2-3.3.2",
+              "control": "<p>User Accountability</p>",
+              "description": "<p>Ensure that the actions of individual system users, can be uniquely traced to those users so they can be held accountable for their actions.</p>"
+            },
+            {
+              "ref": "AU.L2-3.3.3",
+              "control": "<p>Event Review</p>",
+              "description": "<p>Review and update logged events.</p>"
+            },
+            {
+              "ref": "AU.L2-3.3.4",
+              "control": "<p>Audit Failure Alerting</p>",
+              "description": "<p>Alert in the event of an audit logging process failure.</p>"
+            },
+            {
+              "ref": "AU.L2-3.3.5",
+              "control": "<p>Audit Correlation</p>",
+              "description": "<p>Correlate audit record review, analysis, and reporting processes for investigation and response to indications of unlawful, unauthorized, suspicious, or unusual activity.</p>"
+            },
+            {
+              "ref": "AU.L2-3.3.6",
+              "control": "<p>Reduction &amp; Reporting</p>",
+              "description": "<p>Provide audit record reduction and report generation to support on-demand analysis and reporting.</p>"
+            },
+            {
+              "ref": "AU.L2-3.3.7",
+              "control": "<p>Authoritative Time Source</p>",
+              "description": "<p>Provide a system capability that compares and synchronizes internal system clocks with an authoritative source to generate time stamps for audit records.</p>"
+            },
+            {
+              "ref": "AU.L2-3.3.8",
+              "control": "<p>Audit Protection</p>",
+              "description": "<p>Protect audit information and audit logging tools from unauthorized access, modification, and deletion.</p>"
+            },
+            {
+              "ref": "AU.L2-3.3.9",
+              "control": "<p>Audit Management</p>",
+              "description": "<p>Limit management of audit logging functionality to a subset of privileged users.</p>"
+            }
+          ]
+        },
+        {
+          "ref": "Awareness and Training (AT)",
+          "control": "<p></p>",
+          "description": "<p></p>",
+          "controls": [
+            {
+              "ref": "AT.L2-3.2.1",
+              "control": "<p>Role-Based Risk Awareness</p>",
+              "description": "<p>Ensure that managers, systems administrators, and users of organizational systems are made aware of the security risks associated with their activities and of the applicable policies, standards, and procedures related to the security of those systems.</p>"
+            },
+            {
+              "ref": "AT.L2-3.2.2",
+              "control": "<p>Role-Based Training</p>",
+              "description": "<p>Ensure that personnel are trained to carry out their assigned information security-related duties and responsibilities.</p>"
+            },
+            {
+              "ref": "AT.L2-3.2.3",
+              "control": "<p>Insider Threat Awareness</p>",
+              "description": "<p>Provide security awareness training on recognizing and reporting potential indicators of insider threat.</p>"
+            }
+          ]
+        },
+        {
+          "ref": "Configuration Management (CM)",
+          "control": "<p></p>",
+          "description": "<p></p>",
+          "controls": [
+            {
+              "ref": "CM.L2-3.4.1",
+              "control": "<p>System Baselining</p>",
+              "description": "<p>Establish and maintain baseline configurations and inventories of organizational systems (including hardware, software, firmware, and documentation) throughout the respective system development life cycles.</p>"
+            },
+            {
+              "ref": "CM.L2-3.4.2",
+              "control": "<p>Security Configuration Enforcement</p>",
+              "description": "<p>Establish and enforce security configuration settings for information technology products employed in organizational systems.</p>"
+            },
+            {
+              "ref": "CM.L2-3.4.3",
+              "control": "<p>System Change Management</p>",
+              "description": "<p>Track, review, approve or disapprove, and log changes to organizational systems.</p>"
+            },
+            {
+              "ref": "CM.L2-3.4.4",
+              "control": "<p>Security Impact Analysis</p>",
+              "description": "<p>Analyze the security impact of changes prior to implementation.</p>"
+            },
+            {
+              "ref": "CM.L2-3.4.5",
+              "control": "<p>Access Restrictions for Change</p>",
+              "description": "<p>Define, document, approve, and enforce physical and logical access restrictions associated with changes to organizational systems.</p>"
+            },
+            {
+              "ref": "CM.L2-3.4.6",
+              "control": "<p>Least Functionality</p>",
+              "description": "<p>Employ the principle of least functionality by configuring organizational systems to provide only essential capabilities.</p>"
+            },
+            {
+              "ref": "CM.L2-3.4.7",
+              "control": "<p>Nonessential Functionality</p>",
+              "description": "<p>Restrict, disable, or prevent the use of nonessential programs, functions, ports, protocols, and services.</p>"
+            },
+            {
+              "ref": "CM.L2-3.4.8",
+              "control": "<p>Application Execution Policy</p>",
+              "description": "<p>Apply deny-by-exception (blacklisting) policy to prevent the use of unauthorized software or deny-all, permit-by-exception (whitelisting) policy to allow the execution of authorized software.</p>"
+            },
+            {
+              "ref": "CM.L2-3.4.9",
+              "control": "<p>User-Installed Software</p>",
+              "description": "<p>Control and monitor user-installed software.</p>"
+            }
+          ]
+        },
+        {
+          "ref": "Identification and Authentication (IA)",
+          "control": "<p></p>",
+          "description": "<p></p>",
+          "controls": [
+            {
+              "ref": "IA.L2-3.5.3",
+              "control": "<p>Multifactor Authentication</p>",
+              "description": "<p>Use multifactor authentication for local and network access to privileged accounts and for network access to non-privileged accounts.</p>"
+            },
+            {
+              "ref": "IA.L2-3.5.4",
+              "control": "<p>Replay-Resistant Authentication</p>",
+              "description": "<p>Employ replay-resistant authentication mechanisms for network access to privileged and non-privileged accounts.</p>"
+            },
+            {
+              "ref": "IA.L2-3.5.5",
+              "control": "<p>Identifier Reuse</p>",
+              "description": "<p>Prevent reuse of identifiers for a defined period.</p>"
+            },
+            {
+              "ref": "IA.L2-3.5.6",
+              "control": "<p>Identifier Handling</p>",
+              "description": "<p>Disable identifiers after a defined period of inactivity.</p>"
+            },
+            {
+              "ref": "IA.L2-3.5.7",
+              "control": "<p>Password Complexity</p>",
+              "description": "<p>Enforce a minimum password complexity and change of characters when new passwords are created.</p>"
+            },
+            {
+              "ref": "IA.L2-3.5.8",
+              "control": "<p>Password Reuse</p>",
+              "description": "<p>Prohibit password reuse for a specified number of generations.</p>"
+            },
+            {
+              "ref": "IA.L2-3.5.9",
+              "control": "<p>Temporary Passwords</p>",
+              "description": "<p>Allow temporary password use for system logons with an immediate change to a permanent password.</p>"
+            },
+            {
+              "ref": "IA.L2-3.5.10",
+              "control": "<p>Cryptographically-Protected Passwords</p>",
+              "description": "<p>Store and transmit only cryptographically protected passwords.</p>"
+            },
+            {
+              "ref": "IA.L2-3.5.11",
+              "control": "<p>Obscure Feedback</p>",
+              "description": "<p>Obscure feedback of authentication information.</p>"
+            }
+          ]
+        },
+        {
+          "ref": "Incident Response (IR)",
+          "control": "<p></p>",
+          "description": "<p></p>",
+          "controls": [
+            {
+              "ref": "IR.L2-3.6.1",
+              "control": "<p>Incident Handling</p>",
+              "description": "<p>Establish an operational incident-handling capability for organizational systems that includes preparation, detection, analysis, containment, recovery, and user response activities.</p>"
+            },
+            {
+              "ref": "IR.L2-3.6.2",
+              "control": "<p>Incident Reporting</p>",
+              "description": "<p>Track, document, and report incidents to designated officials and/or authorities both internal and external to the organization.</p>"
+            },
+            {
+              "ref": "IR.L2-3.6.3",
+              "control": "<p>Incident Response Testing</p>",
+              "description": "<p>Test the organizational incident response capability.</p>"
+            }
+          ]
+        },
+        {
+          "ref": "Maintenance (MA)",
+          "control": "<p></p>",
+          "description": "<p></p>",
+          "controls": [
+            {
+              "ref": "MA.L2-3.7.1",
+              "control": "<p>Perform Maintenance</p>",
+              "description": "<p>Perform maintenance on organizational systems.</p>"
+            },
+            {
+              "ref": "MA.L2-3.7.2",
+              "control": "<p>System Maintenance Control</p>",
+              "description": "<p>Provide controls on the tools, techniques, mechanisms, and personnel used to conduct system maintenance.</p>"
+            },
+            {
+              "ref": "MA.L2-3.7.3",
+              "control": "<p>Equipment Sanitization</p>",
+              "description": "<p>Ensure equipment removed for off-site maintenance is sanitized of any CUI.</p>"
+            },
+            {
+              "ref": "MA.L2-3.7.4",
+              "control": "<p>Media Inspection</p>",
+              "description": "<p>Check media containing diagnostic and test programs for malicious code before the media are used in organizational systems.</p>"
+            },
+            {
+              "ref": "MA.L2-3.7.5",
+              "control": "<p>Nonlocal Maintenance</p>",
+              "description": "<p>Require multifactor authentication to establish nonlocal maintenance sessions via external network connections and terminate such connections when nonlocal maintenance is complete.</p>"
+            },
+            {
+              "ref": "MA.L2-3.7.6",
+              "control": "<p>Maintenance Personnel</p>",
+              "description": "<p>Supervise the maintenance activities of maintenance personnel without required access authorization.</p>"
+            }
+          ]
+        },
+        {
+          "ref": "Media Protection (MP)",
+          "control": "<p></p>",
+          "description": "<p></p>",
+          "controls": [
+            {
+              "ref": "MP.L2-3.8.1",
+              "control": "<p>Media Protection</p>",
+              "description": "<p>Protect (i.e., physically control and securely store) system media containing CUI, both paper and digital.</p>"
+            },
+            {
+              "ref": "MP.L2-3.8.2",
+              "control": "<p>Media Access</p>",
+              "description": "<p>Limit access to CUI on system media to authorized users.</p>"
+            },
+            {
+              "ref": "MP.L2-3.8.4",
+              "control": "<p>Media Markings</p>",
+              "description": "<p>Mark media with necessary CUI markings and distribution limitations.</p>"
+            },
+            {
+              "ref": "MP.L2-3.8.5",
+              "control": "<p>Media Accountability</p>",
+              "description": "<p>Control access to media containing CUI and maintain accountability for media during transport outside of controlled areas.</p>"
+            },
+            {
+              "ref": "MP.L2-3.8.6",
+              "control": "<p>Portable Storage Encryption</p>",
+              "description": "<p>Implement cryptographic mechanisms to protect the confidentiality of CUI stored on digital media during transport unless otherwise protected by alternative physical safeguards.</p>"
+            },
+            {
+              "ref": "MP.L2-3.8.7",
+              "control": "<p>Removable Media</p>",
+              "description": "<p>Control the use of removable media on system components.</p>"
+            },
+            {
+              "ref": "MP.L2-3.8.8",
+              "control": "<p>Shared Media</p>",
+              "description": "<p>Prohibit the use of portable storage devices when such devices have no identifiable owner.</p>"
+            },
+            {
+              "ref": "MP.L2-3.8.9",
+              "control": "<p>Protect Backups</p>",
+              "description": "<p>Protect the confidentiality of backup CUI at storage locations.</p>"
+            }
+          ]
+        },
+        {
+          "ref": "Personnel Security (PS)",
+          "control": "<p></p>",
+          "description": "<p></p>",
+          "controls": [
+            {
+              "ref": "PS.L2-3.9.1",
+              "control": "<p>Screen Individuals</p>",
+              "description": "<p>Screen individuals prior to authorizing access to organizational systems containing CUI.</p>"
+            },
+            {
+              "ref": "PS.L2-3.9.2",
+              "control": "<p>Personnel Actions</p>",
+              "description": "<p>Ensure that organizational systems containing CUI are protected during and after personnel actions such as terminations and transfers.</p>"
+            }
+          ]
+        },
+        {
+          "ref": "Physical Protection (PE)",
+          "control": "<p></p>",
+          "description": "<p></p>",
+          "controls": [
+            {
+              "ref": "PE.L2-3.10.2",
+              "control": "<p>Monitor Facility</p>",
+              "description": "<p>Protect and monitor the physical facility and support infrastructure for organizational systems.</p>"
+            },
+            {
+              "ref": "PE.L2-3.10.6",
+              "control": "<p>Alternative Work Sites</p>",
+              "description": "<p>Enforce safeguarding measures for CUI at alternate work sites.</p>"
+            }
+          ]
+        },
+        {
+          "ref": "Risk Assessment (RA)",
+          "control": "<p></p>",
+          "description": "<p></p>",
+          "controls": [
+            {
+              "ref": "RA.L2-3.11.1",
+              "control": "<p>Risk Assessments</p>",
+              "description": "<p>Periodically assess the risk to organizational operations (including mission, functions, image, or reputation), organizational assets, and individuals, resulting from the operation of organizational systems and the associated processing, storage, or transmission of CUI.</p>"
+            },
+            {
+              "ref": "RA.L2-3.11.2",
+              "control": "<p>Vulnerability Scan</p>",
+              "description": "<p>Scan for vulnerabilities in organizational systems and applications periodically and when new vulnerabilities affecting those systems and applications are identified.</p>"
+            },
+            {
+              "ref": "RA.L2-3.11.3",
+              "control": "<p>Vulnerability Remediation</p>",
+              "description": "<p>Remediate vulnerabilities in accordance with risk assessments.</p>"
+            }
+          ]
+        },
+        {
+          "ref": "Security Assessment (CA)",
+          "control": "<p></p>",
+          "description": "<p></p>",
+          "controls": [
+            {
+              "ref": "CA.L2-3.12.1",
+              "control": "<p>Security Control Assessment</p>",
+              "description": "<p>Periodically assess the security controls in organizational systems to determine if the controls are effective in their application.</p>"
+            },
+            {
+              "ref": "CA.L2-3.12.2",
+              "control": "<p>Plan of Action</p>",
+              "description": "<p>Develop and implement plans of action designed to correct deficiencies and reduce or eliminate vulnerabilities in organizational systems.</p>"
+            },
+            {
+              "ref": "CA.L2-3.12.3",
+              "control": "<p>Security Control Monitoring</p>",
+              "description": "<p>Monitor security controls on an ongoing basis to ensure the continued effectiveness of the controls.</p>"
+            },
+            {
+              "ref": "CA.L2-3.12.4",
+              "control": "<p>System Security Plan</p>",
+              "description": "<p>Develop, document, and periodically update system security plans that describe system boundaries, system environments of operation, how security requirements are implemented, and the relationships with or connections to other systems.</p>"
+            }
+          ]
+        },
+        {
+          "ref": "System and Communications Protection (SC)",
+          "control": "<p></p>",
+          "description": "<p></p>",
+          "controls": [
+            {
+              "ref": "SC.L2-3.13.2",
+              "control": "<p>Security Engineering</p>",
+              "description": "<p>Employ architectural designs, software development techniques, and systems engineering principles that promote effective information security within organizational systems.</p>"
+            },
+            {
+              "ref": "SC.L2-3.13.3",
+              "control": "<p>Role Separation</p>",
+              "description": "<p>Separate user functionality from system management functionality.</p>"
+            },
+            {
+              "ref": "SC.L2-3.13.4",
+              "control": "<p>Shared Resource Control</p>",
+              "description": "<p>Prevent unauthorized and unintended information transfer via shared system resources.</p>"
+            },
+            {
+              "ref": "SC.L2-3.13.6",
+              "control": "<p>Network Communication by Exception</p>",
+              "description": "<p>Deny network communications traffic by default and allow network communications traffic by exception (i.e., deny all, permit by exception).</p>"
+            },
+            {
+              "ref": "SC.L2-3.13.7",
+              "control": "<p>Split Tunneling</p>",
+              "description": "<p>Prevent remote devices from simultaneously establishing non-remote connections with organizational systems and communicating via some other connection to resources in external networks (i.e., split tunneling).</p>"
+            },
+            {
+              "ref": "SC.L2-3.13.8",
+              "control": "<p>Data in Transit</p>",
+              "description": "<p>Implement cryptographic mechanisms to prevent unauthorized disclosure of CUI during transmission unless otherwise protected by alternative physical safeguards.</p>"
+            },
+            {
+              "ref": "SC.L2-3.13.9",
+              "control": "<p>Connections Termination</p>",
+              "description": "<p>Terminate network connections associated with communications sessions at the end of the sessions or after a defined period of inactivity.</p>"
+            },
+            {
+              "ref": "SC.L2-3.13.10",
+              "control": "<p>Key Management</p>",
+              "description": "<p>Establish and manage cryptographic keys for cryptography employed in organizational systems.</p>"
+            },
+            {
+              "ref": "SC.L2-3.13.11",
+              "control": "<p>CUI Encryption</p>",
+              "description": "<p>Employ FIPS-validated cryptography when used to protect the confidentiality of CUI.</p>"
+            },
+            {
+              "ref": "SC.L2-3.13.12",
+              "control": "<p>Collaborative Device Control</p>",
+              "description": "<p>Prohibit remote activation of collaborative computing devices and provide indication of devices in use to users present at the device.</p>"
+            },
+            {
+              "ref": "SC.L2-3.13.13",
+              "control": "<p>Mobile Code</p>",
+              "description": "<p>Control and monitor the use of mobile code.</p>"
+            },
+            {
+              "ref": "SC.L2-3.13.14",
+              "control": "<p>Voice over Internet Protocol</p>",
+              "description": "<p>Control and monitor the use of Voice over Internet Protocol (VoIP) technologies.</p>"
+            },
+            {
+              "ref": "SC.L2-3.13.15",
+              "control": "<p>Communications Authenticity</p>",
+              "description": "<p>Protect the authenticity of communications sessions.</p>"
+            },
+            {
+              "ref": "SC.L2-3.13.16",
+              "control": "<p>Data at Rest</p>",
+              "description": "<p>Protect the confidentiality of CUI at rest.</p>"
+            }
+          ]
+        },
+        {
+          "ref": "System and Information Integrity (SI)",
+          "control": "<p></p>",
+          "description": "<p></p>",
+          "controls": [
+            {
+              "ref": "SI.L2-3.14.3",
+              "control": "<p>Security Alerts &amp; Advisories</p>",
+              "description": "<p>Monitor system security alerts and advisories and take action in response.</p>"
+            },
+            {
+              "ref": "SI.L2-3.14.6",
+              "control": "<p>Monitor Communications for Attacks</p>",
+              "description": "<p>Monitor organizational systems, including inbound and outbound communications traffic, to detect attacks and indicators of potential attacks..</p>"
+            },
+            {
+              "ref": "SI.L2-3.14.7",
+              "control": "<p>Identify Unauthorized Use</p>",
+              "description": "<p>Identify unauthorized use of organizational systems.</p>"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,952 @@
+{
+  "name": "ISO 27001",
+  "short_name": "ISO 27001",
+  "last_updated": "2024-02-01",
+  "description": "<p>ISO/IEC 27001 is an international standard for information security management systems (ISMS).</p>",
+  "category": "framework",
+  "keywords": [
+    "ISO 27001",
+    "information security",
+    "ISMS",
+    "risk management"
+  ],
+  "controls": [
+    {
+      "ref": "4",
+      "control": "<p>​Context of the organization</p>",
+      "description": "<p></p>",
+      "controls": [
+        {
+          "ref": "4.1",
+          "control": "<p>​Understanding the organization and its context</p>",
+          "description": "<p>The organization shall determine external and internal issues that are relevant to its purpose and that affect its ability to achieve the intended outcome(s) of its information security management system.</p><p>NOTE Determining these issues refers to establishing the external and internal context of the organization considered in Clause 5.4.1 of ISO 31000:2018.</p>"
+        },
+        {
+          "ref": "4.2",
+          "control": "<p>​Understanding the needs and expectations of interested parties</p>",
+          "description": "<p>The organization shall determine:</p><p>NOTE The requirements of interested parties can include legal and regulatory requirements and contractual obligations.</p>",
+          "controls": [
+            {
+              "ref": "4.2a)",
+              "control": "<p>interested parties that are relevant to the information security management system;</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "4.2b)",
+              "control": "<p>the relevant requirements of these interested parties;</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "4.2c)",
+              "control": "<p>which of these requirements will be addressed through the information security management system.</p>",
+              "description": "<p></p><p></p>"
+            }
+          ]
+        },
+        {
+          "ref": "4.3",
+          "control": "<p>​Determining the scope of the information security management system</p>",
+          "description": "<p>The organization shall determine the boundaries and applicability of the information security management system to establish its scope.</p><p>When determining this scope, the organization shall consider:</p>",
+          "controls": [
+            {
+              "ref": "4.3a)",
+              "control": "<p>the external and internal issues referred to in 4.1;</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "4.3b)",
+              "control": "<p>the requirements referred to in 4.2;</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "4.3c)",
+              "control": "<p>interfaces and dependencies between activities performed by the organization, and those that are performed by other organizations.</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "Documented",
+              "control": "<p>The scope shall be available as documented information.</p>",
+              "description": "<p></p>"
+            }
+          ]
+        },
+        {
+          "ref": "4.4",
+          "control": "<p>The organization shall establish, implement, maintain and continually improve an information security management system, including the processes needed and their interactions, in accordance with the requirements of this document.</p>",
+          "description": "<p></p>"
+        }
+      ]
+    },
+    {
+      "ref": "5",
+      "control": "<p>​Leadership</p>",
+      "description": "<p></p>",
+      "controls": [
+        {
+          "ref": "5.1",
+          "control": "<p>​Leadership and commitment</p>",
+          "description": "<p>Top management shall demonstrate leadership and commitment with respect to the information security management system by:</p><p>NOTE Reference to “business” in this document can be interpreted broadly to mean those activities that are core to the purposes of the organization’s existence.</p>",
+          "controls": [
+            {
+              "ref": "5.1a)",
+              "control": "<p>ensuring the information security policy and the information security objectives are established and are compatible with the strategic direction of the organization;</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "5.1b)",
+              "control": "<p>ensuring the integration of the information security management system requirements into the organization’s processes;</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "5.1c)",
+              "control": "<p>ensuring that the resources needed for the information security management system are available;</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "5.1d)",
+              "control": "<p>communicating the importance of effective information security management and of conforming to the information security management system requirements;</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "5.1e)",
+              "control": "<p>ensuring that the information security management system achieves its intended outcome(s);</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "5.1f)",
+              "control": "<p>directing and supporting persons to contribute to the effectiveness of the information security management system;</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "5.1g)",
+              "control": "<p>promoting continual improvement; and</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "5.1h)",
+              "control": "<p>supporting other relevant management roles to demonstrate their leadership as it applies to their areas of responsibility.</p>",
+              "description": "<p></p>"
+            }
+          ]
+        },
+        {
+          "ref": "5.2",
+          "control": "<p>​Policy</p>",
+          "description": "<p>Top management shall establish an information security policy that:</p>",
+          "controls": [
+            {
+              "ref": "5.2a)",
+              "control": "<p>is appropriate to the purpose of the organization;</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "5.2b)",
+              "control": "<p>includes information security objectives (see 6.2) or provides the framework for setting information security objectives;</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "5.2c)",
+              "control": "<p>includes a commitment to satisfy applicable requirements related to information security;</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "5.2d)",
+              "control": "<p>includes a commitment to continual improvement of the information security management system.</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "5.2e)",
+              "control": "<p>The information security policy shall be available as documented information;</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "5.2f)",
+              "control": "<p>The information security policy shall be communicated within the organization;</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "5.2g)",
+              "control": "<p>The information security policy shall be available to interested parties, as appropriate.</p>",
+              "description": "<p></p>"
+            }
+          ]
+        },
+        {
+          "ref": "5.3",
+          "control": "<p>​Organizational roles, responsibilities and authorities</p>",
+          "description": "<p>Top management shall ensure that the responsibilities and authorities for roles relevant to information security are assigned and communicated within the organization.</p><p>Top management shall assign the responsibility and authority for:</p>",
+          "controls": [
+            {
+              "ref": "5.3a)",
+              "control": "<p>ensuring that the information security management system conforms to the requirements of this document;</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "5.3b)",
+              "control": "<p>reporting on the performance of the information security management system to top management.</p><p>NOTE Top management can also assign responsibilities and authorities for reporting performance of the information security management system within the organization.</p>",
+              "description": "<p></p>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "6",
+      "control": "<p>​Planning</p>",
+      "description": "<p></p>",
+      "controls": [
+        {
+          "ref": "6.1",
+          "control": "<p>​Actions to address risks and opportunities</p>",
+          "description": "<p></p>",
+          "controls": [
+            {
+              "ref": "6.1.1",
+              "control": "<p>​General</p>",
+              "description": "<p>When planning for the information security management system, the organization shall consider the issues referred to in 4.1 and the requirements referred to in 4.2 and determine the risks and opportunities that need to be addressed to:</p>",
+              "controls": [
+                {
+                  "ref": "6.1.1a)",
+                  "control": "<p>ensure the information security management system can achieve its intended outcome(s);</p>",
+                  "description": "<p></p>"
+                },
+                {
+                  "ref": "6.1.1b)",
+                  "control": "<p>prevent, or reduce, undesired effects;</p>",
+                  "description": "<p></p>"
+                },
+                {
+                  "ref": "6.1.1c)",
+                  "control": "<p>achieve continual improvement.</p>",
+                  "description": "<p></p>"
+                },
+                {
+                  "ref": "6.1.1d)",
+                  "control": "<p>The organization shall plan actions to address these risks and opportunities; and</p>",
+                  "description": "<p></p>"
+                },
+                {
+                  "ref": "6.1.1e)",
+                  "control": "<p>The organization shall plan how to:</p>",
+                  "description": "<p></p>",
+                  "controls": [
+                    {
+                      "ref": "6.1.1e)1)",
+                      "control": "<p>integrate and implement the actions into its information security management system processes; and</p>",
+                      "description": "<p></p>"
+                    },
+                    {
+                      "ref": "6.1.1e)2)",
+                      "control": "<p>evaluate the effectiveness of these actions.</p>",
+                      "description": "<p></p>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "ref": "6.1.2",
+              "control": "<p>​Information security risk assessment</p>",
+              "description": "<p>The organization shall define and apply an information security risk assessment process that:</p>",
+              "controls": [
+                {
+                  "ref": "6.1.2a)",
+                  "control": "<p>establishes and maintains information security risk criteria that include:</p>",
+                  "description": "<p></p>",
+                  "controls": [
+                    {
+                      "ref": "6.1.2a)1)",
+                      "control": "<p>the risk acceptance criteria; and</p>",
+                      "description": "<p></p>"
+                    },
+                    {
+                      "ref": "6.1.2a)2)",
+                      "control": "<p>criteria for performing information security risk assessments;</p>",
+                      "description": "<p></p>"
+                    }
+                  ]
+                },
+                {
+                  "ref": "6.1.2b)",
+                  "control": "<p>ensures that repeated information security risk assessments produce consistent, valid and comparable results;</p>",
+                  "description": "<p></p>"
+                },
+                {
+                  "ref": "6.1.2c)",
+                  "control": "<p>identifies the information security risks:</p>",
+                  "description": "<p></p>",
+                  "controls": [
+                    {
+                      "ref": "6.1.2c)1)",
+                      "control": "<p>apply the information security risk assessment process to identify risks associated with the loss of confidentiality, integrity and availability for information within the scope of the information security management system; and</p>",
+                      "description": "<p></p>"
+                    },
+                    {
+                      "ref": "6.1.2c)2)",
+                      "control": "<p>identify the risk owners;</p>",
+                      "description": "<p></p>"
+                    }
+                  ]
+                },
+                {
+                  "ref": "6.1.2d)",
+                  "control": "<p>analyses the information security risks:</p>",
+                  "description": "<p></p>",
+                  "controls": [
+                    {
+                      "ref": "6.1.2d)1)",
+                      "control": "<p>assess the potential consequences that would result if the risks identified in 6.1.2 c) 1) were to materialize;</p>",
+                      "description": "<p></p>"
+                    },
+                    {
+                      "ref": "6.1.2d)2)",
+                      "control": "<p>assess the realistic likelihood of the occurrence of the risks identified in 6.1.2 c) 1); and</p>",
+                      "description": "<p></p>"
+                    },
+                    {
+                      "ref": "6.1.2d)3)",
+                      "control": "<p>determine the levels of risk;</p>",
+                      "description": "<p></p>"
+                    }
+                  ]
+                },
+                {
+                  "ref": "6.1.2e)",
+                  "control": "<p>evaluates the information security risks:</p>",
+                  "description": "<p></p>",
+                  "controls": [
+                    {
+                      "ref": "6.1.2e)1)",
+                      "control": "<p>compare the results of risk analysis with the risk criteria established in 6.1.2 a); and</p>",
+                      "description": "<p></p>"
+                    },
+                    {
+                      "ref": "6.1.2e)2)",
+                      "control": "<p>prioritize the analysed risks for risk treatment.</p>",
+                      "description": "<p></p>"
+                    }
+                  ]
+                },
+                {
+                  "ref": "Documented",
+                  "control": "<p>The organization shall retain documented information about the information security risk assessment process.</p>",
+                  "description": "<p></p>"
+                }
+              ]
+            },
+            {
+              "ref": "6.1.3",
+              "control": "<p>​Information security risk treatment</p>",
+              "description": "<p>The organization shall define and apply an information security risk treatment process to:</p><p>NOTE 4 The information security risk assessment and treatment process in this document aligns with the principles and generic guidelines provided in ISO 31000[5].</p>",
+              "controls": [
+                {
+                  "ref": "6.1.3a)",
+                  "control": "<p>select appropriate information security risk treatment options, taking account of the risk assessment results;</p>",
+                  "description": "<p></p>"
+                },
+                {
+                  "ref": "6.1.3b)",
+                  "control": "<p>determine all controls that are necessary to implement the information security risk treatment option(s) chosen;</p>",
+                  "description": "<p>NOTE 1 Organizations can design controls as required, or identify them from any source.</p>"
+                },
+                {
+                  "ref": "6.1.3c)",
+                  "control": "<p>compare the controls determined in 6.1.3 b) above with those in Annex A and verify that no necessary controls have been omitted;</p>",
+                  "description": "<p>NOTE 2 Annex A contains a list of possible information security controls. Users of this document are directed to Annex A to ensure that no necessary information security controls are overlooked.</p><p>NOTE 3 The information security controls listed in Annex A are not exhaustive and additional information security controls can be included if needed.</p>"
+                },
+                {
+                  "ref": "6.1.3d)",
+                  "control": "<p>produce a Statement of Applicability that contains:</p>",
+                  "description": "<ul class=\"list-disc\"><li><p>the necessary controls (see 6.1.3 b) and c));</p></li><li><p>justification for their inclusion;</p></li><li><p>whether the necessary controls are implemented or not; and</p></li><li><p>the justification for excluding any of the Annex A controls.</p></li></ul>"
+                },
+                {
+                  "ref": "6.1.3e)",
+                  "control": "<p>formulate an information security risk treatment plan; and</p>",
+                  "description": "<p></p>"
+                },
+                {
+                  "ref": "6.1.3f)",
+                  "control": "<p>obtain risk owners’ approval of the information security risk treatment plan and acceptance of the residual information security risks.</p>",
+                  "description": "<p></p>"
+                },
+                {
+                  "ref": "Documented",
+                  "control": "<p>The organization shall retain documented information about the information security risk treatment process.</p>",
+                  "description": "<p></p>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ref": "6.2",
+          "control": "<p>​Information security objectives and planning to achieve them</p>",
+          "description": "<p>The organization shall establish information security objectives at relevant functions and levels.</p><p>The information security objectives shall:</p>",
+          "controls": [
+            {
+              "ref": "6.2a)",
+              "control": "<p>be consistent with the information security policy;</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "6.2b)",
+              "control": "<p>be measurable (if practicable);</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "6.2c)",
+              "control": "<p>take into account applicable information security requirements, and results from risk assessment and risk treatment;</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "6.2d)",
+              "control": "<p>be monitored;</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "6.2e)",
+              "control": "<p>be communicated;</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "6.2f)",
+              "control": "<p>be updated as appropriate;</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "6.2g)",
+              "control": "<p>be available as documented information.</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "6.2h)",
+              "control": "<p>When planning how to achieve its information security objectives, the organization shall determine what will be done;</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "6.2i)",
+              "control": "<p>When planning how to achieve its information security objectives, the organization shall determine what resources will be required;</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "6.2j)",
+              "control": "<p>When planning how to achieve its information security objectives, the organization shall determine who will be responsible;</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "6.2k)",
+              "control": "<p>When planning how to achieve its information security objectives, the organization shall determine when it will be completed; and</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "6.2l)",
+              "control": "<p>When planning how to achieve its information security objectives, the organization shall determine how the results will be evaluated.</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "Documented",
+              "control": "<p>The organization shall retain documented information on the information security objectives.</p>",
+              "description": "<p>Referring to 6.2a-g</p>"
+            }
+          ]
+        },
+        {
+          "ref": "6.3",
+          "control": "<p>Planning of changes</p>",
+          "description": "<p>When the organization determines the need for changes to the information security management system, the changes shall be carried out in a planned manner.</p>"
+        }
+      ]
+    },
+    {
+      "ref": "7",
+      "control": "<p>​Support</p>",
+      "description": "<p></p>",
+      "controls": [
+        {
+          "ref": "7.1 ",
+          "control": "<p>​Resources</p>",
+          "description": "<p>The organization shall determine and provide the resources needed for the establishment, implementation, maintenance and continual improvement of the information security management system.</p>"
+        },
+        {
+          "ref": "7.2",
+          "control": "<p>​Competence</p>",
+          "description": "<p>The organization shall:</p><p>NOTE Applicable actions can include, for example: the provision of training to, the mentoring of, or the re-assignment of current employees; or the hiring or contracting of competent persons.</p>",
+          "controls": [
+            {
+              "ref": "7.2a)",
+              "control": "<p>determine the necessary competence of person(s) doing work under its control that affects its information security performance;</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "7.2b)",
+              "control": "<p>ensure that these persons are competent on the basis of appropriate education, training, or experience;</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "7.2c)",
+              "control": "<p>where applicable, take actions to acquire the necessary competence, and evaluate the effectiveness of the actions taken; and</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "7.2d)",
+              "control": "<p>retain appropriate documented information as evidence of competence.</p>",
+              "description": "<p></p>"
+            }
+          ]
+        },
+        {
+          "ref": "7.3",
+          "control": "<p>​Awareness</p>",
+          "description": "<p>Persons doing work under the organization’s control shall be aware of:</p>",
+          "controls": [
+            {
+              "ref": "7.3a)",
+              "control": "<p>the information security policy;</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "7.3b)",
+              "control": "<p>their contribution to the effectiveness of the information security management system, including the benefits of improved information security performance; and</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "7.3c)",
+              "control": "<p>the implications of not conforming with the information security management system requirements.</p>",
+              "description": "<p></p>"
+            }
+          ]
+        },
+        {
+          "ref": "7.4",
+          "control": "<p>The organization shall determine the need for internal and external communications relevant to the information security management system including:</p>",
+          "description": "<p></p>",
+          "controls": [
+            {
+              "ref": "7.4a)",
+              "control": "<p>on what to communicate;</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "7.4b)",
+              "control": "<p>when to communicate;</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "7.4c)",
+              "control": "<p>with whom to communicate;</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "7.4d)",
+              "control": "<p>how to communicate.</p>",
+              "description": "<p></p>"
+            }
+          ]
+        },
+        {
+          "ref": "7.5",
+          "control": "<p>​Documented information</p>",
+          "description": "<p></p>",
+          "controls": [
+            {
+              "ref": "7.5.1",
+              "control": "<p>​General</p>",
+              "description": "<p>The organization’s information security management system shall include:</p><p>NOTE The extent of documented information for an information security management system can differ from one organization to another due to:</p><ol><li><p>the size of organization and its type of activities, processes, products and services;</p></li><li><p>the complexity of processes and their interactions; and</p></li><li><p>the competence of persons.</p></li></ol>",
+              "controls": [
+                {
+                  "ref": "7.5.1a)",
+                  "control": "<p>documented information required by this document; and</p>",
+                  "description": "<p></p>"
+                },
+                {
+                  "ref": "7.5.1b)",
+                  "control": "<p>documented information determined by the organization as being necessary for the effectiveness of the information security management system.</p>",
+                  "description": "<p></p>"
+                }
+              ]
+            },
+            {
+              "ref": "7.5.2",
+              "control": "<p>​Creating and updating</p>",
+              "description": "<p>When creating and updating documented information the organization shall ensure appropriate:</p>",
+              "controls": [
+                {
+                  "ref": "7.5.2a)",
+                  "control": "<p>identification and description (e.g. a title, date, author, or reference number);</p>",
+                  "description": "<p></p>"
+                },
+                {
+                  "ref": "7.5.2b)",
+                  "control": "<p>format (e.g. language, software version, graphics) and media (e.g. paper, electronic); and</p>",
+                  "description": "<p></p>"
+                },
+                {
+                  "ref": "7.5.2c)",
+                  "control": "<p>review and approval for suitability and adequacy.</p>",
+                  "description": "<p></p>"
+                }
+              ]
+            },
+            {
+              "ref": "7.5.3",
+              "control": "<p>​Control of documented information</p>",
+              "description": "<p>Documented information required by the information security management system and by this document shall be controlled to ensure:</p><p>NOTE Access can imply a decision regarding the permission to view the documented information only, or the permission and authority to view and change the documented information, etc.</p>",
+              "controls": [
+                {
+                  "ref": "7.5.3a)",
+                  "control": "<p>it is available and suitable for use, where and when it is needed; and</p>",
+                  "description": "<p></p>"
+                },
+                {
+                  "ref": "7.5.3b)",
+                  "control": "<p>it is adequately protected (e.g. from loss of confidentiality, improper use, or loss of integrity).</p>",
+                  "description": "<p></p>"
+                },
+                {
+                  "ref": "7.5.3c)",
+                  "control": "<p>For the control of documented information, the organization shall address the following activities, as applicable:</p><p>distribution, access, retrieval and use;</p>",
+                  "description": "<p></p>"
+                },
+                {
+                  "ref": "7.5.3d)",
+                  "control": "<p>For the control of documented information, the organization shall address the following activities, as applicable:</p><p>storage and preservation, including the preservation of legibility;</p>",
+                  "description": "<p></p>"
+                },
+                {
+                  "ref": "7.5.3e)",
+                  "control": "<p>For the control of documented information, the organization shall address the following activities, as applicable:</p><p>control of changes (e.g. version control); and</p>",
+                  "description": "<p></p>"
+                },
+                {
+                  "ref": "7.5.3f)",
+                  "control": "<p>For the control of documented information, the organization shall address the following activities, as applicable:</p><p>retention and disposition.</p>",
+                  "description": "<p></p>"
+                },
+                {
+                  "ref": "Documented & Controlled",
+                  "control": "<p>Documented information of external origin, determined by the organization to be necessary for the planning and operation of the information security management system, shall be identified as appropriate, and controlled.</p>",
+                  "description": "<p></p>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "8",
+      "control": "<p>​Operation</p>",
+      "description": "<p></p>",
+      "controls": [
+        {
+          "ref": "8.1",
+          "control": "<p>​Operational planning and control</p>",
+          "description": "<p>The organization shall plan, implement and control the processes needed to meet requirements, and to implement the actions determined in Clause 6, by:</p><ul class=\"list-disc\"><li><p>establishing criteria for the processes;</p></li><li><p>implementing control of the processes in accordance with the criteria.</p></li></ul><p>Documented information shall be available to the extent necessary to have confidence that the processes have been carried out as planned.</p><p>The organization shall control planned changes and review the consequences of unintended changes, taking action to mitigate any adverse effects, as necessary.</p><p>The organization shall ensure that externally provided processes, products or services that are relevant to the information security management system are controlled.</p>"
+        },
+        {
+          "ref": "8.2",
+          "control": "<p>​Information security risk assessment</p>",
+          "description": "<p>The organization shall perform information security risk assessments at planned intervals or when significant changes are proposed or occur, taking account of the criteria established in 6.1.2 a).</p><p>The organization shall retain documented information of the results of the information security risk assessments.</p>"
+        },
+        {
+          "ref": "8.3",
+          "control": "<p>​Information security risk treatment</p>",
+          "description": "<p>The organization shall implement the information security risk treatment plan.</p><p>The organization shall retain documented information of the results of the information security risk treatment.</p>"
+        }
+      ]
+    },
+    {
+      "ref": "9",
+      "control": "<p>​Performance evaluation</p>",
+      "description": "<p></p>",
+      "controls": [
+        {
+          "ref": "9.1",
+          "control": "<p>​Monitoring, measurement, analysis and evaluation</p>",
+          "description": "<p>The organization shall determine:</p>",
+          "controls": [
+            {
+              "ref": "9.1a)",
+              "control": "<p>what needs to be monitored and measured, including information security processes and controls;</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "9.1b)",
+              "control": "<p>the methods for monitoring, measurement, analysis and evaluation, as applicable, to ensure valid results. The methods selected should produce comparable and reproducible results to be considered valid;</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "9.1c)",
+              "control": "<p>when the monitoring and measuring shall be performed;</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "9.1d)",
+              "control": "<p>who shall monitor and measure;</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "9.1e)",
+              "control": "<p>when the results from monitoring and measurement shall be analysed and evaluated;</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "9.1f)",
+              "control": "<p>who shall analyse and evaluate these results.</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "Documented",
+              "control": "<p>Documented information shall be available as evidence of the results.</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "Evaluate",
+              "control": "<p>The organization shall evaluate the information security performance and the effectiveness of the information security management system.</p>",
+              "description": "<p></p>"
+            }
+          ]
+        },
+        {
+          "ref": "9.2",
+          "control": "<p>​Internal audit</p>",
+          "description": "<p></p>",
+          "controls": [
+            {
+              "ref": "9.2.1",
+              "control": "<p>General</p>",
+              "description": "<p>The organization shall conduct internal audits at planned intervals to provide information on whether the information security management system:</p>",
+              "controls": [
+                {
+                  "ref": "9.2.1a)",
+                  "control": "<p>conforms to</p>",
+                  "description": "<p></p>",
+                  "controls": [
+                    {
+                      "ref": "9.2.1.a)1)",
+                      "control": "<p>the organization’s own requirements for its information security management system;</p>",
+                      "description": "<p></p>"
+                    },
+                    {
+                      "ref": "9.2.1.a)2)",
+                      "control": "<p>the requirements of this document;</p>",
+                      "description": "<p></p>"
+                    }
+                  ]
+                },
+                {
+                  "ref": "9.2.1b)",
+                  "control": "<p>is effectively implemented and maintained.</p>",
+                  "description": "<p></p>"
+                }
+              ]
+            },
+            {
+              "ref": "9.2.2",
+              "control": "<p>Internal audit programme</p>",
+              "description": "<p>The organization shall plan, establish, implement and maintain an audit programme(s), including the frequency, methods, responsibilities, planning requirements and reporting.</p><p>When establishing the internal audit programme(s), the organization shall consider the importance of the processes concerned and the results of previous audits.</p><p>The organization shall:</p>",
+              "controls": [
+                {
+                  "ref": "9.2.2a)",
+                  "control": "<p>define the audit criteria and scope for each audit;</p>",
+                  "description": "<p></p>"
+                },
+                {
+                  "ref": "9.2.2b)",
+                  "control": "<p>select auditors and conduct audits that ensure objectivity and the impartiality of the audit process;</p>",
+                  "description": "<p></p>"
+                },
+                {
+                  "ref": "9.2.2c)",
+                  "control": "<p>ensure that the results of the audits are reported to relevant management;</p>",
+                  "description": "<p></p>"
+                },
+                {
+                  "ref": "Documented",
+                  "control": "<p>Documented information shall be available as evidence of the implementation of the audit programme(s) and the audit results.</p>",
+                  "description": "<p></p>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ref": "9.3",
+          "control": "<p>​Management review</p>",
+          "description": "<p></p>",
+          "controls": [
+            {
+              "ref": "9.3.1",
+              "control": "<p>General</p>",
+              "description": "<p>Top management shall review the organization's information security management system at planned intervals to ensure its continuing suitability, adequacy and effectiveness.</p>"
+            },
+            {
+              "ref": "9.3.2",
+              "control": "<p>Management review inputs</p>",
+              "description": "<p>The management review shall include consideration of:</p>",
+              "controls": [
+                {
+                  "ref": "9.3.2a)",
+                  "control": "<p>the status of actions from previous management reviews;</p>",
+                  "description": "<p></p>"
+                },
+                {
+                  "ref": "9.3.2b)",
+                  "control": "<p>changes in external and internal issues that are relevant to the information security management system;</p>",
+                  "description": "<p></p>"
+                },
+                {
+                  "ref": "9.3.2c)",
+                  "control": "<p>changes in needs and expectations of interested parties that are relevant to the information security management system;</p>",
+                  "description": "<p></p>"
+                },
+                {
+                  "ref": "9.3.2d)",
+                  "control": "<p>feedback on the information security performance, including trends in:</p>",
+                  "description": "<p></p>",
+                  "controls": [
+                    {
+                      "ref": "9.3.2d)1)",
+                      "control": "<p>nonconformities and corrective actions;</p>",
+                      "description": "<p></p>"
+                    },
+                    {
+                      "ref": "9.3.2d)2)",
+                      "control": "<p>monitoring and measurement results;</p>",
+                      "description": "<p></p>"
+                    },
+                    {
+                      "ref": "9.3.2d)3)",
+                      "control": "<p>audit results;</p>",
+                      "description": "<p></p>"
+                    },
+                    {
+                      "ref": "9.3.2d)4)",
+                      "control": "<p>fulfilment of information security objectives;</p>",
+                      "description": "<p></p>"
+                    }
+                  ]
+                },
+                {
+                  "ref": "9.3.2e)",
+                  "control": "<p>feedback from interested parties;</p>",
+                  "description": "<p></p>"
+                },
+                {
+                  "ref": "9.3.2f)",
+                  "control": "<p>results of risk assessment and status of risk treatment plan;</p>",
+                  "description": "<p></p>"
+                },
+                {
+                  "ref": "9.3.2g)",
+                  "control": "<p>opportunities for continual improvement.</p>",
+                  "description": "<p></p>"
+                }
+              ]
+            },
+            {
+              "ref": "9.3.3",
+              "control": "<p>Management review results</p>",
+              "description": "<p>The results of the management review shall include decisions related to continual improvement opportunities and any needs for changes to the information security management system.</p>",
+              "controls": [
+                {
+                  "ref": "Documented",
+                  "control": "<p>Documented information shall be available as evidence of the results of management reviews.</p>",
+                  "description": "<p></p>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "10",
+      "control": "<p>​Improvement</p>",
+      "description": "<p></p>",
+      "controls": [
+        {
+          "ref": "10.1",
+          "control": "<p>​Continual improvement</p>",
+          "description": "<p>The organization shall continually improve the suitability, adequacy and effectiveness of the information security management system.</p>"
+        },
+        {
+          "ref": "10.2",
+          "control": "<p>​Nonconformity and corrective action</p>",
+          "description": "<p>When a nonconformity occurs, the organization shall:</p>",
+          "controls": [
+            {
+              "ref": "10.2a)",
+              "control": "<p>react to the nonconformity, and as applicable:</p>",
+              "description": "<p></p>",
+              "controls": [
+                {
+                  "ref": "10.2a)1)",
+                  "control": "<p>take action to control and correct it;</p>",
+                  "description": "<p></p>"
+                },
+                {
+                  "ref": "10.2a)2)",
+                  "control": "<p>deal with the consequences;</p>",
+                  "description": "<p></p>"
+                }
+              ]
+            },
+            {
+              "ref": "10.2b)",
+              "control": "<p>evaluate the need for action to eliminate the causes of nonconformity, in order that it does not recur or occur elsewhere, by:</p>",
+              "description": "<p></p>",
+              "controls": [
+                {
+                  "ref": "10.2b)1)",
+                  "control": "<p>reviewing the nonconformity;</p>",
+                  "description": "<p></p>"
+                },
+                {
+                  "ref": "10.2b)2)",
+                  "control": "<p>determining the causes of the nonconformity; and</p>",
+                  "description": "<p></p>"
+                },
+                {
+                  "ref": "10.2b)3)",
+                  "control": "<p>determining if similar nonconformities exist, or could potentially occur;</p>",
+                  "description": "<p></p>"
+                }
+              ]
+            },
+            {
+              "ref": "10.2c)",
+              "control": "<p>implement any action needed;</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "10.2d)",
+              "control": "<p>review the effectiveness of any corrective action taken; and</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "10.2e)",
+              "control": "<p>make changes to the information security management system, if necessary.</p>",
+              "description": "<p></p>"
+            },
+            {
+              "ref": "10.2f)",
+              "control": "<p>Corrective actions shall be appropriate to the effects of the nonconformities encountered.</p>",
+              "description": "<p>Documented information shall be available as evidence of the nature of the nonconformities and any subsequent actions taken,</p>"
+            },
+            {
+              "ref": "10.2g)",
+              "control": "<p>Corrective actions shall be appropriate to the effects of the nonconformities encountered.</p>",
+              "description": "<p>Documented information shall be available as evidence of the nature of the results of any corrective action.</p>"
+            },
+            {
+              "ref": "Corrective Action",
+              "control": "<p>Corrective actions shall be appropriate to the effects of the nonconformities encountered.</p>",
+              "description": "<p></p>"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
