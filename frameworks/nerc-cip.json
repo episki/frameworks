@@ -1,0 +1,1953 @@
+{
+  "name": "NERC CIP",
+  "short_name": "NERC CIP",
+  "last_updated": "2025-10-20",
+  "description": "<p>The NERC CIP (Critical Infrastructure Protection) standards are a set of requirements designed to ensure the security and resilience of the North American bulk electric system. Developed by the North American Electric Reliability Corporation (NERC), these standards provide a framework for managing cybersecurity risks and protecting critical infrastructure from potential threats.</p>",
+  "category": "regulation",
+  "keywords": [
+    "NERC",
+    "CIP",
+    "Critical Infrastructure Protection",
+    "cybersecurity",
+    "bulk electric system"
+  ],
+  "controls": [
+    {
+      "ref": "CIP-002-5.1a",
+      "control": "<p>Cyber Security — BES Cyber System Categorization</p>",
+      "description": "<p><strong>Purpose: </strong>To identify and categorize BES Cyber Systems and their associated BES Cyber Assets for the application of cyber security requirements commensurate with the adverse impact that loss, compromise, or misuse of those BES Cyber Systems could have on the reliable operation of the BES. Identification and categorization of BES Cyber Systems support appropriate protection against compromises that could lead to misoperation or instability in the BES.</p>",
+      "testingProcedures": [],
+      "controls": [
+        {
+          "ref": "CIP-002-5.1a-R1",
+          "control": "<p>Each Responsible Entity shall implement a process that considers each of the following assets for purposes of parts 1.1 through 1.3: [Violation Risk Factor: High] [Time Horizon: Operations Planning]</p>",
+          "description": "<p>i. Control Centers and backup Control Centers;</p><p>ii. Transmission stations and substations;</p><p>iii. Generation resources;</p><p>iv. Systems and facilities critical to system restoration, including Blackstart Resources and Cranking Paths and initial switching requirements;</p><p>v. Special Protection Systems that support the reliable operation of the Bulk Electric System; and</p><p>vi. For Distribution Providers, Protection Systems specified in Applicability section 4.2.1 above.</p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "CIP-002-5.1a-R1.1.1",
+              "control": "<p>Identify each of the high impact BES Cyber Systems according to Attachment 1, Section 1, if any, at each asset;</p>",
+              "description": "<p></p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-002-5.1a-R1.1.2",
+              "control": "<p>Identify each of the medium impact BES Cyber Systems according to Attachment 1, Section 2, if any, at each asset; and</p>",
+              "description": "<p></p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-002-5.1a-R1.1.3",
+              "control": "<p>Identify each asset that contains a low impact BES Cyber System according to Attachment 1, Section 3, if any (a discrete list of low impact BES Cyber Systems is not required).</p>",
+              "description": "<p></p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "CIP-002-5.1a-R2",
+          "control": "<p>The Responsible Entity shall: [Violation Risk Factor: Lower] [Time Horizon: Operations Planning]</p>",
+          "description": "<p></p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "CIP-002-5.1a-R2.2.1",
+              "control": "<p>Review the identifications in Requirement R1 and its parts (and update them if there are changes identified) at least once every 15 calendar months, even if it has no identified items in Requirement R1, and</p>",
+              "description": "<p></p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-002-5.1a-R2.2.2",
+              "control": "<p>Have its CIP Senior Manager or delegate approve the identifications required by Requirement R1 at least once every 15 calendar months, even if it has no identified items in Requirement R1.</p>",
+              "description": "<p></p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "CIP-003-8",
+      "control": "<p>Cyber Security — Security Management Controls</p>",
+      "description": "<p>Purpose: To specify consistent and sustainable security management controls that establish responsibility and accountability to protect BES Cyber Systems against compromise that could lead to misoperation or instability in the Bulk Electric System (BES).</p>",
+      "testingProcedures": [],
+      "controls": [
+        {
+          "ref": "CIP-003-8-R1",
+          "control": "<p>Each Responsible Entity shall review and obtain CIP Senior Manager approval at least once every 15 calendar months for one or more documented cyber security policies that collectively address the following topics: [Violation Risk Factor: Medium] [Time Horizon: Operations Planning]</p>",
+          "description": "<p></p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "CIP-003-8-R1.1",
+              "control": "<p>For its high impact and medium impact BES Cyber Systems, if any:</p>",
+              "description": "<p></p>",
+              "testingProcedures": [],
+              "controls": [
+                {
+                  "ref": "CIP-003-8-R1.1.1",
+                  "control": "<p>Personnel and training (CIP-004);</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                },
+                {
+                  "ref": "CIP-003-8-R1.1.2",
+                  "control": "<p>Electronic Security Perimeters (CIP-005) including Interactive Remote Access;</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                },
+                {
+                  "ref": "CIP-003-8-R1.1.3",
+                  "control": "<p>Physical security of BES Cyber Systems (CIP-006);</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                },
+                {
+                  "ref": "CIP-003-8-R1.1.4",
+                  "control": "<p>System security management (CIP-007);</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                },
+                {
+                  "ref": "CIP-003-8-R1.1.5",
+                  "control": "<p>Incident reporting and response planning (CIP-008);</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                },
+                {
+                  "ref": "CIP-003-8-R1.1.6",
+                  "control": "<p>Recovery plans for BES Cyber Systems (CIP-009);</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                },
+                {
+                  "ref": "CIP-003-8-R1.1.7",
+                  "control": "<p>Configuration change management and vulnerability assessments (CIP-010);</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                },
+                {
+                  "ref": "CIP-003-8-R1.1.8",
+                  "control": "<p>Information protection (CIP-011); and</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                },
+                {
+                  "ref": "CIP-003-8-R1.1.9",
+                  "control": "<p>Declaring and responding to CIP Exceptional Circumstances.</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                }
+              ]
+            },
+            {
+              "ref": "CIP-003-8-R1.2",
+              "control": "<p>For its assets identified in CIP-002 containing low impact BES Cyber Systems, if any:</p>",
+              "description": "<p></p>",
+              "testingProcedures": [],
+              "controls": [
+                {
+                  "ref": "CIP-003-8-R1.2.1",
+                  "control": "<p>Cyber security awareness;</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                },
+                {
+                  "ref": "CIP-003-8-R1.2.2",
+                  "control": "<p>Physical security controls;</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                },
+                {
+                  "ref": "CIP-003-8-R1.2.3",
+                  "control": "<p>Electronic access controls;</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                },
+                {
+                  "ref": "CIP-003-8-R1.2.4",
+                  "control": "<p>Cyber Security Incident response;</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                },
+                {
+                  "ref": "CIP-003-8-R1.2.5",
+                  "control": "<p>Transient Cyber Assets and Removable Media malicious code risk mitigation; and</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                },
+                {
+                  "ref": "CIP-003-8-R1.2.6",
+                  "control": "<p>Declaring and responding to CIP Exceptional Circumstances.</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ref": "CIP-003-8-R2",
+          "control": "<p>Each Responsible Entity with at least one asset identified in CIP-002 containing low impact BES Cyber Systems shall implement one or more documented cyber security plan(s) for its low impact BES Cyber Systems that include the sections in Attachment 1. [Violation Risk Factor: Lower] [Time Horizon: Operations Planning]</p>",
+          "description": "<p></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "CIP-003-8-R3",
+          "control": "<p>Each Responsible Entity shall identify a CIP Senior Manager by name and document any change within 30 calendar days of the change. [Violation Risk Factor: Medium] [Time Horizon: Operations Planning]</p>",
+          "description": "<p></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "CIP-003-8-R4",
+          "control": "<p>The Responsible Entity shall implement a documented process to delegate authority, unless no delegations are used. Where allowed by the CIP Standards, the CIP Senior Manager may delegate authority for specific actions to a delegate or delegates. These delegations shall be documented, including the name or title of the delegate, the specific actions delegated, and the date of the delegation; approved by the CIP Senior Manager; and updated within 30 days of any change to the delegation. Delegation changes do not need to be reinstated with a change to the delegator. [Violation Risk Factor: Lower] [Time Horizon: Operations Planning]</p>",
+          "description": "<p></p>",
+          "testingProcedures": [],
+          "controls": []
+        }
+      ]
+    },
+    {
+      "ref": "CIP-004-7",
+      "control": "<p>Cyber Security — Personnel &amp; Training</p>",
+      "description": "<p>Purpose: To minimize the risk against compromise that could lead to misoperation or instability in the Bulk Electric System (BES) from individuals accessing BES Cyber Systems by requiring an appropriate level of personnel risk assessment, training, security awareness, and access management in support of protecting BES Cyber Systems.</p>",
+      "testingProcedures": [],
+      "controls": [
+        {
+          "ref": "CIP-004-7-R1",
+          "control": "<p>Each Responsible Entity shall implement one or more documented processes that collectively include each of the applicable requirement parts in CIP-004-7 Table R1 – Security Awareness Program. [Violation Risk Factor: Lower] [Time Horizon: Operations Planning]</p>",
+          "description": "<p></p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "CIP-004-7-R1.1",
+              "control": "<p>Security awareness that, at least once each calendar quarter, reinforces cyber security practices (which may include associated physical security practices) for the Responsible Entity’s personnel who have authorized electronic or authorized unescorted physical access to BES Cyber Systems.</p>",
+              "description": "<p>Applicable systems: </p><ul class=\"list-disc\"><li><p>High Impact BES Cyber Systems</p></li><li><p>Medium Impact BES Cyber Systems</p></li></ul>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "CIP-004-7-R2",
+          "control": "<p>Each Responsible Entity shall implement one or more cyber security training program(s) appropriate to individual roles, functions, or responsibilities that collectively includes each of the applicable requirement parts in CIP-004-7 Table R2 – Cyber Security Training Program. [Violation Risk Factor: Lower] [Time Horizon: Operations Planning]</p>",
+          "description": "<p></p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "CIP-004-7-R2.1",
+              "control": "<p>Training content on:</p>",
+              "description": "<p>Applicable Systems:</p><p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PACS</p></li></ol><p>Medium Impact BES Cyber Systems with External Routable Connectivity and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PACS</p></li></ol>",
+              "testingProcedures": [],
+              "controls": [
+                {
+                  "ref": "CIP-004-7-R2.1.1",
+                  "control": "<p>Cyber security policies;</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                },
+                {
+                  "ref": "CIP-004-7-R2.1.2",
+                  "control": "<p>Physical access controls;</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                },
+                {
+                  "ref": "CIP-004-7-R2.1.3",
+                  "control": "<p>Electronic access controls;</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                },
+                {
+                  "ref": "CIP-004-7-R2.1.4",
+                  "control": "<p>The visitor control program;</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                },
+                {
+                  "ref": "CIP-004-7-R2.1.5",
+                  "control": "<p>Handling of BES Cyber System Information and its storage;</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                },
+                {
+                  "ref": "CIP-004-7-R2.1.6",
+                  "control": "<p>Identification of a Cyber Security Incident and initial notifications in accordance with the entity’s incident response plan;</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                },
+                {
+                  "ref": "CIP-004-7-R2.1.7",
+                  "control": "<p>Recovery plans for BES Cyber Systems;</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                },
+                {
+                  "ref": "CIP-004-7-R2.1.8",
+                  "control": "<p>Response to Cyber Security Incidents; and</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                },
+                {
+                  "ref": "CIP-004-7-R2.1.9",
+                  "control": "<p>Cyber security risks associated with a BES Cyber System’s electronic interconnectivity and interoperability with other Cyber Assets, including Transient Cyber Assets, and with Removable Media.</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                }
+              ]
+            },
+            {
+              "ref": "CIP-004-7-R2.2",
+              "control": "<p>Require completion of the training specified in Part 2.1 prior to granting authorized electronic access and authorized unescorted physical access to applicable Cyber Assets, except during CIP Exceptional Circumstances.</p>",
+              "description": "<p>Applicable Systems: </p><p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PACS</p></li></ol><p>Medium Impact BES Cyber Systems with External Routable Connectivity and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PACS</p></li></ol>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-004-7-R2.3",
+              "control": "<p>Require completion of the training specified in Part 2.1 at least once every 15 calendar months.</p>",
+              "description": "<p>Applicable Systems: </p><p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PACS</p></li></ol><p>Medium Impact BES Cyber Systems with External Routable Connectivity and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PACS</p></li></ol>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "CIP-004-7-R3",
+          "control": "<p>Each Responsible Entity shall implement one or more documented personnel risk assessment program(s) to attain and retain authorized electronic or authorized unescorted physical access to BES Cyber Systems that collectively include each of the applicable requirement parts in CIP-004-7 Table R3 – Personnel Risk Assessment Program. [Violation Risk Factor: Medium] [Time Horizon: Operations Planning].</p>",
+          "description": "<p></p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "CIP-004-7-R3.1",
+              "control": "<p>Process to confirm identity.</p>",
+              "description": "<p>Applicable Systems:</p><p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PACS</p></li></ol><p>Medium Impact BES Cyber Systems with External Routable Connectivity and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PACS</p></li></ol>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-004-7-R3.2",
+              "control": "<p>Process to perform a seven year criminal history records check as part of each personnel risk assessment that includes:</p>",
+              "description": "<p>NOTE: If it is not possible to perform a full seven year criminal history records check, conduct as much of the seven year criminal history records check as possible and document the reason the full seven year criminal history records check could not be performed.</p><p>Applicable Systems:</p><p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PACS</p></li></ol><p>Medium Impact BES Cyber Systems with External Routable Connectivity and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PACS</p></li></ol>",
+              "testingProcedures": [],
+              "controls": [
+                {
+                  "ref": "CIP-004-7-R3.2.1",
+                  "control": "<p>current residence, regardless of duration; and</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                },
+                {
+                  "ref": "CIP-004-7-R3.2.2",
+                  "control": "<p>other locations where, during the seven years immediately prior to the date of the criminal history records check, the subject has resided for six consecutive months or more.</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                }
+              ]
+            },
+            {
+              "ref": "CIP-004-7-R3.3",
+              "control": "<p>Criteria or process to evaluate criminal history records checks for authorizing access.</p>",
+              "description": "<p>Applicable Systems:</p><p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PACS</p></li></ol><p>Medium Impact BES Cyber Systems with External Routable Connectivity and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PACS</p></li></ol>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-004-7-R3.4",
+              "control": "<p>Criteria or process for verifying that personnel risk assessments performed for contractors or service vendors are conducted according to Parts 3.1 through 3.3.</p>",
+              "description": "<p>Applicable Systems:</p><p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PACS</p></li></ol><p>Medium Impact BES Cyber Systems with External Routable Connectivity and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PACS</p></li></ol>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-004-7-R3.5",
+              "control": "<p>Process to ensure that individuals with authorized electronic or authorized unescorted physical access have had a personnel risk assessment completed according to Parts 3.1 to 3.4 within the last seven years.</p>",
+              "description": "<p>Applicable Systems:</p><p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PACS</p></li></ol><p>Medium Impact BES Cyber Systems with External Routable Connectivity and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PACS</p></li></ol>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "CIP-004-7-R4",
+          "control": "<p>Each Responsible Entity shall implement one or more documented access management program(s) that collectively include each of the applicable requirement parts in CIP-004-7 Table R4 – Access Management Program. [Violation Risk Factor: Medium] [Time Horizon: Operations Planning and Same Day Operations].</p>",
+          "description": "<p></p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "CIP-004-7-R4.1",
+              "control": "<p>Process to authorize based on need, as determined by the Responsible Entity, except for CIP Exceptional Circumstances:</p>",
+              "description": "<p>Applicable Systems:</p><p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PACS</p></li></ol><p>Medium Impact BES Cyber Systems with External Routable Connectivity and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PACS</p></li></ol>",
+              "testingProcedures": [],
+              "controls": [
+                {
+                  "ref": "CIP-004-7-R4.1.1",
+                  "control": "<p>Electronic access; and</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                },
+                {
+                  "ref": "CIP-004-7-R4.1.2",
+                  "control": "<p>Unescorted physical access into a Physical Security Perimeter</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                }
+              ]
+            },
+            {
+              "ref": "CIP-004-7-R4.2",
+              "control": "<p>Verify at least once each calendar quarter that individuals with active electronic access or unescorted physical access have authorization records.</p>",
+              "description": "<p>Applicable Systems:</p><p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PACS</p></li></ol><p>Medium Impact BES Cyber Systems with External Routable Connectivity and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PACS</p></li></ol>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-004-7-R4.3",
+              "control": "<p>For electronic access, verify at least once every 15 calendar months that all user accounts, user account groups, or user role categories, and their specific, associated privileges are correct and are those that the Responsible Entity determines are necessary.</p>",
+              "description": "<p>Applicable Systems:</p><p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PACS</p></li></ol><p>Medium Impact BES Cyber Systems with External Routable Connectivity and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PACS</p></li></ol>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "CIP-004-7-R5",
+          "control": "<p>Each Responsible Entity shall implement one or more documented access revocation program(s) that collectively include each of the applicable requirement parts in CIP-004-7 Table R5 – Access Revocation. [Violation Risk Factor: Medium] [Time Horizon: Same Day Operations and Operations Planning].</p>",
+          "description": "<p></p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "CIP-004-7-R5.1",
+              "control": "<p>A process to initiate removal of an individual’s ability for unescorted physical access and Interactive Remote Access upon a termination action, and complete the removals within 24 hours of the termination action (Removal of the ability for access may be different than deletion, disabling, revocation, or removal of all access rights).</p>",
+              "description": "<p>Applicable Systems:</p><p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PACS</p></li></ol><p>Medium Impact BES Cyber Systems with External Routable Connectivity and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PACS</p></li></ol>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-004-7-R5.2",
+              "control": "<p>For reassignments or transfers, revoke the individual’s authorized electronic access to individual accounts and authorized unescorted physical access that the Responsible Entity determines are not necessary by the end of the next calendar day following the date that the Responsible Entity determines that the individual no longer requires retention of that access.</p>",
+              "description": "<p>Applicable Systems:</p><p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PACS</p></li></ol><p>Medium Impact BES Cyber Systems with External Routable Connectivity and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PACS</p></li></ol>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-004-7-R5.3",
+              "control": "<p>For termination actions, revoke the individual’s non-shared user accounts (unless already revoked according to Part 5.1) within 30 calendar days of the effective date of the termination action.</p>",
+              "description": "<p>Applicable Systems:</p><p>High Impact BES Cyber Systems and their associated:</p><ul class=\"list-disc\"><li><p>EACMS</p></li></ul>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-004-7-R5.4",
+              "control": "<p>For termination actions, change passwords for shared account(s) known to the user within 30 calendar days of the termination action. For reassignments or transfers, change passwords for shared account(s) known to the user within 30 calendar days following the date that the Responsible Entity determines that the individual no longer requires retention of that access.</p><p>If the Responsible Entity determines and documents that extenuating operating circumstances require a longer time period, change the password(s) within 10 calendar days following the end of the operating circumstances.</p>",
+              "description": "<p>Applicable Systems:</p><p>High Impact BES Cyber Systems and their associated:</p><ul class=\"list-disc\"><li><p>EACMS</p></li></ul>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "CIP-004-7-R6",
+          "control": "<p>Each Responsible Entity shall implement one or more documented access management program(s) to authorize, verify, and revoke provisioned access to BCSI pertaining to the “Applicable Systems” identified in CIP-004-7 Table R6 – Access Management for BES Cyber System Information that collectively include each of the applicable requirement parts in CIP‐004‐7 Table R6 – Access Management for BES Cyber System Information. To be considered access to BCSI in the context of this requirement, an individual has both the ability to obtain and use BCSI. Provisioned access is to be considered the result of the specific actions taken to provide an individual(s) the means to access BCSI (e.g., may include physical keys or access cards, user accounts and associated rights and privileges, encryption keys). [Violation Risk Factor: Medium] [Time Horizon: Same Day Operations and Operations Planning].</p>",
+          "description": "<p></p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "CIP-004-7-R6.1",
+              "control": "<p>Prior to provisioning, authorize (unless already authorized according to Part 4.1.) based on need, as determined by the Responsible Entity, except for CIP Exceptional Circumstances:</p>",
+              "description": "<p>Applicable Systems:</p><p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PACS</p></li></ol><p>Medium Impact BES Cyber Systems with External Routable Connectivity and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PACS</p></li></ol>",
+              "testingProcedures": [],
+              "controls": [
+                {
+                  "ref": "CIP-004-7-R6.1.1",
+                  "control": "<p>Provisioned electronic access to electronic BCSI; and</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                },
+                {
+                  "ref": "CIP-004-7-R6.1.2",
+                  "control": "<p>Provisioned physical access to physical BCSI.</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                }
+              ]
+            },
+            {
+              "ref": "CIP-004-7-R6.2",
+              "control": "<p>Verify at least once every 15 calendar months that all individuals with provisioned access to BCSI:</p>",
+              "description": "<p>Applicable Systems:</p><p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PACS</p></li></ol><p>Medium Impact BES Cyber Systems with External Routable Connectivity and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PACS</p></li></ol>",
+              "testingProcedures": [],
+              "controls": [
+                {
+                  "ref": "CIP-004-7-R6.2.1",
+                  "control": "<p>have an authorization record; and</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                },
+                {
+                  "ref": "CIP-004-7-R6.2.2",
+                  "control": "<p>still need the provisioned access to perform their current work functions, as determined by the Responsible Entity.</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                }
+              ]
+            },
+            {
+              "ref": "CIP-004-7-R6.3",
+              "control": "<p>For termination actions, remove the individual’s ability to use provisioned access to BCSI (unless already revoked according to Part 5.1) by the end of the next calendar day following the effective date of the termination action.</p>",
+              "description": "<p>Applicable Systems:</p><p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PACS</p></li></ol><p>Medium Impact BES Cyber Systems with External Routable Connectivity and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PACS</p></li></ol>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "CIP-005-7",
+      "control": "<p>Cyber Security — Electronic Security Perimeter(s)</p>",
+      "description": "<p>Purpose: To manage electronic access to BES Cyber Systems by specifying a controlled Electronic Security Perimeter in support of protecting BES Cyber Systems against compromise that could lead to misoperation or instability in the BES.</p>",
+      "testingProcedures": [],
+      "controls": [
+        {
+          "ref": "CIP-005-7-R1",
+          "control": "<p>Each Responsible Entity shall implement one or more documented processes that collectively include each of the applicable requirement parts in CIP-005-7 Table R1 – Electronic Security Perimeter. [Violation Risk Factor: Medium] [Time Horizon: Operations Planning and Same Day Operations].</p>",
+          "description": "<p></p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "CIP-005-7-R1.1",
+              "control": "<p>All applicable Cyber Assets connected to a network via a routable protocol shall reside within a defined ESP.</p>",
+              "description": "<p>Applicable Systems:</p><p>High Impact BES Cyber Systems and their associated:</p><ul class=\"list-disc\"><li><p>PCA</p></li></ul><p>Medium Impact BES Cyber Systems and their associated:</p><ul class=\"list-disc\"><li><p>PCA</p></li></ul>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-005-7-R1.2",
+              "control": "<p>All External Routable Connectivity must be through an identified Electronic Access Point (EAP).</p>",
+              "description": "<p>Applicable Systems:</p><p>High Impact BES Cyber Systems with External Routable Connectivity and their associated:</p><ul class=\"list-disc\"><li><p>PCA</p></li></ul><p>Medium Impact BES Cyber Systems with External Routable Connectivity and their associated:</p><ul class=\"list-disc\"><li><p>PCA</p></li></ul>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-005-7-R1.3",
+              "control": "<p>Require inbound and outbound access permissions, including the reason for granting access, and deny all other access by default.</p>",
+              "description": "<p>Applicable Systems: </p><p>Electronic Access Points for High Impact BES Cyber Systems </p><p>Electronic Access Points for Medium Impact BES Cyber Systems</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-005-7-R1.4",
+              "control": "<p>Where technically feasible, perform authentication when establishing Dial-up Connectivity with applicable Cyber Assets.</p>",
+              "description": "<p>Applicable Systems: </p><p>High Impact BES Cyber Systems with Dial-up Connectivity and their associated:</p><ul class=\"list-disc\"><li><p>PCA</p></li></ul><p>Medium Impact BES Cyber Systems with Dial-up Connectivity and their associated:</p><ul class=\"list-disc\"><li><p>PCA</p></li></ul>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-005-7-R1.5",
+              "control": "<p>Have one or more methods for detecting known or suspected malicious communications for both inbound and outbound communications.</p>",
+              "description": "<p>Applicable Systems: </p><p>Electronic Access Points for High Impact BES Cyber Systems</p><p>Electronic Access Points for Medium Impact BES Cyber Systems at Control Centers</p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "CIP-005-7-R2",
+          "control": "<p>Each Responsible Entity shall implement one or more documented processes that collectively include the applicable requirement parts, where technically feasible, in CIP-005-7 Table R2 –Remote Access Management. [Violation Risk Factor: Medium] [Time Horizon: Operations Planning and Same Day Operations].</p>",
+          "description": "<p></p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "CIP-005-7-R2.1",
+              "control": "<p>For all Interactive Remote Access, utilize an Intermediate System such that the Cyber Asset initiating Interactive Remote Access does not directly access an applicable Cyber Asset.</p>",
+              "description": "<p>Applicable Systems:</p><p>High Impact BES Cyber Systems and their associated:</p><ul class=\"list-disc\"><li><p>PCA</p></li></ul><p>Medium Impact BES Cyber Systems with External Routable Connectivity and their associated:</p><ul class=\"list-disc\"><li><p>PCA</p></li></ul>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-005-7-R2.2",
+              "control": "<p>For all Interactive Remote Access sessions, utilize encryption that terminates at an Intermediate System.</p>",
+              "description": "<p>Applicable Systems:</p><p>High Impact BES Cyber Systems and their associated:</p><ul class=\"list-disc\"><li><p>PCA</p></li></ul><p>Medium Impact BES Cyber Systems with External Routable Connectivity and their associated:</p><ul class=\"list-disc\"><li><p>PCA</p></li></ul>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-005-7-R2.3",
+              "control": "<p>Require multi-factor authentication for all Interactive Remote Access sessions.</p>",
+              "description": "<p>Applicable Systems:</p><p>High Impact BES Cyber Systems and their associated:</p><ul class=\"list-disc\"><li><p>PCA</p></li></ul><p>Medium Impact BES Cyber Systems with External Routable Connectivity and their associated:</p><ul class=\"list-disc\"><li><p>PCA</p></li></ul>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-005-7-R2.4",
+              "control": "<p>Have one or more methods for determining active vendor remote access sessions (including Interactive Remote Access and system-to-system remote access).</p>",
+              "description": "<p>Applicable Systems:</p><p>High Impact BES Cyber Systems and their associated:</p><ul class=\"list-disc\"><li><p>PCA</p></li></ul><p>Medium Impact BES Cyber Systems with External Routable Connectivity and their associated:</p><ul class=\"list-disc\"><li><p>PCA</p></li></ul>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-005-7-R2.5",
+              "control": "<p>Have one or more method(s) to disable active vendor remote access (including Interactive Remote Access and system-to-system remote access).</p>",
+              "description": "<p>Applicable Systems:</p><p>High Impact BES Cyber Systems and their associated:</p><ul class=\"list-disc\"><li><p>PCA</p></li></ul><p>Medium Impact BES Cyber Systems with External Routable Connectivity and their associated:</p><ul class=\"list-disc\"><li><p>PCA</p></li></ul>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "CIP-005-7-R3",
+          "control": "<p>Each Responsible Entity shall implement one or more documented processes that collectively include the applicable requirement parts in CIP-005-7 Table R3 –Vendor Remote Access Management for EACMS and PACS. [Violation Risk Factor: Medium] [Time Horizon: Operations Planning and Same Day Operations].</p>",
+          "description": "<p></p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "CIP-005-7-R3.1",
+              "control": "<p>Have one or more method(s) to determine authenticated vendor-initiated remote connections.</p>",
+              "description": "<p>Applicable Systems: </p><p>EACMS and PACS associated with High Impact BES Cyber Systems</p><p>EACMS and PACS associated with Medium Impact BES Cyber Systems with External Routable Connectivity</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-005-7-R3.2",
+              "control": "<p>Have one or more method(s) to terminate authenticated vendor-initiated remote connections and control the ability to reconnect.</p>",
+              "description": "<p>Applicable Systems: </p><p>EACMS and PACS associated with High Impact BES Cyber Systems</p><p>EACMS and PACS associated with Medium Impact BES Cyber Systems with External Routable Connectivity</p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "CIP-006-6",
+      "control": "<p>Cyber Security — Physical Security of BES Cyber Systems</p>",
+      "description": "<p>Purpose: To manage physical access to Bulk Electric System (BES) Cyber Systems by specifying a physical security plan in support of protecting BES Cyber Systems against compromise that could lead to misoperation or instability in the BES.</p>",
+      "testingProcedures": [],
+      "controls": [
+        {
+          "ref": "CIP-006-6-R1",
+          "control": "<p>Each Responsible Entity shall implement one or more documented physical security plan(s) that collectively include all of the applicable requirement parts in CIP‐006‐6 Table R1 – Physical Security Plan. [Violation Risk Factor: Medium] [Time Horizon: Long Term Planning and Same Day Operations].</p>",
+          "description": "<p></p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "CIP-006-6-R1.1",
+              "control": "<p>Define operational or procedural controls to restrict physical access.</p>",
+              "description": "<p>Applicable Systems: </p><p>Medium Impact BES Cyber Systems without External Routable Connectivity</p><p>Physical Access Control Systems (PACS) associated with:</p><ul class=\"list-disc\"><li><p>High Impact BES Cyber Systems, or</p></li><li><p>Medium Impact BES Cyber Systems with External Routable Connectivity</p></li></ul>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-006-6-R1.2",
+              "control": "<p>Utilize at least one physical access control to allow unescorted physical access into each applicable Physical Security Perimeter to only those individuals who have authorized unescorted physical access.</p>",
+              "description": "<p>Applicable Systems: </p><p>Medium Impact BES Cyber Systems with External Routable Connectivity and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PCA</p></li></ol>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-006-6-R1.3",
+              "control": "<p>Where technically feasible, utilize two or more different physical access controls (this does not require two completely independent physical access control systems) to collectively allow unescorted physical access into Physical Security Perimeters to only those individuals who have authorized unescorted physical access.</p>",
+              "description": "<p>Applicable Systems: </p><p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PCA</p></li></ol>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-006-6-R1.4",
+              "control": "<p>Monitor for unauthorized access through a physical access point into a Physical Security Perimeter.</p>",
+              "description": "<p>Applicable Systems: </p><p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PCA</p></li></ol><p>Medium Impact BES Cyber Systems with External Routable Connectivity and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PCA</p></li></ol>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-006-6-R1.5",
+              "control": "<p>Issue an alarm or alert in response to detected unauthorized access through a physical access point into a Physical Security Perimeter to the personnel identified in the BES Cyber Security Incident response plan within 15 minutes of detection.</p>",
+              "description": "<p>Applicable Systems: </p><p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PCA</p></li></ol><p>Medium Impact BES Cyber Systems with External Routable Connectivity and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PCA</p></li></ol>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-006-6-R1.6",
+              "control": "<p>Monitor each Physical Access Control System for unauthorized physical access to a Physical Access Control System.</p>",
+              "description": "<p>Applicable Systems: </p><p>Physical Access Control Systems (PACS) associated with:</p><ul class=\"list-disc\"><li><p>High Impact BES Cyber Systems, or</p></li><li><p>Medium Impact BES Cyber Systems with External Routable Connectivity</p></li></ul>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-006-6-R1.7",
+              "control": "<p>Issue an alarm or alert in response to detected unauthorized physical access to a Physical Access Control System to the personnel identified in the BES Cyber Security Incident response plan within 15 minutes of the detection.</p>",
+              "description": "<p>Applicable Systems: </p><p>Physical Access Control Systems (PACS) associated with:</p><ul class=\"list-disc\"><li><p>High Impact BES Cyber Systems, or</p></li><li><p>Medium Impact BES Cyber Systems with External Routable Connectivity</p></li></ul>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-006-6-R1.8",
+              "control": "<p>Log (through automated means or by personnel who control entry) entry of each individual with authorized unescorted physical access into each Physical Security Perimeter, with information to identify the individual and date and time of entry.</p>",
+              "description": "<p>Applicable Systems:</p><p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PCA</p></li></ol><p>Medium Impact BES Cyber Systems with External Routable Connectivity and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PCA</p></li></ol>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-006-6-R1.9",
+              "control": "<p>Retain physical access logs of entry of individuals with authorized unescorted physical access into each Physical Security Perimeter for at least ninety calendar days.</p>",
+              "description": "<p>Applicable Systems:</p><p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PCA</p></li></ol><p>Medium Impact BES Cyber Systems with External Routable Connectivity and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PCA</p></li></ol>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-006-6-R1.10",
+              "control": "<p>Restrict physical access to cabling and other nonprogrammable communication components used for connection between applicable Cyber Assets within the same Electronic Security Perimeter in those instances when such cabling and components are located outside of a Physical Security Perimeter.</p><p>Where physical access restrictions to such cabling and components are not implemented, the Responsible Entity shall document and implement one or more of the following:</p><ul class=\"list-disc\"><li><p>encryption of data that transits such cabling and components; or</p></li><li><p>monitoring the status of the communication link composed of such cabling and components and issuing an alarm or alert in response to detected communication failures to the personnel identified in the BES Cyber Security Incident response plan within 15 minutes of detection; or</p></li><li><p>an equally effective logical protection.</p></li></ul>",
+              "description": "<p>Applicable Systems: </p><p>High Impact BES Cyber Systems and their associated:</p><ul class=\"list-disc\"><li><p>PCA</p></li></ul><p>Medium Impact BES Cyber Systems at Control Centers and their associated:</p><p>PCA</p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "CIP-006-6-R2",
+          "control": "<p>Each Responsible Entity shall implement one or more documented visitor control program(s) that include each of the applicable requirement parts in CIP‐006‐6 Table R2 – Visitor Control Program. [Violation Risk Factor: Medium] [Time Horizon: Same Day Operations.]</p>",
+          "description": "<p></p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "CIP-006-6-R2.1",
+              "control": "<p>Require continuous escorted access of visitors (individuals who are provided access but are not authorized for unescorted physical access) within each Physical Security Perimeter, except during CIP Exceptional Circumstances.</p>",
+              "description": "<p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PCA</p></li></ol><p>Medium Impact BES Cyber Systems with External Routable Connectivity and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PCA</p></li></ol>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-006-6-R2.2",
+              "control": "<p>Require manual or automated logging of visitor entry into and exit from the Physical Security Perimeter that includes date and time of the initial entry and last exit, the visitor’s name, and the name of an individual point of contact responsible for the visitor, except during CIP Exceptional Circumstances.</p>",
+              "description": "<p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PCA</p></li></ol><p>Medium Impact BES Cyber Systems with External Routable Connectivity and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PCA</p></li></ol>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-006-6-R2.3",
+              "control": "<p>Retain visitor logs for at least ninety calendar days.</p>",
+              "description": "<p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PCA</p></li></ol><p>Medium Impact BES Cyber Systems with External Routable Connectivity and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PCA</p></li></ol>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "CIP-006-6-R3",
+          "control": "<p>Each Responsible Entity shall implement one or more documented Physical Access Control System maintenance and testing program(s) that collectively include each of the applicable requirement parts in CIP‐006‐6 Table R3 – Maintenance and Testing Program. [Violation Risk Factor: Medium] [Time Horizon: Long Term Planning].</p>",
+          "description": "<p></p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "CIP-006-6-R3.1",
+              "control": "<p>Maintenance and testing of each Physical Access Control System and locally mounted hardware or devices at the Physical Security Perimeter at least once every 24 calendar months to ensure they function properly.</p>",
+              "description": "<p>Physical Access Control Systems (PACS) associated with:</p><ul class=\"list-disc\"><li><p>High Impact BES Cyber Systems, or</p></li><li><p>Medium Impact BES Cyber Systems with External Routable Connectivity</p></li></ul><p>Locally mounted hardware or devices at the Physical Security Perimeter associated with:</p><ul class=\"list-disc\"><li><p>High Impact BES Cyber Systems, or</p></li><li><p>Medium Impact BES Cyber Systems with External Routable Connectivity</p></li></ul>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "CIP-007-6",
+      "control": "<p>Cyber Security — System Security Management</p>",
+      "description": "<p>Purpose: To manage system security by specifying select technical, operational, and procedural requirements in support of protecting BES Cyber Systems against compromise that could lead to misoperation or instability in the Bulk Electric System (BES).</p>",
+      "testingProcedures": [],
+      "controls": [
+        {
+          "ref": "CIP-007-6-R1",
+          "control": "<p>Each Responsible Entity shall implement one or more documented process(es) that collectively include each of the applicable requirement parts in CIP-007-6 Table R1 – Ports and Services. [Violation Risk Factor: Medium] [Time Horizon: Same Day Operations.]</p>",
+          "description": "<p></p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "CIP-007-6-R1.1",
+              "control": "<p>Where technically feasible, enable only logical network accessible ports that have been determined to be needed by the Responsible Entity, including port ranges or services where needed to handle dynamic ports. If a device has no provision for disabling or restricting logical ports on the device then those ports that are open are deemed needed.</p>",
+              "description": "<p>Applicable Systems: </p><p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS;</p></li><li><p>PACS; and</p></li><li><p>PCA</p></li></ol><p>Medium Impact BES Cyber Systems with External Routable Connectivity and their associated:</p><ol><li><p>EACMS;</p></li><li><p>PACS; and</p></li><li><p>PCA</p></li></ol>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-007-6-R1.2",
+              "control": "<p>Protect against the use of unnecessary physical input/output ports used for network connectivity, console commands, or Removable Media.</p>",
+              "description": "<p>Applicable Systems: </p><p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>PCA; and</p></li><li><p>Nonprogrammable communication components located inside both a PSP and an ESP.</p></li></ol><p>Medium Impact BES Cyber Systems at Control Centers and their associated:</p><ol><li><p>PCA; and</p></li><li><p>Nonprogrammable communication components located inside both a PSP and an ESP.</p></li></ol>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "CIP-007-6-R2",
+          "control": "<p>Each Responsible Entity shall implement one or more documented process(es) that collectively include each of the applicable requirement parts in CIP-007-6 Table R2 – Security Patch Management. [Violation Risk Factor: Medium] [Time Horizon: Operations Planning].</p>",
+          "description": "<p></p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "CIP-007-6-R2.1",
+              "control": "<p>A patch management process for tracking, evaluating, and installing cyber security patches for applicable Cyber Assets. The tracking portion shall include the identification of a source or sources that the Responsible Entity tracks for the release of cyber security patches for applicable Cyber Assets that are updateable and for which a patching source exists.</p>",
+              "description": "<p>Applicable Systems:</p><p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS;</p></li><li><p>PACS; and</p></li><li><p>PCA</p></li></ol><p>Medium Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS;</p></li><li><p>PACS; and</p></li><li><p>PCA</p></li></ol>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-007-6-R2.2",
+              "control": "<p>At least once every 35 calendar days, evaluate security patches for applicability that have been released since the last evaluation from the source or sources identified in Part 2.1.</p>",
+              "description": "<p>Applicable Systems:</p><p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS;</p></li><li><p>PACS; and</p></li><li><p>PCA</p></li></ol><p>Medium Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS;</p></li><li><p>PACS; and</p></li><li><p>PCA</p></li></ol>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-007-6-R2.3",
+              "control": "<p>For applicable patches identified in Part 2.2, within 35 calendar days of the evaluation completion, take one of the following actions:</p><ul class=\"list-disc\"><li><p>Apply the applicable patches; or</p></li><li><p>Create a dated mitigation plan; or</p></li><li><p>Revise an existing mitigation plan.</p></li></ul><p>Mitigation plans shall include the Responsible Entity’s planned actions to mitigate the vulnerabilities addressed by each security patch and a timeframe to complete these mitigations.</p>",
+              "description": "<p>Applicable Systems:</p><p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS;</p></li><li><p>PACS; and</p></li><li><p>PCA</p></li></ol><p>Medium Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS;</p></li><li><p>PACS; and</p></li><li><p>PCA</p></li></ol>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-007-6-R2.4",
+              "control": "<p>For each mitigation plan created or revised in Part 2.3, implement the plan within the timeframe specified in the plan, unless a revision to the plan or an extension to the timeframe specified in Part 2.3 is approved by the CIP Senior Manager or delegate.</p>",
+              "description": "<p>Applicable Systems:</p><p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS;</p></li><li><p>PACS; and</p></li><li><p>PCA</p></li></ol><p>Medium Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS;</p></li><li><p>PACS; and</p></li><li><p>PCA</p></li></ol>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "CIP-007-6-R3",
+          "control": "<p>Each Responsible Entity shall implement one or more documented process(es) that collectively include each of the applicable requirement parts in CIP-007-6 Table R3 – Malicious Code Prevention. [Violation Risk Factor: Medium] [Time Horizon: Same Day Operations].</p>",
+          "description": "<p></p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "CIP-007-6-R3.1",
+              "control": "<p>Deploy method(s) to deter, detect, or prevent malicious code.</p>",
+              "description": "<p>Applicable Systems:</p><p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS;</p></li><li><p>PACS; and</p></li><li><p>PCA</p></li></ol><p>Medium Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS;</p></li><li><p>PACS; and</p></li><li><p>PCA</p></li></ol>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-007-6-R3.2",
+              "control": "<p>Mitigate the threat of detected malicious code.</p>",
+              "description": "<p>Applicable Systems:</p><p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS;</p></li><li><p>PACS; and</p></li><li><p>PCA</p></li></ol><p>Medium Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS;</p></li><li><p>PACS; and</p></li><li><p>PCA</p></li></ol>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-007-6-R3.3",
+              "control": "<p>For those methods identified in Part 3.1 that use signatures or patterns, have a process for the update of the signatures or patterns. The process must address testing and installing the signatures or patterns.</p>",
+              "description": "<p>Applicable Systems:</p><p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS;</p></li><li><p>PACS; and</p></li><li><p>PCA</p></li></ol><p>Medium Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS;</p></li><li><p>PACS; and</p></li><li><p>PCA</p></li></ol>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "CIP-007-6-R4",
+          "control": "<p>Each Responsible Entity shall implement one or more documented process(es) that collectively include each of the applicable requirement parts in CIP-007-6 Table R4 – Security Event Monitoring. [Violation Risk Factor: Medium] [Time Horizon: Same Day Operations and Operations Assessment.]</p>",
+          "description": "<p></p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "CIP-007-6-R4.1",
+              "control": "<p>Log events at the BES Cyber System level (per BES Cyber System capability) or at the Cyber Asset level (per Cyber Asset capability) for identification of, and after-the-fact investigations of, Cyber Security Incidents that includes, as a minimum, each of the following types of events:</p>",
+              "description": "<p>Applicable Systems:</p><p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS;</p></li><li><p>PACS; and</p></li><li><p>PCA</p></li></ol><p>Medium Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS;</p></li><li><p>PACS; and</p></li><li><p>PCA</p></li></ol>",
+              "testingProcedures": [],
+              "controls": [
+                {
+                  "ref": "CIP-007-6-R4.1.1",
+                  "control": "<p>Detected successful login attempts;</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                },
+                {
+                  "ref": "CIP-007-6-R4.1.2",
+                  "control": "<p>Detected failed access attempts and failed login attempts;</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                },
+                {
+                  "ref": "CIP-007-6-R4.1.3",
+                  "control": "<p>Detected malicious code.</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                }
+              ]
+            },
+            {
+              "ref": "CIP-007-6-R4.2",
+              "control": "<p>Generate alerts for security events that the Responsible Entity determines necessitates an alert, that includes, as a minimum, each of the following types of events (per Cyber Asset or BES Cyber System capability):</p>",
+              "description": "<p>Applicable Systems:</p><p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS;</p></li><li><p>PACS; and</p></li><li><p>PCA</p></li></ol><p>Medium Impact BES Cyber Systems with External Routable Connectivity and their associated:</p><ol><li><p>EACMS;</p></li><li><p>PACS; and</p></li><li><p>PCA</p></li></ol>",
+              "testingProcedures": [],
+              "controls": [
+                {
+                  "ref": "CIP-007-6-R4.2.1",
+                  "control": "<p>Detected malicious code from Part 4.1; and</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                },
+                {
+                  "ref": "CIP-007-6-R4.2.2",
+                  "control": "<p>Detected failure of Part 4.1 event logging.</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                }
+              ]
+            },
+            {
+              "ref": "CIP-007-6-R4.3",
+              "control": "<p>Where technically feasible, retain applicable event logs identified in Part 4.1 for at least the last 90 consecutive calendar days except under CIP Exceptional Circumstances.</p>",
+              "description": "<p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS;</p></li><li><p>PACS; and</p></li><li><p>PCA</p></li></ol><p>Medium Impact BES Cyber Systems at Control Centers and their associated:</p><ol><li><p>EACMS;</p></li><li><p>PACS; and</p></li><li><p>PCA</p></li></ol>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-007-6-R4.4",
+              "control": "<p>Review a summarization or sampling of logged events as determined by the Responsible Entity at intervals no greater than 15 calendar days to identify undetected Cyber Security Incidents.</p>",
+              "description": "<p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PCA</p></li></ol>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "CIP-007-6-R5",
+          "control": "<p>Each Responsible Entity shall implement one or more documented process(es) that collectively include each of the applicable requirement parts in CIP-007-6 Table R5 – System Access Controls. [Violation Risk Factor: Medium] [Time Horizon: Operations Planning].</p>",
+          "description": "<p></p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "CIP-007-6-R5.1",
+              "control": "<p>Have a method(s) to enforce authentication of interactive user access, where technically feasible.</p>",
+              "description": "<p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS;</p></li><li><p>PACS; and</p></li><li><p>PCA</p></li></ol><p>Medium Impact BES Cyber Systems at Control Centers and their associated:</p><ol><li><p>EACMS;</p></li><li><p>PACS; and</p></li><li><p>PCA</p></li></ol><p>Medium Impact BES Cyber Systems with External Routable Connectivity and their associated:</p><ol><li><p>EACMS;</p></li><li><p>PACS; and</p></li><li><p>PCA</p></li></ol>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-007-6-R5.2",
+              "control": "<p>Identify and inventory all known enabled default or other generic account types, either by system, by groups of systems, by location, or by system type(s).</p>",
+              "description": "<p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS;</p></li><li><p>PACS; and</p></li><li><p>PCA</p></li></ol><p>Medium Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS;</p></li><li><p>PACS; and</p></li><li><p>PCA</p></li></ol>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-007-6-R5.3",
+              "control": "<p>Identify individuals who have authorized access to shared accounts.</p>",
+              "description": "<p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS;</p></li><li><p>PACS; and</p></li><li><p>PCA</p></li></ol><p>Medium Impact BES Cyber Systems with External Routable Connectivity and their associated:</p><ol><li><p>EACMS;</p></li><li><p>PACS; and</p></li><li><p>PCA</p></li></ol>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-007-6-R5.4",
+              "control": "<p>Change known default passwords, per Cyber Asset capability</p>",
+              "description": "<p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS;</p></li><li><p>PACS; and</p></li><li><p>PCA</p></li></ol><p>Medium Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS;</p></li><li><p>PACS; and</p></li><li><p>PCA</p></li></ol>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-007-6-R5.5",
+              "control": "<p>For password-only authentication for interactive user access, either technically or procedurally enforce the following password parameters:</p>",
+              "description": "<p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS;</p></li><li><p>PACS; and</p></li><li><p>PCA</p></li></ol><p>Medium Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS;</p></li><li><p>PACS; and</p></li><li><p>PCA</p></li></ol>",
+              "testingProcedures": [],
+              "controls": [
+                {
+                  "ref": "CIP-007-6-R5.5.1",
+                  "control": "<p>Password length that is, at least, the lesser of eight characters or the maximum length supported by the Cyber Asset; and</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                },
+                {
+                  "ref": "CIP-007-6-R5.5.2",
+                  "control": "<p>Minimum password complexity that is the lesser of three or more different types of characters (e.g., uppercase alphabetic, lowercase alphabetic, numeric, non-alphanumeric) or the maximum complexity supported by the Cyber Asset.</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                }
+              ]
+            },
+            {
+              "ref": "CIP-007-6-R5.6",
+              "control": "<p>Where technically feasible, for password-only authentication for interactive user access, either technically or procedurally enforce password changes or an obligation to change the password at least once every 15 calendar months.</p>",
+              "description": "<p>Applicable Systems:</p><p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS;</p></li><li><p>PACS; and</p></li><li><p>PCA</p></li></ol><p>Medium Impact BES Cyber Systems with External Routable Connectivity and their associated:</p><ol><li><p>EACMS;</p></li><li><p>PACS; and</p></li><li><p>PCA</p></li></ol>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-007-6-R5.7",
+              "control": "<p>Where technically feasible, either:</p><ul class=\"list-disc\"><li><p>Limit the number of unsuccessful authentication attempts; or</p></li><li><p>Generate alerts after a threshold of unsuccessful authentication attempts.</p></li></ul>",
+              "description": "<p>Applicable Systems: </p><p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS;</p></li><li><p>PACS; and</p></li><li><p>PCA</p></li></ol><p>Medium Impact BES Cyber Systems at Control Centers and their</p><p>associated:</p><ol><li><p>EACMS;</p></li><li><p>PACS; and</p></li><li><p>PCA</p></li></ol>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "CIP-008-6",
+      "control": "<p>Cyber Security — Incident Reporting and Response Planning</p>",
+      "description": "<p>Purpose: To mitigate the risk to the reliable operation of the BES as the result of a Cyber Security Incident by specifying incident response requirements.</p>",
+      "testingProcedures": [],
+      "controls": [
+        {
+          "ref": "CIP-008-6-R1",
+          "control": "<p>Each Responsible Entity shall document one or more Cyber Security Incident response plan(s) that collectively include each of the applicable requirement parts in CIP-008-6 Table R1 – Cyber Security Incident Response Plan Specifications. [Violation Risk Factor: Lower] [Time Horizon: Long Term Planning].</p>",
+          "description": "<p></p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "CIP-008-6-R1.1",
+              "control": "<p>One or more processes to identify, classify, and respond to Cyber Security Incidents.</p>",
+              "description": "<p>Applicable Systems: </p><p>High Impact BES Cyber Systems and their associated:</p><ul class=\"list-disc\"><li><p>EACMS</p></li></ul><p>Medium Impact BES Cyber Systems and their associated:</p><ul class=\"list-disc\"><li><p>EACMS</p></li></ul>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-008-6-R1.2",
+              "control": "<p>One or more processes:</p>",
+              "description": "<p>Applicable Systems: </p><p>High Impact BES Cyber Systems and their associated:</p><ul class=\"list-disc\"><li><p>EACMS</p></li></ul><p>Medium Impact BES Cyber Systems and their associated:</p><ul class=\"list-disc\"><li><p>EACMS</p></li></ul>",
+              "testingProcedures": [],
+              "controls": [
+                {
+                  "ref": "CIP-008-6-R1.2.1",
+                  "control": "<p>That include criteria to evaluate and define attempts to compromise;</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                },
+                {
+                  "ref": "CIP-008-6-R1.2.2",
+                  "control": "<p>To determine if an identified Cyber Security Incident is:</p><ul class=\"list-disc\"><li><p>A Reportable Cyber Security Incident; or</p></li><li><p>An attempt to compromise, as determined by applying the criteria from Part 1.2.1, one or more systems identified in the “Applicable Systems” column for this Part; and</p></li></ul>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                },
+                {
+                  "ref": "CIP-008-6-R1.2.3",
+                  "control": "<p>To provide notification per Requirement R4.</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                }
+              ]
+            },
+            {
+              "ref": "CIP-008-6-R1.3",
+              "control": "<p>The roles and responsibilities of Cyber Security Incident response groups or individuals.</p>",
+              "description": "<p>Applicable Systems: </p><p>High Impact BES Cyber Systems and their associated:</p><ul class=\"list-disc\"><li><p>EACMS</p></li></ul><p>Medium Impact BES Cyber Systems and their associated:</p><ul class=\"list-disc\"><li><p>EACMS</p></li></ul>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-008-6-R1.4",
+              "control": "<p>Incident handling procedures for Cyber Security Incidents.</p>",
+              "description": "<p>Applicable Systems: </p><p>High Impact BES Cyber Systems and their associated:</p><ul class=\"list-disc\"><li><p>EACMS</p></li></ul><p>Medium Impact BES Cyber Systems and their associated:</p><ul class=\"list-disc\"><li><p>EACMS</p></li></ul>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "CIP-008-6-R2",
+          "control": "<p>Each Responsible Entity shall implement each of its documented Cyber Security Incident response plans to collectively include each of the applicable requirement parts in CIP-008-6 Table R2 – Cyber Security Incident Response Plan Implementation and Testing. [Violation Risk Factor: Lower] [Time Horizon: Operations Planning and Real-Time Operations].</p>",
+          "description": "<p></p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "CIP-008-6-R2.1",
+              "control": "<p>Test each Cyber Security Incident response plan(s) at least once every 15 calendar months:</p><ul class=\"list-disc\"><li><p>By responding to an actual Reportable Cyber Security Incident;</p></li><li><p>With a paper drill or tabletop exercise of a Reportable Cyber Security Incident; or</p></li><li><p>With an operational exercise of a Reportable Cyber Security Incident.</p></li></ul>",
+              "description": "<p>Applicable Systems: </p><p>High Impact BES Cyber Systems and their associated:</p><ul class=\"list-disc\"><li><p>EACMS</p></li></ul><p>Medium Impact BES Cyber Systems and their associated:</p><ul class=\"list-disc\"><li><p>EACMS</p></li></ul>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-008-6-R2.2",
+              "control": "<p>Use the Cyber Security Incident response plan(s) under Requirement R1 when responding to a Reportable Cyber Security Incident, responding to a Cyber Security Incident that attempted to compromise a system identified in the “Applicable Systems” column for this Part, or performing an exercise of a Reportable Cyber Security Incident. Document deviations from the plan(s) taken during the response to the incident or exercise.</p>",
+              "description": "<p>Applicable Systems: </p><p>High Impact BES Cyber Systems and their associated:</p><ul class=\"list-disc\"><li><p>EACMS</p></li></ul><p>Medium Impact BES Cyber Systems and their associated:</p><ul class=\"list-disc\"><li><p>EACMS</p></li></ul>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-008-6-R2.3",
+              "control": "<p>Retain records related to Reportable Cyber Security Incidents and Cyber Security Incidents that attempted to compromise a system identified in the “Applicable Systems” column for this Part as per the Cyber Security Incident response plan(s) under Requirement R1.</p>",
+              "description": "<p>Applicable Systems: </p><p>High Impact BES Cyber Systems and their associated:</p><ul class=\"list-disc\"><li><p>EACMS</p></li></ul><p>Medium Impact BES Cyber Systems and their associated:</p><ul class=\"list-disc\"><li><p>EACMS</p></li></ul>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "CIP-008-6-R3",
+          "control": "<p>Each Responsible Entity shall maintain each of its Cyber Security Incident response plans according to each of the applicable requirement parts in CIP-008-6 Table R3 – Cyber Security Incident Response Plan Review, Update, and Communication. [Violation Risk Factor: Lower] [Time Horizon: Operations Assessment].</p>",
+          "description": "<p></p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "CIP-008-6-R3.1",
+              "control": "<p>No later than 90 calendar days after completion of a Cyber Security Incident response plan(s) test or actual Reportable Cyber Security Incident response:</p>",
+              "description": "<p>Applicable Systems:</p><p>High Impact BES Cyber Systems and their associated:</p><ul class=\"list-disc\"><li><p>EACMS</p></li></ul><p>Medium Impact BES Cyber Systems and their associated:</p><ul class=\"list-disc\"><li><p>EACMS</p></li></ul>",
+              "testingProcedures": [],
+              "controls": [
+                {
+                  "ref": "CIP-008-6-R3.1.1",
+                  "control": "<p>Document any lessons learned or document the absence of any lessons learned;</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                },
+                {
+                  "ref": "CIP-008-6-R3.1.2",
+                  "control": "<p>Update the Cyber Security Incident response plan based on any documented lessons learned associated with the plan; and</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                },
+                {
+                  "ref": "CIP-008-6-R3.1.3",
+                  "control": "<p>Notify each person or group with a defined role in the Cyber Security Incident response plan of the updates to the Cyber Security Incident response plan based on any documented lessons learned.</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                }
+              ]
+            },
+            {
+              "ref": "CIP-008-6-R3.2",
+              "control": "<p>No later than 60 calendar days after a change to the roles or responsibilities, Cyber Security Incident response groups or individuals, or technology that the Responsible Entity determines would impact the ability to execute the plan:</p>",
+              "description": "<p>Applicable Systems:</p><p>High Impact BES Cyber Systems and their associated:</p><ul class=\"list-disc\"><li><p>EACMS</p></li></ul><p>Medium Impact BES Cyber Systems and their associated:</p><ul class=\"list-disc\"><li><p>EACMS</p></li></ul>",
+              "testingProcedures": [],
+              "controls": [
+                {
+                  "ref": "CIP-008-6-R3.2.1",
+                  "control": "<p>Update the Cyber Security Incident response plan(s); and</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                },
+                {
+                  "ref": "CIP-008-6-R3.2.2",
+                  "control": "<p>Notify each person or group with a defined role in the Cyber Security Incident response plan of the updates.</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ref": "CIP-008-6-R4",
+          "control": "<p>Each Responsible Entity shall notify the Electricity Information Sharing and Analysis Center (E-ISAC) and, if subject to the jurisdiction of the United States, the United States National Cybersecurity and Communications Integration Center (NCCIC), 1 or their successors, of a Reportable Cyber Security Incident and a Cyber Security Incident that was an attempt to compromise, as determined by applying the criteria from Requirement R1, Part 1.2.1, a system identified in the “Applicable Systems” column, unless prohibited by law, in accordance with each of the applicable requirement parts in CIP-008-6 Table R4 – Notifications and Reporting for Cyber Security Incidents. [Violation Risk Factor: Lower] [Time Horizon: Operations Assessment].</p>",
+          "description": "<p></p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "CIP-008-6-R4.1",
+              "control": "<p>Initial notifications and updates shall include the following attributes, at a minimum, to the extent known:</p>",
+              "description": "<p>Applicable Systems:</p><p>High Impact BES Cyber Systems and their associated:</p><ul class=\"list-disc\"><li><p>EACMS</p></li></ul><p>Medium Impact BES Cyber Systems and their associated:</p><ul class=\"list-disc\"><li><p>EACMS</p></li></ul>",
+              "testingProcedures": [],
+              "controls": [
+                {
+                  "ref": "CIP-008-6-R4.1.1",
+                  "control": "<p>The functional impact;</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                },
+                {
+                  "ref": "CIP-008-6-R4.1.2",
+                  "control": "<p>The attack vector used; and</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                },
+                {
+                  "ref": "CIP-008-6-R4.1.3",
+                  "control": "<p>The level of intrusion that was achieved or attempted.</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                }
+              ]
+            },
+            {
+              "ref": "CIP-008-6-R4.2",
+              "control": "<p>After the Responsible Entity’s determination made pursuant to documented process(es) in Requirement R1, Part 1.2, provide initial notification within the following timelines:</p><ul class=\"list-disc\"><li><p>One hour after the determination of a Reportable Cyber Security Incident.</p></li><li><p>By the end of the next calendar day after determination that a Cyber Security Incident was an attempt to compromise a system identified in the “Applicable Systems” column for this Part.</p></li></ul>",
+              "description": "<p>Applicable Systems:</p><p>High Impact BES Cyber Systems and their associated:</p><ul class=\"list-disc\"><li><p>EACMS</p></li></ul><p>Medium Impact BES Cyber Systems and their associated:</p><ul class=\"list-disc\"><li><p>EACMS</p></li></ul>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-008-6-R4.3",
+              "control": "<p>Provide updates, if any, within 7 calendar days of determination of new or changed attribute information required in Part 4.1.</p>",
+              "description": "<p>Applicable Systems:</p><p>High Impact BES Cyber Systems and their associated:</p><ul class=\"list-disc\"><li><p>EACMS</p></li></ul><p>Medium Impact BES Cyber Systems and their associated:</p><ul class=\"list-disc\"><li><p>EACMS</p></li></ul>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "CIP-009-6",
+      "control": "<p>Cyber Security — Recovery Plans for BES Cyber Systems</p>",
+      "description": "<p>Purpose: To recover reliability functions performed by BES Cyber Systems by specifying recovery plan requirements in support of the continued stability, operability, and reliability of the BES.</p>",
+      "testingProcedures": [],
+      "controls": [
+        {
+          "ref": "CIP-009-6-R1",
+          "control": "<p>Each Responsible Entity shall have one or more documented recovery plan(s) that collectively include each of the applicable requirement parts in CIP-009-6 Table R1 – Recovery Plan Specifications. [Violation Risk Factor: Medium] [Time Horizon: Long Term Planning].</p>",
+          "description": "<p></p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "CIP-009-6-R1.1",
+              "control": "<p>Conditions for activation of the recovery plan(s).</p>",
+              "description": "<p>Applicable Systems: </p><p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PACS</p></li></ol><p>Medium Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PACS</p></li></ol>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-009-6-R1.2",
+              "control": "<p>Roles and responsibilities of responders.</p>",
+              "description": "<p>Applicable Systems: </p><p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PACS</p></li></ol><p>Medium Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PACS</p></li></ol>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-009-6-R1.3",
+              "control": "<p>One or more processes for the backup and storage of information required to recover BES Cyber System functionality.</p>",
+              "description": "<p>Applicable Systems: </p><p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PACS</p></li></ol><p>Medium Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PACS</p></li></ol>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-009-6-R1.4",
+              "control": "<p>One or more processes to verify the successful completion of the backup processes in Part 1.3 and to address any backup failures.</p>",
+              "description": "<p>Applicable Systems: </p><p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PACS</p></li></ol><p>Medium Impact BES Cyber Systems at Control Centers and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PACS</p></li></ol>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-009-6-R1.5",
+              "control": "<p>One or more processes to preserve data, per Cyber Asset capability, for determining the cause of a Cyber Security Incident that triggers activation of the recovery plan(s). Data preservation should not impede or restrict recovery.</p>",
+              "description": "<p>Applicable Systems: </p><p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PACS</p></li></ol><p>Medium Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PACS</p></li></ol>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "CIP-009-6-R2",
+          "control": "<p>Each Responsible Entity shall implement its documented recovery plan(s) to collectively include each of the applicable requirement parts in CIP-009-6 Table R2 – Recovery Plan Implementation and Testing. [Violation Risk Factor: Lower] [Time Horizon: Operations Planning and Real-time Operations.]</p>",
+          "description": "<p></p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "CIP-009-6-R2.1",
+              "control": "<p>Test each of the recovery plans referenced in Requirement R1 at least once every 15 calendar months:</p><ul class=\"list-disc\"><li><p>By recovering from an actual incident;</p></li><li><p>With a paper drill or tabletop exercise; or</p></li><li><p>With an operational exercise.</p></li></ul>",
+              "description": "<p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PACS</p></li></ol><p>Medium Impact BES Cyber Systems at Control Centers and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PACS</p></li></ol>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-009-6-R2.2",
+              "control": "<p>Test a representative sample of information used to recover BES Cyber System functionality at least once every 15 calendar months to ensure that the information is useable and is compatible with current configurations.</p><p>An actual recovery that incorporates the information used to recover BES Cyber System functionality substitutes for this test.</p>",
+              "description": "<p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PACS</p></li></ol><p>Medium Impact BES Cyber Systems at Control Centers and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PACS</p></li></ol>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-009-6-R2.3",
+              "control": "<p>Test each of the recovery plans referenced in Requirement R1 at least once every 36 calendar months through an operational exercise of the recovery plans in an environment representative of the production environment.</p><p>An actual recovery response may substitute for an operational exercise.</p>",
+              "description": "<p>Applicable Systems: </p><p>High Impact BES Cyber Systems </p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "CIP-009-6-R3",
+          "control": "<p>Each Responsible Entity shall maintain each of its recovery plan(s) in accordance with each of the applicable requirement parts in CIP-009-6 Table R3 – Recovery Plan Review, Update and Communication. [Violation Risk Factor: Lower] [Time Horizon: Operations Assessment].</p>",
+          "description": "<p></p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "CIP-009-6-R3.1",
+              "control": "<p>No later than 90 calendar days after completion of a recovery plan test or actual recovery:</p>",
+              "description": "<p>Applicable Systems: </p><p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PACS</p></li></ol><p>Medium Impact BES Cyber Systems at Control Centers and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PACS</p></li></ol>",
+              "testingProcedures": [],
+              "controls": [
+                {
+                  "ref": "CIP-009-6-R3.1.1",
+                  "control": "<p>Document any lessons learned associated with a recovery plan test or actual recovery or document the absence of any lessons learned;</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                },
+                {
+                  "ref": "CIP-009-6-R3.1.2",
+                  "control": "<p>Update the recovery plan based on any documented lessons learned associated with the plan; and</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                },
+                {
+                  "ref": "CIP-009-6-R3.1.3",
+                  "control": "<p>Notify each person or group with a defined role in the recovery plan of the updates to the recovery plan based on any documented lessons learned.</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                }
+              ]
+            },
+            {
+              "ref": "CIP-009-6-R3.2",
+              "control": "<p>No later than 60 calendar days after a change to the roles or responsibilities, responders, or technology that the Responsible Entity determines would impact the ability to execute the recovery plan:</p>",
+              "description": "<p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PACS</p></li></ol><p>Medium Impact BES Cyber Systems at Control Centers and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PACS</p></li></ol>",
+              "testingProcedures": [],
+              "controls": [
+                {
+                  "ref": "CIP-009-6-R3.2.1",
+                  "control": "<p>Update the recovery plan; and</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                },
+                {
+                  "ref": "CIP-009-6-R3.2.2",
+                  "control": "<p>Notify each person or group with a defined role in the recovery plan of the updates.</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "CIP-010-4",
+      "control": "<p>Cyber Security — Configuration Change Management and Vulnerability Assessments</p>",
+      "description": "<p>Purpose: To prevent and detect unauthorized changes to BES Cyber Systems by specifying configuration change management and vulnerability assessment requirements in support of protecting BES Cyber Systems from compromise that could lead to misoperation or instability in the Bulk Electric System (BES).</p>",
+      "testingProcedures": [],
+      "controls": [
+        {
+          "ref": "CIP-010-4-R1",
+          "control": "<p>Each Responsible Entity shall implement one or more documented process(es) that collectively include each of the applicable requirement parts in CIP-010-4 Table R1 – Configuration Change Management. [Violation Risk Factor: Medium] [Time Horizon: Operations Planning].</p>",
+          "description": "<p></p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "CIP-010-4-R1.1",
+              "control": "<p>Develop a baseline configuration, individually or by group, which shall include the following items:</p>",
+              "description": "<p>Applicable Systems:</p><p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS;</p></li><li><p>PACS; and</p></li><li><p>PCA</p></li></ol><p>Medium Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS;</p></li><li><p>PACS; and</p></li><li><p>PCA</p></li></ol>",
+              "testingProcedures": [],
+              "controls": [
+                {
+                  "ref": "CIP-010-4-R1.1.1",
+                  "control": "<p>Operating system(s) (including version) or firmware where no independent operating system exists;</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                },
+                {
+                  "ref": "CIP-010-4-R1.1.2",
+                  "control": "<p>Any commercially available or open-source application software (including version) intentionally installed;</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                },
+                {
+                  "ref": "CIP-010-4-R1.1.3",
+                  "control": "<p>Any custom software installed;</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                },
+                {
+                  "ref": "CIP-010-4-R1.1.4",
+                  "control": "<p>Any logical network accessible ports; and</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                },
+                {
+                  "ref": "CIP-010-4-R1.1.5",
+                  "control": "<p>Any security patches applied.</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                }
+              ]
+            },
+            {
+              "ref": "CIP-010-4-R1.2",
+              "control": "<p>Authorize and document changes that deviate from the existing baseline configuration.</p>",
+              "description": "<p>Applicable Systems:</p><p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS;</p></li><li><p>PACS; and</p></li><li><p>PCA</p></li></ol><p>Medium Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS;</p></li><li><p>PACS; and</p></li><li><p>PCA</p></li></ol>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-010-4-R1.3",
+              "control": "<p>For a change that deviates from the existing baseline configuration, update the baseline configuration as necessary within 30 calendar days of completing the change.</p>",
+              "description": "<p>Applicable Systems: </p><p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS;</p></li><li><p>PACS; and</p></li><li><p>PCA</p></li></ol><p>Medium Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS;</p></li><li><p>PACS; and</p></li><li><p>PCA</p></li></ol>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-010-4-R1.4",
+              "control": "<p>For a change that deviates from the existing baseline configuration:</p>",
+              "description": "<p>Applicable Systems: </p><p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS;</p></li><li><p>PACS; and</p></li><li><p>PCA</p></li></ol><p>Medium Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS;</p></li><li><p>PACS; and</p></li><li><p>PCA</p></li></ol>",
+              "testingProcedures": [],
+              "controls": [
+                {
+                  "ref": "CIP-010-4-R1.4.1",
+                  "control": "<p>Prior to the change, determine required cyber security controls in CIP-005 and CIP-007 that could be impacted by the change;</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                },
+                {
+                  "ref": "CIP-010-4-R1.4.2",
+                  "control": "<p>Following the change, verify that required cyber security controls determined in 1.4.1 are not adversely affected; and</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                },
+                {
+                  "ref": "CIP-010-4-R1.4.3",
+                  "control": "<p>Document the results of the verification.</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                }
+              ]
+            },
+            {
+              "ref": "CIP-010-4-R1.5",
+              "control": "<p>Where technically feasible, for each change that deviates from the existing baseline configuration:</p>",
+              "description": "<p>Applicable Systems: </p><p>High Impact BES Cyber Systems</p>",
+              "testingProcedures": [],
+              "controls": [
+                {
+                  "ref": "CIP-010-4-R1.5.1",
+                  "control": "<p>Prior to implementing any change in the production environment, test the changes in a test environment or test the changes in a production environment where the test is performed in a manner that minimizes adverse effects, that models the baseline configuration to ensure that required cyber security controls in CIP-005 and CIP-007 are not adversely affected; and</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                },
+                {
+                  "ref": "CIP-010-4-R1.5.2",
+                  "control": "<p>Document the results of the testing and, if a test environment was used, the differences between the test environment and the production environment, including a description of the measures used to account for any differences in operation between the test and production environments.</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                }
+              ]
+            },
+            {
+              "ref": "CIP-010-4-R1.6",
+              "control": "<p>Prior to a change that deviates from the existing baseline configuration associated with baseline items in Parts 1.1.1, 1.1.2, and 1.1.5, and when the method to do so is available to the Responsible Entity from the software source:</p>",
+              "description": "<p>Applicable Systems: </p><p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PACS</p></li></ol><p>Medium Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PACS</p></li></ol><p>Note: Implementation does not require the Responsible Entity to renegotiate or abrogate existing contracts (including amendments to master agreements and purchase orders). Additionally, the following issues are beyond the scope of Part 1.6: (1) the actual terms and conditions of a procurement contract; and (2) vendor performance and adherence to a contract.</p>",
+              "testingProcedures": [],
+              "controls": [
+                {
+                  "ref": "CIP-010-4-R1.6.1",
+                  "control": "<p>Verify the identity of the software source; and</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                },
+                {
+                  "ref": "CIP-010-4-R1.6.2",
+                  "control": "<p>Verify the integrity of the software obtained from the software source.</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ref": "CIP-010-4-R2",
+          "control": "<p>Each Responsible Entity shall implement one or more documented process(es) that collectively include each of the applicable requirement parts in CIP-010-4 Table R2 – Configuration Monitoring. [Violation Risk Factor: Medium] [Time Horizon: Operations Planning].</p>",
+          "description": "<p></p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "CIP-010-4-R2.1",
+              "control": "<p>Monitor at least once every 35 calendar days for changes to the baseline configuration (as described in Requirement R1, Part 1.1). Document and investigate detected unauthorized changes.</p>",
+              "description": "<p>Applicable Systems: </p><p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PCA</p></li></ol>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "CIP-010-4-R3",
+          "control": "<p>Each Responsible Entity shall implement one or more documented process(es) that collectively include each of the applicable requirement parts in CIP-010-3 Table R3– Vulnerability Assessments. [Violation Risk Factor: Medium] [Time Horizon: Long-term Planning and Operations Planning]</p>",
+          "description": "<p></p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "CIP-010-4-R3.1",
+              "control": "<p>At least once every 15 calendar months, conduct a paper or active vulnerability assessment.</p>",
+              "description": "<p>Applicable Systems: </p><p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS;</p></li><li><p>PACS; and</p></li><li><p>PCA</p></li></ol><p>Medium Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS;</p></li><li><p>PACS; and</p></li><li><p>PCA</p></li></ol>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-010-4-R3.2",
+              "control": "<p>Where technically feasible, at least once every 36 calendar months:</p>",
+              "description": "<p>Applicable Systems: </p><p>High Impact BES Cyber Systems</p>",
+              "testingProcedures": [],
+              "controls": [
+                {
+                  "ref": "CIP-010-4-R3.2.1",
+                  "control": "<p>Perform an active vulnerability assessment in a test environment, or perform an active vulnerability assessment in a production environment where the test is performed in a manner that minimizes adverse effects, that models the baseline configuration of the BES Cyber System in a production environment; and</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                },
+                {
+                  "ref": "CIP-010-4-R3.2.2",
+                  "control": "<p>Document the results of the testing and, if a test environment was used, the differences between the test environment and the production environment, including a description of the measures used to account for any differences in operation between the test and production environments.</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                }
+              ]
+            },
+            {
+              "ref": "CIP-010-4-R3.3",
+              "control": "<p>Prior to adding a new applicable Cyber Asset to a production environment, perform an active vulnerability assessment of the new Cyber Asset, except for CIP Exceptional Circumstances and like replacements of the same type of Cyber Asset with a baseline configuration that models an existing baseline configuration of the previous or other existing Cyber Asset.</p>",
+              "description": "<p>Applicable Systems: </p><p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PCA</p></li></ol>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-010-4-R3.4",
+              "control": "<p>Document the results of the assessments conducted according to Parts 3.1, 3.2, and 3.3 and the action plan to remediate or mitigate vulnerabilities identified in the assessments including the planned date of completing the action plan and the execution status of any remediation or mitigation action items.</p>",
+              "description": "<p>Applicable Systems:</p><p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS;</p></li><li><p>PACS; and</p></li><li><p>PCA</p></li></ol><p>Medium Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS;</p></li><li><p>PACS; and</p></li><li><p>PCA</p></li></ol>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "CIP-010-4-R4",
+          "control": "<p>Each Responsible Entity, for its high impact and medium impact BES Cyber Systems and associated Protected Cyber Assets, shall implement, except under CIP Exceptional Circumstances, one or more documented plan(s) for Transient Cyber Assets and Removable Media that include the sections in Attachment 1. [Violation Risk Factor: Medium] [Time Horizon: Long-term Planning and Operations Planning]</p>",
+          "description": "<p></p>",
+          "testingProcedures": [],
+          "controls": []
+        }
+      ]
+    },
+    {
+      "ref": "CIP-011-3",
+      "control": "<p>Cyber Security — Information Protection</p>",
+      "description": "<p>Purpose: To prevent unauthorized access to BES Cyber System Information (BCSI) by specifying information protection requirements in support of protecting BES Cyber Systems against compromise that could lead to misoperation or instability in the Bulk Electric System (BES).</p>",
+      "testingProcedures": [],
+      "controls": [
+        {
+          "ref": "CIP-011-3-R1",
+          "control": "<p>Each Responsible Entity shall implement one or more documented information protection program(s) for BES Cyber System Information (BCSI) pertaining to “Applicable Systems” identified in CIP-011-3 Table R1 – Information Protection Program that collectively includes each of the applicable requirement parts in CIP-011-3 Table R1 – Information Protection Program. [Violation Risk Factor: Medium] [Time Horizon: Operations Planning].</p>",
+          "description": "<p></p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "CIP-011-3-R1.1",
+              "control": "<p>Method(s) to identify BCSI.</p>",
+              "description": "<p>Applicable Systems: </p><p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PACS</p></li></ol><p>Medium Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PACS</p></li></ol>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-011-3-R1.2",
+              "control": "<p>Method(s) to protect and securely handle BCSI to mitigate risks of compromising confidentiality.</p>",
+              "description": "<p>Applicable Systems: </p><p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PACS</p></li></ol><p>Medium Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS; and</p></li><li><p>PACS</p></li></ol>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "CIP-011-3-R2",
+          "control": "<p>Each Responsible Entity shall implement one or more documented process(es) that collectively include the applicable requirement parts in CIP-011-3 Table R2 – BES Cyber Asset Reuse and Disposal. [Violation Risk Factor: Lower] [Time Horizon: Operations Planning].</p>",
+          "description": "<p></p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "CIP-011-3-R2.1",
+              "control": "<p>Prior to the release for reuse of applicable Cyber Assets that contain BCSI (except for reuse within other systems identified in the “Applicable Systems” column), the Responsible Entity shall take action to prevent the unauthorized retrieval of BCSI from the Cyber Asset data storage media.</p>",
+              "description": "<p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS;</p></li><li><p>PACS; and</p></li><li><p>PCA</p></li></ol><p>Medium Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS;</p></li><li><p>PACS; and</p></li><li><p>PCA</p></li></ol>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-011-3-R2.2",
+              "control": "<p>Prior to the disposal of applicable Cyber Assets that contain BCSI, the Responsible Entity shall take action to prevent the unauthorized retrieval of BCSI from the Cyber Asset or destroy the data storage media.</p>",
+              "description": "<p>High Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS;</p></li><li><p>PACS; and</p></li><li><p>PCA</p></li></ol><p>Medium Impact BES Cyber Systems and their associated:</p><ol><li><p>EACMS;</p></li><li><p>PACS; and</p></li><li><p>PCA</p></li></ol>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "CIP-012-1",
+      "control": "<p>Cyber Security – Communications between Control Centers</p>",
+      "description": "<p>Purpose: To protect the confidentiality and integrity of Real-time Assessment and Real-time monitoring data transmitted between Control Centers.</p>",
+      "testingProcedures": [],
+      "controls": [
+        {
+          "ref": "CIP-012-1-R1",
+          "control": "<p>The Responsible Entity shall implement, except under CIP Exceptional Circumstances, one or more documented plan(s) to mitigate the risks posed by unauthorized disclosure and unauthorized modification of Real-time Assessment and Real-time monitoring data while being transmitted between any applicable Control Centers. The Responsible Entity is not required to include oral communications in its plan. The plan shall include: [Violation Risk Factor: Medium] [Time Horizon: Operations Planning]</p>",
+          "description": "<p></p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "CIP-012-1-R1.1",
+              "control": "<p>Identification of security protection used to mitigate the risks posed by unauthorized disclosure and unauthorized modification of Real-time Assessment and Real-time monitoring data while being transmitted between Control Centers;</p>",
+              "description": "<p></p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-012-1-R1.2",
+              "control": "<p>Identification of where the Responsible Entity applied security protection for transmitting Real-time Assessment and Real-time monitoring data between Control Centers; and</p>",
+              "description": "<p></p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-012-1-R1.3",
+              "control": "<p>If the Control Centers are owned or operated by different Responsible Entities, identification of the responsibilities of each Responsible Entity for applying security protection to the transmission of Real-time Assessment and Real-time monitoring data between those Control Centers.</p>",
+              "description": "<p></p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "CIP-013-2",
+      "control": "<p>Cyber Security - Supply Chain Risk Management</p>",
+      "description": "<p>Purpose: To mitigate cyber security risks to the reliable operation of the Bulk Electric System (BES) by implementing security controls for supply chain risk management of BES Cyber Systems.</p>",
+      "testingProcedures": [],
+      "controls": [
+        {
+          "ref": "CIP-013-2-R1",
+          "control": "<p>Each Responsible Entity shall develop one or more documented supply chain cyber security risk management plan(s) for high and medium impact BES Cyber Systems and their associated Electronic Access Control or Monitoring Systems (EACMS) and Physical Access Control Systems (PACS). The plan(s) shall include: [Violation Risk Factor: Medium] [Time Horizon: Operations Planning]</p>",
+          "description": "<p></p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "CIP-013-2-R1.1",
+              "control": "<p>One or more process(es) used in planning for the procurement of BES Cyber Systems and their associated EACMS and PACS to identify and assess cyber security risk(s) to the Bulk Electric System from vendor products or services resulting from: (i) procuring and installing vendor equipment and software; and (ii) transitions from one vendor(s) to another vendor(s).</p>",
+              "description": "<p></p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-013-2-R1.2",
+              "control": "<p>One or more process(es) used in procuring BES Cyber Systems, and their associated EACMS and PACS, that address the following, as applicable:</p>",
+              "description": "<p></p>",
+              "testingProcedures": [],
+              "controls": [
+                {
+                  "ref": "CIP-013-2-R1.2.1",
+                  "control": "<p>Notification by the vendor of vendor-identified incidents related to the products or services provided to the Responsible Entity that pose cyber security risk to the Responsible Entity;</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                },
+                {
+                  "ref": "CIP-013-2-R1.2.2",
+                  "control": "<p>Coordination of responses to vendor-identified incidents related to the products or services provided to the Responsible Entity that pose cyber security risk to the Responsible Entity;</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                },
+                {
+                  "ref": "CIP-013-2-R1.2.3",
+                  "control": "<p>Notification by vendors when remote or onsite access should no longer be granted to vendor representatives;</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                },
+                {
+                  "ref": "CIP-013-2-R1.2.4",
+                  "control": "<p>Disclosure by vendors of known vulnerabilities related to the products or services provided to the Responsible Entity;</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                },
+                {
+                  "ref": "CIP-013-2-R1.2.5",
+                  "control": "<p>Verification of software integrity and authenticity of all software and patches provided by the vendor for use in the BES Cyber System and their associated EACMS and PACS; and</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                },
+                {
+                  "ref": "CIP-013-2-R1.2.6",
+                  "control": "<p>Coordination of controls for vendor-initiated remote access.</p>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ref": "CIP-013-2-R2",
+          "control": "<p>Each Responsible Entity shall implement its supply chain cyber security risk management plan(s) specified in Requirement R1. [Violation Risk Factor: Medium] [Time Horizon: Operations Planning]</p>",
+          "description": "<p>Note: Implementation of the plan does not require the Responsible Entity to renegotiate or abrogate existing contracts (including amendments to master agreements and purchase orders). Additionally, the following issues are beyond the scope of Requirement R2: (1) the actual terms and conditions of a procurement contract; and (2) vendor performance and adherence to a contract.</p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "CIP-013-2-R3",
+          "control": "<p>Each Responsible Entity shall review and obtain CIP Senior Manager or delegate approval of its supply chain cyber security risk management plan(s) specified in Requirement R1 at least once every 15 calendar months. [Violation Risk Factor: Medium] [Time Horizon: Operations Planning]</p>",
+          "description": "<p></p>",
+          "testingProcedures": [],
+          "controls": []
+        }
+      ]
+    },
+    {
+      "ref": "CIP-014-3",
+      "control": "<p>Physical Security</p>",
+      "description": "<p>Purpose: To identify and protect Transmission stations and Transmission substations, and their associated primary control centers, that if rendered inoperable or damaged as a result of a physical attack could result in instability, uncontrolled separation, or Cascading within an Interconnection.</p>",
+      "testingProcedures": [],
+      "controls": [
+        {
+          "ref": "CIP-014-3-R1",
+          "control": "<p>Each Transmission Owner shall perform an initial risk assessment and subsequent risk assessments of its Transmission stations and Transmission substations (existing and planned to be in service within 24 months) that meet the criteria specified in Applicability Section 4.1.1. The initial and subsequent risk assessments shall consist of a transmission analysis or transmission analyses designed to identify the Transmission station(s) and Transmission substation(s) that if rendered inoperable or damaged could result in instability, uncontrolled separation, or Cascading within an Interconnection. [VRF: High; Time-Horizon: Long-term Planning]</p>",
+          "description": "<p></p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "CIP-014-3-R1.1",
+              "control": "<p>Subsequent risk assessments shall be performed:</p><ul class=\"list-disc\"><li><p>At least once every 30 calendar months for a Transmission Owner that has identified in its previous risk assessment (as verified according to Requirement R2) one or more Transmission stations or Transmission substations that if rendered inoperable or damaged could result in instability, uncontrolled separation, or Cascading within an Interconnection; or</p></li><li><p>At least once every 60 calendar months for a Transmission Owner that has not identified in its previous risk assessment (as verified according to Requirement R2) any Transmission stations or Transmission substations that if rendered inoperable or damaged could result in instability, uncontrolled separation, or Cascading within an Interconnection.</p></li></ul>",
+              "description": "<p></p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-014-3-R1.2",
+              "control": "<p>The Transmission Owner shall identify the primary control center that operationally controls each Transmission station or Transmission substation identified in the Requirement R1 risk assessment.</p>",
+              "description": "<p></p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "CIP-014-3-R2",
+          "control": "<p>Each Transmission Owner shall have an unaffiliated third party verify the risk assessment performed under Requirement R1. The verification may occur concurrent with or after the risk assessment performed under Requirement R1. [VRF: Medium; Time-Horizon: Long-term Planning]</p>",
+          "description": "<p></p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "CIP-014-3-R2.1",
+              "control": "<p>Each Transmission Owner shall select an unaffiliated verifying entity that iseither:</p><ul class=\"list-disc\"><li><p>A registered Planning Coordinator, Transmission Planner, or Reliability Coordinator; or</p></li><li><p>An entity that has transmission planning or analysis experience.</p></li></ul>",
+              "description": "<p></p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-014-3-R2.2",
+              "control": "<p>The unaffiliated third party verification shall verify the Transmission Owner’s risk assessment performed under Requirement R1, which may include recommendations for the addition or deletion of a Transmission station(s) or Transmission substation(s). The Transmission Owner shall ensure the verification is completed within 90 calendar days following the completion of the Requirement R1 risk assessment.</p>",
+              "description": "<p></p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-014-3-R2.3",
+              "control": "<p>If the unaffiliated verifying entity recommends that the Transmission Owner add a Transmission station(s) or Transmission substation(s) to, or remove a Transmission station(s) or Transmission substation(s) from, its identification under Requirement R1, the Transmission Owner shall either, within 60 calendar days of completion of the verification, for each recommended addition or removal of a Transmission station or Transmission substation:</p><ul class=\"list-disc\"><li><p>Modify its identification under Requirement R1 consistent with the recommendation; or</p></li><li><p>Document the technical basis for not modifying the identification in accordance with the recommendation.</p></li></ul>",
+              "description": "<p></p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-014-3-R2.4",
+              "control": "<p>Each Transmission Owner shall implement procedures, such as the use of non-disclosure agreements, for protecting sensitive or confidential information made available to the unaffiliated third-party verifier and to protect or exempt sensitive or confidential information developed pursuant to this Reliability Standard from public disclosure.</p>",
+              "description": "<p></p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "CIP-014-3-R3",
+          "control": "<p>For a primary control center(s) identified by the Transmission Owner according to Requirement R1, Part 1.2 that a) operationally controls an identified Transmission station or Transmission substation verified according to Requirement R2, and b) is not under the operational control of the Transmission Owner: the Transmission Owner shall, within seven calendar days following completion of Requirement R2, notify the Transmission Operator that has operational control of the primary control center of such identification and the date of completion of Requirement R2. [VRF: Lower; Time-Horizon: Long-term Planning]</p>",
+          "description": "<p></p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "CIP-014-3-R3.1",
+              "control": "<p>If a Transmission station or Transmission substation previously identified under Requirement R1 and verified according to Requirement R2 is removed from the identification during a subsequent risk assessment performed according to Requirement R1 or a verification according to Requirement R2, then the Transmission Owner shall, within seven calendar days following the verification or the subsequent risk assessment, notify the Transmission Operator that has operational control of the primary control center of the removal.</p>",
+              "description": "<p></p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "CIP-014-3-R4",
+          "control": "<p>Each Transmission Owner that identified a Transmission station, Transmission substation, or a primary control center in Requirement R1 and verified according to Requirement R2, and each Transmission Operator notified by a Transmission Owner according to Requirement R3, shall conduct an evaluation of the potential threats and vulnerabilities of a physical attack to each of their respective Transmission station(s), Transmission substation(s), and primary control center(s) identified in Requirement R1 and verified according to Requirement R2. The evaluation shall consider the following: [VRF: Medium; Time-Horizon: Operations Planning, Long-term Planning]</p>",
+          "description": "<p></p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "CIP-014-3-R4.1",
+              "control": "<p>Unique characteristics of the identified and verified Transmission station(s), Transmission substation(s), and primary control center(s);</p>",
+              "description": "<p></p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-014-3-R4.2",
+              "control": "<p>Prior history of attack on similar facilities taking into account the frequency, geographic proximity, and severity of past physical security related events; and</p>",
+              "description": "<p></p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-014-3-R4.3",
+              "control": "<p>Intelligence or threat warnings received from sources such as law enforcement, the Electric Reliability Organization (ERO), the Electricity Sector Information Sharing and Analysis Center (ES-ISAC), U.S. federal and/or Canadian governmental agencies, or their successors.</p>",
+              "description": "<p></p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "CIP-014-3-R5",
+          "control": "<p>Each Transmission Owner that identified a Transmission station, Transmission substation, or primary control center in Requirement R1 and verified according to Requirement R2, and each Transmission Operator notified by a Transmission Owner according to Requirement R3, shall develop and implement a documented physical security plan(s) that covers their respective Transmission station(s), Transmission substation(s), and primary control center(s). The physical security plan(s) shall be developed within 120 calendar days following the completion of Requirement R2 and executed according to the timeline specified in the physical security plan(s). The physical security plan(s) shall include the following attributes: [VRF: High; Time-Horizon: Long-term Planning]</p>",
+          "description": "<p></p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "CIP-014-3-R5.1",
+              "control": "<p>Resiliency or security measures designed collectively to deter, detect, delay, assess, communicate, and respond to potential physical threats and vulnerabilities identified during the evaluation conducted in Requirement R4.</p>",
+              "description": "<p></p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-014-3-R5.2",
+              "control": "<p>Law enforcement contact and coordination information.</p>",
+              "description": "<p></p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-014-3-R5.3",
+              "control": "<p>A timeline for executing the physical security enhancements and modifications specified in the physical security plan.</p>",
+              "description": "<p></p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-014-3-R5.4",
+              "control": "<p>Provisions to evaluate evolving physical threats, and their corresponding security measures, to the Transmission station(s), Transmission substation(s), or primary control center(s).</p>",
+              "description": "<p></p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "CIP-014-3-R6",
+          "control": "<p>Each Transmission Owner that identified a Transmission station, Transmission substation, or primary control center in Requirement R1 and verified according to Requirement R2, and each Transmission Operator notified by a Transmission Owner according to Requirement R3, shall have an unaffiliated third party review the evaluation performed under Requirement R4 and the security plan(s) developed under Requirement R5. The review may occur concurrently with or after completion of the evaluation performed under Requirement R4 and the security plan development under Requirement R5. [VRF: Medium; Time-Horizon: Long-term Planning]</p>",
+          "description": "<p></p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "CIP-014-3-R6.1",
+              "control": "<p>Each Transmission Owner and Transmission Operator shall select an unaffiliated third party reviewer from the following:</p><ul class=\"list-disc\"><li><p>An entity or organization with electric industry physical security experience and whose review staff has at least one member who holds either a Certified Protection Professional (CPP) or Physical Security Professional (PSP) certification.</p></li><li><p>An entity or organization approved by the ERO.</p></li><li><p>A governmental agency with physical security expertise.</p></li><li><p>An entity or organization with demonstrated law enforcement, government, or military physical security expertise.</p></li></ul>",
+              "description": "<p></p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-014-3-R6.2",
+              "control": "<p>The Transmission Owner or Transmission Operator, respectively, shall ensure that the unaffiliated third party review is completed within 90 calendar days of completing the security plan(s) developed in Requirement R5. The unaffiliated third party review may, but is not required to, include recommended changes to the evaluation performed under Requirement R4 or the security plan(s) developed under Requirement R5.</p>",
+              "description": "<p></p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-014-3-R6.3",
+              "control": "<p>If the unaffiliated third party reviewer recommends changes to the evaluation performed under Requirement R4 or security plan(s) developed under Requirement R5, the Transmission Owner or Transmission Operator shall, within 60 calendar days of the completion of the unaffiliated third party review, for each recommendation:</p><ul class=\"list-disc\"><li><p>Modify its evaluation or security plan(s) consistent with the recommendation; or</p></li><li><p>Document the reason(s) for not modifying the evaluation or security plan(s) consistent with the recommendation.</p></li></ul>",
+              "description": "<p></p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "CIP-014-3-R6.4",
+              "control": "<p>Each Transmission Owner and Transmission Operator shall implement procedures, such as the use of non-disclosure agreements, for protecting sensitive or confidential information made available to the unaffiliated third party reviewer and to protect or exempt sensitive or confidential information developed pursuant to this Reliability Standard from public disclosure.</p>",
+              "description": "<p></p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

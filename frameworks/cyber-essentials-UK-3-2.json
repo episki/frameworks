@@ -1,0 +1,414 @@
+{
+  "name": "Cyber Essentials UK v3.2",
+  "short_name": "Cyber Essentials UK v3.2",
+  "last_updated": "2025-10-20",
+  "description": "<p>Cyber Essentials is a UK government-backed scheme that helps organizations protect themselves against common cyber threats. The Cyber Essentials framework provides a set of basic security controls that organizations can implement to safeguard their systems and data from cyber attacks.</p>",
+  "category": "regulation",
+  "keywords": [
+    "cyber essentials",
+    "UK government"
+  ],
+  "controls": [
+    {
+      "ref": "1. Firewalls",
+      "control": "<p></p>",
+      "description": "<p><strong>Applies to:</strong> boundary firewalls, desktop computers, laptops, routers, servers, IaaS, PaaS, SaaS.</p><p><strong>Aim:</strong> To make sure that only secure and necessary network services can be accessed from the internet.</p><p><strong>Introduction:  </strong>All devices run network services to allow them to communicate with other devices and services. By restricting access to these services, you reduce your exposure to attacks. You can do this using firewalls or network devices with firewall functionality. For cloud services, you can achieve this using data flow policies.</p><p>A boundary firewall is a network device which can restrict the inbound and outbound network traffic to services on its network of computers and mobile devices. It can help protect against cyber attacks by implementing restrictions, known as ‘firewall rules,’ which can allow or block traffic depending on its source, destination and type of communication protocol.</p><p>Alternatively, if your organisation doesn't control the network to which a device connects, you must configure a software firewall on the device. This works in the same way as a boundary firewall but only protects the single device on which it’s configured. This approach allows for more tailored rules and means that the rules apply to the device wherever it's used. But you should note that this creates a greater administrative overhead when managing firewall rules.</p>",
+      "testingProcedures": [],
+      "controls": [
+        {
+          "ref": "Requirement",
+          "control": "<p>You must protect every device in scope with a correctly configured firewall (or network device with firewall functionality).</p>",
+          "description": "<p><strong>Information: </strong>Most desktop and laptop operating systems now come with a software firewall pre-installed, we advise that these are turned on in preference to a third-party firewall application.</p><p>For all firewalls (or network devices with firewall functionality), your organisation must:</p><ul class=\"list-disc\"><li><p>change default administrative passwords to a strong and unique password (see password-based authentication) – or disable remote administrative access entirely</p></li><li><p>prevent access to the administrative interface (used to manage firewall configuration) from the internet, unless there is a clear and documented business need, and the interface is protected by one of the following controls:</p><ul class=\"list-disc\"><li><p>multi-factor authentication (see MFA details below)</p></li><li><p>an IP allow list that limits access to a small range of trusted addresses combined with a properly managed password authentication approach</p></li></ul></li><li><p>block unauthenticated inbound connections by default</p></li><li><p>ensure inbound firewall rules are approved and documented by an authorised person, and include the business need in the documentation</p></li><li><p>remove or disable unnecessary firewall rules, when they are no longer needed</p></li></ul><p>Make sure you use a software firewall on devices which are used on untrusted networks, such as public wifi hotspots.</p>",
+          "testingProcedures": [],
+          "controls": []
+        }
+      ]
+    },
+    {
+      "ref": "2. Secure Configuration",
+      "control": "<p></p>",
+      "description": "<p><strong>Applies to: </strong>servers, desktop computers, laptops, tablets, mobile phones, thin clients, IaaS, PaaS, SaaS.</p><p><strong>Aim: </strong>Ensure that computers and network devices are properly configured to:</p><ul class=\"list-disc\"><li><p>reduce vulnerabilities</p></li><li><p>provide only the services required to fulfil their role</p></li></ul><p><strong>Introduction: </strong>The default configurations of computers and network devices aren’t always secure. Standard out-of-the-box configurations often include one or more weak points such as:</p><ul class=\"list-disc\"><li><p>an administrative account with a pre-set, publicly known default password or without multi-factor authentication enabled</p></li><li><p>pre-enabled but unnecessary user accounts (sometimes with special access privileges)</p></li><li><p>pre-installed but unnecessary applications or services</p></li></ul><p>These default installations can allow attackers to gain unauthorised access to your organisation’s sensitive information.</p><p>But by applying some simple technical controls when installing computers and network devices, you can minimise vulnerabilities and protect against common types of attack.</p>",
+      "testingProcedures": [],
+      "controls": [
+        {
+          "ref": "Computer and Networking Devices",
+          "control": "<p>Your organisation must proactively manage your computers and network devices. You must regularly:</p>",
+          "description": "<p></p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": " ",
+              "control": "<ul class=\"list-disc\"><li><p>remove or disable unnecessary software (including applications, system utilities and network services)</p></li></ul>",
+              "description": "<p></p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": " ",
+              "control": "<ul class=\"list-disc\"><li><p>change any default or guessable account passwords (see password-based authentication)</p></li></ul>",
+              "description": "<p></p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": " ",
+              "control": "<ul class=\"list-disc\"><li><p>ensure appropriate device locking controls (see ‘device unlocking’, below) for users that are physically present</p></li></ul>",
+              "description": "<p></p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": " ",
+              "control": "<ul class=\"list-disc\"><li><p>remove and disable unnecessary user accounts (such as guest accounts and administrative accounts that won’t be used)</p></li></ul>",
+              "description": "<p></p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": " ",
+              "control": "<ul class=\"list-disc\"><li><p>ensure users are authenticated before allowing them access to organisational data or services</p></li></ul>",
+              "description": "<p></p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": " ",
+              "control": "<ul class=\"list-disc\"><li><p>disable any auto-run feature which allows file execution without user authorisation (such as when they are downloaded)</p></li></ul>",
+              "description": "<p></p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "Device Unlocking Credentials",
+          "control": "<p></p>",
+          "description": "<p></p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "",
+              "control": "<p>If a device requires a user’s physical presence to access a device’s services (such as logging on to a laptop or unlocking a mobile phone), a credential such as a biometric, password or PIN must be in place before a user can gain access to the services.</p>",
+              "description": "<p></p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "",
+              "control": "<p>You must protect your chosen authentication method (which can be biometric authentication, password or PIN) against brute-force attacks.</p><p>When it's possible to configure, you should apply one of the following:</p><ul class=\"list-disc\"><li><p>‘throttling' the rate of attempts, so that the length of time the user must wait between attempts increases with each unsuccessful attempt. You shouldn’t allow more than 10 guesses in 5 minutes</p></li><li><p>locking devices after more than 10 unsuccessful attempts.</p></li></ul>",
+              "description": "<p></p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "",
+              "control": "<p>When the vendor doesn't allow you to configure the above, use the vendor’s default setting.</p>",
+              "description": "<p></p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "",
+              "control": "<p>Technical controls must be used to manage the quality of credentials. If credentials are just to unlock a device, use a minimum password or PIN length of at least 6 characters. When the device unlocking credentials are also used for authentication, you must apply the full password requirements to the credentials described in ‘user access controls.’</p>",
+              "description": "<p></p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "3. Security update management",
+      "control": "<p></p>",
+      "description": "<p><strong>Applies to: </strong>servers, desktop computers, laptops, tablets, mobile phones, firewalls, routers, IaaS, PaaS, SaaS.</p><p><strong>Aim: </strong>Ensure that devices and software are not vulnerable to known security issues for which fixes are available.</p><p><strong>Introduction: </strong>Any device that runs software can contain security flaws, known as vulnerabilities.</p><p>Vulnerabilities are regularly discovered in all sorts of software. Once discovered, malicious individuals or groups move quickly to misuse (or ‘exploit’) vulnerabilities to attack computers and networks.</p><p>Product vendors provide fixes for vulnerabilities identified in products that they still support, in the form of patches, security updates, registry fixes, scripts, configuration changes or any other mechanism prescribed by the vendor to fix a known vulnerability. These may be made available to customers immediately or on a regular release schedule (perhaps monthly).</p>",
+      "testingProcedures": [],
+      "controls": [
+        {
+          "ref": "Requirements",
+          "control": "<p>You must make sure that all software in scope is kept up to date. All software on in-scope devices must:</p>",
+          "description": "<p><strong>Please note:</strong> For optimum security we strongly recommend (but it’s not mandatory) that all released updates are applied within 14 days of release.</p><p>*It's important that updates are applied as soon as possible. 14 days is considered a reasonable period to be able to implement this requirement. Any longer would constitute a serious security risk while a shorter period may not be practical.</p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "",
+              "control": "<ul class=\"list-disc\"><li><p>be licensed and supported</p></li></ul>",
+              "description": "<p></p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "",
+              "control": "<ul class=\"list-disc\"><li><p>removed from devices when it becomes unsupported or removed from scope by using a defined sub-set that prevents all traffic to / from the internet</p></li></ul>",
+              "description": "<p></p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "",
+              "control": "<ul class=\"list-disc\"><li><p>have automatic updates enabled where possible</p></li></ul>",
+              "description": "<p></p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "",
+              "control": "<ul class=\"list-disc\"><li><p>be updated, including vulnerability fixes, within 14 days* of release, where:</p></li></ul>",
+              "description": "<p></p>",
+              "testingProcedures": [],
+              "controls": [
+                {
+                  "ref": "",
+                  "control": "<ul class=\"list-disc\"><li><p>the update fixes vulnerabilities described by the vendor as ‘critical’ or ‘high risk’</p></li></ul>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                },
+                {
+                  "ref": "",
+                  "control": "<ul class=\"list-disc\"><li><p>the update addresses vulnerabilities with a CVSS v3 base score of 7 or above</p></li></ul>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                },
+                {
+                  "ref": "",
+                  "control": "<ul class=\"list-disc\"><li><p>there are no details of the level of vulnerabilities the update fixes provided by the vendor</p></li></ul>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "4. User Access Control",
+      "control": "<p></p>",
+      "description": "<p><strong>Applies to: </strong>servers, desktop computers, laptops, tablets, mobile phones, IaaS, PaaS, SaaS.</p><p><strong>Aim: </strong>Ensure that user accounts:</p><ul class=\"list-disc\"><li><p>are assigned to authorised individuals only</p></li><li><p>provide access to only those applications, computers and networks the user needs to carry out their role</p></li></ul><p><strong>Introduction: </strong>Every active user account in your organisation facilitates access to devices and applications, and to sensitive business information. By making sure that only authorised individuals have user accounts, and that they're only granted as much access as they need to carry out their role, you reduce the risk of information being stolen or damaged.</p><p>Compared to normal user accounts, accounts with special access privileges have enhanced access to devices, applications and information.</p><p>If these accounts are compromised, an attacker could take advantage of their greater accesses to corrupt information on a large scale, disrupt business processes or gain unauthorised access to other devices in the organisation.</p><p>Administrative accounts are especially highly privileged, for example. These accounts typically allow the user to:</p><ul class=\"list-disc\"><li><p>execute software that can make significant and security-related changes to the operating system</p></li><li><p>make changes to the operating system for some or all users</p></li><li><p>create new accounts and allocate privileges</p></li></ul><p>All types of administrators will have this kind of account, including domain administrators and local administrators.</p><p>This is important because if a user opens a malicious URL or email attachment, the malware would typically be executed with the same privilege level of the user’s account. This is why it’s important to take special care allocating and using privileged accounts.</p><p><strong>Example: </strong>Jody is logged in with an administrative account. If Jody opens a malicious URL or email attachment, any associated malware is likely to acquire administrative privileges. Unfortunately, this is exactly what happens. Using Jody’s administrative privileges, a type of malware known as ransomware encrypts all of the data on the network and then demands a ransom. The ransomware was able to encrypt far more data than would have been possible with standard user privileges, making the problem that much more serious.</p>",
+      "testingProcedures": [],
+      "controls": [
+        {
+          "ref": "Requirements",
+          "control": "<p>Your organisation must be in control of your user accounts and the access privileges that allow access to your organisational data and services. It’s important to note that this also includes third party accounts – for example accounts used by your support services. You also need to understand how user accounts authenticate and manage the authentication accordingly.</p>",
+          "description": "<p>This means your organisation must:</p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "",
+              "control": "<ul class=\"list-disc\"><li><p>have in place a process to create and approve user accounts</p></li></ul>",
+              "description": "<p></p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "",
+              "control": "<ul class=\"list-disc\"><li><p>authenticate users with unique credentials before granting access to applications or devices (see password-based authentication)</p></li></ul>",
+              "description": "<p></p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "",
+              "control": "<ul class=\"list-disc\"><li><p>remove or disable user accounts when they’re no longer required (for example, when a user leaves the organisation or after a defined period of account inactivity)</p></li></ul>",
+              "description": "<p></p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "",
+              "control": "<ul class=\"list-disc\"><li><p>implement MFA, where available – authentication to cloud services must always use MFA</p></li></ul>",
+              "description": "<p></p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "",
+              "control": "<ul class=\"list-disc\"><li><p>use separate accounts to perform administrative activities only (no emailing, web browsing or other standard user activities that may expose administrative privileges to avoidable risks)</p></li></ul>",
+              "description": "<p></p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "",
+              "control": "<ul class=\"list-disc\"><li><p>remove or disable special access privileges when no longer required (when a member of staff changes role, for example)</p></li></ul>",
+              "description": "<p></p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "Password-based authentication",
+          "control": "<p></p>",
+          "description": "<p></p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "",
+              "control": "<p>All user accounts require the user to authenticate.</p><p>Where this is carried out using a password, you should put in place the following protective measures:</p>",
+              "description": "<p>You should also make sure there is an established process in place to change passwords promptly if you know or suspect a password or account has been compromised.</p>",
+              "testingProcedures": [],
+              "controls": [
+                {
+                  "ref": "",
+                  "control": "<ul class=\"list-disc\"><li><p>Passwords are protected against brute-force password guessing by implementing at least one of:</p></li></ul>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": [
+                    {
+                      "ref": "",
+                      "control": "<ul class=\"list-disc\"><li><p>multi-factor authentication (see below)</p></li></ul>",
+                      "description": "<p></p>",
+                      "testingProcedures": [],
+                      "controls": []
+                    },
+                    {
+                      "ref": "",
+                      "control": "<ul class=\"list-disc\"><li><p>‘throttling' the rate of attempts, so that the length of time the user must wait between attempts increases with each unsuccessful attempt – you shouldn’t allow more than 10 guesses in 5 minutes</p></li></ul>",
+                      "description": "<p></p>",
+                      "testingProcedures": [],
+                      "controls": []
+                    },
+                    {
+                      "ref": "",
+                      "control": "<ul class=\"list-disc\"><li><p>locking devices after no more than 10 unsuccessful attempts</p></li></ul>",
+                      "description": "<p></p>",
+                      "testingProcedures": [],
+                      "controls": []
+                    }
+                  ]
+                },
+                {
+                  "ref": "",
+                  "control": "<ul class=\"list-disc\"><li><p>Use technical controls to manage the quality of passwords. This will include one of the following:</p></li></ul>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": [
+                    {
+                      "ref": "",
+                      "control": "<ul class=\"list-disc\"><li><p>Using multi-factor authentication (see below)</p></li></ul>",
+                      "description": "<p></p>",
+                      "testingProcedures": [],
+                      "controls": []
+                    },
+                    {
+                      "ref": "",
+                      "control": "<ul class=\"list-disc\"><li><p>A minimum password length of at least 12 characters, with no maximum length restrictions</p></li></ul>",
+                      "description": "<p></p>",
+                      "testingProcedures": [],
+                      "controls": []
+                    },
+                    {
+                      "ref": "",
+                      "control": "<ul class=\"list-disc\"><li><p>A minimum password length of at least 8 characters, with no maximum length restrictions and use automatic blocking of common passwords using a deny list.</p></li></ul>",
+                      "description": "<p></p>",
+                      "testingProcedures": [],
+                      "controls": []
+                    }
+                  ]
+                },
+                {
+                  "ref": "",
+                  "control": "<ul class=\"list-disc\"><li><p>Support users to choose unique passwords for their work accounts by:</p></li></ul>",
+                  "description": "<p></p>",
+                  "testingProcedures": [],
+                  "controls": [
+                    {
+                      "ref": "",
+                      "control": "<ul class=\"list-disc\"><li><p>educating people about avoiding common passwords, such as a pet's name, common keyboard patterns or passwords they have used elsewhere. This could include teaching people to use the password generator feature built into some password managers.</p></li></ul>",
+                      "description": "<p></p>",
+                      "testingProcedures": [],
+                      "controls": []
+                    },
+                    {
+                      "ref": "",
+                      "control": "<ul class=\"list-disc\"><li><p>encouraging people to choose longer passwords by promoting the use of multiple words (a minimum of three) to create a password (such as the NCSC’s guidance on using three random words)</p></li></ul>",
+                      "description": "<p></p>",
+                      "testingProcedures": [],
+                      "controls": []
+                    },
+                    {
+                      "ref": "",
+                      "control": "<ul class=\"list-disc\"><li><p>providing usable secure storage for passwords (for example a password manager or secure locked cabinet) with clear information about how and when it can be used.</p></li></ul>",
+                      "description": "<p></p>",
+                      "testingProcedures": [],
+                      "controls": []
+                    },
+                    {
+                      "ref": "",
+                      "control": "<ul class=\"list-disc\"><li><p>not enforcing regular password expiry</p></li></ul>",
+                      "description": "<p></p>",
+                      "testingProcedures": [],
+                      "controls": []
+                    },
+                    {
+                      "ref": "",
+                      "control": "<ul class=\"list-disc\"><li><p>not enforcing password complexity requirements</p></li></ul>",
+                      "description": "<p></p>",
+                      "testingProcedures": [],
+                      "controls": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "ref": "",
+              "control": "<p>You should also make sure there is an established process in place to change passwords promptly if you know or suspect a password or account has been compromised.</p>",
+              "description": "<p></p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "Multi-factor authentication (MFA)",
+          "control": "<p></p>",
+          "description": "<p>As well as providing an extra layer of security for passwords that aren’t protected by the other technical controls, you should always use multi-factor authentication to give administrative accounts extra security, and accounts that are accessible from the internet.</p><p>The password element of the multi-factor authentication approach must have a password length of at least 8 characters, with no maximum length restrictions.</p><p>There are four types of additional factor to consider:</p><ul class=\"list-disc\"><li><p>a managed/enterprise device</p></li><li><p>an app on a trusted device</p></li><li><p>a physically separate token</p></li><li><p>a known or trusted account</p></li></ul><p>Additional factors should be chosen so that they are usable and accessible. You might need to carry out user testing to decide what is best for your users. For more information see the NCSC’s guidance on MFA.</p><p><strong>Information: </strong>SMS is not the most secure type of MFA, but still offers a huge advantage over not using any MFA at all. Any multi-factor authentication is better than not having it at all. However, if there are alternatives available that will work for your situation, we recommend you use these instead of SMS.</p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "Passwordless authentication",
+          "control": "<p></p>",
+          "description": "<p>Passwordless authentication is a method of verifying identity without using traditional passwords.</p><p>Common examples of passwordless authentication include:</p><ul class=\"list-disc\"><li><p>Biometric authentication: Uses biological traits of the user such as fingerprints or facial features to confirm their identity.</p></li><li><p>Security keys or tokens: Physical hardware devices such as USB security keys or smart cards.</p></li><li><p>One-time codes: Temporary codes are sent via email, SMS, or a mobile app.</p></li><li><p>Push notifications: A prompt on a smartphone to approve or deny a login attempt.</p></li></ul><p>This helps to avoid many of the problems with traditional passwords which can be forgotten, stolen, or brute-forced.</p>",
+          "testingProcedures": [],
+          "controls": []
+        }
+      ]
+    },
+    {
+      "ref": "5. Malware Protection",
+      "control": "<p></p>",
+      "description": "<p><strong>Applies to: </strong>servers, desktop computers, laptops, tablets, mobile phones, IaaS, PaaS, SaaS.</p><p><strong>Aim: </strong>To restrict execution of known malware and untrusted software, from causing damage or accessing data.</p><p><strong>Introduction: </strong>Malware, such as computer viruses, worms and ransomware, is software that has been written and distributed deliberately to perform malicious actions. Potential sources include; malicious email attachments, downloads (including those from application stores), and direct installation of unauthorised software.</p><p>If a system is infected, your organisation is likely to suffer from problems like malfunctioning systems, data loss, or onward infection that goes unseen until it causes harm elsewhere.</p><p>You can largely avoid the potential for harm by:</p><ul class=\"list-disc\"><li><p>preventing malware from being delivered to devices</p></li><li><p>preventing malware from running on devices</p></li></ul><p><strong>Example: </strong>Acme Corporation implements code signing alongside a rule that allows only vetted applications from the device application store to execute on devices. Unsigned and unapproved applications will not run on devices. The fact that users can only install trusted (allow-listed) applications leads to a reduced risk of malware infection.</p>",
+      "testingProcedures": [],
+      "controls": [
+        {
+          "ref": "Requirements",
+          "control": "<p>You must make sure that a malware protection mechanism is active on all devices in scope. For each device, you must use at least one of the options listed below. In most modern products these options are built into the software supplied. Alternatively, you can purchase products from a third-party provider. In all cases the software must be active, kept up to date in accordance with the vendors instructions, and configured to work as detailed below:</p>",
+          "description": "<p></p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "Anti-malware software (option for in scope devices running Windows or MacOS including servers, desktop computers, laptop computers)",
+              "control": "<p>If you use anti-malware software to protect your device it must be configured to:</p><ul class=\"list-disc\"><li><p>be updated in line with vendor recommendations</p></li><li><p>prevent malware from running</p></li><li><p>prevent the execution of malicious code</p></li><li><p>prevent connections to malicious websites over the internet.</p></li></ul>",
+              "description": "<p></p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "Application allow listing (option for all in scope devices)",
+              "control": "<p>Only approved applications, restricted by code signing, are allowed to execute on devices. You must:</p><ul class=\"list-disc\"><li><p>actively approve such applications before deploying them to devices</p></li><li><p>maintain a current list of approved applications, users must not be</p></li><li><p>able to install any application that is unsigned or has an invalid signature.</p></li></ul>",
+              "description": "<p></p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
