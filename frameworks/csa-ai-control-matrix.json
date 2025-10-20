@@ -1,0 +1,1901 @@
+{
+  "name": "CSA AI Control Matrix",
+  "short_name": "CSA AI Control Matrix",
+  "last_updated": "2025-10-20",
+  "description": "<p>The CSA AI Control Matrix (AI-CM) is a comprehensive framework designed to help organizations implement robust security and privacy controls specifically tailored for Generative AI (GenAI) systems. Developed by the Cloud Security Alliance (CSA), the AI-CM addresses the unique challenges and risks associated with GenAI technologies, providing a structured approach to safeguard sensitive data, ensure compliance with regulatory requirements, and mitigate potential threats.</p> <p>The AI-CM encompasses a wide range of control areas, including data security, model governance, access management, incident response, and ethical considerations. By adopting the AI-CM, organizations can enhance their overall security posture, build trust with stakeholders, and foster responsible innovation in the rapidly evolving field of Generative AI.</p>",
+  "category": "framework",
+  "keywords": [
+    "CSA",
+    "AI Control Matrix",
+    "AI-CM",
+    "Generative AI",
+    "GenAI",
+    "Security Controls",
+    "Privacy Controls",
+    "Cloud Security Alliance"
+  ],
+  "controls": [
+    {
+      "ref": "Application & Interface Security",
+      "control": "<p></p>",
+      "description": "<p></p>",
+      "testingProcedures": [],
+      "controls": [
+        {
+          "ref": "AIS-01",
+          "control": "<p><span>Application and Interface Security Policy and Procedures</span></p>",
+          "description": "<p><span>Establish, document, approve, communicate, apply, evaluate and maintain policies and procedures for application security. Review</span><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"http://security.Review\"><span> </span></a><span>and update the policies and procedures at least annually or after significant system changes.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "AIS-02",
+          "control": "<p><span>Application Security Baseline Requirements</span></p>",
+          "description": "<p><span>Establish, document and maintain baseline requirements for securing applications.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "AIS-03",
+          "control": "<p><span>Application Security Metrics</span></p>",
+          "description": "<p><span>Define and implement technical and operational metrics in alignment with business objectives, security requirements, and compliance obligations.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "AIS-04",
+          "control": "<p><span>Secure Application Development Lifecycle</span></p>",
+          "description": "<p><span>Define and implement a secure software development lifecycle (SDLC) process for application requirements analysis, planning, design, development, testing, deployment, and operation in accordance with security requirements defined by the organization.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "AIS-05",
+          "control": "<p><span>Application Security Testing</span></p>",
+          "description": "<p><span>Implement a testing strategy, including criteria for acceptance of new information systems, upgrades and new versions, which provides application security assurance and maintains compliance while meeting organizational delivery goals. Automate when applicable and possible.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "AIS-06",
+          "control": "<p><span>Secure Application Deployment</span></p>",
+          "description": "<p><span>Establish and implement strategies and capabilities for secure, standardized, and compliant application deployment. Automate where possible.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "AIS-07",
+          "control": "<p><span>Application Vulnerability Remediation</span></p>",
+          "description": "<p><span>Define and implement a process to remediate application security vulnerabilities, automating remediation when possible.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "AIS-08",
+          "control": "<p><span>Input Validation</span></p>",
+          "description": "<p><span>Validate, filter, modify or block, as necessary, input against adversarial patterns, failure patterns and unwanted behavior according to organizational policies and applicable laws and regulations.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "AIS-09",
+          "control": "<p><span>Output Validation</span></p>",
+          "description": "<p><span>Validate, filter, modify or block, as necessary, output against adversarial patterns, failure patterns and unwanted behavior according to organizational policies and applicable laws and regulations.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "AIS-10",
+          "control": "<p><span>API Security</span></p>",
+          "description": "<p><span>Define and implement processes, procedures, and technical measures to secure APIs. Review and update for any improvements at least annually or after significant system changes.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "AIS-11",
+          "control": "<p><span>Agents Security Boundaries</span></p>",
+          "description": "<p><span>Establish security boundaries for agents.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "AIS-12",
+          "control": "<p><span>Source Code Management</span></p>",
+          "description": "<p><span>Implement source code management practices, such as version control, code review, and static code analysis, aligning with the SDLC process.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "AIS-13",
+          "control": "<p><span>AI Sandboxing</span></p>",
+          "description": "<p><span>Implement sandboxing techniques to execute AI tools and plugins in isolated environments to prevent unintended interactions with critical systems or data and limit the possibility of lateral movement.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "AIS-14",
+          "control": "<p><span>AI Cache Protection</span></p>",
+          "description": "<p><span>Implement security measures to protect caches in GenAI systems and services.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "AIS-15",
+          "control": "<p><span>Prompt Differentiation</span></p>",
+          "description": "<p><span>Implement mechanisms enabling the model to clearly distinguish user-provided input instructions from data and system instructions (e.g., system prompts).</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        }
+      ]
+    },
+    {
+      "ref": "Audit & Assurance",
+      "control": "<p></p>",
+      "description": "<p></p>",
+      "testingProcedures": [],
+      "controls": [
+        {
+          "ref": "A&A-01",
+          "control": "<p><span>Audit and Assurance Policy and Procedures</span></p>",
+          "description": "<p><span>Establish, document, approve, communicate, apply, evaluate and maintain audit and assurance policies and procedures and standards. Review and update the policies and procedures at least annually or upon significant changes.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "A&A-02",
+          "control": "<p><span>Independent Assessments</span></p>",
+          "description": "<p><span>Conduct independent audit and assurance assessments according to relevant standards at least annually.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "A&A-03",
+          "control": "<p><span>Risk Based Planning Assessment</span></p>",
+          "description": "<p><span>Perform independent audit and assurance assessments in response to significant changes or emerging risks and according to risk-based plans and policies.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "A&A-04",
+          "control": "<p><span>Requirements Compliance</span></p>",
+          "description": "<p><span>Verify compliance with all relevant standards, regulations, legal/contractual, and statutory requirements applicable to the audit.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "A&A-05",
+          "control": "<p><span>Audit Management Process</span></p>",
+          "description": "<p><span>Define and implement an Audit Management process aligned with global auditing standards, to support audit planning, risk analysis, security control assessment, conclusion, remediation schedules, report generation, and review of past reports and supporting evidence.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "A&A-06",
+          "control": "<p><span>Remediation</span></p>",
+          "description": "<p><span>Establish, document, approve, communicate, apply, evaluate and maintain a risk-based corrective action plan to remediate audit findings, regularly review andreport remediation status to relevant stakeholders.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        }
+      ]
+    },
+    {
+      "ref": "Audit & Assurance",
+      "control": "<p></p>",
+      "description": "<p></p>",
+      "testingProcedures": [],
+      "controls": [
+        {
+          "ref": "A&A-01",
+          "control": "<p>Audit and Assurance Policy and Procedures</p>",
+          "description": "<p>Establish, document, approve, communicate, apply, evaluate and maintain audit and assurance policies and procedures and standards. Review and update the policies and procedures at least annually or upon significant changes.</p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "A&A-02",
+          "control": "<p><span>Independent Assessments</span></p>",
+          "description": "<p><span>Conduct independent audit and assurance assessments according to relevant standards at least annually.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        }
+      ]
+    },
+    {
+      "ref": "Audit & Assurance",
+      "control": "<p></p>",
+      "description": "<p></p>",
+      "testingProcedures": [],
+      "controls": [
+        {
+          "ref": "A&A-01",
+          "control": "<p><span>Audit and Assurance Policy and Procedures</span></p>",
+          "description": "<p><span>Establish, document, approve, communicate, apply, evaluate and maintain audit and assurance policies and procedures and standards. Review and update the policies and procedures at least annually or upon significant changes.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        }
+      ]
+    },
+    {
+      "ref": "Business Continuity Management and Operational Resilience",
+      "control": "<p></p>",
+      "description": "<p></p>",
+      "testingProcedures": [],
+      "controls": [
+        {
+          "ref": "BCR-01",
+          "control": "<p><span>Business Continuity Management Policy and Procedures</span></p>",
+          "description": "<p><span>Establish, document, approve, communicate, apply, evaluate and maintain business continuity management and operational resilience policies and procedures. Review and update the policies and procedures at least annually, or when significant changes occur that could impact risk exposure.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "BCR-02",
+          "control": "<p><span>Risk Assessment and Impact Analysis</span></p>",
+          "description": "<p><span>Determine the impact of business disruptions and risks to establish criteria for developing business continuity and operational resilience strategies and capabilities. Review and update the risk assessment and impact analysis at least annually or upon significant changes.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "BCR-03",
+          "control": "<p><span>Business Continuity Strategy</span></p>",
+          "description": "<p><span>Establish strategies to reduce the impact of business disruptions, and improve resiliency and recovery from business disruptions.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "BCR-04",
+          "control": "<p><span>Business Continuity Planning</span></p>",
+          "description": "<p><span>Establish, document, approve, communicate, apply, evaluate and maintain a business continuity plan based on the results of the operational resilience strategies and capabilities.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "BCR-05",
+          "control": "<p><span>Documentation</span></p>",
+          "description": "<p><span>Develop, identify, and acquire documentation, both internally and from external parties, that is relevant to support the business continuity and operational resilience programs. Make the documentation available to authorized stakeholders and review at least annually or upon significant changes.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "BCR-06",
+          "control": "<p><span>Business Continuity Exercises</span></p>",
+          "description": "<p><span>Follow a structured approach to evaluate the effectiveness of the business continuity and operational resilience plans at planned intervals or upon significant changes.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "BCR-07",
+          "control": "<p><span>Communication</span></p>",
+          "description": "<p><span>Establish and maintain communication channels with all relevant stakeholders in the course of business continuity and resilience procedures.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "BCR-08",
+          "control": "<p><span>Backup</span></p>",
+          "description": "<p><span>Periodically perform backups. Ensure the confidentiality, integrity and availability of the backup, and verify restoration from backup for resiliency.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "BCR-09",
+          "control": "<p><span>Disaster Recovery Plan</span></p>",
+          "description": "<p><span>Establish, document, approve, communicate, apply, evaluate, and maintain a Disaster Recovery Plan to recover from natural and man-made disasters. Update the plan at least annually or upon significant changes.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "BCR-10",
+          "control": "<p><span>Recovery Plan Exercise</span></p>",
+          "description": "<p><span>Exercise the Disaster Recovery Plan annually or upon significant changes, including, if possible, participation of local emergency authorities.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "BCR-11",
+          "control": "<p><span>Equipment Redundancy</span></p>",
+          "description": "<p><span>Supplement business-critical equipment with both locally redundant and geographically dispersed equipment located at a reasonable minimum distance in accordance with applicable industry standards.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        }
+      ]
+    },
+    {
+      "ref": "Change Control and Configuration Management",
+      "control": "<p></p>",
+      "description": "<p></p>",
+      "testingProcedures": [],
+      "controls": [
+        {
+          "ref": "CCC-01",
+          "control": "<p><span>Change Management Policy and Procedures</span></p>",
+          "description": "<p><span>Establish, document, approve, communicate, apply, evaluate and maintain policies and procedures for managing the risks associated with applying changes to assets owned, controlled or used by the organization. Review and update the policies and procedures at least annually, or upon significant changes.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "CCC-02",
+          "control": "<p><span>Quality Testing</span></p>",
+          "description": "<p><span>Establish, maintain and implement a defined quality change control, approval and testing process incorporating baselines, testing, and release standards.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "CCC-03",
+          "control": "<p><span>Change Management Technology</span></p>",
+          "description": "<p><span>Implement a change management procedure to manage the risks associated with applying changes to assets owned, controlled or used by the organization.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "CCC-04",
+          "control": "<p><span>Change Authorization</span></p>",
+          "description": "<p><span>Implement and enforce a procedure to authorize addition, removal, update, and management of assets, owned, controlled or used by the organization.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "CCC-05",
+          "control": "<p><span>Change Agreements</span></p>",
+          "description": "<p><span>Include provisions limiting changes directly impacting customer-owned environments/tenants to explicitly authorized requests within service level agreements.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "CCC-06",
+          "control": "<p><span>Change Management Baseline</span></p>",
+          "description": "<p><span>Establish change management baselines for all relevant authorized changes on organization assets. Review and update the change management baseline at least annually or upon significant changes.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "CCC-07",
+          "control": "<p><span>Detection of Baseline Deviation</span></p>",
+          "description": "<p><span>Implement detection measures with proactive notification in case of changes deviating from the established baseline.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "CCC-08",
+          "control": "<p><span>Exception Management</span></p>",
+          "description": "<p><span>Implement a procedure for the management of exceptions, including emergencies, in the change and configuration process. Align the procedure with the requirements of GRC-04: Policy Exception Process.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "CCC-09",
+          "control": "<p><span>Change Restoration</span></p>",
+          "description": "<p><span>Define and implement a process to proactively roll back changes to a previous known good state in case of errors or security concerns.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        }
+      ]
+    },
+    {
+      "ref": "Cryptography, Encryption & Key Management",
+      "control": "<p></p>",
+      "description": "<p></p>",
+      "testingProcedures": [],
+      "controls": [
+        {
+          "ref": "CEK-01",
+          "control": "<p><span>Encryption and Key Management Policy and Procedures</span></p>",
+          "description": "<p><span>Establish, document, approve, communicate, apply, evaluate and maintain policies and procedures for Cryptography, Encryption and Key Management. Review and update the policies and procedures at least annually or upon significant changes.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "CEK-02",
+          "control": "<p><span>CEK Roles and Responsibilities</span></p>",
+          "description": "<p><span>Define and implement cryptographic, encryption and key management roles and responsibilities.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "CEK-03",
+          "control": "<p><span>Data Encryption</span></p>",
+          "description": "<p><span>Provide data protection at-rest, in-transit and, where applicable, in-use by using cryptographic libraries certified to approved standards.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "CEK-04",
+          "control": "<p><span>Encryption Algorithm</span></p>",
+          "description": "<p><span>Utilize encryption algorithms following industry standards for protecting data, based on the data classification and associated risks.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "CEK-05",
+          "control": "<p><span>Encryption Change Management</span></p>",
+          "description": "<p><span>Establish a standard change management procedure, to accommodate changes from internal and external sources, for review, approval, implementation, and communication of cryptographic, encryption, and key management technology changes.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "CEK-06",
+          "control": "<p><span>Encryption Change Cost Benefit Analysis</span></p>",
+          "description": "<p><span>Manage and adopt changes to cryptography-, encryption-, and key management-related systems (including policies and procedures) that fully account for downstream effects of proposed changes, including residual risk, cost, and benefits analysis.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "CEK-07",
+          "control": "<p><span>Encryption Risk Management</span></p>",
+          "description": "<p><span>Establish and maintain an encryption and key management risk program that includes provisions for risk assessment, risk treatment, risk context, monitoring, and feedback.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "CEK-08",
+          "control": "<p><span>Customer Key Management Capability</span></p>",
+          "description": "<p><span>Providers must provide the capability for customers to manage their own data encryption keys.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "CEK-09",
+          "control": "<p><span>Encryption and Key Management Audit</span></p>",
+          "description": "<p><span>Audit encryption and key management systems, policies, and processes with a frequency that is proportional to the risk exposure of the system with audit occurring preferably continuously but at least annually and after any security event(s).</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "CEK-10",
+          "control": "<p><span>Key Generation</span></p>",
+          "description": "<p><span>Generate Cryptographic keys using industry accepted cryptographic libraries specifying the algorithm strength and the random number generator used.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "CEK-11",
+          "control": "<p><span>Key Purpose</span></p>",
+          "description": "<p><span>Manage cryptographic secret and private keys that are provisioned for a unique purpose.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "CEK-12",
+          "control": "<p><span>Key Rotation</span></p>",
+          "description": "<p><span>Rotate cryptographic keys in accordance with the calculated cryptoperiod, which includes provisions for considering the risk of information disclosure and legal and regulatory requirements.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "CEK-13",
+          "control": "<p><span>Key Revocation</span></p>",
+          "description": "<p><span>Define, implement and evaluate processes, procedures and technical measures to revoke and remove cryptographic keys prior to the end of its established cryptoperiod, when a key is compromised, or an entity is no longer part of the organization, which include provisions for legal and regulatory requirements.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "CEK-14",
+          "control": "<p><span>Key Destruction</span></p>",
+          "description": "<p><span>Define, implement, and evaluate processes, procedures, and technical measures to securely destroy cryptographic keys when they are no longer needed, which include provisions for legal and regulatory requirements.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "CEK-15",
+          "control": "<p><span>Key Activation</span></p>",
+          "description": "<p><span>Define, implement and evaluate processes, procedures and technical measures to create keys in a pre-activated state when they have been generated but not authorized for use, which include provisions for legal and regulatory requirements.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "CEK-16",
+          "control": "<p><span>Key Suspension</span></p>",
+          "description": "<p><span>Define, implement and evaluate processes, procedures and technical measures to monitor, review, and approve key transitions from any state to/from suspension, which include provisions for legal and regulatory requirements.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "CEK-17",
+          "control": "<p><span>Key Deactivation</span></p>",
+          "description": "<p><span>Define, implement and evaluate processes, procedures and technical measures to deactivate keys at the time of their expiration date, which include provisions for legal and regulatory requirements.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "CEK-18",
+          "control": "<p><span>Key Archival</span></p>",
+          "description": "<p><span>Define, implement and evaluate processes, procedures and technical measures to manage archived keys in a secure repository requiring least privilege access, which include provisions for legal and regulatory requirements.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "CEK-19",
+          "control": "<p><span>Key Compromise</span></p>",
+          "description": "<p><span>Define, implement and evaluate processes, procedures and technical measures to use compromised keys to encrypt information only in controlled circumstances, and thereafter exclusively for decrypting data and never for encrypting data, which include provisions for legal and regulatory requirements.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "CEK-20",
+          "control": "<p><span>Key Recovery</span></p>",
+          "description": "<p><span>Define, implement and evaluate processes, procedures and technical measures to assess the risk to operational continuity versus the risk of the keying material and the information it protects being exposed if control of the keying material is lost, which include provisions for legal and regulatory requirements.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "CEK-21",
+          "control": "<p><span>Key Inventory Management</span></p>",
+          "description": "<p><span>Define, implement, and evaluate processes, procedures and technical measures for the key management system to track and report all cryptographic materials and changes in status, which include provisions for legal and regulatory requirements.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        }
+      ]
+    },
+    {
+      "ref": "Data Security and Privacy Lifecycle Management",
+      "control": "<p></p>",
+      "description": "<p></p>",
+      "testingProcedures": [],
+      "controls": [
+        {
+          "ref": "DSP-01",
+          "control": "<p><span>Security and Privacy Policy and Procedures</span></p>",
+          "description": "<p><span>Establish, document, approve, communicate, apply, evaluate and maintain policies and procedures for the classification, protection, preparation and handling of data throughout its lifecycle, and according to all applicable laws and regulations, standards, and risk level. Review and update the policies and procedures at least annually.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "DSP-02",
+          "control": "<p><span>Secure Disposal</span></p>",
+          "description": "<p><span>Apply industry accepted methods for the secure disposal of data from storage media such that data is not recoverable by any forensic means.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "DSP-03",
+          "control": "<p><span>Data Inventory</span></p>",
+          "description": "<p><span>Create and maintain a data inventory, at least for any sensitive, regulated and personal data. Review and update the inventory at least annually or upon significant changes.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "DSP-04",
+          "control": "<p><span>Data Classification</span></p>",
+          "description": "<p><span>Classify data according to its type and sensitivity level.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "DSP-05",
+          "control": "<p><span>Data Flow Documentation</span></p>",
+          "description": "<p><span>Create data flow documentation to identify what data is processed, stored or transmitted where. Review data flow documentation at defined intervals, at least annually, and after any change.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "DSP-06",
+          "control": "<p><span>Data Ownership and Stewardship</span></p>",
+          "description": "<p><span>Document ownership and stewardship of all relevant documented personal and sensitive data. Perform review at least annually.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "DSP-07",
+          "control": "<p><span>Data Protection by Design and Default</span></p>",
+          "description": "<p><span>Develop systems, products, and business practices based upon a principle of security by design and industry best practices.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "DSP-08",
+          "control": "<p><span>Data Privacy by Design and Default</span></p>",
+          "description": "<p><span>Develop systems, products, and business practices based upon a principle of privacy by design and industry best practices. Ensure that systems' privacy settings are configured by default, according to all applicable laws and regulations.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "DSP-09",
+          "control": "<p><span>Data Protection Impact Assessment</span></p>",
+          "description": "<p><span>Conduct a Data Protection Impact Assessment (DPIA) to evaluate the origin, nature, particularity and severity of the risks upon the processing of personal data, according to any applicable laws, regulations and industry best practices.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "DSP-10",
+          "control": "<p><span>Sensitive Data Transfer</span></p>",
+          "description": "<p><span>Define, implement and evaluate processes, procedures and technical measures that ensure any transfer of personal or sensitive data is protected from unauthorized access and only processed within scope as permitted by the respective laws and regulations.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "DSP-11",
+          "control": "<p><span>Personal Data Access, Reversal, Rectification and Deletion</span></p>",
+          "description": "<p><span>Define and implement, processes, procedures and technical measures to enable data subjects to request access to, modification, or deletion of their personal data, according to any applicable laws and regulations.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "DSP-12",
+          "control": "<p><span>Limitation of Purpose in Personal Data Processing</span></p>",
+          "description": "<p><span>Define, implement and evaluate processes, procedures and technical measures to ensure that personal data is processed according to any applicable laws and regulations and for the purposes declared to the data subject.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "DSP-13",
+          "control": "<p><span>Personal Data Sub-processing</span></p>",
+          "description": "<p><span>Define, implement and evaluate processes, procedures and technical measures for the transfer and sub-processing of personal data within the service supply chain, according to any applicable laws and regulations.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "DSP-14",
+          "control": "<p><span>Disclosure of Data Sub-processors</span></p>",
+          "description": "<p><span>Define, implement and evaluate processes, procedures and technical measures to disclose the details of any personal or sensitive data access by sub-processors to the data owner prior to initiation of that processing.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "DSP-15",
+          "control": "<p><span>Limitation of Production Data Use</span></p>",
+          "description": "<p><span>Obtain authorization from data owners, and manage associated risk before replicating or using production data in non-production environments.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "DSP-16",
+          "control": "<p><span>Data Retention and Deletion</span></p>",
+          "description": "<p><span>Data retention, archiving and deletion is managed in accordance with business requirements, applicable laws and regulations.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "DSP-17",
+          "control": "<p><span>Sensitive Data Protection</span></p>",
+          "description": "<p><span>Define and implement, processes, procedures and technical measures to protect sensitive data throughout its lifecycle.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "DSP-18",
+          "control": "<p><span>Disclosure Notification</span></p>",
+          "description": "<p><span>The providers should implement and describe to customers the procedure to manage and respond to requests for disclosure of Personal Data by Law Enforcement Authorities according to applicable laws and regulations.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "DSP-19",
+          "control": "<p><span>Data Location</span></p>",
+          "description": "<p><span>Define and implement, processes, procedures and technical measures to specify and document the physical locations of data, including any locations in which data is processed or backed up.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "DSP-20",
+          "control": "<p><span>Data Provenance and Transparency</span></p>",
+          "description": "<p><span>Define, implement and evaluate processes, procedures and technical measures to: 1) Document and trace data sources, and 2) Make the data source available according to legal and regulatory requirements</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "DSP-21",
+          "control": "<p><span>Data Poisoning Prevention &amp; Detection</span></p>",
+          "description": "<p><span>Define, implement and evaluate processes, procedures and technical measures to prevent data poisoning in AI models and continuously detect such.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "DSP-22",
+          "control": "<p><span>Privacy Enhancing Technologies</span></p>",
+          "description": "<p><span>Use Privacy Enhancing Technologies for training data, informed by risk and privacy impact analysis and business use cases.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "DSP-23",
+          "control": "<p><span>Data Integrity Check</span></p>",
+          "description": "<p><span>Regularly validate the consistency and conformity of training, fine-tuning or augmentation data. Implement dataset versioning to ensure traceability and enforce restrictions to prevent unauthorized changes.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "DSP-24",
+          "control": "<p><span>Data Differentiation and Relevance</span></p>",
+          "description": "<p><span>Ensure training-data differentiation and relevance to the intended use of the AI Model.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        }
+      ]
+    },
+    {
+      "ref": "Datacenter Security",
+      "control": "<p></p>",
+      "description": "<p></p>",
+      "testingProcedures": [],
+      "controls": [
+        {
+          "ref": "DCS-01",
+          "control": "<p><span>Off-Site Equipment Disposal Policy and Procedures</span></p>",
+          "description": "<p><span>Establish, document, approve, communicate, apply, evaluate and maintain policies and procedures for the secure disposal of equipment used outside the organization's premises. If the equipment is not physically destroyed a data destruction procedure that renders recovery of information impossible must be applied. Review and update the policies and procedures at least annually, or upon significant changes.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "DCS-02",
+          "control": "<p><span>Off-Site Transfer Authorization Policy and Procedures</span></p>",
+          "description": "<p><span>Establish, document, approve, communicate, apply, evaluate and maintain policies and procedures for the relocation or transfer of hardware, software, or data/information to an offsite or alternate location. The relocation or transfer request requires the written or cryptographically verifiable authorization.Review and update the policies and procedures at least annually, or upon significant changes.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "DCS-03",
+          "control": "<p><span>Secure Area Policy and Procedures</span></p>",
+          "description": "<p><span>Establish, document, approve, communicate, apply, evaluate and maintain policies and procedures for maintaining a safe and secure working environment in offices, rooms, and facilities. Review and update the policies and procedures at least annually, or upon significant changes.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "DCS-04",
+          "control": "<p><span>Secure Media Transportation Policy and Procedures</span></p>",
+          "description": "<p><span>Establish, document, approve, communicate, apply, evaluate and maintain policies and procedures for the secure transportation of physical media. Review and update the policies and procedures at least annually, or upon significant changes.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "DCS-05",
+          "control": "<p><span>Assets Classification</span></p>",
+          "description": "<p><span>Classify and document the physical, and logical assets (e.g., applications) based on the organizational business risk. Review and update the assets’ classification at least annually or upon significant changes.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "DCS-06",
+          "control": "<p><span>Assets Cataloguing and Tracking</span></p>",
+          "description": "<p><span>Catalogue and track all relevant physical and logical assets located at all of the service providers sites within a secured system. Review and update the catalogue at least annually or upon significant changes.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "DCS-07",
+          "control": "<p><span>Controlled Physical Access Points</span></p>",
+          "description": "<p><span>Design and implement physical security perimeters to safeguard personnel, data, and information systems.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "DCS-08",
+          "control": "<p><span>Equipment Identification</span></p>",
+          "description": "<p><span>Use equipment identification as a method for connection authentication.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "DCS-09",
+          "control": "<p><span>Secure Area Authorization</span></p>",
+          "description": "<p><span>Allow only authorized personnel access to secure areas, with all ingress and egress points restricted, documented, and monitored by physical access control mechanisms. Retain access control records on a periodic basis as deemed appropriate by the organization.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "DCS-10",
+          "control": "<p><span>Surveillance System</span></p>",
+          "description": "<p><span>Implement, maintain, and operate datacenter surveillance systems at the external perimeter and at all the ingress and egress points to detect unauthorized ingress and egress attempts.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "DCS-11",
+          "control": "<p><span>Adverse Event Response Training</span></p>",
+          "description": "<p><span>Train datacenter personnel to safely manage adverse events, including but not limited to unauthorized ingress and egress attempts.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "DCS-12",
+          "control": "<p><span>Cabling Security</span></p>",
+          "description": "<p><span>Define, implement and evaluate processes, procedures and technical measures that ensure a risk-based protection of power and telecommunication cables from a threat of interception, interference or damage at all facilities, offices and rooms.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "DCS-13",
+          "control": "<p><span>Environmental Systems</span></p>",
+          "description": "<p><span>Implement and maintain data center environmental control systems that monitor, maintain and test for continual effectiveness the temperature and humidity conditions within accepted industry standards.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "DCS-14",
+          "control": "<p><span>Secure Utilities</span></p>",
+          "description": "<p><span>Secure, monitor, maintain, and test utilities services for continual effectiveness at planned intervals.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "DCS-15",
+          "control": "<p><span>Equipment Location</span></p>",
+          "description": "<p><span>Keep business-critical equipment away from locations subject to high probability for environmental risk events.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        }
+      ]
+    },
+    {
+      "ref": "Governance, Risk and Compliance",
+      "control": "<p></p>",
+      "description": "<p></p>",
+      "testingProcedures": [],
+      "controls": [
+        {
+          "ref": "GRC-01",
+          "control": "<p><span>Governance Program Policy and Procedures</span></p>",
+          "description": "<p><span>Establish, document, approve, communicate, apply, evaluate and maintain policies and procedures for an information governance program, which is sponsored by the leadership of the organization and related to AI systems as well. Review and update the policies and procedures at least annually.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "GRC-02",
+          "control": "<p><span>Risk Management Program</span></p>",
+          "description": "<p><span>Establish and maintain a formal, documented, and leadership-sponsored AI Risk Management (AIRM) program that includes policies and procedures for identification, evaluation, ownership, treatment, and acceptance of risks.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "GRC-03",
+          "control": "<p><span>Organizational Policy Reviews</span></p>",
+          "description": "<p><span>Review all relevant organizational policies and associated procedures at least annually or when a substantial change occurs within the organization.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "GRC-04",
+          "control": "<p><span>Policy Exception Process</span></p>",
+          "description": "<p><span>Establish and follow an approved exception process as mandated by the governance program whenever a deviation from an established policy occurs.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "GRC-05",
+          "control": "<p><span>Information Security Program</span></p>",
+          "description": "<p><span>Develop and implement an Information Security Program, which includes programs for all the relevant domains of the AICM.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "GRC-06",
+          "control": "<p><span>Governance Responsibility Model</span></p>",
+          "description": "<p><span>Define and document roles and responsibilities for planning, implementing, operating, assessing, and improving governance programs.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "GRC-07",
+          "control": "<p><span>Information System Regulatory Mapping</span></p>",
+          "description": "<p><span>Identify and document all relevant standards, regulations, legal/contractual, and statutory requirements, which are applicable to your organization. Review at least annually or when a substantial change occurs within the organization.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "GRC-08",
+          "control": "<p><span>Special Interest Groups</span></p>",
+          "description": "<p><span>Establish and maintain contact with related special interest groups and other relevant entities in line with business context.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "GRC-09",
+          "control": "<p><span>Acceptable Use of the AI Service</span></p>",
+          "description": "<p><span>Define, document and enforce policies and procedures on the acceptable use of AI services offered by the organization. Ensure effectiveness by continuous risk assessments, reviews and human oversight.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "GRC-10",
+          "control": "<p><span>AI Impact Assessment</span></p>",
+          "description": "<p><span>Establish, document, and communicate to all relevant stakeholders an AI Impact Assessment process and its criteria to regularly evaluate the ethical, societal, operational, legal, and security impacts of the AI system throughout its lifecycle.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "GRC-11",
+          "control": "<p><span>Bias and Fairness Assessment</span></p>",
+          "description": "<p><span>Regularly evaluate AI systems, models, datasets &amp; algorithms for bias and fairness to ensure compliance with ethical standards.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "GRC-12",
+          "control": "<p><span>Ethics Committee</span></p>",
+          "description": "<p><span>Establish an ethics committee to review AI applications, ensuring alignment with ethical standards and organizational values.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "GRC-13",
+          "control": "<p><span>Explainability Requirement</span></p>",
+          "description": "<p><span>Establish, document, and communicate the degree of explainability needed for the AI Services.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "GRC-14",
+          "control": "<p><span>Explainability Evaluation</span></p>",
+          "description": "<p><span>Evaluate, document, and communicate the degree of explainability of the AI Services, including possible limitations and exceptions.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "GRC-15",
+          "control": "<p><span>Human supervision</span></p>",
+          "description": "<p><span>Establish, execute, and assess processes, procedures, and technical measures to ensure human oversight and control of the AI system in compliance with regulatory requirements and organizational risk management.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        }
+      ]
+    },
+    {
+      "ref": "Human Resources",
+      "control": "<p></p>",
+      "description": "<p></p>",
+      "testingProcedures": [],
+      "controls": [
+        {
+          "ref": "HRS-01",
+          "control": "<p><span>Background Screening Policy and Procedures</span></p>",
+          "description": "<p><span>Establish, document, approve, communicate, apply, evaluate and maintain policies and procedures for background verification of all new employees (including but not limited to remote employees, contractors, and third parties) according to local laws, regulations, ethics, and contractual constraints and proportional to the data classification to be accessed, the business requirements, and acceptable risk. Review and update the policies and procedures at least annually.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "HRS-02",
+          "control": "<p><span>Acceptable Use of Technology Policy and Procedures</span></p>",
+          "description": "<p><span>Establish, document, approve, communicate, apply, evaluate and maintain policies and procedures for defining allowances and conditions for the acceptable use of organizationally-owned or managed assets. Review and update the policies and procedures at least annually.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "HRS-03",
+          "control": "<p><span>Clean Desk Policy and Procedures</span></p>",
+          "description": "<p><span>Establish, document, approve, communicate, apply, evaluate and maintain policies and procedures that require unattended workspaces to not have openly visible confidential data. Review and update the policies and procedures at least annually.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "HRS-04",
+          "control": "<p><span>Remote and Home Working Policy and Procedures</span></p>",
+          "description": "<p><span>Establish, document, approve, communicate, apply, evaluate and maintain policies and procedures to protect information accessed, processed or stored at remote sites and locations. Review and update the policies and procedures at least annually.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "HRS-05",
+          "control": "<p><span>Asset returns</span></p>",
+          "description": "<p><span>Establish and document procedures for the return of organization-owned assets by terminated employees.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "HRS-06",
+          "control": "<p><span>Employment Termination</span></p>",
+          "description": "<p><span>Establish, document, and communicate to all personnel the procedures outlining the roles and responsibilities concerning changes in employment.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "HRS-07",
+          "control": "<p><span>Employment Agreement Process</span></p>",
+          "description": "<p><span>Employees sign the employee agreement prior to being granted access to organizational information systems, resources and assets.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "HRS-08",
+          "control": "<p><span>Employment Agreement Content</span></p>",
+          "description": "<p><span>The organization includes within the employment agreements provisions and/or terms for adherence to established information governance and security policies.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "HRS-09",
+          "control": "<p><span>Personnel Roles and Responsibilities</span></p>",
+          "description": "<p><span>Document and communicate roles and responsibilities of employees, as they relate to information assets and security.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "HRS-10",
+          "control": "<p><span>Non-Disclosure Agreements</span></p>",
+          "description": "<p><span>Identify, document, and review, at planned intervals, requirements for non-disclosure/confidentiality agreements reflecting the organization's needs for the protection of data and operational details.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "HRS-11",
+          "control": "<p><span>Security Awareness Training</span></p>",
+          "description": "<p><span>Establish, document, approve, communicate, apply, evaluate and maintain a security awareness training program for all employees of the organization and provide regular training updates.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "HRS-12",
+          "control": "<p><span>Personal and Sensitive Data Awareness and Training</span></p>",
+          "description": "<p><span>Provide employees with access to sensitive organizational and personal data with appropriate security awareness training and regular updates in organizational procedures, processes, and policies relating to their professional function relative to the organization.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "HRS-13",
+          "control": "<p><span>Compliance User Responsibility</span></p>",
+          "description": "<p><span>Make employees aware of their roles and responsibilities for maintaining awareness and compliance with established policies and procedures and applicable legal, statutory, or regulatory compliance obligations.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "HRS-14",
+          "control": "<p><span>AI Competency Training</span></p>",
+          "description": "<p><span>Establish, document, approve, communicate, apply, evaluate and maintain policies and procedures defining the AI training program for all relevant personnel of the organization based on their roles and provide regular training updates.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "HRS-15",
+          "control": "<p><span>AI Acceptable Use</span></p>",
+          "description": "<p><span>Establish, document, and communicate to all personnel the policies and procedures on the acceptable use of AI technologies within the organization.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        }
+      ]
+    },
+    {
+      "ref": "Identity & Access Management",
+      "control": "<p></p>",
+      "description": "<p></p>",
+      "testingProcedures": [],
+      "controls": [
+        {
+          "ref": "IAM-01",
+          "control": "<p><span>Identity and Access Management Policy and Procedures</span></p>",
+          "description": "<p><span>Establish, document, approve, communicate, implement, apply, evaluate and maintain policies and procedures for identity and access management. Review and update the policies and procedures at least annually, or upon significant changes.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "IAM-02",
+          "control": "<p><span>Strong Password Policy and Procedures</span></p>",
+          "description": "<p><span>Establish, document, approve, communicate, implement, apply, evaluate and maintain strong password policies and procedures. Review and update the policies and procedures at least annually.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "IAM-03",
+          "control": "<p><span>Identity Inventory</span></p>",
+          "description": "<p><span>Manage, store, and regularly review the inventory of identities, and monitor their level of access.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "IAM-04",
+          "control": "<p><span>Separation of Duties</span></p>",
+          "description": "<p><span>Employ the separation of duties principle when implementing information system access.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "IAM-05",
+          "control": "<p><span>Least Privilege</span></p>",
+          "description": "<p><span>Employ the least privilege principle when implementing information system access.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "IAM-06",
+          "control": "<p><span>User Access Provisioning</span></p>",
+          "description": "<p><span>Define and implement an identity access provisioning process which authorizes, records, and communicates access changes to data and assets.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "IAM-07",
+          "control": "<p><span>User Access Changes and Revocation</span></p>",
+          "description": "<p><span>De-provision or modify identity access in a timely manner.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "IAM-08",
+          "control": "<p><span>User Access Review</span></p>",
+          "description": "<p><span>Review and revalidate user access for least privilege and separation of duties with a frequency that is commensurate with organizational risk tolerance and at least annually, or upon significant changes.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "IAM-09",
+          "control": "<p><span>Segregation of Privileged Access Roles</span></p>",
+          "description": "<p><span>Define, implement and evaluate processes, procedures and technical measures for the segregation of privileged access roles.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "IAM-10",
+          "control": "<p><span>Management of Privileged Access Roles</span></p>",
+          "description": "<p><span>Define and implement an access process to ensure privileged access roles and rights are granted for a time limited period, and implement procedures to prevent the accumulation of segregated privileged access.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "IAM-11",
+          "control": "<p><span>Customers' Approval for Agreed Privileged Access Roles</span></p>",
+          "description": "<p><span>Define, implement and evaluate processes and procedures for customers to participate, where applicable, in the granting of access for agreed, high risk (as defined by the organizational risk assessment) privileged access roles.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "IAM-12",
+          "control": "<p><span>Safeguard Logs Integrity</span></p>",
+          "description": "<p><span>Define, implement and evaluate processes, procedures and technical measures to ensure the logging infrastructure is read-only for all with write access, including privileged access roles, and that the ability to disable it is controlled through a procedure that ensures the segregation of duties and break glass procedures.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "IAM-13",
+          "control": "<p><span>Uniquely Identifiable Users</span></p>",
+          "description": "<p><span>Define, implement and evaluate processes, procedures and technical measures, that ensure identities’ activities are identifiable through uniquely associated IDs.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "IAM-14",
+          "control": "<p><span>Strong Authentication</span></p>",
+          "description": "<p><span>Define, implement and evaluate processes, procedures and technical measures for authenticating access to systems, application and data assets, including multifactor authentication for at least privileged user and sensitive data access. Adopt digital certificates or alternatives which achieve an equivalent level of security for system identities.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "IAM-15",
+          "control": "<p><span>Passwords and Secrets Management</span></p>",
+          "description": "<p><span>Define, implement and evaluate processes, procedures and technical measures for the secure management of passwords and other secrets.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "IAM-16",
+          "control": "<p><span>Authorization Mechanisms</span></p>",
+          "description": "<p><span>Define, implement and evaluate processes, procedures and technical measures to verify access to data and system functions is authorized.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "IAM-17",
+          "control": "<p><span>Knowledge Access Control - Need to Know</span></p>",
+          "description": "<p><span>Define policy and procedure for \"need to know\" access to knowledge, information and data within the organization and in the context of the AI system to be applied when regulating access to resources.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "IAM-18",
+          "control": "<p><span>Output Modification and Special Authorization</span></p>",
+          "description": "<p><span>When allowing model output modification of AI generated output, establish a role for this access and allow changes only by authorized identities.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "IAM-19",
+          "control": "<p><span>Agent Access Restriction</span></p>",
+          "description": "<p><span>Restrict agents' access to the tools and plugins necessary for the activity or use case at hand, ensuring adherence to the principles of need-to-know and least privilege.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        }
+      ]
+    },
+    {
+      "ref": "Infrastructure Security",
+      "control": "<p></p>",
+      "description": "<p></p>",
+      "testingProcedures": [],
+      "controls": [
+        {
+          "ref": "I&S-01",
+          "control": "<p><span>Infrastructure and Virtualization Security Policy and Procedures</span></p>",
+          "description": "<p><span>Establish, document, approve, communicate, apply, evaluate and maintain policies and procedures for infrastructure and virtualization security. Review and update the policies and procedures at least annually, or upon significant changes.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "I&S-02",
+          "control": "<p><span>Capacity and Resource Planning</span></p>",
+          "description": "<p><span>Plan and monitor the availability, quality, and adequate capacity of resources in order to deliver the required system performance as determined by the business.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "I&S-03",
+          "control": "<p><span>Network Security</span></p>",
+          "description": "<p><span>Monitor, encrypt and restrict communications between environments to only authenticated and authorized connections, as justified by the business. Review these configurations at least annually, and support them by a documented justification of all allowed services, protocols, ports, and compensating controls.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "I&S-04",
+          "control": "<p><span>OS Hardening and Base Controls</span></p>",
+          "description": "<p><span>Harden host and guest OS, hypervisor or infrastructure control plane, according to their respective best practices, and supported by technical controls, as part of a security baseline.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "I&S-05",
+          "control": "<p><span>Production and Non-Production Environments</span></p>",
+          "description": "<p><span>Separate production and non-production environments.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "I&S-06",
+          "control": "<p><span>Segmentation and Segregation</span></p>",
+          "description": "<p><span>Design, develop, deploy and configure applications and infrastructures such that tenant access is appropriately segmented and segregated, monitored and restricted.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "I&S-07",
+          "control": "<p><span>Migration to Hosted Environments</span></p>",
+          "description": "<p><span>Use secure and encrypted communication channels when migrating servers, services, applications, or data to hosted environments. Such channels must include only up-to-date and approved protocols.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "I&S-08",
+          "control": "<p><span>Network Architecture Documentation</span></p>",
+          "description": "<p><span>Identify and document high-risk environments.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "I&S-09",
+          "control": "<p><span>Network Defense</span></p>",
+          "description": "<p><span>Define, implement and evaluate processes, procedures and defense-in-depth techniques for protection, detection, and timely response to network-based attacks.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        }
+      ]
+    },
+    {
+      "ref": "Interoperability & Portability",
+      "control": "<p></p>",
+      "description": "<p></p>",
+      "testingProcedures": [],
+      "controls": [
+        {
+          "ref": "IPY-01",
+          "control": "<p><span>Interoperability and Portability Policy and Procedures</span></p>",
+          "description": "<p><span>Establish, document, approve, communicate, apply, evaluate and maintain policies and procedures for interoperability and portability including requirements for:</span></p><p><span>a. Communications between application interfaces</span></p><p><span>b. Information processing interoperability</span></p><p><span>c. Application development portability</span></p><p><span>d. Information/Data exchange, usage, portability, integrity, and persistenceReview and update the policies and procedures at least annually or upon significant changes.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "IPY-02",
+          "control": "<p><span>Application Interface Availability</span></p>",
+          "description": "<p><span>Provide application interface(s) to AICs so that they programmatically retrieve their data to enable interoperability and portability.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "IPY-03",
+          "control": "<p><span>Secure Interoperability and Portability Management</span></p>",
+          "description": "<p><span>Implement cryptographically secure and standardized network protocols for the management, import and export of data, according to industry standards.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "IPY-04",
+          "control": "<p><span>Data Portability Contractual Obligations</span></p>",
+          "description": "<p><span>Agreements must include provisions specifying AICs access to data upon contract termination and will include:</span></p><p><span>a. Data format</span></p><p><span>b. Length of time the data will be stored</span></p><p><span>c. Scope of the data retained and made available to the AICs</span></p><p><span>d. Data deletion policy</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        }
+      ]
+    },
+    {
+      "ref": "Logging and Monitoring",
+      "control": "<p></p>",
+      "description": "<p></p>",
+      "testingProcedures": [],
+      "controls": [
+        {
+          "ref": "LOG-01",
+          "control": "<p><span>Logging and Monitoring Policy and Procedures</span></p>",
+          "description": "<p><span>Establish, document, approve, communicate, apply, evaluate and maintain policies and procedures for logging and monitoring. Review and update the policies and procedures at least annually, or upon significant changes.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "LOG-02",
+          "control": "<p><span>Audit Logs Protection</span></p>",
+          "description": "<p><span>Define, implement and evaluate processes, procedures and technical measures to ensure the security and retention of audit logs.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "LOG-03",
+          "control": "<p><span>Security Monitoring and Alerting</span></p>",
+          "description": "<p><span>Identify and monitor security-related events within applications, the underlying infrastructure, supply chain, and consider logging other events based on risk evaluation. Define and implement a system to generate alerts to responsible stakeholders based on such events and corresponding metrics.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "LOG-04",
+          "control": "<p><span>Audit Logs Access and Accountability</span></p>",
+          "description": "<p><span>Restrict access to audit logs and maintain records of access to logs.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "LOG-05",
+          "control": "<p><span>Audit Logs Monitoring and Response</span></p>",
+          "description": "<p><span>Monitor security audit logs to detect activity outside of typical or expected patterns. Establish and follow a defined process to review and take appropriate and timely actions on detected anomalies.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "LOG-06",
+          "control": "<p><span>Clock Synchronization</span></p>",
+          "description": "<p><span>Use a reliable time source across all relevant information processing systems.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "LOG-07",
+          "control": "<p><span>Logging Scope</span></p>",
+          "description": "<p><span>Establish, document and implement which information meta/data system events should be logged. Review and update the scope at least annually or whenever there is a change in the threat environment.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "LOG-08",
+          "control": "<p><span>Log Records</span></p>",
+          "description": "<p><span>Generate audit records containing relevant security information.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "LOG-09",
+          "control": "<p><span>Log Protection</span></p>",
+          "description": "<p><span>Protect audit records from unauthorized access, modification, and deletion.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "LOG-10",
+          "control": "<p><span>Encryption Monitoring and Reporting</span></p>",
+          "description": "<p><span>Establish and maintain a monitoring and internal reporting capability over the operations of cryptographic, encryption and key management policies, processes, procedures, and controls.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "LOG-11",
+          "control": "<p><span>Transaction/Activity Logging</span></p>",
+          "description": "<p><span>Log and monitor key lifecycle management events to enable auditing and reporting on usage of cryptographic keys.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "LOG-12",
+          "control": "<p><span>Access Control Logs</span></p>",
+          "description": "<p><span>Monitor and log physical access using an auditable access control system.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "LOG-13",
+          "control": "<p><span>Failures and Anomalies Reporting</span></p>",
+          "description": "<p><span>Define, implement and evaluate processes, procedures and technical measures for the reporting of anomalies and failures of the monitoring system and provide immediate notification to the accountable party.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "LOG-14",
+          "control": "<p><span>Input Monitoring</span></p>",
+          "description": "<p><span>Log and monitor all input events (content and metadata) to enable auditing and reporting on the usage of AI models.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "LOG-15",
+          "control": "<p><span>Output Monitoring</span></p>",
+          "description": "<p><span>Log and monitor all output events (content and metadata) to enable auditing and reporting on usage of AI models.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        }
+      ]
+    },
+    {
+      "ref": "Model Security",
+      "control": "<p></p>",
+      "description": "<p></p>",
+      "testingProcedures": [],
+      "controls": [
+        {
+          "ref": "MDS-01",
+          "control": "<p><span>Training Pipeline Security</span></p>",
+          "description": "<p><span>Define, implement, and evaluate policies, procedures, and technical measures that ensure the security of the Training Pipeline. Regularly review and update policies, procedures and technical measures to address new security threats and best practices.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "MDS-02",
+          "control": "<p><span>Model Artifact Scanning</span></p>",
+          "description": "<p><span>Define, implement, and evaluate policies, procedures, and technical measures for the scanning of model artifacts for vulnerabilities and attacks, at each step of the service lifecycle and at each hand over point. Regularly review and update policies, procedures and technical measures to address model artifact scanning.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "MDS-03",
+          "control": "<p><span>Model Documentation</span></p>",
+          "description": "<p><span>Define, implement, enforce, approve, document, communicate, maintain and evaluate processes and procedures for model documentation. Regularly review and update the model documentation.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "MDS-04",
+          "control": "<p><span>Model Documentation Requirements</span></p>",
+          "description": "<p><span>Establish and implement baseline requirements for Model documentation.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "MDS-05",
+          "control": "<p><span>Model Documentation Validation</span></p>",
+          "description": "<p><span>Define, implement, and evaluate processes, procedures, and technical measures for the validation of the Model documentation aligned with the current model.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "MDS-06",
+          "control": "<p><span>Adversarial Attack Analysis</span></p>",
+          "description": "<p><span>Define, implement, and evaluate processes and technical measures to assess adversarial threats specific to each AI model.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "MDS-07",
+          "control": "<p><span>Robustness against Adversarial Attack / Model Hardening</span></p>",
+          "description": "<p><span>Define, implement, and evaluate processes, procedures, and technical measures for Model Hardening to mitigate relevant adversarial attacks as identified in the Threat Analysis and Adversarial Threat Analysis.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "MDS-08",
+          "control": "<p><span>Model Integrity Checks</span></p>",
+          "description": "<p><span>Regularly calculate and compare checksums using cryptographic hashes of model checkpoints to detect unauthorized modifications. Apply at least annually based on the level of risk, or after any change of hands.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "MDS-09",
+          "control": "<p><span>Model Signing/Ownership Verification</span></p>",
+          "description": "<p><span>Sign models cryptographically and verify signatures to ensure model provenance and ownership, any time the model changes hands or is loaded from storage.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "MDS-10",
+          "control": "<p><span>Model Continuous Monitoring</span></p>",
+          "description": "<p><span>Define, implement, and evaluate processes, procedures, and technical measures for continuous monitoring of model performance metrics over time to identify sudden shifts or unexpected changes in predictions that could degrade model performance.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "MDS-11",
+          "control": "<p><span>Model Failure</span></p>",
+          "description": "<p><span>Perform a risk-based evaluation of the model and model serving infrastructure for model failure.Define and implement measures to mitigate model and model serving infrastructure failures, and regularly evaluate throughout the AI system's lifecycle.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "MDS-12",
+          "control": "<p><span>Open Model Risk Assessment</span></p>",
+          "description": "<p><span>Establish a process to evaluate risk associated with open models. Periodically review these risk factors, and implement a process to monitor and mitigate any determined vulnerabilities.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "MDS-13",
+          "control": "<p><span>Secure Model Format</span></p>",
+          "description": "<p><span>Adopt secure model formats and processes for AI model serialization where applicable.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        }
+      ]
+    },
+    {
+      "ref": "Security Incident Management, E-Discovery, & Cloud Forensics",
+      "control": "<p></p>",
+      "description": "<p></p>",
+      "testingProcedures": [],
+      "controls": [
+        {
+          "ref": "SEF-01",
+          "control": "<p><span>Security Incident Management Policy and Procedures</span></p>",
+          "description": "<p><span>Establish, document, approve, communicate, apply, evaluate and maintain policies and procedures for Security Incident Management, E-Discovery, and Forensics. Review and update the policies and procedures at least annually or upon significant changes.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "SEF-02",
+          "control": "<p><span>Service Management Policy and Procedures</span></p>",
+          "description": "<p><span>Establish, document, approve, communicate, apply, evaluate and maintain policies and procedures for the timely management of security incidents. Review and update the policies and procedures at least annually, or upon significant changes.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "SEF-03",
+          "control": "<p><span>Incident Response Plans</span></p>",
+          "description": "<p><span>Establish, document, approve, communicate, apply, evaluate and maintain a security incident response plan, which includes but is not limited to: a communication strategy for notifying relevant internal departments, impacted AICs, and other business critical relationships (such as supply-chain) that may be impacted.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "SEF-04",
+          "control": "<p><span>Incident Response Testing</span></p>",
+          "description": "<p><span>Follow a structured approach to evaluate the effectiveness of incident response plans at planned intervals or upon significant changes.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "SEF-05",
+          "control": "<p><span>Incident Response Metrics</span></p>",
+          "description": "<p><span>Establish, monitor and report information security incident metrics.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "SEF-06",
+          "control": "<p><span>Event Triage Processes</span></p>",
+          "description": "<p><span>Define, implement and evaluate processes, procedures and technical measures supporting business processes to triage security-related events.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "SEF-07",
+          "control": "<p><span>Security Breach Notification</span></p>",
+          "description": "<p><span>Define and implement, processes, procedures and technical measuresfor security breach notifications. Report material security breaches and assumed security breaches including any relevant supply chain breaches, as per applicable SLAs, laws and regulations.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "SEF-08",
+          "control": "<p><span>Points of Contact Maintenance</span></p>",
+          "description": "<p><span>Maintain points of contact for applicable regulation authorities, national and local law enforcement, and other legal jurisdictional authorities. Review and update the points of contact at least annually.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "SEF-09",
+          "control": "<p><span>Incident Response</span></p>",
+          "description": "<p><span>Define incident categories and severity levels for AI systems, and determine response procedures for each, including automated response where applicable.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        }
+      ]
+    },
+    {
+      "ref": "Supply Chain Management, Transparency, and Accountability",
+      "control": "<p></p>",
+      "description": "<p></p>",
+      "testingProcedures": [],
+      "controls": [
+        {
+          "ref": "STA-01",
+          "control": "<p><span>Supply Chain Risk Management Policies and Procedures</span></p>",
+          "description": "<p><span>Establish, document, approve, communicate, apply, evaluate, and maintain policies and procedures for supply chain risk management. Review and update the policies and procedures at least annually or upon significant changes.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "STA-02",
+          "control": "<p><span>SSRM Policy and Procedures</span></p>",
+          "description": "<p><span>Establish, document, approve, communicate, apply, evaluate and maintain policies and procedures for the application of the Shared Security Responsibility Model (SSRM) within the organization. Review and update the policies and procedures at least annually, or upon significant changes.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "STA-03",
+          "control": "<p><span>SSRM Supply Chain</span></p>",
+          "description": "<p><span>Apply, document, implement and manage the SSRM throughout the supply chain.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "STA-04",
+          "control": "<p><span>SSRM Guidance</span></p>",
+          "description": "<p><span>Provide SSRM Guidance to the Customer detailing information about the SSRM applicability throughout the supply chain.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "STA-05",
+          "control": "<p><span>SSRM Control Ownership</span></p>",
+          "description": "<p><span>Delineate the shared ownership and applicability of all CSA AICM controls according to the SSRM.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "STA-06",
+          "control": "<p><span>SSRM Documentation Review</span></p>",
+          "description": "<p><span>Review and validate SSRM documentation.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "STA-07",
+          "control": "<p><span>SSRM Control Implementation</span></p>",
+          "description": "<p><span>Implement, operate, and audit or assess the portions of the SSRM which the organization is responsible for.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "STA-08",
+          "control": "<p><span>Supply Chain Inventory</span></p>",
+          "description": "<p><span>Develop and maintain an inventory of all supply chain relationships.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "STA-09",
+          "control": "<p><span>Supply Chain Risk Management</span></p>",
+          "description": "<p><span>Periodically review risk factors associated with supply chain relationships.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "STA-10",
+          "control": "<p><span>Primary Service and Contractual Agreement</span></p>",
+          "description": "<p><span>Service agreements must incorporate at least the following mutually-agreed upon provisions and/or terms:</span></p><p><span>• Scope, characteristics and location of business relationship and services offered</span></p><p><span>• Information security requirements (including SSRM)• Change management process</span></p><p><span>• Logging and monitoring capability</span></p><p><span>• Incident management and communication procedures</span></p><p><span>• Right to audit and third party assessment</span></p><p><span>• Service termination</span></p><p><span>• Interoperability and portability requirements</span></p><p><span>• Data privacy</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "STA-11",
+          "control": "<p><span>Supply Chain Agreement Review</span></p>",
+          "description": "<p><span>Review supply chain agreements at least annually, or upon significant changes.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "STA-12",
+          "control": "<p><span>Supply Chain Compliance Assessment</span></p>",
+          "description": "<p><span>Define and implement a process for conducting internal assessments to confirm conformance and effectiveness of standards, policies, procedures, and service level agreement activities at least annually.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "STA-13",
+          "control": "<p><span>Supply Chain Service Agreement Compliance</span></p>",
+          "description": "<p><span>Implement policies requiring all service providers throughout the supply chain to comply with information security, confidentiality, access control, privacy, audit, personnel policy and service level requirements and standards.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "STA-14",
+          "control": "<p><span>Supply Chain Governance Review</span></p>",
+          "description": "<p><span>Periodically review the organization's supply chain partners' IT governance policies and procedures.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "STA-15",
+          "control": "<p><span>Supply Chain Data Security Assessment</span></p>",
+          "description": "<p><span>Define and implement a process for conducting security assessments periodically for all organizations within the supply chain.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "STA-16",
+          "control": "<p><span>Service Bill of Material (BOM)</span></p>",
+          "description": "<p><span>Define, implement, and enforce a process for establishing a Bill of Material for the service supply chain. Review and update the Bill of Material at least annually or upon significant changes.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        }
+      ]
+    },
+    {
+      "ref": "Threat & Vulnerability Management",
+      "control": "<p></p>",
+      "description": "<p></p>",
+      "testingProcedures": [],
+      "controls": [
+        {
+          "ref": "TVM-01",
+          "control": "<p><span>Threat and Vulnerability Management Policy and Procedures</span></p>",
+          "description": "<p><span>Establish, document, approve, communicate, apply, evaluate and maintain policies and procedures to identify, report and prioritize the remediation of vulnerabilities and threats, in order to protect systems against vulnerability exploitation. Review and update the policies and procedures at least annually or upon significant changes.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "TVM-02",
+          "control": "<p><span>Malware and Malicious Instructions Protection Policy and Procedures</span></p>",
+          "description": "<p><span>Establish, document, approve, communicate, apply, evaluate and maintain policies and procedures to protect against malware and malicious instructions. Review and update the policies and procedures at least annually or upon significant changes.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "TVM-03",
+          "control": "<p><span>Vulnerability Remediation Schedule</span></p>",
+          "description": "<p><span>Define, implement and evaluate processes, procedures and technical measures to enable both scheduled and emergency responses to vulnerability identifications, based on the identified risk.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "TVM-04",
+          "control": "<p><span>Detection Updates</span></p>",
+          "description": "<p><span>Define, implement and evaluate processes, procedures and technical measures to update detection tools, threat signatures, and indicators of compromise on a weekly, or more frequent basis.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "TVM-05",
+          "control": "<p><span>External Library Vulnerabilities</span></p>",
+          "description": "<p><span>Define, implement and evaluate processes, procedures and technical measures to identify updates for applications which use third party or open source libraries according to the organization's vulnerability management policy.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "TVM-06",
+          "control": "<p><span>Penetration Testing</span></p>",
+          "description": "<p><span>Define, implement and evaluate processes, procedures and technical measures for the periodic performance of penetration testing by independent third parties.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "TVM-07",
+          "control": "<p><span>Vulnerability Remediation Schedule</span></p>",
+          "description": "<p><span>Define, implement and evaluate processes, procedures and technical measures based on identified risks to support scheduled and emergency responses to vulnerability identification.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "TVM-08",
+          "control": "<p><span>Vulnerability Prioritization</span></p>",
+          "description": "<p><span>Use a risk-based model for effective prioritization of vulnerability remediation using an industry recognized framework.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "TVM-09",
+          "control": "<p><span>Vulnerability Management Reporting</span></p>",
+          "description": "<p><span>Define and implement a process for tracking and reporting vulnerability identification and remediation activities that includes stakeholder notification.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "TVM-10",
+          "control": "<p><span>Vulnerability Management Metrics</span></p>",
+          "description": "<p><span>Establish, monitor and report metrics for vulnerability identification and remediation at defined intervals.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "TVM-11",
+          "control": "<p><span>Guardrails</span></p>",
+          "description": "<p><span>Define and implement processes, procedures and technical measures to apply guardrails to the AI system. Continuously evaluate guardrails for changes in regulatory requirements and risk scenarios.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "TVM-12",
+          "control": "<p><span>Threat Analysis and Modeling</span></p>",
+          "description": "<p><span>Define implement and evaluate threat analysis process and procedures to identify, assess and review the threat landscape for Cloud and AI systems. Build threat models according to industry best practices to inform the risk mitigation strategy.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "TVM-13",
+          "control": "<p><span>Threat Response</span></p>",
+          "description": "<p><span>Use a risk-based method for the prioritization and mitigation of threats, leveraging an industry-recognized framework to guide threat decision-making and protection measures.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        }
+      ]
+    },
+    {
+      "ref": "Universal Endpoint Management",
+      "control": "<p></p>",
+      "description": "<p></p>",
+      "testingProcedures": [],
+      "controls": [
+        {
+          "ref": "UEM-01",
+          "control": "<p><span>Endpoint Devices Policy and Procedures</span></p>",
+          "description": "<p><span>Establish, document, approve, communicate, apply, evaluate and maintain policies and procedures for all endpoints. Review and update the policies and procedures at least annually or upon significant system changes.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "UEM-02",
+          "control": "<p><span>Application and Service Approval</span></p>",
+          "description": "<p><span>Define, document, apply and evaluate a list of approved services, applications and sources of applications (stores) acceptable for use by endpoints when accessing or storing organization-managed data.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "UEM-03",
+          "control": "<p><span>Compatibility</span></p>",
+          "description": "<p><span>Define and implement a process for the validation of the endpoint device's compatibility with operating systems and applications.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "UEM-04",
+          "control": "<p><span>Endpoint Inventory</span></p>",
+          "description": "<p><span>Maintain an inventory of all endpoints used to store and process company data.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "UEM-05",
+          "control": "<p><span>Endpoint Management</span></p>",
+          "description": "<p><span>Define, implement and evaluate processes, procedures and technical measures to enforce policies and controls for all endpoints permitted to access systems and/or store, transmit, or process organizational data.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "UEM-06",
+          "control": "<p><span>Automatic Lock Screen</span></p>",
+          "description": "<p><span>Configure all relevant interactive-use endpoints to require an automatic lock screen.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "UEM-07",
+          "control": "<p><span>Operating Systems</span></p>",
+          "description": "<p><span>Manage changes to endpoint operating systems, patch levels, and/or applications through the company's change management processes.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "UEM-08",
+          "control": "<p><span>Storage Encryption</span></p>",
+          "description": "<p><span>Protect information from unauthorized disclosure on managed endpoint devices with storage encryption.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "UEM-09",
+          "control": "<p><span>Anti-Malware Detection and Prevention</span></p>",
+          "description": "<p><span>Configure managed endpoints with anti-malware detection and prevention technology and services.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "UEM-10",
+          "control": "<p><span>Software Firewall</span></p>",
+          "description": "<p><span>Configure managed endpoints with properly configured software firewalls.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "UEM-11",
+          "control": "<p><span>Data Loss Prevention</span></p>",
+          "description": "<p><span>Configure managed endpoints with Data Loss Prevention (DLP) technologies and rules in accordance with a risk assessment.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "UEM-12",
+          "control": "<p><span>Remote Locate</span></p>",
+          "description": "<p><span>Enable remote geo-location capabilities for all managed mobile endpoints, according to all applicable laws and regulations.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "UEM-13",
+          "control": "<p><span>Remote Wipe</span></p>",
+          "description": "<p><span>Define, implement and evaluate processes, procedures and technical measures to enable the deletion of company data remotely on managed endpoint devices.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        },
+        {
+          "ref": "UEM-14",
+          "control": "<p><span>Third-Party Endpoint Security Posture</span></p>",
+          "description": "<p><span>Define, implement and evaluate processes, procedures and technical and/or contractual measures to maintain proper security of third-party endpoints with access to organizational assets.</span></p>",
+          "testingProcedures": [],
+          "controls": []
+        }
+      ]
+    }
+  ]
+}
