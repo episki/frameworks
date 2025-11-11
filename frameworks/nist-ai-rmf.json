@@ -2,7 +2,7 @@
   "name": "NIST AI Risk Management Framework",
   "short_name": "NIST AI Risk Management Framework",
   "last_updated": "2025-10-20",
-  "description": "<p>The NIST AI Risk Management Framework (AI RMF) provides a structured approach for organizations to manage risks associated with AI systems. It offers guidelines and best practices for integrating risk management into the AI system lifecycle, from design and development to deployment and monitoring.</p>",
+  "description": "The NIST AI Risk Management Framework (AI RMF) provides a structured approach for organizations to manage risks associated with AI systems. It offers guidelines and best practices for integrating risk management into the AI system lifecycle, from design and development to deployment and monitoring.",
   "category": "framework",
   "keywords": [
     "NIST",
