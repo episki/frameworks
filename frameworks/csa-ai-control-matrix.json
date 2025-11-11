@@ -2,7 +2,7 @@
   "name": "CSA AI Control Matrix",
   "short_name": "CSA AI Control Matrix",
   "last_updated": "2025-10-20",
-  "description": "<p>The CSA AI Control Matrix (AI-CM) is a comprehensive framework designed to help organizations implement robust security and privacy controls specifically tailored for Generative AI (GenAI) systems. Developed by the Cloud Security Alliance (CSA), the AI-CM addresses the unique challenges and risks associated with GenAI technologies, providing a structured approach to safeguard sensitive data, ensure compliance with regulatory requirements, and mitigate potential threats.</p> <p>The AI-CM encompasses a wide range of control areas, including data security, model governance, access management, incident response, and ethical considerations. By adopting the AI-CM, organizations can enhance their overall security posture, build trust with stakeholders, and foster responsible innovation in the rapidly evolving field of Generative AI.</p>",
+  "description": "The CSA AI Control Matrix (AI-CM) is a comprehensive framework designed to help organizations implement robust security and privacy controls specifically tailored for Generative AI (GenAI) systems. Developed by the Cloud Security Alliance (CSA), the AI-CM addresses the unique challenges and risks associated with GenAI technologies, providing a structured approach to safeguard sensitive data, ensure compliance with regulatory requirements, and mitigate potential threats.",
   "category": "framework",
   "keywords": [
     "CSA",

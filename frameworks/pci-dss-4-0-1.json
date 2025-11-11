@@ -2,7 +2,7 @@
   "name": "PCI DSS 4.0.1",
   "short_name": "PCI DSS 4.0.1",
   "last_updated": "2025-10-20",
-  "description": "<p>PCI DSS (Payment Card Industry Data Security Standard) 4.0.1 is a set of security standards designed to ensure that all companies that accept, process, store or transmit credit card information maintain a secure environment. The PCI DSS framework provides a comprehensive approach to securing cardholder data and reducing the risk of data breaches.</p>",
+  "description": "PCI DSS (Payment Card Industry Data Security Standard) 4.0.1 is a set of security standards designed to ensure that all companies that accept, process, store or transmit credit card information maintain a secure environment. The PCI DSS framework provides a comprehensive approach to securing cardholder data and reducing the risk of data breaches.",
   "category": "financial",
   "keywords": [
     "PCI DSS",

@@ -2,7 +2,7 @@
   "name": "Cyber Essentials UK v3.2",
   "short_name": "Cyber Essentials UK v3.2",
   "last_updated": "2025-10-20",
-  "description": "<p>Cyber Essentials is a UK government-backed scheme that helps organizations protect themselves against common cyber threats. The Cyber Essentials framework provides a set of basic security controls that organizations can implement to safeguard their systems and data from cyber attacks.</p>",
+  "description": "Cyber Essentials is a UK government-backed scheme that helps organizations protect themselves against common cyber threats. The Cyber Essentials framework provides a set of basic security controls that organizations can implement to safeguard their systems and data from cyber attacks.",
   "category": "regulation",
   "keywords": [
     "cyber essentials",

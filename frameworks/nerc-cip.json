@@ -2,7 +2,7 @@
   "name": "NERC CIP",
   "short_name": "NERC CIP",
   "last_updated": "2025-10-20",
-  "description": "<p>The NERC CIP (Critical Infrastructure Protection) standards are a set of requirements designed to ensure the security and resilience of the North American bulk electric system. Developed by the North American Electric Reliability Corporation (NERC), these standards provide a framework for managing cybersecurity risks and protecting critical infrastructure from potential threats.</p>",
+  "description": "The NERC CIP (Critical Infrastructure Protection) standards are a set of requirements designed to ensure the security and resilience of the North American bulk electric system. Developed by the North American Electric Reliability Corporation (NERC), these standards provide a framework for managing cybersecurity risks and protecting critical infrastructure from potential threats.",
   "category": "regulation",
   "keywords": [
     "NERC",
