@@ -1,0 +1,237 @@
+{
+  "name": "SCF Imported",
+  "version": "1.0",
+  "controls": [
+    {
+      "ref": "GOV",
+      "control": "<p>Execute a documented, risk-based program that supports business objectives while encompassing appropriate cybersecurity & data protection principles that addresses applicable statutory, regulatory and contractual obligations.</p>",
+      "description": "Organizations specify the development of an organization's cybersecurity & data protection program, including criteria to measure success, to ensure ongoing leadership engagement and risk management.",
+      "testingProcedures": [],
+      "controls": []
+    },
+    {
+      "ref": "AAT",
+      "control": "<p>Ensure trustworthy and resilient Artificial Intelligence (AI) and autonomous technologies to achieve a beneficial impact by informing, advising or simplifying tasks, while minimizing emergent properties or unintended consequences.</p>",
+      "description": "Organizations ensure Artificial Intelligence (AI) and autonomous technologies are designed to be reliable, safe, fair, secure, resilient, transparent, explainable and data privacy-enhanced. In addition, AI-related risks are governed according to technology-specific considerations to minimize emergent properties or unintended consequences.",
+      "testingProcedures": [],
+      "controls": []
+    },
+    {
+      "ref": "AST",
+      "control": "<p>Manage all technology assets from purchase through disposition, both physical and virtual, to ensure secured use, regardless of the asset’s location.</p>",
+      "description": "Organizations ensure technology assets are properly managed throughout the lifecycle of the asset, from procurement through disposal, ensuring only authorized devices are allowed to access the organization's network and to protect the organization's data that is stored, processed or transmitted on its assets.",
+      "testingProcedures": [],
+      "controls": []
+    },
+    {
+      "ref": "BCD",
+      "control": "<p>Maintain a resilient capability to sustain business-critical functions while successfully responding to and recovering from incidents through well-documented and exercised processes.</p>",
+      "description": "Organizations establish processes that will help the organization recover from adverse situations with minimal impact to operations, as well as provide the capability for e-discovery.",
+      "testingProcedures": [],
+      "controls": []
+    },
+    {
+      "ref": "CAP",
+      "control": "<p>Govern the current and future capacities and performance of technology assets.</p>",
+      "description": "Organizations prevent avoidable business interruptions caused by capacity and performance limitations by proactively planning for growth and forecasting, as well as requiring both technology and business leadership to maintain situational awareness of current and future performance.",
+      "testingProcedures": [],
+      "controls": []
+    },
+    {
+      "ref": "CHG",
+      "control": "<p>Manage change in a sustainable and ongoing manner that involves active participation from both technology and business stakeholders to ensure that only authorized changes occur.</p>",
+      "description": "Organizations ensure both technology and business leadership proactively manage change, including the assessment, authorization and monitoring of technical changes across the enterprise so as to not impact production systems uptime and allow easier troubleshooting of issues.",
+      "testingProcedures": [],
+      "controls": []
+    },
+    {
+      "ref": "CLD",
+      "control": "<p>Govern cloud instances as an extension of on-premise technologies with equal or greater security protections than the organization's own internal cybersecurity & data privacy controls.</p>",
+      "description": "Organizations govern the use of private and public cloud environments (e.g., IaaS, PaaS and SaaS) to holistically manage risks associated with third-party involvement and architectural decisions, as well as to ensure the portability of data to change cloud providers, if needed.",
+      "testingProcedures": [],
+      "controls": []
+    },
+    {
+      "ref": "CPL",
+      "control": "<p>Oversee the execution of cybersecurity & data privacy controls to ensure appropriate evidence required due care and due diligence exists to meet compliance with applicable statutory, regulatory and contractual obligations.</p>",
+      "description": "Organizations ensure controls are in place to ensure adherence to applicable statutory, regulatory and contractual compliance obligations, as well as internal company standards.",
+      "testingProcedures": [],
+      "controls": []
+    },
+    {
+      "ref": "CFG",
+      "control": "<p>Enforce secure configurations according to vendor-recommended and industry-recognized secure practices that enforce the concepts of “least privilege” and “least functionality” for all systems, applications and services.</p>",
+      "description": "Organizations establish and maintain the integrity of systems. Without properly documented and implemented configuration management controls, security features can be inadvertently or deliberately omitted or rendered inoperable, allowing processing irregularities to occur or the execution of malicious code.",
+      "testingProcedures": [],
+      "controls": []
+    },
+    {
+      "ref": "MON",
+      "control": "<p>Maintain situational awareness of security-related events through the centralized collection and analysis of event logs from systems, applications and services.</p>",
+      "description": "Organizations establish and maintain ongoing situational awareness across the enterprise through the centralized collection and review of security-related event logs. Without comprehensive visibility into infrastructure, operating system, database, application and other logs, the organization will have “blind spots” in its situational awareness that could lead to system compromise, data exfiltration, or unavailability of needed computing resources.",
+      "testingProcedures": [],
+      "controls": []
+    },
+    {
+      "ref": "CRY",
+      "control": "<p>Utilize appropriate cryptographic solutions and industry-recognized key management practices to protect the confidentiality and integrity of sensitive/regulated data both at rest and in transit.</p>",
+      "description": "Organizations ensure the confidentiality and integrity of its data through implementing appropriate cryptographic technologies to protect systems, applications, services and data.",
+      "testingProcedures": [],
+      "controls": []
+    },
+    {
+      "ref": "DCH",
+      "control": "<p>Enforce a standardized data classification methodology to objectively determine the sensitivity and criticality of all data and technology assets so that proper handling and disposal requirements can be followed.</p>",
+      "description": "Organizations ensure that technology assets, both electronic and physical, are properly classified and measures implemented to protect the organization's data from unauthorized disclosure, or modification, regardless if it is being transmitted or stored. Applicable statutory, regulatory and contractual compliance requirements dictate the minimum safeguards that must be in place to protect the confidentiality, integrity and availability of data.",
+      "testingProcedures": [],
+      "controls": []
+    },
+    {
+      "ref": "EMB",
+      "control": "<p>Provide additional scrutiny to reduce the risks associated with embedded technology, based on the potential damages posed from malicious use of the technology.</p>",
+      "description": "Organizations specify the development, proactive management and ongoing review of security embedded technologies, including hardening of the “stack” from the hardware, firmware and software to transmission and service protocols used for Internet of Things (IoT) and Operational Technology (OT) devices.",
+      "testingProcedures": [],
+      "controls": []
+    },
+    {
+      "ref": "END",
+      "control": "<p>Harden endpoint devices to protect against reasonable threats to those devices and the data those devices store, transmit and process.</p>",
+      "description": "Organizations ensure that endpoint devices are appropriately protected from security threats to the device and its data. Applicable statutory, regulatory and contractual compliance requirements dictate the minimum safeguards that must be in place to protect the confidentiality, integrity, availability and safety considerations.",
+      "testingProcedures": [],
+      "controls": []
+    },
+    {
+      "ref": "HRS",
+      "control": "<p>Execute sound hiring practices and ongoing personnel management to cultivate a cybersecurity & data privacy-minded workforce.</p>",
+      "description": "Organizations create a cybersecurity & data privacy-minded workforce and an environment that is conducive to innovation, considering issues such as culture, reward and collaboration.",
+      "testingProcedures": [],
+      "controls": []
+    },
+    {
+      "ref": "IAC",
+      "control": "<p>Enforce the concept of “least privilege” consistently across all systems, applications and services for individual, group and service accounts through a documented and standardized Identity and Access Management (IAM) capability.</p>",
+      "description": "Organizations implement the concept of “least privilege” through limiting access to the organization's systems and data to authorized users only.",
+      "testingProcedures": [],
+      "controls": []
+    },
+    {
+      "ref": "IRO",
+      "control": "<p>Maintain a viable incident response capability that trains personnel on how to recognize and report suspicious activities so that trained incident responders can take the appropriate steps to handle incidents, in accordance with a documented Incident Response Plan (IRP).</p>",
+      "description": "Organizations establish and maintain a viable and tested capability to respond to cybersecurity or data privacy-related incidents in a timely manner, where organizational personnel understand how to detect and report potential incidents.",
+      "testingProcedures": [],
+      "controls": []
+    },
+    {
+      "ref": "IAO",
+      "control": "<p>Execute an impartial assessment process to validate the existence and functionality of appropriate cybersecurity & data privacy controls, prior to a system, application or service being used in a production environment.</p>",
+      "description": "Organizations ensure the adequacy of cybersecurity & data privacy controls in development, testing and production environments.",
+      "testingProcedures": [],
+      "controls": []
+    },
+    {
+      "ref": "MNT",
+      "control": "<p>Proactively maintain technology assets, according to current vendor recommendations for configurations and updates, including those supported or hosted by third-parties.</p>",
+      "description": "Organizations ensure that technology assets are properly maintained to ensure continued performance and effectiveness. Maintenance processes apply additional scrutiny to the security of end-of-life or unsupported assets.",
+      "testingProcedures": [],
+      "controls": []
+    },
+    {
+      "ref": "MDM",
+      "control": "<p>Implement measures to restrict mobile device connectivity with critical infrastructure and sensitive/regulated data that limit the attack surface and potential data exposure from mobile device usage.</p>",
+      "description": "Organizations govern risks associated with mobile devices, regardless of ownership (organization-owned, employee-owned or third-party owned). Wherever possible, technologies are employed to centrally manage mobile device access and data storage practices.",
+      "testingProcedures": [],
+      "controls": []
+    },
+    {
+      "ref": "NET",
+      "control": "<p>Architect and implement a secure and resilient defense-in-depth methodology that enforces the concept of “least functionality” through restricting network access to systems, applications and services.</p>",
+      "description": "Organizations ensure sufficient cybersecurity & data privacy controls are architected to protect the confidentiality, integrity, availability and safety of the organization's network infrastructure, as well as to provide situational awareness of activity on the organization's networks.",
+      "testingProcedures": [],
+      "controls": []
+    },
+    {
+      "ref": "PES",
+      "control": "<p>Protect physical environments through layers of physical security and environmental controls that work together to protect both physical and digital assets from theft and damage.</p>",
+      "description": "Organizations minimize physical access to the organization's systems and data by addressing applicable physical security controls and ensuring that appropriate environmental controls are in place and continuously monitored to ensure equipment does not fail due to environmental threats.",
+      "testingProcedures": [],
+      "controls": []
+    },
+    {
+      "ref": "PRI",
+      "control": "<p>Align data privacy practices with industry-recognized data privacy principles to implement appropriate administrative, technical and physical controls to protect regulated personal data throughout the lifecycle of systems, applications and services.</p>",
+      "description": "Organizations align data privacy engineering decisions with the organization's overall data privacy strategy and industry-recognized leading practices to secure Personal Data (PD) that implements the concept of data privacy by design and by default.",
+      "testingProcedures": [],
+      "controls": []
+    },
+    {
+      "ref": "PRM",
+      "control": "<p>Operationalize a viable strategy to achieve cybersecurity & data privacy objectives that establishes cybersecurity as a key stakeholder within project management practices to ensure the delivery of resilient and secure solutions.</p>",
+      "description": "Organizations ensure that security-related projects have both resource and project/program management support to ensure successful project execution.",
+      "testingProcedures": [],
+      "controls": []
+    },
+    {
+      "ref": "RSK",
+      "control": "<p>Proactively identify, assess, prioritize and remediate risk through alignment with industry-recognized risk management principles to ensure risk decisions adhere to the organization's risk threshold.</p>",
+      "description": "Organizations ensure that the business unit(s) that own the assets and / or processes involved are made aware of and understand all applicable cybersecurity & data privacy-related risks. The cybersecurity & data privacy teams advise and educate on risk management matters, while it is the business units and other key stakeholders that ultimately own the risk.",
+      "testingProcedures": [],
+      "controls": []
+    },
+    {
+      "ref": "SEA",
+      "control": "<p>Utilize industry-recognized secure engineering and architecture principles to deliver secure and resilient systems, applications and services.</p>",
+      "description": "Organizations align cybersecurity engineering and architecture decisions with the organization's overall technology architectural strategy and industry-recognized leading practices to secure networked environments.",
+      "testingProcedures": [],
+      "controls": []
+    },
+    {
+      "ref": "OPS",
+      "control": "<p>Execute the delivery of cybersecurity & data privacy operations to provide quality services and secure systems, applications and services that meet the organization's business needs.</p>",
+      "description": "Organizations ensure appropriate resources and a management structure exists to enable the service delivery of cybersecurity, physical security and data privacy operations.",
+      "testingProcedures": [],
+      "controls": []
+    },
+    {
+      "ref": "SAT",
+      "control": "<p>Foster a cybersecurity & data privacy-minded workforce through ongoing user education about evolving threats, compliance obligations and secure workplace practices.</p>",
+      "description": "Organizations develop a cybersecurity & data privacy-minded workforce through continuous education activities and practical exercises.",
+      "testingProcedures": [],
+      "controls": []
+    },
+    {
+      "ref": "TDA",
+      "control": "<p>Develop and/or acquire systems, applications and services according to a Secure Software Development Framework (SSDF) to reduce the potential impact of undetected or unaddressed vulnerabilities and design flaws.</p>",
+      "description": "Organizations ensure that cybersecurity & data privacy principles are implemented into any products/solutions, either developed internally or acquired, to make sure that the concepts of “least privilege” and “least functionality” are incorporated.",
+      "testingProcedures": [],
+      "controls": []
+    },
+    {
+      "ref": "TPM",
+      "control": "<p>Execute Supply Chain Risk Management (SCRM) practices so that only trustworthy third-parties are used for products and/or service delivery.</p>",
+      "description": "Organizations ensure that cybersecurity & data privacy risks associated with third-parties are minimized and enable measures to sustain operations should a third-party become compromised, untrustworthy or defunct.",
+      "testingProcedures": [],
+      "controls": []
+    },
+    {
+      "ref": "THR",
+      "control": "<p>Proactively identify and assess technology-related threats, to both assets and business processes, to determine the applicable risk and necessary corrective action.</p>",
+      "description": "Organizations establish a capability to proactively identify and manage technology-related threats to the cybersecurity & data privacy of the organization's systems, data and business processes.",
+      "testingProcedures": [],
+      "controls": []
+    },
+    {
+      "ref": "VPM",
+      "control": "<p>Leverage industry-recognized Attack Surface Management (ASM) practices to strengthen the security and resilience systems, applications and services against evolving and sophisticated attack vectors.</p>",
+      "description": "Organizations proactively manage the risks associated with technical vulnerability management that includes ensuring good patch and change management practices are utilized.",
+      "testingProcedures": [],
+      "controls": []
+    },
+    {
+      "ref": "WEB",
+      "control": "<p>Ensure the security and resilience of Internet-facing technologies through secure configuration management practices and monitoring for anomalous activity.</p>",
+      "description": "Organizations address the risks associated with Internet-accessible technologies by hardening devices, monitoring system file integrity, enabling auditing, and monitoring for malicious activities.",
+      "testingProcedures": [],
+      "controls": []
+    }
+  ]
+}
