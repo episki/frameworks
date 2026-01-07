@@ -3,6 +3,7 @@
   "short_name": "PCI CP Physical 3.0.1",
   "last_updated": "2022-06-01",
   "description": "The PCI Card Production and Provisioning Physical Security Requirements 3.0.1 define the minimum physical security requirements for vendors involved in the production and provisioning of payment cards and similar devices.",
+  "category": "financial",
   "keywords": [
     "PCI DSS",
     "Payment Card Industry",
