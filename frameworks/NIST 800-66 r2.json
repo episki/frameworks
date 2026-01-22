@@ -1,0 +1,749 @@
+{
+  "name": "NIST 800-66 r2",
+  "short_name": "NIST 800-66 r2",
+  "last_updated": "2025-05-07",
+  "description": "**NIST SP 800-66 Revision 2** (officially titled *\"Implementing the Health Insurance Portability and Accountability Act (HIPAA) Security Rule: A Cybersecurity Resource Guide\"*) is a guidance document from the National Institute of Standards and Technology (NIST). It provides a practical framework for implementing the HIPAA Security Rule’s requirements through recognized cybersecurity practices.",
+  "category": "framework",
+  "keywords": [
+    "cybersecurity",
+    "framework"
+  ],
+  "controls": [
+    {
+      "ref": "1",
+      "label": "Administrative Safeguards",
+      "description": "Defined in the Security Rule as the “administrative actions and policies, and procedures to manage the selection, development, implementation, and maintenance of security measures to protect electronic protected health information and to manage the conduct of the covered entity's workforce in relation to the protection of that information.”",
+      "group": true,
+      "controls": [
+        {
+          "ref": "1.1",
+          "label": "Security Management Process",
+          "description": "HIPAA Standard: Implement policies and procedures to prevent, detect, contain, and correct security violations.",
+          "group": true,
+          "controls": [
+            {
+              "ref": "1.1.1",
+              "label": "Identify all ePHI and Relevant Information Systems",
+              "description": "Identify where ePHI is generated within the organization, where it enters the organization, where it moves within the organization, where it is stored, and where it leaves the organization.\n\nIdentify all systems that house ePHI. Be sure to identify mobile devices, medical equipment, and medical IoT devices that store, process, or transmit ePHI.\n\nInclude all hardware and software that are used to collect, store, process, or transmit ePHI.\n\nAnalyze business functions and verify the ownership and control of information system elements as necessary.\n\nConsider the impact of a merger or acquisition on risks to ePHI. During a merger or acquisition, new data pathways may be introduced that lead to ePHI being stored, processed, or transmitted in previously unanticipated places."
+            },
+            {
+              "ref": "1.1.2",
+              "label": "Conduct Risk Assessment",
+              "description": "Conduct an accurate and thorough assessment of the potential risks and vulnerabilities to the confidentiality, integrity, and availability of ePHI held by the covered entity or business associate. (R)"
+            },
+            {
+              "ref": "1.1.3",
+              "label": "Implement a Risk Management Program",
+              "description": "Implement security measures sufficient to reduce risks and vulnerabilities to a reasonable and appropriate level to comply with §164.306(a). (R)\n\nRisk management should be performed with regular frequency to examine past decisions, reevaluate risk likelihood and impact levels, and assess the effectiveness of past remediation efforts.\n\nCreate a Risk Management policy and program that outlines organizational risk appetite and risk tolerance, personnel duties, responsible parties, the frequency of risk management, and required documentation.\n\nA risk management methodology is included in Section 4.\n\nRisk management resources are also included in Appendix F."
+            },
+            {
+              "ref": "1.1.4",
+              "label": "Acquire IT Systems and Services",
+              "description": "Regulated entities should consider how cloud services and other third-party IT system and service offerings can both assist regulated entities in protecting ePHI while also potentially introducing new risks to ePHI.\n\nAlthough the HIPAA Security Rule does not require purchasing any particular technology, adequately protecting information may require additional hardware, software, or services. Considerations for their selection should include the following:"
+            },
+            {
+              "ref": "1.1.5",
+              "label": "Create and Deploy Policies and Procedures",
+              "description": "Implement the decisions concerning the management, operational, and technical controls selected to mitigate identified risks.\n\nCreate policies that clearly establish roles and responsibilities, and assign ultimate responsibility for the implementation of each control to particular individuals or offices.\n\nCreate procedures to be followed to accomplish particular security-related tasks.\n\nEstablish a frequency for reviewing policy and procedures."
+            },
+            {
+              "ref": "1.1.6",
+              "label": "Develop and Implement a Sanction Policy",
+              "description": "Apply appropriate sanctions against workforce members who fail to comply with the security policies and procedures of the covered entity or business associate. (R)\n\nDevelop policies and procedures for imposing appropriate sanctions (e.g., reprimand, termination) for noncompliance with the organization’s security policies.\n\nImplement sanction policy as cases arise."
+            },
+            {
+              "ref": "1.1.7",
+              "label": "Develop and Deploy the Information System Activity Review Process",
+              "description": "Implement procedures to regularly review records of information system activity, such as audit logs, access reports, and security incident tracking reports. (R)\n\nImplement regular reviews of information system activity, and consider ways to automate the review for the protection of ePHI."
+            },
+            {
+              "ref": "1.1.8",
+              "label": "Develop Appropriate Standard Operating Procedures",
+              "description": "Determine the types of audit trail data and monitoring procedures that will be needed to derive exception reports."
+            },
+            {
+              "ref": "1.1.9",
+              "label": "Implement the Information System Activity Review and Audit Process",
+              "description": "Activate the necessary review process.\n\nBegin auditing and logging activity."
+            }
+          ]
+        },
+        {
+          "ref": "1.2",
+          "label": "Assigned Security Responsibility",
+          "description": "HIPAA Standard: Identify the security official who is responsible for the development and implementation of the policies and procedures required by this subpart for the covered entity or business associate.",
+          "group": true,
+          "controls": [
+            {
+              "ref": "1.2.1",
+              "label": "Select a Security Official to be Assigned Responsibility for HIPAA Security",
+              "description": "Identify the individual who has final responsibility for security.\n\nSelect an individual who is able to assess effective security to serve as the point of contact for security policy, implementation, and monitoring."
+            },
+            {
+              "ref": "1.2.2",
+              "label": "Assign and Document the Individual’s Responsibility",
+              "description": "Document the assignment to one individual’s responsibilities in a job description.\n\nCommunicate this assigned role to the entire organization."
+            }
+          ]
+        },
+        {
+          "ref": "1.3",
+          "label": "Workforce Security",
+          "description": "HIPAA Standard: Implement policies and procedures to ensure that all members of its workforce have appropriate access to electronic protected health information, as provided under paragraph (a)(4) of this section, and to prevent those workforce members who do not have access under paragraph (a)(4) of this section from obtaining access to electronic protected health information.",
+          "group": true,
+          "controls": [
+            {
+              "ref": "1.3.1",
+              "label": "Implement Policies and Procedures for Authorization and/or Supervision",
+              "description": "Implement procedures for the authorization and/or supervision of workforce members who work with ePHI or in locations where it might be accessed. (A)"
+            },
+            {
+              "ref": "1.3.2",
+              "label": "Establish Clear Job Descriptions and Responsibilities",
+              "description": "Define roles and responsibilities for all job functions.\n\nAssign appropriate levels of security oversight, training, and access.\n\nIdentify in writing who has the business need and who has been granted permission to view, alter, retrieve, and store ePHI and at what times, under what circumstances, and for what purposes."
+            },
+            {
+              "ref": "1.3.3",
+              "label": "Establish Criteria and Procedures for Hiring and Assigning Tasks",
+              "description": "Ensure that staff members have the necessary knowledge, skills, and abilities to fulfill particular roles (e.g., positions involving access to and use of sensitive information).\n\nEnsure that these requirements are included as part of the personnel hiring process."
+            },
+            {
+              "ref": "1.3.4",
+              "label": "Establish a Workforce Clearance Procedure",
+              "description": "Implement procedures to determine that the access of a workforce member to ePHI is appropriate. (A)\n\nImplement appropriate screening of persons who will have access to ePHI.\n\nImplement a procedure for obtaining clearance from appropriate offices or individuals where access is provided or terminated."
+            },
+            {
+              "ref": "1.3.5",
+              "label": "Establish Termination Procedures",
+              "description": "Implement procedures for terminating access to ePHI when the employment of or other arrangement with a workforce member ends or as required by determinations made as specified in §164.308(a)(3)(ii)(B). (A)\n\nDevelop a standard set of procedures that should be followed to recover access control devices (e.g., identification badges, keys, access cards) when employment ends.\n\nDeactivate computer access accounts (e.g., disable user IDs and passwords) and facility access (e.g., change facility security codes/PINs)."
+            }
+          ]
+        },
+        {
+          "ref": "1.4",
+          "label": "Information Access Management",
+          "description": "HIPAA Standard: Implement policies and procedures for authorizing access to electronic protected health information that are consistent with the applicable requirements of subpart E of this part.",
+          "group": true,
+          "controls": [
+            {
+              "ref": "1.4.1",
+              "label": "Isolate Healthcare Clearinghouse Functions",
+              "description": "If a healthcare clearinghouse is part of a larger organization, the clearinghouse must implement policies and procedures that protect the ePHI of the clearinghouse from unauthorized access by the larger organization. (R)\n\nDetermine whether a component of the regulated entity constitutes a healthcare clearinghouse under the HIPAA Security Rule. If no clearinghouse functions exist, document this finding.\n\nIf a clearinghouse exists within the organization, implement procedures for access that are consistent with the HIPAA Privacy Rule."
+            },
+            {
+              "ref": "1.4.2",
+              "label": "Implement Policies and Procedures for Authorizing Access",
+              "description": "Implement policies and procedures for granting access to ePHI, such as through access to a workstation, transaction, program, process, or other mechanism. (A)\n\nDecide and document procedures for how access to ePHI will be granted to workforce members within the organization.\n\nSelect the basis for restricting access to ePHI.\n\nSelect an access control method (e.g., identity-based, role-based, or other reasonable and appropriate means of access.)\n\nDecide and document how access to ePHI will be granted for privileged functions.\n\nEnsure that there is a list of personnel with authority to approve user requests to access ePHI and systems with ePHI.\n\nIdentify authorized users with access to ePHI, including data owners and data custodians.\n\nConsider whether multiple access control methods are needed to protect ePHI according to the results of the risk assessment.\n\nDetermine whether direct access to ePHI will ever be appropriate for individuals external to the organization (e.g., business partners or patients seeking access to their own ePHI)."
+            },
+            {
+              "ref": "1.4.3",
+              "label": "Implement Policies and Procedures for Access Establishment and Modification",
+              "description": "Implement policies and procedures that – based on the covered entity or business associate’s access authorization policies – establish, document, review, and modify a user's right of access to a workstation, transaction, program, or process. (A)\n\nEstablish standards for granting access to ePHI.\n\nProvide formal authorization from the appropriate authority before granting access to ePHI.\n\nRegularly review personnel access to ePHI to ensure that access is still authorized and needed.\n\nModify personnel access to ePHI, as needed, based on review activities."
+            },
+            {
+              "ref": "1.4.4",
+              "label": "Evaluate Existing Security Measures Related to Access Controls",
+              "description": "Evaluate the security features of access controls that are already in place or those of any planned for implementation, as appropriate.\n\nDetermine whether these security features involve alignment with other existing management, operational, and technical controls, such as policy standards, personnel procedures, the maintenance and review of audit trails, the identification and authentication of users, and physical access controls."
+            }
+          ]
+        },
+        {
+          "ref": "1.5",
+          "label": "Security Awareness and Training",
+          "description": "HIPAA Standard: Implement a security awareness and training program for all members of its workforce (including management).",
+          "group": true,
+          "controls": [
+            {
+              "ref": "1.5.1",
+              "label": "Conduct a Training Needs Assessment",
+              "description": "Determine the training needs of the organization.\n\nInterview and involve key personnel in assessing security training needs.\n\nUse feedback and analysis of past events to help determine training needs.\n\nReview organizational behavior issues, past incidents, and/or breaches to determine what training is missing or needs reinforcement, improvement, or periodic reminders."
+            },
+            {
+              "ref": "1.5.2",
+              "label": "Develop and Approve a Training Strategy and a Plan",
+              "description": "Address the specific HIPAA policies that require security awareness and training in the security awareness and training program.\n\nSet organizational expectations for protecting ePHI.\n\nIn the security awareness and training program, outline the program’s scope, goals, target audiences, learning objectives, deployment methods, and evaluation and measurement techniques, as well as the frequency of training."
+            },
+            {
+              "ref": "1.5.3",
+              "label": "Protection from Malicious Software, Login Monitoring, and Password Management",
+              "description": "As reasonable and appropriate, train workforce members regarding procedures for:\n\nIncorporate information concerning workforce members’ roles and responsibilities in implementing these implementation specifications into training and awareness efforts."
+            },
+            {
+              "ref": "1.5.4",
+              "label": "Develop Appropriate Awareness and Training Content, Materials, and Methods",
+              "description": "Select topics to be included in the training materials, and consider current and relevant topics (e.g., phishing, email security) for the protection of ePHI.\n\nIncorporate new information from email advisories, online IT security daily news websites, and periodicals, as reasonable and appropriate.\n\nConsider using a variety of media and avenues according to what is appropriate for the organization based on workforce size, location, level of education, and other factors.\n\nTraining should be an ongoing, evolving process in response to environmental and operational changes that affect the security of ePHI."
+            },
+            {
+              "ref": "1.5.5",
+              "label": "Implement the Training",
+              "description": "Schedule and conduct the training outlined in the strategy and plan.\n\nImplement any reasonable technique to disseminate the security messages in an organization, including newsletters, screensavers, video recordings, email messages, teleconferencing sessions, staff meetings, and computer-based training."
+            },
+            {
+              "ref": "1.5.6",
+              "label": "Implement Security Reminders",
+              "description": "Implement periodic security updates. (A)\n\nProvide periodic security updates to staff, business associates, and contractors.\n\nConsider the benefits of ongoing communication with staff (e.g., emails, newsletters) on training topics to achieve HIPAA compliance and protect ePHI."
+            },
+            {
+              "ref": "1.5.7",
+              "label": "Monitor and Evaluate the Training Plan",
+              "description": "Keep the security awareness and training program current.\n\nSolicit trainee feedback to determine whether the training and awareness are successfully reaching the intended audience.\n\nConduct training whenever changes occur in the technology and practices as appropriate.\n\nMonitor the training program implementation to ensure that all workforce members participate.\n\nImplement corrective actions when problems arise."
+            }
+          ]
+        },
+        {
+          "ref": "1.6",
+          "label": "Security Incident Procedures",
+          "description": "HIPAA Standard: Implement policies and procedures to address security incidents.",
+          "group": true,
+          "controls": [
+            {
+              "ref": "1.6.1",
+              "label": "Determine the Goals of Incident Response",
+              "description": "Gain an understanding as to what constitutes a true security incident. Under the HIPAA Security Rule, a security incident is the attempted or successful unauthorized access, use, disclosure, modification, or destruction of information or interference with system operations in an information system (45 CFR § 164.304).\n\nEnsure that the incident response program covers all parts of the organization in which ePHI is created, stored, processed, or transmitted.\n\nDetermine how the organization will respond to a security incident.\n\nEstablish a reporting mechanism and a process to coordinate responses to the security incident.\n\nProvide direct technical assistance, advise vendors to address product-related problems, and provide liaisons to legal and criminal investigative groups as needed."
+            },
+            {
+              "ref": "1.6.2",
+              "label": "Develop and Deploy an Incident Response Team or Other Reasonable and Appropriate Response Mechanism",
+              "description": "Determine whether the size, scope, mission, and other aspects of the organization justify the reasonableness and appropriateness of maintaining a standing incident response team.\n\nIdentify appropriate individuals to be part of a formal incident response team if the organization has determined that implementing an incident response team is reasonable and appropriate.\n\nConsider assigning secondary personnel to be part of the incident response team in the event that primary personnel are unavailable."
+            },
+            {
+              "ref": "1.6.3",
+              "label": "Develop and Implement Policy and Procedures to Respond to and Report Security Incidents",
+              "description": "Identify and respond to suspected or known security incidents; mitigate, to the extent practicable, harmful effects of security incidents that are known to the covered entity or business associate; and document security incidents and their outcomes. (R)\n\nEnsure that an organizational incident response policy is in place that addresses all parts of the organization in which ePHI is created, stored, processed, or transmitted.\n\nDocument incident response procedures that can provide a single point of reference to guide the day-to-day operations of the incident response team.\n\nReview incident response procedures with staff who have roles and responsibilities related to incident response; solicit suggestions for improvements; and make changes to reflect input if reasonable and appropriate.\n\nConsider conducting tests of the incident response plan.\n\nUpdate the procedures as required based on changing organizational needs."
+            },
+            {
+              "ref": "1.6.4",
+              "label": "Incorporate Post-Incident Analysis into Updates and Revisions",
+              "description": "Measure effectiveness and update security incident response procedures to reflect lessons learned, and identify actions to take that will improve security controls after a security incident.\n\nIncidents caused by or influenced by known risks should feed back into the risk assessment process for a reevaluation of impact and/or likelihood.\n\nRemediation and corrective action plans that arise from incidents should serve as input to the risk assessment/management process."
+            }
+          ]
+        },
+        {
+          "ref": "1.7",
+          "label": "Contingency Plan",
+          "description": "HIPAA Standard: Establish (and implement as needed) policies and procedures for responding to an emergency or other occurrence (for example, fire, vandalism, system failure, and natural disaster) that damages systems that contain electronic protected health information.",
+          "group": true,
+          "controls": [
+            {
+              "ref": "1.7.1",
+              "label": "Develop a Contingency Planning Policy",
+              "description": "Define the organization’s overall contingency objectives.\n\nEstablish the organizational framework, roles, and responsibilities for this area.\n\nAddress scope, resource requirements, training, testing, plan maintenance, and backup requirements."
+            },
+            {
+              "ref": "1.7.2",
+              "label": "Conduct an Applications and Data Criticality Analysis",
+              "description": "Assess the relative criticality of specific applications and data in support of other Contingency Plan components. (A)\n\nIdentify the activities and material involving ePHI that are critical to business operations.\n\nIdentify the critical services or operations and the manual and automated processes that support them involving ePHI.\n\nDetermine the amount of time that the organization can tolerate disruptions to these operations, materials, or services (e.g., due to power outages).\n\nEvaluate the current and available levels of redundancy and geographic distribution of any storage service providers to identify risks to service availability and determine restoration times.\n\nConsider whether any vendor/service provider arrangements are critical to operations and address them as appropriate to ensure availability and reliability.\n\nEstablish cost-effective strategies for recovering these critical services or processes."
+            },
+            {
+              "ref": "1.7.3",
+              "label": "Identify Preventive Measures",
+              "description": "Identify preventive measures for each defined scenario that could result in the loss of a critical service operation involving the use of ePHI.\n\nEnsure that identified preventive measures are practical and feasible in terms of their applicability in a given environment."
+            },
+            {
+              "ref": "1.7.4",
+              "label": "Develop Recovery Strategy",
+              "description": "Finalize the set of contingency procedures that should be invoked for all identified impacts, including emergency mode operation. The strategy must be adaptable to the existing operating environment and address allowable outage times and the associated priorities identified in Key Activity 2.\n\nIf part of the strategy depends on external organizations for support, ensure that formal agreements are in place with specific requirements stated."
+            },
+            {
+              "ref": "1.7.5",
+              "label": "Data Backup Plan and Disaster Recovery Plan",
+              "description": "Establish and implement procedures to create and maintain retrievable exact copies of ePHI. (R)\n\nEstablish (and implement as needed) procedures to restore any loss of data. (R)"
+            },
+            {
+              "ref": "1.7.6",
+              "label": "Develop and Implement an Emergency Mode Operation Plan",
+              "description": "Establish (and implement as needed) procedures to enable the continuation of critical business processes to protect the security of ePHI while operating in emergency mode. (R)\n\n“Emergency mode” operation involves only those critical business processes that must occur to protect the security of ePHI during and immediately after a crisis situation."
+            },
+            {
+              "ref": "1.7.7",
+              "label": "Testing and Revision Procedure",
+              "description": "Implement procedures for the periodic testing and revision of contingency plans. (A)\n\nTest the contingency plan on a predefined cycle (stated in the policy developed under Key Activity 1), if reasonable and appropriate.\n\nTrain those with defined plan responsibilities in their roles.\n\nIf possible, involve external entities (e.g., vendors, alternative site or service providers) in testing exercises.\n\nMake key decisions regarding how the testing is to occur (e.g., tabletop exercise versus staging a real operational scenario, including actual loss of capability).\n\nDecide how to segment the type of testing based on the assessment of business impact and the acceptability of a sustained loss of service."
+            }
+          ]
+        },
+        {
+          "ref": "1.8",
+          "label": "Evaluation",
+          "description": "HIPAA Standard: Perform a periodic technical and nontechnical evaluation, based initially upon the standards implemented under this rule and subsequently, in response to environmental or operational changes affecting the security of electronic protected health information, that establishes the extent to which a covered entity’s or business associate’s security policies and procedures meet the requirements of this subpart.",
+          "group": true,
+          "controls": [
+            {
+              "ref": "1.8.1",
+              "label": "Determine Whether Internal or External Evaluation is Most Appropriate",
+              "description": "Decide whether the evaluation will be conducted with internal staff resources or external consultants.\n\nEngage external expertise to assist the internal evaluation team where additional skills and expertise are determined to be reasonable and appropriate.\n\nUse internal resources to supplement an external source of help because these internal resources can provide the best institutional knowledge and history of internal policies and practices."
+            },
+            {
+              "ref": "1.8.2",
+              "label": "Develop Standards and Measurements for Reviewing All Standards and Implementation Specifications of the Security Rule",
+              "description": "Develop and document organizational policies and procedures for conducting evaluation.\n\nOnce security controls have been implemented in response to the organization’s risk assessment and management processes, periodically review these implemented security measures to ensure their continued effectiveness in protecting ePHI.\n\nConsider determining any specific evaluation metrics and/or measurements to be captured during evaluation. Metrics and/or measurements can assist in tracking progress over time.\n\nUse an evaluation strategy and tool that considers all elements of the HIPAA Security Rule and can be tracked, such as a questionnaire or checklist.\n\nImplement tools that can provide reports on the level of compliance, integration, or maturity of a particular security safeguard deployed to protect ePHI.\n\nIf available, consider engaging corporate, legal, or regulatory compliance staff when conducting the analysis.\n\nLeverage any existing reports or documentation that may already be prepared by the organization addressing the compliance, integration, or maturity of a particular security safeguard deployed to protect ePHI."
+            },
+            {
+              "ref": "1.8.3",
+              "label": "Conduct Evaluation",
+              "description": "Determine in advance what departments and/or staff will participate in the evaluation.\n\nDetermine what constitutes an environmental or operational change that affects the security of ePHI.\n\nDetermine when evaluations are conducted in response to an environmental or operational change that affects the security of ePHI (e.g., prior to the change, contemporaneous with the change, after the change).\n\nSecure management support for the evaluation process to ensure participation.\n\nCollect and document all needed information. Collection methods may include the use of interviews, surveys, and the outputs of automated tools, such as access control auditing tools, system logs, and the results of penetration testing.\n\nConduct penetration testing (where testers attempt to compromise system security for the sole purpose of testing the effectiveness of security controls), if reasonable and appropriate.\n\nEvaluation may include reviewing organizational policies and procedures, assessing the implementation of security controls, collecting evidence of security control implementation, and performing physical walk-throughs."
+            },
+            {
+              "ref": "1.8.4",
+              "label": "Document Results",
+              "description": "Document each evaluation finding, as well as remediation options, recommendations, and decisions.\n\nDocument known gaps between identified risks, mitigating security controls, and any acceptance of risk, including justification.\n\nDevelop security program priorities, and establish targets for continuous improvement.\n\nUtilize the results of evaluations to inform impactful security changes to protect ePHI.\n\nCommunicate evaluation results, metrics, and/or measurements to relevant organizational personnel."
+            },
+            {
+              "ref": "1.8.5",
+              "label": "Repeat Evaluations Periodically",
+              "description": "Establish the frequency of evaluations, and consider the sensitivity of the ePHI controlled by the organization as well as the organization's size, complexity, and environmental and/or operational changes (e.g., other relevant laws or accreditation requirements).\n\nIn addition to periodic reevaluations, consider repeating evaluations when environmental and operational changes that affect the security of ePHI are made to the organization (e.g., if new technology is adopted or if there are newly recognized risks to the security of ePHI)."
+            }
+          ]
+        },
+        {
+          "ref": "1.9",
+          "label": "Business Associate Contracts and Other Arrangements",
+          "description": "HIPAA Standard: A covered entity may permit a business associate to create, receive, maintain, or transmit electronic protected health information on the covered entity’s behalf only if the covered entity obtains satisfactory assurances, in accordance with § 164.314(a), that the business associate will appropriately safeguard the information. A covered entity is not required to obtain such satisfactory assurances from a business associate that is a subcontractor.",
+          "group": true,
+          "controls": [
+            {
+              "ref": "1.9.1",
+              "label": "Identify Entities that are Business Associates Under the HIPAA Security Rule",
+              "description": "Identify the individual or department who will be responsible for coordinating the execution of business associate agreements or other arrangements.\n\nReevaluate the list of business associates to determine who has access to ePHI in order to assess whether the list is complete and current.\n\nIdentify systems covered by the contract/agreement.\n\nBusiness associates must have a BAA in place with each of their subcontractor business associates. Subcontractor business associates are also directly liable for their own Security Rule violations."
+            },
+            {
+              "ref": "1.9.2",
+              "label": "Establish a Process for Measuring Contract Performance and Terminating the Contract if Security Requirements Are Not Being Met",
+              "description": "Maintain clear lines of communication between covered entities and business associates regarding the protection of ePHI as per the BAA or contract.\n\nEstablish criteria for measuring contract performance."
+            },
+            {
+              "ref": "1.9.3",
+              "label": "Written Contract or Other Arrangement",
+              "description": "Document the satisfactory assurances required by this standard through a written contract or other arrangement with the business associate that meets the applicable requirements of §164.314(a). Readers may find useful resources in Appendix F, including OCR BAA guidance and/or templates that include applicable language. (R)\n\nExecute new or update existing agreements or arrangements as appropriate.\n\nIdentify roles and responsibilities.\n\nInclude security requirements in business associate contracts and agreements to address the confidentiality, integrity, and availability of ePHI.\n\nSpecify any training requirements associated with the contract/agreement or arrangement, if reasonable and appropriate."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "2",
+      "label": "Physical Safeguards",
+      "description": "Defined as the “physical measures, policies, and procedures to protect a covered entity’s electronic information systems and related buildings and equipment, from natural and environmental hazards, and unauthorized intrusion.”",
+      "group": true,
+      "controls": [
+        {
+          "ref": "2.1",
+          "label": "Facility Access Controls",
+          "description": "HIPAA Standard: Implement policies and procedures to limit physical access to its electronic information systems and the facility or facilities in which they are housed, while ensuring that properly authorized access is allowed.",
+          "group": true,
+          "controls": [
+            {
+              "ref": "2.1.1",
+              "label": "Conduct an Analysis of Existing Physical Security Vulnerabilities",
+              "description": "Inventory facilities and identify shortfalls and/or vulnerabilities in current physical security capabilities.\n\nAssign degrees of significance to each vulnerability identified and ensure that proper access is allowed.\n\nDetermine which types of facilities require access controls to safeguard ePHI, such as:"
+            },
+            {
+              "ref": "2.1.2",
+              "label": "Identify Corrective Measures",
+              "description": "Identify and assign responsibility for the measures and activities necessary to correct deficiencies, and ensure that proper physical access is allowed.\n\nDevelop and deploy policies and procedures to ensure that repairs, upgrades, and/or modifications are made to the appropriate physical areas of the facility while ensuring that proper access is allowed."
+            },
+            {
+              "ref": "2.1.3",
+              "label": "Develop a Facility Security Plan",
+              "description": "Implement policies and procedures to safeguard the facility and the equipment therein from unauthorized physical access, tampering, and theft. (A)\n\nImplement appropriate measures to provide physical security protection for ePHI in a regulated entity’s possession.\n\nInclude documentation of the facility inventory, physical maintenance records, and a history of changes, upgrades, and other modifications.\n\nIdentify points of access to the facility and existing security controls."
+            },
+            {
+              "ref": "2.1.4",
+              "label": "Develop Access Control and Validation Procedures",
+              "description": "Implement procedures to control and validate a person's access to facilities based on their role or function, including visitor control and control of access to software programs for testing and revision. (A)\n\nImplement procedures to provide facility access to authorized personnel and visitors and exclude unauthorized persons."
+            },
+            {
+              "ref": "2.1.5",
+              "label": "Establish Contingency Operations Procedures",
+              "description": "Establish (and implement as needed) procedures that allow facility access in support of the restoration of lost data under the Disaster Recovery Plan and Emergency Mode Operations Plan in the event of an emergency. (A)"
+            },
+            {
+              "ref": "2.1.6",
+              "label": "Maintain Maintenance Records",
+              "description": "Implement policies and procedures to document repairs and modifications to the physical components of a facility that are related to security (e.g., hardware, walls, doors, and locks). (A)"
+            }
+          ]
+        },
+        {
+          "ref": "2.2",
+          "label": "Workstation Use",
+          "description": "HIPAA Standard: Implement policies and procedures that specify the proper functions to be performed, the manner in which those functions are to be performed, and the physical attributes of the surroundings of a specific workstation or class of workstation that can access electronic protected health information.",
+          "group": true,
+          "controls": [
+            {
+              "ref": "2.2.1",
+              "label": "Identify Workstation and Device Types and Functions or Uses",
+              "description": "Inventory workstations and devices that create, store, process or transmit ePHI. Be sure to consider the multitude of computing devices (e.g., medical equipment, medical IoT devices, tablets, smart phones, etc.).\n\nDevelop policies and procedures for each type of device and identify and accommodate their unique issues.\n\nClassify devices based on the capabilities, connections, and allowable activities for each device used.\n\nDetermine the proper function and manner by which specific workstations or classes of workstations are permitted to access ePHI (e.g., applications permitting access to ePHI that are allowed on workstations used by a hospital’s customer service call center or its radiology department)."
+            },
+            {
+              "ref": "2.2.2",
+              "label": "Identify the Expected Performance of Each Type of Workstation and Device",
+              "description": "Develop and document policies and procedures related to the proper use and performance of devices that create, store, process, or transmit ePHI."
+            },
+            {
+              "ref": "2.2.3",
+              "label": "Analyze Physical Surroundings for Physical Attributes",
+              "description": "Ensure that any risks associated with a device’s surroundings are known and analyzed for possible negative impacts.\n\nDevelop policies and procedures that will prevent or preclude the unauthorized access of unattended devices, limit the ability of unauthorized persons to view sensitive information, and dispose of sensitive information as needed."
+            }
+          ]
+        },
+        {
+          "ref": "2.3",
+          "label": "Workstation Security",
+          "description": "HIPAA Standard: Implement physical safeguards for all workstations that access electronic protected health information, to restrict access to authorized users.",
+          "group": true,
+          "controls": [
+            {
+              "ref": "2.3.1",
+              "label": "Identify All Methods of Physical Access to Workstations and Devices",
+              "description": "Document the different ways that users access workstations and other devices that create, store, process, or transmit ePHI. Be sure to consider the multitude of computing devices (e.g., medical equipment, medical IoT devices, tablets, smart phones, etc.).\n\nConsider any mobile devices that leave the physical facility as well as remote workers who access devices that create, store, process, or transmit ePHI."
+            },
+            {
+              "ref": "2.3.2",
+              "label": "Analyze the Risks Associated with Each Type of Access",
+              "description": "Determine which type of access identified in Key Activity 1 poses the greatest threat to the security of ePHI."
+            },
+            {
+              "ref": "2.3.3",
+              "label": "Identify and Implement Physical Safeguards for Workstations and Devices",
+              "description": "Implement physical safeguards and other security measures to minimize the possibility of inappropriate access to ePHI through computing devices.\n\nIf there are impediments to physically securing devices and/or the facilities where devices are located, additional safeguards should be considered, such as:"
+            }
+          ]
+        },
+        {
+          "ref": "2.4",
+          "label": "Device and Media Controls",
+          "description": "HIPAA Standard: Implement policies and procedures that govern the receipt and removal of hardware and electronic media that contain electronic protected health information into and out of a facility, and the movement of these items within the facility.",
+          "group": true,
+          "controls": [
+            {
+              "ref": "2.4.1",
+              "label": "Implement Methods for the Final Disposal of ePHI",
+              "description": "Implement policies and procedures to address the final disposition of ePHI and/or the hardware or electronic media on which it is stored. (R)\n\nDetermine and document the appropriate methods to dispose of hardware, software, and the data itself. Ensure that ePHI is properly destroyed and cannot be recreated."
+            },
+            {
+              "ref": "2.4.2",
+              "label": "Develop and Implement Procedures for the Reuse of Electronic Media",
+              "description": "Implement procedures for the removal of ePHI from electronic media before the media become available for reuse. (R)\n\nEnsure that ePHI previously stored on any electronic media cannot be accessed and reused.\n\nIdentify removable media and their uses.\n\nEnsure that ePHI is removed from reusable media before they are used to record new information."
+            },
+            {
+              "ref": "2.4.3",
+              "label": "Maintain Accountability for Hardware and Electronic Media",
+              "description": "Maintain a record of the movements of hardware and electronic media and any person responsible for them. (A)\n\nEnsure that ePHI is not inadvertently released or shared with any unauthorized party.\n\nEnsure that an individual is responsible for and records the receipt and removal of hardware and software with ePHI."
+            },
+            {
+              "ref": "2.4.4",
+              "label": "Develop Data Backup and Storage Procedures",
+              "description": "Create a retrievable exact copy of ePHI, when needed, before movement of equipment. (A)\n\nEnsure that an exact retrievable copy of the data is retained and protected to maintain the integrity of ePHI during equipment relocation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "3",
+      "label": "Technical Safeguards",
+      "description": "Defined as the “the technology and the policy and procedures for its use that protect electronic protected health information and control access to it.”",
+      "group": true,
+      "controls": [
+        {
+          "ref": "3.1",
+          "label": "Access Control",
+          "description": "HIPAA Standard: Implement technical policies and procedures for electronic information systems that maintain electronic protected health information to allow access only to those persons or software programs that have been granted access rights as specified in § 164.308(a)(4).",
+          "group": true,
+          "controls": [
+            {
+              "ref": "3.1.1",
+              "label": "Analyze Workloads and Operations to Identify the Access Needs of All Users",
+              "description": "Identify an approach for access control.\n\nConsider all applications and systems containing ePHI that should only be available to authorized users, processes, and services.\n\nIntegrate these activities into the access granting and management process."
+            },
+            {
+              "ref": "3.1.2",
+              "label": "Identify Technical Access Control Capabilities",
+              "description": "Determine the access control capabilities of all systems with ePHI.\n\nDetermine whether network infrastructure can limit access to systems with ePHI (e.g., network segmentation).\n\nImplement technical access controls to limit access to ePHI to only that which has been granted in accordance with the regulated entity’s information access management policies and procedures (see 45 CFR 164.308(a)(4))."
+            },
+            {
+              "ref": "3.1.3",
+              "label": "Ensure that All System Users Have Been Assigned a Unique Identifier",
+              "description": "Assign a unique name and/or number for identifying and tracking user identity. (R)\n\nEnsure that system activity can be traced to a specific user.\n\nEnsure that the necessary data is available in the system logs to support audit and other related business functions."
+            },
+            {
+              "ref": "3.1.4",
+              "label": "Develop Access Control Policy and Procedures",
+              "description": "Establish a formal policy for access control that will guide the development of procedures.\n\nSpecify requirements for access control that are both feasible and cost-effective."
+            },
+            {
+              "ref": "3.1.5",
+              "label": "Implement Access Control Procedures Using Selected Hardware and Software",
+              "description": "Implement the policy and procedures using existing or additional hardware or software solutions."
+            },
+            {
+              "ref": "3.1.6",
+              "label": "Review and Update Access for Users and Processes",
+              "description": "Enforce the policy and procedures as a matter of ongoing operations.\n\nDetermine whether any changes are needed for access control mechanisms.\n\nEnsure that the modification of technical controls that affect a user’s access to ePHI continue to limit access to ePHI to that which has been granted in accordance with the regulated entity’s information access management policies and procedures (see 45 CFR 164.308(a)(4)).\n\nEstablish procedures for updating access when users require the following:"
+            },
+            {
+              "ref": "3.1.7",
+              "label": "Establish an Emergency Access Procedure",
+              "description": "Establish (and implement as needed) procedures for obtaining necessary electronic protected health information during an emergency. (R)\n\nIdentify a method for supporting continuity of operations should the normal access procedures be disabled or unavailable due to system problems."
+            },
+            {
+              "ref": "3.1.8",
+              "label": "Automatic Logoff and Encryption and Decryption",
+              "description": "Consider whether the addressable implementation specifications of this standard are reasonable and appropriate:"
+            },
+            {
+              "ref": "3.1.9",
+              "label": "Terminate Access if it is No Longer Required",
+              "description": "Ensure that access to ePHI is terminated if the access is no longer authorized.\n\nConsider implementing a user recertification process to ensure that least privilege is enforced."
+            }
+          ]
+        },
+        {
+          "ref": "3.2",
+          "label": "Audit Controls",
+          "description": "HIPAA Standard: Implement hardware, software, and/or procedural mechanisms that record and examine activity in information systems that contain or use electronic protected health information.",
+          "group": true,
+          "controls": [
+            {
+              "ref": "3.2.1",
+              "label": "Determine the Activities that Will Be Tracked or Audited",
+              "description": "Determine the appropriate scope of audit controls that will be necessary in information systems that contain or use ePHI based on the regulated entity’s risk assessment and other organizational factors.\n\nDetermine what activities need to be captured using the results of the risk assessment and risk management processes."
+            },
+            {
+              "ref": "3.2.2",
+              "label": "Select the Tools that Will Be Deployed for Auditing and System Activity Reviews",
+              "description": "Evaluate existing system capabilities and determine whether any changes or upgrades are necessary."
+            },
+            {
+              "ref": "3.2.3",
+              "label": "Develop and Deploy the Information System Activity Review/Audit Policy",
+              "description": "Document and communicate to the workforce the organization’s decisions on audits and reviews."
+            },
+            {
+              "ref": "3.2.4",
+              "label": "Develop Appropriate Standard Operating Procedures",
+              "description": "Determine the types of audit trail data and monitoring procedures that will be needed to derive exception reports.\n\nDetermine the frequency of audit log reviews based on the risk assessment and risk management processes."
+            },
+            {
+              "ref": "3.2.5",
+              "label": "Implement the Audit/System Activity Review Process",
+              "description": "Activate the necessary audit system. Begin logging and auditing procedures."
+            }
+          ]
+        },
+        {
+          "ref": "3.3",
+          "label": "Integrity",
+          "description": "HIPAA Standard: Implement policies and procedures to protect electronic protected health information from improper alteration or destruction.",
+          "group": true,
+          "controls": [
+            {
+              "ref": "3.3.1",
+              "label": "Identify All Users Who Have Been Authorized to Access ePHI",
+              "description": "Identify all approved users with the ability to alter or destroy ePHI, if reasonable and appropriate.\n\nAddress this Key Activity in conjunction with the identification of unauthorized sources in Key Activity 2."
+            },
+            {
+              "ref": "3.3.2",
+              "label": "Identify Any Possible Unauthorized Sources that May Be Able to Intercept the Information and Modify It",
+              "description": "Identify scenarios that may result in modification to the ePHI by unauthorized sources (e.g., hackers, ransomware, insider threats, business competitors, user errors).\n\nConduct this activity as part of a risk analysis.\n\nConsider how the organization will detect unauthorized modification to ePHI."
+            },
+            {
+              "ref": "3.3.3",
+              "label": "Develop the Integrity Policy and Requirements",
+              "description": "Establish a formal written set of integrity requirements based on the results of the analysis completed in Key Activities 1 and 2."
+            },
+            {
+              "ref": "3.3.4",
+              "label": "Implement Procedures to Address These Requirements",
+              "description": "Identify and implement methods that will be used to protect ePHI from unauthorized modification.\n\nIdentify and implement tools and techniques to be developed or procured that support the assurance of integrity."
+            },
+            {
+              "ref": "3.3.5",
+              "label": "Implement a Mechanism to Authenticate ePHI",
+              "description": "Implement electronic mechanisms to corroborate that ePHI has not been altered or destroyed in an unauthorized manner. (A)\n\nConsider possible mechanisms for integrity verification, such as:"
+            },
+            {
+              "ref": "3.3.6",
+              "label": "Establish a Monitoring Process to Assess How the Implemented Process is Working",
+              "description": "Review existing processes to determine whether objectives are being addressed.\n\nContinually reassess integrity processes as technology and operational environments change to determine whether they need to be revised."
+            }
+          ]
+        },
+        {
+          "ref": "3.4",
+          "label": "Person or Entity Authentication",
+          "description": "HIPAA Standard: Implement procedures to verify that a person or entity seeking access to electronic protected health information is the one claimed.",
+          "group": true,
+          "controls": [
+            {
+              "ref": "3.4.1",
+              "label": "Determine Authentication Applicability to Current Systems/Applications",
+              "description": "Identify the methods available for authentication. Under the HIPAA Security Rule, authentication is the corroboration that a person is the one claimed (45 CFR § 164.304).\n\nIdentify points of electronic access that require or should require authentication. Ensure that the regulated entity’s risk analysis properly assesses risks for such access points (e.g., risks of unauthorized access from within the enterprise could be different than those of remote unauthorized access).\n\nAuthentication requires establishing the validity of a transmission source and/or verifying an individual’s claim that they have been authorized for specific access privileges to information and information systems."
+            },
+            {
+              "ref": "3.4.2",
+              "label": "Evaluate Available Authentication Options",
+              "description": "Weigh the relative advantages and disadvantages of commonly used authentication approaches.\n\nThere are three commonly used authentication approaches available:\n\nMFA utilizes two or more authentication approaches to enforce stronger authentication.\n\nConsider implementing MFA solutions when the risk to ePHI is sufficiently high."
+            },
+            {
+              "ref": "3.4.3",
+              "label": "Select and Implement Authentication Options",
+              "description": "Consider the results of the analysis conducted under Key Activity 2, and select appropriate authentication methods based on the results of the risk assessment and risk management processes.\n\nImplement the methods selected in organizational operations and activities."
+            }
+          ]
+        },
+        {
+          "ref": "3.5",
+          "label": "Transmission Security",
+          "description": "HIPAA Standard: Implement technical security measures to guard against unauthorized access to electronic protected health information that is being transmitted over an electronic communications network.",
+          "group": true,
+          "controls": [
+            {
+              "ref": "3.5.1",
+              "label": "Identify Any Possible Unauthorized Sources that May Be Able to Intercept and/or Modify the Information",
+              "description": "Identify all pathways by which ePHI will be transmitted into, within, and outside of the organization.\n\nIdentify scenarios (e.g., telehealth, claims processing) that may result in access to or modification of the ePHI by unauthorized sources during transmission (e.g., hackers, disgruntled workforce members, business competitors).\n\nIdentify scenarios and pathways that may put ePHI at a high level of risk."
+            },
+            {
+              "ref": "3.5.2",
+              "label": "Develop and Implement Transmission Security Policy and Procedures",
+              "description": "Establish a formal written set of requirements for transmitting ePHI.\n\nIdentify methods of transmission that will be used to safeguard ePHI.\n\nIdentify tools and techniques that will be used to support the transmission security policy.\n\nImplement procedures for transmitting ePHI using hardware and/or software, if needed."
+            },
+            {
+              "ref": "3.5.3",
+              "label": "Implement Integrity Controls",
+              "description": "Implement security measures to ensure that electronically transmitted ePHI is not improperly modified without detection until disposed of. (A)"
+            },
+            {
+              "ref": "3.5.4",
+              "label": "Implement Encryption",
+              "description": "Implement a mechanism to encrypt ePHI whenever appropriate. (R)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "4",
+      "label": "Organizational Requirements",
+      "description": "Includes standards for business associate contracts and other arrangements between a covered entity and a business associate and between a business associate and a subcontractor, as well as requirements for group health plans.",
+      "group": true,
+      "controls": [
+        {
+          "ref": "4.1",
+          "label": "Business Associate Contracts or Other Arrangements",
+          "description": "HIPAA Standard: (i) The contract or other arrangement between the covered entity and its business associate required by § 164.308(b)(3) must meet the requirements of paragraph (a)(2)(i), (a)(2)(ii), or (a)(2)(iii) of this section, as applicable. (ii) A covered entity is in compliance with paragraph (a)(1) of this section if it has another arrangement in place that meets the requirements of § 164.504(e)(3). (iii) The requirements of paragraphs (a)(2)(i) and (a)(2)(ii) of this section apply to the contract or other arrangement between a business associate and a subcontractor required by § 164.308(b)(4) in the same manner as such requirements apply to contracts or other arrangements between a covered entity and business associate.",
+          "group": true,
+          "controls": [
+            {
+              "ref": "4.1.1",
+              "label": "Contract Must Provide that Business Associates Will Comply with the Applicable Requirements of the Security Rule",
+              "description": "Contracts between covered entities and business associates must provide that business associates will implement administrative, physical, and technical safeguards that reasonably and appropriately protect the confidentiality, integrity, and availability of the ePHI that the business associate creates, receives, maintains, or transmits on behalf of the covered entity. (R)\n\nReaders may find useful resources in Appendix F, including OCR BAA guidance and templates that include applicable language."
+            },
+            {
+              "ref": "4.1.2",
+              "label": "Contract Must Provide that the Business Associates Enter into Contracts with Subcontractors to Ensure the Protection of ePHI",
+              "description": "In accordance with § 164.308(b)(2), ensure that any subcontractors that create, receive, maintain, or transmit ePHI on behalf of the business associate agree to comply with the applicable requirements of this subpart by entering into a contract or other arrangement that complies with this section. (R)"
+            },
+            {
+              "ref": "4.1.3",
+              "label": "Contract Must Provide that Business Associates will Report Security Incidents",
+              "description": "Report to the covered entity any security incident of which it becomes aware, including breaches of unsecured PHI as required by § 164.410. (R)\n\nMaintain clear lines of communication between covered entities and business associates regarding the protection of ePHI as per the BAA or contract.\n\nEstablish a reporting mechanism and a process for the business associate to use in the event of a security incident or breach."
+            },
+            {
+              "ref": "4.1.4",
+              "label": "Other Arrangements",
+              "description": "The covered entity complies with paragraph (a)(1) of this section if it has another arrangement in place that meets the requirements of § 164.504(e)(3). (R)"
+            },
+            {
+              "ref": "4.1.5",
+              "label": "Business Associate Contracts with Subcontractors",
+              "description": "The requirements of paragraphs (a)(2)(i) and (a)(2)(ii) of this section apply to the contract or other arrangement between a business associate and a subcontractor in the same manner as such requirements apply to contracts or other arrangements between a covered entity and business associate. (R)"
+            }
+          ]
+        },
+        {
+          "ref": "4.2",
+          "label": "Requirements for Group Health Plans",
+          "description": "HIPAA Standard: Except when the only electronic protected health information disclosed to a plan sponsor is disclosed pursuant to § 164.504(f)(1)(ii) or (iii), or as authorized under § 164.508, a group health plan must ensure that its plan documents provide that the plan sponsor will reasonably and appropriately safeguard electronic protected health information created, received, maintained, or transmitted to or by the plan sponsor on behalf of the group health plan.",
+          "group": true,
+          "controls": [
+            {
+              "ref": "4.2.1",
+              "label": "Amend Plan Documents of the Group Health Plan to Address the Plan Sponsor’s Security of ePHI",
+              "description": "Amend the plan documents to incorporate provisions to require the plan sponsor to implement administrative, technical, and physical safeguards that will reasonably and appropriately protect the confidentiality, integrity, and availability of ePHI that it creates, receives, maintains, or transmits on behalf of the group health plan. (R)"
+            },
+            {
+              "ref": "4.2.2",
+              "label": "Amend Plan Documents of the Group Health Plan to Address Adequate Separation",
+              "description": "Amend the plan documents to incorporate provisions to require the plan sponsor to ensure that the adequate separation between the group health plan and plan sponsor required by §164.504(f)(2)(iii) is supported by reasonable and appropriate security measures. (R)"
+            },
+            {
+              "ref": "4.2.3",
+              "label": "Amend Plan Documents of the Group Health Plan to Address the Security of ePHI Supplied to the Plan Sponsors’ Agents and Subcontractors",
+              "description": "Amend plan documents to incorporate provisions to require the plan sponsor to report any security incident of which it becomes aware to the group health plan. (R)"
+            },
+            {
+              "ref": "4.2.4",
+              "label": "Amend Plan Documents of Group Health Plans to Address the Reporting of Security Incidents",
+              "description": "Amend plan documents to incorporate provisions to require the plan sponsor to report any security incident of which it becomes aware to the group health plan. (R)\n\nEstablish a specific policy for security incident reporting.\n\nEstablish a reporting mechanism and a process for the plan sponsor to use in the event of a security incident."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "5",
+      "label": "Policies and Procedures and Documentation Requirements",
+      "description": "Requires the implementation of reasonable and appropriate policies and procedures to comply with the standards, implementation specifications, and other requirements of the Security Rule; the maintenance of written (may be electronic) documentation and/or records that include the policies, procedures, actions, activities, or assessments required by the Security Rule; and retention, availability, and update requirements related to the documentation.",
+      "group": true,
+      "controls": [
+        {
+          "ref": "5.1",
+          "label": "Policies and Procedures",
+          "description": "HIPAA Standard: Implement reasonable and appropriate policies and procedures to comply with the standards, implementation specifications, or other requirements of this subpart, taking into account those factors specified in § 164.306(b)(2)(i), (ii), (iii), and (iv). This standard is not to be construed to permit or excuse an action that violates any other standard, implementation specification, or other requirements of this subpart. A covered entity or business associate may change its policies and procedures at any time, provided that the changes are documented and are implemented in accordance with this subpart.",
+          "group": true,
+          "controls": [
+            {
+              "ref": "5.1.1",
+              "label": "Create and Deploy Policies and Procedures",
+              "description": "Implement reasonable and appropriate policies and procedures to comply with the standards, implementation specifications, and other requirements of the HIPAA Security Rule.\n\nConsider the importance of documenting processes and procedures for demonstrating the adequate implementation of recognized security practices.\n\nPeriodically evaluate written policies and procedures to verify that:\n\nPolicies and procedures are sufficient to address the standards, implementation specifications, and other requirements of the HIPAA Security Rule.\n\nPolicies and procedures accurately reflect the actual activities and practices exhibited by the regulated entity, its staff, its systems, and its business associates."
+            },
+            {
+              "ref": "5.1.2",
+              "label": "Update the Documentation of the Policy and Procedures",
+              "description": "Change policies and procedures as is reasonable and appropriate at any time, provided that the changes are documented and implemented in accordance with the requirements of the HIPAA Security Rule."
+            }
+          ]
+        },
+        {
+          "ref": "5.2",
+          "label": "Documentation",
+          "description": "HIPAA Standard: (i) Maintain the policies and procedures implemented to comply with this subpart in written (which may be electronic) form; and (ii) if an action, activity or assessment is required by this subpart to be documented, maintain a written (which may be electronic) record of the action, activity, or assessment.",
+          "group": true,
+          "controls": [
+            {
+              "ref": "5.2.1",
+              "label": "Draft, Maintain, and Update Required Documentation",
+              "description": "Document decisions concerning the management, operational, and technical controls selected to mitigate identified risks.\n\nWritten documentation may be incorporated into existing manuals, policies, and other documents or be created specifically for the purpose of demonstrating compliance with the HIPAA Security Rule.\n\nConsider the importance of documenting the processes and procedures for demonstrating the adequate implementation of recognized security practices.\n\nUse feedback from risk assessments and contingency plan tests to help determine when to update documentation."
+            },
+            {
+              "ref": "5.2.2",
+              "label": "Retain Documentation for at Least Six Years",
+              "description": "Retain documentation required by paragraph (b)(1) of this section for six years from the date of its creation or the date when it last was in effect, whichever is later. (R)"
+            },
+            {
+              "ref": "5.2.3",
+              "label": "Ensure that Documentation is Available to Those Responsible for Implementation",
+              "description": "Make documentation available to those persons responsible for implementing the procedures to which the documentation pertains. (R)"
+            },
+            {
+              "ref": "5.2.4",
+              "label": "Update Documentation as Required",
+              "description": "Review documentation periodically and update as needed in response to environmental or operational changes that affect the security of the ePHI. (R)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
