@@ -1,0 +1,18 @@
+{
+  "name": "episki-frameworks",
+  "private": true,
+  "scripts": {
+    "frameworks:minify": "bun scripts/minify-frameworks.ts",
+    "frameworks:lint": "bun scripts/validate-json.ts",
+    "frameworks:lint:fix": "bun scripts/validate-json.ts --fix",
+    "frameworks:validate-schema": "bun scripts/validate-schema.ts",
+    "frameworks:check": "bun run frameworks:lint && bun run frameworks:validate-schema"
+  },
+  "devDependencies": {
+    "ajv": "^8.17.1",
+    "jsonc-parser": "^3.3.1"
+  },
+  "dependencies": {
+    "securecontrolsframework": "securecontrolsframework/securecontrolsframework"
+  }
+}

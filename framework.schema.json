@@ -1,0 +1,177 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://episki.example/schemas/framework.v2.schema.json",
+  "title": "episki Framework Definition (Unified Controls + Recursive Tests)",
+  "type": "object",
+  "required": [
+    "name",
+    "short_name",
+    "last_updated",
+    "description",
+    "category",
+    "keywords",
+    "controls"
+  ],
+  "properties": {
+    "name": { "type": "string", "minLength": 1 },
+    "short_name": { "type": "string", "minLength": 1 },
+
+    "version": {
+      "description": "Framework version string (e.g., '2.0', '4.0.1').",
+      "type": "string",
+      "minLength": 1
+    },
+    "publisher": {
+      "description": "Publishing organization (e.g., 'DoD', 'PCI SSC').",
+      "type": "string",
+      "minLength": 1
+    },
+    "source_url": {
+      "description": "Canonical public reference URL for the framework text.",
+      "type": "string",
+      "format": "uri"
+    },
+
+    "last_updated": {
+      "description": "Last updated date (ISO 8601 date).",
+      "type": "string",
+      "format": "date"
+    },
+    "effective_date": {
+      "description": "When this framework version became effective (ISO 8601 date).",
+      "type": "string",
+      "format": "date"
+    },
+    "retired_date": {
+      "description": "When this framework version was retired (ISO 8601 date).",
+      "type": "string",
+      "format": "date"
+    },
+
+    "description": { "type": "string" },
+
+    "category": {
+      "description": "High-level grouping (kept flexible because frameworks vary: e.g., 'financial', 'regulation', 'standard').",
+      "type": "string",
+      "minLength": 1
+    },
+
+    "keywords": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true
+    },
+
+    "controls": {
+      "description": "Root control nodes for the framework.",
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/controlNode" }
+    }
+  },
+  "additionalProperties": false,
+
+  "$defs": {
+    "mapping": {
+      "description": "Optional crosswalk mapping to another framework/control reference.",
+      "type": "object",
+      "required": ["framework", "ref"],
+      "properties": {
+        "framework": { "type": "string", "minLength": 1 },
+        "ref": { "type": "string", "minLength": 1 },
+        "notes": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+
+    "testNode": {
+      "description": "A recursive test/procedure node. Group nodes omit 'kind'. Leaf nodes may include 'kind' to indicate evidence/procedure type.",
+      "type": "object",
+      "required": ["label"],
+      "properties": {
+        "label": {
+          "description": "Human-readable procedure/test label. Keep it trimmed; don't store formatting whitespace as data.",
+          "type": "string",
+          "minLength": 1
+        },
+
+        "kind": {
+          "description": "Evidence/procedure type. Omit for group nodes.",
+          "type": "string",
+          "enum": [
+            "examine",
+            "interview",
+            "observe",
+            "verify",
+            "evidence",
+            "attestation",
+            "other"
+          ]
+        },
+
+        "tests": {
+          "description": "Child tests (recursive).",
+          "type": "array",
+          "items": { "$ref": "#/$defs/testNode" }
+        }
+      },
+      "additionalProperties": false
+    },
+
+    "controlNode": {
+      "description": "A node in the framework control tree (chapter/domain/requirement/control). Titles may be absent for some frameworks.",
+      "type": "object",
+      "required": ["ref"],
+      "properties": {
+        "ref": { "type": "string", "minLength": 1 },
+
+        "label": {
+          "description": "Optional human-readable heading/title. Some frameworks may not provide distinct titles.",
+          "type": "string",
+          "minLength": 1
+        },
+
+        "group": {
+          "description": "Optional flag indicating the node is a structural/grouping container rather than an enforceable requirement.",
+          "type": "boolean",
+          "default": false
+        },
+
+        "description": {
+          "description": "Optional narrative text for the control node (requirement statement, guidance, etc.).",
+          "type": "string"
+        },
+
+        "tags": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 },
+          "uniqueItems": true
+        },
+
+        "mappings": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/mapping" }
+        },
+
+        "source_url": {
+          "description": "Optional deep link to an authoritative source for this specific node.",
+          "type": "string",
+          "format": "uri"
+        },
+
+        "controls": {
+          "description": "Child control nodes (recursive).",
+          "type": "array",
+          "items": { "$ref": "#/$defs/controlNode" }
+        },
+
+        "tests": {
+          "description": "Optional test/procedure tree attached to this control node (e.g., PCI testing procedures).",
+          "type": "array",
+          "items": { "$ref": "#/$defs/testNode" }
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}
