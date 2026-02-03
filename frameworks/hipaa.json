@@ -2,7 +2,7 @@
   "name": "HIPAA",
   "short_name": "HIPAA",
   "last_updated": "2025-07-21",
-  "description": "45 CFR Part 164",
+  "description": "U.S. federal law establishing privacy and security standards for protected health information (45 CFR Part 164).",
   "category": "framework",
   "keywords": [
     "cybersecurity",

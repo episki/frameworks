@@ -2,7 +2,7 @@
   "name": "Cyber Essentials UK v3.2",
   "short_name": "Cyber Essentials UK v3.2",
   "last_updated": "2025-04-01",
-  "description": "Cyber Essentials is a UK government-backed certification scheme designed to help organizations protect against common cyber threats by implementing basic security measures. It offers two levels of certification: a self-assessment option and a more rigorous assessment with independent validation, demonstrating a commitment to cybersecurity.",
+  "description": "UK government-backed certification scheme for protecting against common cyber threats through basic security controls.",
   "category": "framework",
   "keywords": [
     "cybersecurity",

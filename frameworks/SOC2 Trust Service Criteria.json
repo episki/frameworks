@@ -2,7 +2,7 @@
   "name": "SOC2 Trust Service Criteria",
   "short_name": "SOC2 Trust Service Criteria",
   "last_updated": "2025-07-17",
-  "description": "",
+  "description": "AICPA trust service criteria for evaluating controls related to security, availability, processing integrity, confidentiality, and privacy.",
   "category": "framework",
   "keywords": [
     "cybersecurity",

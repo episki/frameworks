@@ -2,7 +2,7 @@
   "name": "CIS Critical Security Controls",
   "short_name": "CIS Critical Security Controls",
   "last_updated": "2026-01-14",
-  "description": "The CIS Critical Security Controls (CIS Controls) are a prescriptive, prioritized, and simplified set of best practices that you can use to strengthen your cybersecurity posture. Today, thousands of cybersecurity practitioners from around the world use the CIS Controls and/or contribute to their development via a community consensus process.",
+  "description": "Prioritized cybersecurity best practices to defend against common attacks.",
   "category": "framework",
   "keywords": [
     "cybersecurity",
