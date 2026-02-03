@@ -2,7 +2,7 @@
   "name": "NERC CIP",
   "short_name": "NERC CIP",
   "last_updated": "2025-09-30",
-  "description": "",
+  "description": "Mandatory cybersecurity standards for North American bulk electric system operators.",
   "category": "framework",
   "keywords": [
     "cybersecurity",

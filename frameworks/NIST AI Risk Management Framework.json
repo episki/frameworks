@@ -2,7 +2,7 @@
   "name": "NIST AI Risk Management Framework",
   "short_name": "NIST AI Risk Management Framework",
   "last_updated": "2025-11-18",
-  "description": "",
+  "description": "Framework for managing risks throughout the AI system lifecycle.",
   "category": "framework",
   "keywords": [
     "cybersecurity",

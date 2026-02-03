@@ -2,7 +2,7 @@
   "name": "NIST 800-66 r2",
   "short_name": "NIST 800-66 r2",
   "last_updated": "2025-05-07",
-  "description": "**NIST SP 800-66 Revision 2** (officially titled *\"Implementing the Health Insurance Portability and Accountability Act (HIPAA) Security Rule: A Cybersecurity Resource Guide\"*) is a guidance document from the National Institute of Standards and Technology (NIST). It provides a practical framework for implementing the HIPAA Security Rule’s requirements through recognized cybersecurity practices.",
+  "description": "NIST guidance for implementing the HIPAA Security Rule through recognized cybersecurity practices.",
   "category": "framework",
   "keywords": [
     "cybersecurity",

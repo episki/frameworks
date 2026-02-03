@@ -2,7 +2,7 @@
   "name": "ISO 27002",
   "short_name": "ISO 27002",
   "last_updated": "2025-07-18",
-  "description": "",
+  "description": "Reference set of information security controls and implementation guidance for ISO 27001.",
   "category": "framework",
   "keywords": [
     "cybersecurity",

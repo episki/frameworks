@@ -2,7 +2,7 @@
   "name": "PCI Card Production and Provisioning Physical Security v3.0.1",
   "short_name": "PCI Card Production and Provisioning Physical Security v3.0.1",
   "last_updated": "2026-01-22",
-  "description": "",
+  "description": "PCI SSC requirements for physical security in card production and provisioning environments.",
   "category": "framework",
   "keywords": [
     "cybersecurity",

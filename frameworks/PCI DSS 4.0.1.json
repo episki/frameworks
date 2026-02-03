@@ -2,7 +2,7 @@
   "name": "PCI DSS 4.0.1",
   "short_name": "PCI DSS 4.0.1",
   "last_updated": "2026-01-22",
-  "description": "",
+  "description": "Payment card industry standard for protecting cardholder data through security controls.",
   "category": "framework",
   "keywords": [
     "cybersecurity",
