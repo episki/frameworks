@@ -1,0 +1,966 @@
+{
+  "name": "OWASP Software Assurance Maturity Model (SAMM)",
+  "short_name": "SAMM",
+  "version": "2.0",
+  "publisher": "OWASP",
+  "source_url": "https://owaspsamm.org/model/",
+  "last_updated": "2026-03-17",
+  "description": "The OWASP Software Assurance Maturity Model (SAMM) is an open framework to help organizations formulate and implement a strategy for software security that is tailored to the specific risks facing the organization. SAMM is built around five business functions (Governance, Design, Implementation, Verification, Operations), each containing three security practices with two streams and three maturity levels.",
+  "category": "framework",
+  "keywords": [
+    "OWASP",
+    "SAMM",
+    "software assurance",
+    "maturity model",
+    "application security",
+    "SDLC",
+    "security practices",
+    "governance",
+    "secure design",
+    "secure deployment",
+    "verification",
+    "operations"
+  ],
+  "controls": [
+    {
+      "ref": "G",
+      "label": "Governance",
+      "description": "Governance focuses on the processes and activities related to how an organization manages overall software development activities. More specifically, this includes concerns that impact cross-functional groups involved in development, as well as business processes established at the organization level.",
+      "group": true,
+      "controls": [
+        {
+          "ref": "G-SM",
+          "label": "Strategy and Metrics",
+          "description": "Software assurance entails many different activities and concerns. Without an overall plan, you might be spending a lot of effort to build in security, while in fact your efforts may be unaligned, disproportional or even counterproductive. The goal of the Strategy and Metrics (SM) practice is to build an efficient and effective plan for realizing your software security objectives within your organization. A software security program, that selects and prioritizes activities of the rest of the model, serves as the foundation for your efforts. The practice works on building the plan, maintaining and disseminating it. At the same time, you want to keep track of your security posture and program improvements. A metrics-driven approach is included to ensure an accurate view on your activities. To measure is to know.",
+          "group": true,
+          "controls": [
+            {
+              "ref": "G-SM-A",
+              "label": "Create and Promote",
+              "description": "This stream is about creating and promoting an application security roadmap to set the objectives of the enterprise on this topic and increase alignment among stakeholders.",
+              "group": true,
+              "controls": [
+                {
+                  "ref": "G-SM-1-A",
+                  "label": "Identify the organization's risk appetite",
+                  "description": "[Maturity Level 1] Identify organization drivers as they relate to the organization's risk tolerance. Understand, based on application risk exposure, what threats exist or may exist, as well as how tolerant executive leadership is of these risks. This understanding is a key component of determining software security assurance priorities. To ascertain these threats, interview business owners and stakeholders and document drivers specific to industries where the organization operates as well as drivers specific to the organization.",
+                  "tags": ["maturity:1"]
+                },
+                {
+                  "ref": "G-SM-2-A",
+                  "label": "Define the security strategy",
+                  "description": "[Maturity Level 2] Publish a unified strategy for application security. Based on the magnitude of assets, threats, and risk tolerance, develop a security strategic plan and budget to address your security needs. The plan covers 1 to 3 years and includes milestones consistent with your risk profile, the organization's business drivers, and the existing technical debt.",
+                  "tags": ["maturity:2"]
+                },
+                {
+                  "ref": "G-SM-3-A",
+                  "label": "Align security and business strategies",
+                  "description": "[Maturity Level 3] Align the application security program to support the organization's growth. Review the application security plan annually with executive management, and receive endorsement and resource allocation. Ensure the plan reflects the organization's evolving business strategy and risk tolerance, including support of new technologies or business processes.",
+                  "tags": ["maturity:3"]
+                }
+              ]
+            },
+            {
+              "ref": "G-SM-B",
+              "label": "Measure and Improve",
+              "description": "This stream aims to drive the validity, relevance, and improvement of the application security roadmap through measurements of performance within the organization.",
+              "group": true,
+              "controls": [
+                {
+                  "ref": "G-SM-1-B",
+                  "label": "Define basic security metrics",
+                  "description": "[Maturity Level 1] Define metrics with insight into the effectiveness and efficiency of the application security program. Identify objectives and means of measuring effectiveness of the security program. Capture both quantitative and qualitative metrics and review them regularly.",
+                  "tags": ["maturity:1"]
+                },
+                {
+                  "ref": "G-SM-2-B",
+                  "label": "Set strategic KPIs",
+                  "description": "[Maturity Level 2] Set targets and KPIs for measuring the program effectiveness. Define Key Performance Indicators (KPIs) to help focus and measure program effectiveness in supporting the organization's business objectives.",
+                  "tags": ["maturity:2"]
+                },
+                {
+                  "ref": "G-SM-3-B",
+                  "label": "Drive the security program through metrics",
+                  "description": "[Maturity Level 3] Influence the strategy based on the metrics and organizational needs. Define guidelines for the influencing the application security program based on the defined metrics. Review metrics on a regular basis with responsible management and adjust the program where metrics indicate it is not performing as expected.",
+                  "tags": ["maturity:3"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ref": "G-PC",
+          "label": "Policy and Compliance",
+          "description": "The Policy and Compliance (PC) practice focuses on understanding and meeting external legal and regulatory requirements while driving internal security standards to ensure compliance in a way that's aligned with the business purpose of the organization. A driving theme for improvement within this practice is describing organization's standards and 3rd party obligations as application requirements, enabling efficient and automated audits that may be leveraged within the SDLC and continuously demonstrate that all expectations are met.",
+          "group": true,
+          "controls": [
+            {
+              "ref": "G-PC-A",
+              "label": "Policy and Standards",
+              "description": "This stream focuses on maintaining policies and standards and providing them to support integration into the SDLC.",
+              "group": true,
+              "controls": [
+                {
+                  "ref": "G-PC-1-A",
+                  "label": "Define policies and standards",
+                  "description": "[Maturity Level 1] Determine a security baseline representing organization's policies and standards. Develop a set of application security policies and standards aligned with the organization's overall security strategy and compliance requirements.",
+                  "tags": ["maturity:1"]
+                },
+                {
+                  "ref": "G-PC-2-A",
+                  "label": "Develop test procedures",
+                  "description": "[Maturity Level 2] Develop security requirements applicable to all applications. Create standardized test procedures to verify compliance with security policies and standards, making them available across development teams.",
+                  "tags": ["maturity:2"]
+                },
+                {
+                  "ref": "G-PC-3-A",
+                  "label": "Measure compliance to policies and standards",
+                  "description": "[Maturity Level 3] Measure and report on the status of individual application's adherence to policies and standards. Continuously monitor and measure compliance across the organization, using automated tools where possible.",
+                  "tags": ["maturity:3"]
+                }
+              ]
+            },
+            {
+              "ref": "G-PC-B",
+              "label": "Compliance Management",
+              "description": "This stream focuses on identifying and providing compliance requirements to support integration into the SDLC.",
+              "group": true,
+              "controls": [
+                {
+                  "ref": "G-PC-1-B",
+                  "label": "Identify compliance requirements",
+                  "description": "[Maturity Level 1] Identify 3rd-party compliance drivers and requirements and map to existing policies and standards. Understand applicable regulatory and compliance requirements and map them to your organization's security policies.",
+                  "tags": ["maturity:1"]
+                },
+                {
+                  "ref": "G-PC-2-B",
+                  "label": "Standardize policy and compliance requirements",
+                  "description": "[Maturity Level 2] Publish compliance-specific application requirements and test guidance. Establish standard compliance requirements and incorporate them into application development processes.",
+                  "tags": ["maturity:2"]
+                },
+                {
+                  "ref": "G-PC-3-B",
+                  "label": "Measure compliance to external requirements",
+                  "description": "[Maturity Level 3] Measure and report on individual application's compliance with 3rd party requirements. Continuously measure compliance with external requirements and maintain real-time dashboards for stakeholder visibility.",
+                  "tags": ["maturity:3"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ref": "G-EG",
+          "label": "Education and Guidance",
+          "description": "The Education and Guidance (EG) practice focuses on arming personnel involved in the software lifecycle with knowledge and resources to design, develop, and deploy secure software. With improved access to information, project teams can proactively identify and mitigate the specific security risks that apply to their organization. One major theme for improvement across the Objectives is providing training for employees and increasing their security awareness. In addition to training, this practice also requires the organization to make a significant investment in improving organizational culture to promote application security through collaboration between teams.",
+          "group": true,
+          "controls": [
+            {
+              "ref": "G-EG-A",
+              "label": "Training and Awareness",
+              "description": "Training and awareness focuses on increasing the overall knowledge around software security among the different stakeholders within the organization.",
+              "group": true,
+              "controls": [
+                {
+                  "ref": "G-EG-1-A",
+                  "label": "Train all stakeholders for awareness",
+                  "description": "[Maturity Level 1] Provide security awareness training for all personnel involved in software development. Conduct introductory training covering OWASP Top 10, secure coding basics, and the organization's security expectations.",
+                  "tags": ["maturity:1"]
+                },
+                {
+                  "ref": "G-EG-2-A",
+                  "label": "Customize security training",
+                  "description": "[Maturity Level 2] Offer technology and role-specific guidance, including security best practices relevant to each role. Create role-based training programs tailored to developers, architects, testers, and managers.",
+                  "tags": ["maturity:2"]
+                },
+                {
+                  "ref": "G-EG-3-A",
+                  "label": "Standardize security guidance",
+                  "description": "[Maturity Level 3] Standardized in-house guidance around the organization's secure software development. Maintain and evolve comprehensive, organization-specific security guidance that serves as a central reference for all development teams.",
+                  "tags": ["maturity:3"]
+                }
+              ]
+            },
+            {
+              "ref": "G-EG-B",
+              "label": "Organization and Culture",
+              "description": "Organization and culture focuses on promoting the culture of application security within the organization as an important success factor of an SDLC project.",
+              "group": true,
+              "controls": [
+                {
+                  "ref": "G-EG-1-B",
+                  "label": "Identify security champions",
+                  "description": "[Maturity Level 1] Identify a Security Champion within each development team. Security champions serve as the point of contact for security topics and help bridge the gap between security teams and development teams.",
+                  "tags": ["maturity:1"]
+                },
+                {
+                  "ref": "G-EG-2-B",
+                  "label": "Implement centers of excellence",
+                  "description": "[Maturity Level 2] Develop a secure software center of excellence promoting thought leadership among practitioners in the organization. Create a team that drives security best practices and provides mentoring across the organization.",
+                  "tags": ["maturity:2"]
+                },
+                {
+                  "ref": "G-EG-3-B",
+                  "label": "Establish a security community",
+                  "description": "[Maturity Level 3] Build a secure software community including all organization people involved in software development. Foster a mature security culture where security is a shared responsibility across all teams.",
+                  "tags": ["maturity:3"]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "D",
+      "label": "Design",
+      "description": "Design concerns the processes and activities related to how an organization defines goals and creates software within development projects. In general, this will include requirements gathering, high-level architecture specification and detailed design.",
+      "group": true,
+      "controls": [
+        {
+          "ref": "D-TA",
+          "label": "Threat Assessment",
+          "description": "The Threat Assessment (TA) practice focuses on identifying and understanding of project-level risks based on the functionality of the software being developed and characteristics of the runtime environment. From details about threats and likely attacks against each project, the organization as a whole operates more effectively through better decisions about prioritization of initiatives for security. Additionally, decisions for risk acceptance are more informed, therefore better aligned to the business.",
+          "group": true,
+          "controls": [
+            {
+              "ref": "D-TA-A",
+              "label": "Application Risk Profile",
+              "description": "An application risk profile helps to identify which applications can pose a serious threat to the organization if they were attacked or breached.",
+              "group": true,
+              "controls": [
+                {
+                  "ref": "D-TA-1-A",
+                  "label": "Perform application risk assessments",
+                  "description": "[Maturity Level 1] A basic assessment of the application risk is performed to understand likelihood and impact of an attack. Use a simple method to evaluate the application risk per application, estimating the potential business impact that it poses for the organization in case of an attack. Evaluate the impact of a breach in the confidentiality, integrity and availability of the data or service.",
+                  "tags": ["maturity:1"]
+                },
+                {
+                  "ref": "D-TA-2-A",
+                  "label": "Inventorize risk profiles",
+                  "description": "[Maturity Level 2] Understand the risk for all applications in the organization by centralizing the risk profile inventory for stakeholders. Create an extensive and standardized way to evaluate the risk of the application, including information security and privacy risk. Leverage business impact analysis to quantify and classify application risk.",
+                  "tags": ["maturity:2"]
+                },
+                {
+                  "ref": "D-TA-3-A",
+                  "label": "Periodic review of risk profiles",
+                  "description": "[Maturity Level 3] Periodically review application risk profiles at regular intervals to ensure accuracy and reflect current state. The application portfolio of an organization changes, as well as the conditions and constraints in which an application lives. Stimulate teams to continuously question which changes in conditions might impact the risk profile.",
+                  "tags": ["maturity:3"]
+                }
+              ]
+            },
+            {
+              "ref": "D-TA-B",
+              "label": "Threat Modeling",
+              "description": "Threat modeling is intended to help software development teams understand what risks exist in what is being built, what could go wrong, and how the risks can be mitigated or remediated.",
+              "group": true,
+              "controls": [
+                {
+                  "ref": "D-TA-1-B",
+                  "label": "Perform basic threat modeling",
+                  "description": "[Maturity Level 1] Perform best-effort, risk-based threat modeling using brainstorming and existing diagrams with simple threat checklists. Threat modeling is a team exercise, including product owners, architects, security champions, and security testers. Use simple threat checklists, such as STRIDE. A good starting point is the existing diagrams that you annotate during discussion workshops.",
+                  "tags": ["maturity:1"]
+                },
+                {
+                  "ref": "D-TA-2-B",
+                  "label": "Standardize and scale threat modeling",
+                  "description": "[Maturity Level 2] Standardize threat modeling training, processes, and tools to scale across the organization. Use a standardized threat modeling methodology and align this on your application risk levels. Train your architects, security champions, and other stakeholders on how to do practical threat modeling. Your methodology includes at least diagramming, threat identification, design flaw mitigations, and validation.",
+                  "tags": ["maturity:2"]
+                },
+                {
+                  "ref": "D-TA-3-B",
+                  "label": "Optimize threat modeling",
+                  "description": "[Maturity Level 3] Continuously optimization and automation of your threat modeling methodology. Threat modeling is integrated into your SDLC and has become part of the developer security culture. Reusable risk patterns, comprising related threat libraries, design flaws, and security mitigations, are created and improved. You automate parts of your threat modeling process and consider threat modeling as code practices.",
+                  "tags": ["maturity:3"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ref": "D-SR",
+          "label": "Security Requirements",
+          "description": "The Security Requirements (SR) practice focuses on security requirements that are important in the context of secure software. A first type deals with typical software-related requirements, to specify objectives and expectations to protect the service and data at the core of the application. A second type deals with requirements relative to supplier organizations that are part of the development context of the application, in particular for outsourced development.",
+          "group": true,
+          "controls": [
+            {
+              "ref": "D-SR-A",
+              "label": "Software Requirements",
+              "description": "Software requirements specify objectives and expectations to protect the service and data at the core of the application.",
+              "group": true,
+              "controls": [
+                {
+                  "ref": "D-SR-1-A",
+                  "label": "Identify security requirements",
+                  "description": "[Maturity Level 1] High-level application security objectives are mapped to functional requirements. Perform a review of the functional requirements of the software project. Identify relevant security requirements for this functionality by reasoning on the desired confidentiality, integrity or availability of the service or data offered by the software project.",
+                  "tags": ["maturity:1"]
+                },
+                {
+                  "ref": "D-SR-2-A",
+                  "label": "Standardize and integrate security requirements",
+                  "description": "[Maturity Level 2] Structured security requirements are available and utilized by developer teams. Achieve more systematic elicitation of security requirements by analysing different sources. Use a structured notation of security requirements across applications and an appropriate formalism that integrates well with how you specify other functional requirements.",
+                  "tags": ["maturity:2"]
+                },
+                {
+                  "ref": "D-SR-3-A",
+                  "label": "Develop a security requirements framework",
+                  "description": "[Maturity Level 3] Build a requirements framework for product teams to utilize. Setup a security requirements framework to help projects elicit an appropriate and complete requirements set. The framework considers the different types and sources of requirements, provides categorisation of common requirements and reusable requirements, and gives clear guidance on quality.",
+                  "tags": ["maturity:3"]
+                }
+              ]
+            },
+            {
+              "ref": "D-SR-B",
+              "label": "Supplier Security",
+              "description": "Supplier security deals with requirements that are relative to supplier organizations within the development context of the application, in particular for outsourced development.",
+              "group": true,
+              "controls": [
+                {
+                  "ref": "D-SR-1-B",
+                  "label": "Perform vendor assessments",
+                  "description": "[Maturity Level 1] Evaluate the supplier based on organizational security requirements. Carry out a vendor assessment to understand the strengths and weaknesses of your suppliers. Use a basic checklist or conduct interviews to review their typical practices and deliveries.",
+                  "tags": ["maturity:1"]
+                },
+                {
+                  "ref": "D-SR-2-B",
+                  "label": "Discuss security responsibilities with suppliers",
+                  "description": "[Maturity Level 2] Build security into supplier agreements in order to ensure compliance with organizational requirements. Discuss concrete responsibilities and expectations from your suppliers and your own organization and establish a contract with the supplier, including SLAs.",
+                  "tags": ["maturity:2"]
+                },
+                {
+                  "ref": "D-SR-3-B",
+                  "label": "Align security methodology with suppliers",
+                  "description": "[Maturity Level 3] Ensure proper security coverage for external suppliers by providing clear objectives. Align maximally and integrate closely between the different parties. Use similar development paradigms and introduce regular milestones. Implement compensating controls where suppliers cannot meet objectives.",
+                  "tags": ["maturity:3"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ref": "D-SA",
+          "label": "Secure Architecture",
+          "description": "The Secure Architecture (SA) practice focuses on the security linked to components and technology you deal with during the architectural design of your software. Secure Architecture Design looks at the selection and composition of components that form the foundation of your solution, focusing on its security properties. Technology Management looks at the security of supporting technologies used during development, deployment and operations.",
+          "group": true,
+          "controls": [
+            {
+              "ref": "D-SA-A",
+              "label": "Architecture Design",
+              "description": "The design of a software architecture can significantly impact the security posture of a software and the use of good security practices will improve the overall design.",
+              "group": true,
+              "controls": [
+                {
+                  "ref": "D-SA-1-A",
+                  "label": "Adhere to basic security principles",
+                  "description": "[Maturity Level 1] Teams are trained on the use of basic security principles during design. During design, technical staff on the product team use a short checklist of security principles including defense in depth, securing the weakest link, use of secure defaults, simplicity in design, secure failure, least privilege, and avoidance of security by obscurity.",
+                  "tags": ["maturity:1"]
+                },
+                {
+                  "ref": "D-SA-2-A",
+                  "label": "Provide preferred security solutions",
+                  "description": "[Maturity Level 2] Establish common design patterns and security solutions for adoption. Identify shared infrastructure or services with security functionality such as single-sign-on services, access control, logging and monitoring services. Establish a set of best practices representing sound methods of implementing security functionality.",
+                  "tags": ["maturity:2"]
+                },
+                {
+                  "ref": "D-SA-3-A",
+                  "label": "Build reference architectures",
+                  "description": "[Maturity Level 3] Reference architectures are utilized and continuously evaluated for adoption and appropriateness. Build a set of reference architectures that select and combine a verified set of security components to ensure a proper design of security. Reference platforms have advantages in shortening audit and security-related reviews, increasing efficiency in development, and lowering maintenance overhead.",
+                  "tags": ["maturity:3"]
+                }
+              ]
+            },
+            {
+              "ref": "D-SA-B",
+              "label": "Technology Management",
+              "description": "Technologies and frameworks are the cornerstones of any software solution. The security properties of these must be looked into to ensure an appropriate security level and to anticipate any potential issues herein.",
+              "group": true,
+              "controls": [
+                {
+                  "ref": "D-SA-1-B",
+                  "label": "Identify tools and technologies",
+                  "description": "[Maturity Level 1] Elicit technologies, frameworks and integrations within the overall solution to identify risk. Identify the most important technologies, frameworks, tools and integrations being used for each application. Evaluate them for their security quality and raise important findings to be managed.",
+                  "tags": ["maturity:1"]
+                },
+                {
+                  "ref": "D-SA-2-B",
+                  "label": "Promote preferred tools and technologies",
+                  "description": "[Maturity Level 2] Standardize technologies and frameworks to be used throughout the different applications. Identify commonly used technologies, frameworks and tools across software projects and create a recommended list. Consider incident history, track record for responding to vulnerabilities, and sufficient knowledge within the organization.",
+                  "tags": ["maturity:2"]
+                },
+                {
+                  "ref": "D-SA-3-B",
+                  "label": "Enforce the use of recommended technologies",
+                  "description": "[Maturity Level 3] Impose the use of standard technologies on all software development. For all proprietary development, impose and monitor the use of standardized technology. Implement restrictions into build or deployment tools, or periodically review for correct use of frameworks.",
+                  "tags": ["maturity:3"]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "I",
+      "label": "Implementation",
+      "description": "Implementation is focused on the processes and activities related to how an organization builds and deploys software components and its related defects. Activities within the Implementation function have the most impact on the daily life of developers. The joint goal is to ship reliably working software with minimum defects.",
+      "group": true,
+      "controls": [
+        {
+          "ref": "I-SB",
+          "label": "Secure Build",
+          "description": "The Secure Build (SB) practice emphasises the importance of building software in a standardised, repeatable manner, and of doing so using secure components, including 3rd party software dependencies. The first stream focuses on removing any subjectivity from the build process by striving for full automation. The second stream acknowledges the prevalence of software dependencies in modern applications. It aims to identify them and track their security status in order to contain the impact of their insecurity on an otherwise secure application.",
+          "group": true,
+          "controls": [
+            {
+              "ref": "I-SB-A",
+              "label": "Build Process",
+              "description": "A consistent build process ensures the software you are deploying is predictable and directly linked to the source code. Furthermore, you can take advantage of the software build process for various security activities.",
+              "group": true,
+              "controls": [
+                {
+                  "ref": "I-SB-1-A",
+                  "label": "Define a consistent build process",
+                  "description": "[Maturity Level 1] Create a formal definition of the build process so that it becomes consistent and repeatable. Define the build process, breaking it down into a set of clear instructions to either be followed by a person or an automated tool. The build process definition describes the whole process end-to-end. The definition is stored centrally and accessible to any tools or people.",
+                  "tags": ["maturity:1"]
+                },
+                {
+                  "ref": "I-SB-2-A",
+                  "label": "Automate the build process",
+                  "description": "[Maturity Level 2] Automate your build pipeline and secure the used tooling. Add security checks in the build pipeline. Automate the build process so that builds can be executed consistently anytime. Pay particular attention to the interfaces of build tools and how they can be locked-down. Add appropriate automated security checks (e.g. using SAST tools) in the pipeline.",
+                  "tags": ["maturity:2"]
+                },
+                {
+                  "ref": "I-SB-3-A",
+                  "label": "Enforce a security baseline during build",
+                  "description": "[Maturity Level 3] Define mandatory security checks in the build process and ensure that building non-compliant artifacts fails. Define security checks suitable to be carried out during the build process, as well as minimum criteria for passing the build. Include the respective security checks in the build and enforce breaking the build process in case the predefined criteria are not met.",
+                  "tags": ["maturity:3"]
+                }
+              ]
+            },
+            {
+              "ref": "I-SB-B",
+              "label": "Software Dependencies",
+              "description": "External libraries are a significant part of modern software. The activities in this stream help create a view of external libraries and ensure their security strength is adequate.",
+              "group": true,
+              "controls": [
+                {
+                  "ref": "I-SB-1-B",
+                  "label": "Identify application dependencies",
+                  "description": "[Maturity Level 1] Create records with Bill of Materials of your applications and opportunistically analyze these. Keep a record of all dependencies used throughout the target production environment. Gather information about each dependency including where it is used, version, license, source, and support status. Check for known vulnerabilities.",
+                  "tags": ["maturity:1"]
+                },
+                {
+                  "ref": "I-SB-2-B",
+                  "label": "Review application dependencies for security",
+                  "description": "[Maturity Level 2] Evaluate used dependencies and ensure timely reaction to situations posing risk to your applications. Establish a list of acceptable dependencies approved for use. Introduce a central repository. Review used dependencies regularly to ensure they remain correctly licensed, free of significant vulnerabilities, actively maintained, and current.",
+                  "tags": ["maturity:2"]
+                },
+                {
+                  "ref": "I-SB-3-B",
+                  "label": "Test application dependencies",
+                  "description": "[Maturity Level 3] Analyze used dependencies for security issues in a comparable way to your own code. Maintain a whitelist of approved dependencies and versions, ensure the build process fails upon a non-whitelisted dependency. Perform security verification activities against dependencies including SAST and transitive dependency analysis.",
+                  "tags": ["maturity:3"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ref": "I-SD",
+          "label": "Secure Deployment",
+          "description": "The Secure Deployment (SD) practice focuses on ensuring the security and integrity of developed applications are not compromised during deployment. The first stream focuses on removing manual error by automating the deployment process and making its success contingent upon integrated security verification checks. The second stream goes beyond the mechanics of deployment, and focuses on protecting the privacy and integrity of sensitive data, such as passwords, tokens, and other secrets.",
+          "group": true,
+          "controls": [
+            {
+              "ref": "I-SD-A",
+              "label": "Deployment Process",
+              "description": "A repeatable and consistent deployment process ensures you only deploy correct software artifacts to production. It also paves the way for representative test environments prior to production.",
+              "group": true,
+              "controls": [
+                {
+                  "ref": "I-SD-1-A",
+                  "label": "Use a repeatable deployment process",
+                  "description": "[Maturity Level 1] Formalize the deployment process and secure the used tooling and processes. Define the deployment process over all stages, breaking it down into a set of clear instructions. Deploy applications to production either using an automated process, or manually by personnel other than the developers. Ensure that developers do not need direct access to the production environment.",
+                  "tags": ["maturity:1"]
+                },
+                {
+                  "ref": "I-SD-2-A",
+                  "label": "Automate deployment and integrate security checks",
+                  "description": "[Maturity Level 2] Automate the deployment process over all stages and introduce sensible security verification tests. Integrate automated security checks such as DAST and vulnerability scanning. Verify the integrity of deployed artefacts. Account for and audit all deployments to all stages.",
+                  "tags": ["maturity:2"]
+                },
+                {
+                  "ref": "I-SD-3-A",
+                  "label": "Verify the integrity of deployment artifacts",
+                  "description": "[Maturity Level 3] Automatically verify integrity of all deployed software, independently of whether it's internally or externally developed. Include automatic verification of the integrity of software being deployed by checking their signatures against trusted certificates. Do not deploy artifacts if their signatures cannot be verified.",
+                  "tags": ["maturity:3"]
+                }
+              ]
+            },
+            {
+              "ref": "I-SD-B",
+              "label": "Secret Management",
+              "description": "As the secure execution of any software system requires credentials, this stream ensures a proper handling of these sensitive data elements within the organization's environment.",
+              "group": true,
+              "controls": [
+                {
+                  "ref": "I-SD-1-B",
+                  "label": "Protect application secrets in configuration and code",
+                  "description": "[Maturity Level 1] Introduce basic protection measures to limit access to your production secrets. Developers should not have access to secrets or credentials for production environments. Store sensitive credentials and secrets for production systems with encryption-at-rest at all times.",
+                  "tags": ["maturity:1"]
+                },
+                {
+                  "ref": "I-SD-2-B",
+                  "label": "Include application secrets during deployment",
+                  "description": "[Maturity Level 2] Inject secrets dynamically during deployment process from hardened storages and audit all human access to them. Have an automated process to add credentials and secrets to configuration files during the deployment process. Implement checks that detect the presence of secrets in code repositories.",
+                  "tags": ["maturity:2"]
+                },
+                {
+                  "ref": "I-SD-3-B",
+                  "label": "Enforce lifecycle management of application secrets",
+                  "description": "[Maturity Level 3] Improve the lifecycle of application secrets by regularly generating them and by ensuring proper use. Implement lifecycle management for production secrets, and ensure the generation of new secrets as much as possible, and for every application instance. Ensure that all access to secrets is logged and reviewed.",
+                  "tags": ["maturity:3"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ref": "I-DM",
+          "label": "Defect Management",
+          "description": "The Defect Management (DM) practice focuses on collecting, recording, and analyzing software security defects and enriching them with information to drive metrics-based decisions. The first stream deals with the process of handling and managing defects. The second stream focuses on enriching the information about the defects and deriving metrics to guide decisions about the security of individual projects and of the security assurance program as a whole.",
+          "group": true,
+          "controls": [
+            {
+              "ref": "I-DM-A",
+              "label": "Defect Tracking",
+              "description": "Defect tracking manages the collection and follow-up of all potential issues in a piece of software, from architectural flaws to coding issues and run-time vulnerabilities.",
+              "group": true,
+              "controls": [
+                {
+                  "ref": "I-DM-1-A",
+                  "label": "Track security defects centrally",
+                  "description": "[Maturity Level 1] Introduce a structured tracking of security defects and make knowledgeable decisions based on this information. Introduce a common definition of a security defect and define the most common ways of identifying these. Record and track all security defects in a defined location. Foster a culture of transparency and avoid blaming teams.",
+                  "tags": ["maturity:1"]
+                },
+                {
+                  "ref": "I-DM-2-A",
+                  "label": "Rate and track security defects",
+                  "description": "[Maturity Level 2] Rate all security defects over the whole organization consistently and define SLAs for particular severity classes. Introduce and apply a well-defined rating methodology based on probability and expected impact. Introduce SLAs for timely fixing and centrally monitor and report on SLA breaches.",
+                  "tags": ["maturity:2"]
+                },
+                {
+                  "ref": "I-DM-3-A",
+                  "label": "Enforce an SLA for defect management",
+                  "description": "[Maturity Level 3] Enforce the predefined SLAs and integrate your defect management system with other relevant tooling. Implement automated alerting on SLA breaches. Ensure defects are automatically transferred into the risk management process. Integrate with build, deployment, and monitoring systems.",
+                  "tags": ["maturity:3"]
+                }
+              ]
+            },
+            {
+              "ref": "I-DM-B",
+              "label": "Metrics and Feedback",
+              "description": "Defect tracking can drive the improvement of security activities within the organization through metrics and feedback.",
+              "group": true,
+              "controls": [
+                {
+                  "ref": "I-DM-1-B",
+                  "label": "Define basic defect metrics",
+                  "description": "[Maturity Level 1] Regularly go over previously recorded security defects and derive quick wins from basic metrics. Extract basic metrics such as total defects versus verification activities, affected components, defect types and severity. Identify and carry out sensible quick win activities.",
+                  "tags": ["maturity:1"]
+                },
+                {
+                  "ref": "I-DM-2-B",
+                  "label": "Define advanced defect metrics",
+                  "description": "[Maturity Level 2] Collect standardized defect management metrics and use these also for prioritization of centrally driven initiatives. Define, collect and calculate unified metrics across the whole organization including time to detect, time to resolve, windows of exposure, regressions, and accepted risk.",
+                  "tags": ["maturity:2"]
+                },
+                {
+                  "ref": "I-DM-3-B",
+                  "label": "Use metrics to improve the security strategy",
+                  "description": "[Maturity Level 3] Continuously improve your security defect management metrics and correlate it with other sources. Regularly revisit the defect management metrics. Aggregate with threat intelligence and incident management metrics and use as input for organization-wide initiatives.",
+                  "tags": ["maturity:3"]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "V",
+      "label": "Verification",
+      "description": "Verification focuses on the processes and activities related to how an organization checks and tests artifacts produced throughout software development. This typically includes quality assurance work such as testing, but it can also include other review and evaluation activities.",
+      "group": true,
+      "controls": [
+        {
+          "ref": "V-AA",
+          "label": "Architecture Assessment",
+          "description": "The Architecture Assessment (AA) practice ensures that the application and infrastructure architecture adequately meets all relevant security and compliance requirements, and sufficiently mitigates identified security threats. The first stream focuses on verifying that security and compliance requirements are met. The second stream reviews the architecture for mitigations against threats identified in the Threat Assessment practice.",
+          "group": true,
+          "controls": [
+            {
+              "ref": "V-AA-A",
+              "label": "Architecture Validation",
+              "description": "Architecture validation confirms the security of the software and supporting architecture by identifying application and infrastructure architecture components and verifying their provision of security objectives and requirements.",
+              "group": true,
+              "controls": [
+                {
+                  "ref": "V-AA-1-A",
+                  "label": "Assess application architecture",
+                  "description": "[Maturity Level 1] Identify application and infrastructure architecture components and review for basic security provisioning. Create a view of the overall architecture and examine it for the correct provision of general security mechanisms such as authentication, authorization, user and rights management, secure communication, data protection, key management and log management.",
+                  "tags": ["maturity:1"]
+                },
+                {
+                  "ref": "V-AA-2-A",
+                  "label": "Standardize architecture assessment",
+                  "description": "[Maturity Level 2] Standardize and document the assessment methodology for all applications in your organization. Verify the architecture for the correct provision of security mechanisms, as well as their correct interaction with system-level resources and other related applications. Assess for adequacy of all identified security and compliance requirements.",
+                  "tags": ["maturity:2"]
+                },
+                {
+                  "ref": "V-AA-3-A",
+                  "label": "Evaluate architecture effectiveness",
+                  "description": "[Maturity Level 3] Continuously review and update the architecture review process, and confirm the validity of previously accepted architecture assessments. Regularly (at least annually) review all architecture assessment results, and trigger re-assessment if the results are older than necessary.",
+                  "tags": ["maturity:3"]
+                }
+              ]
+            },
+            {
+              "ref": "V-AA-B",
+              "label": "Architecture Mitigation",
+              "description": "Architecture mitigation focuses on ensuring that all threats identified during Threat Assessment are adequately mitigated, and existing reference architectures updated to address any unhandled threats.",
+              "group": true,
+              "controls": [
+                {
+                  "ref": "V-AA-1-B",
+                  "label": "Verify threat mitigations",
+                  "description": "[Maturity Level 1] Verify that each application in your organization has been reviewed for threats with a focus on understanding how the architecture mitigates common attacks. Verify that each identified threat has an adequate mitigation.",
+                  "tags": ["maturity:1"]
+                },
+                {
+                  "ref": "V-AA-2-B",
+                  "label": "Assess threat model completeness",
+                  "description": "[Maturity Level 2] Analyze the architecture against known threats, using a standardized process. Ensure the threat model is complete and that mitigations are appropriate and effective. Feed findings back into the Secure Architecture practice.",
+                  "tags": ["maturity:2"]
+                },
+                {
+                  "ref": "V-AA-3-B",
+                  "label": "Review architecture mitigation effectiveness",
+                  "description": "[Maturity Level 3] Regularly review and update the architecture to respond to new threats. Ensure continuous improvement of architectural mitigations. Evaluate the scalability and strategic alignment of security controls.",
+                  "tags": ["maturity:3"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ref": "V-RT",
+          "label": "Requirements-driven Testing",
+          "description": "The goal of the Requirements-driven Testing (RT) practice is to ensure that the implemented security controls operate as expected and satisfy the project's stated security requirements. It does so by incrementally building a set of security test and regression cases and executing them regularly. A key aspect of this practice is its attention to both positive and negative testing.",
+          "group": true,
+          "controls": [
+            {
+              "ref": "V-RT-A",
+              "label": "Control Verification",
+              "description": "Control Verification validates that security controls and requirements are met through testing derived from requirements, and prevents the introduction of bugs into later releases through regression testing.",
+              "group": true,
+              "controls": [
+                {
+                  "ref": "V-RT-1-A",
+                  "label": "Test for security requirements",
+                  "description": "[Maturity Level 1] Verify the implementation of security requirements by testing for them. For each security requirement, derive security test cases that verify the requirement. Focus on positive tests first: verify the control correctly implements the stated requirement.",
+                  "tags": ["maturity:1"]
+                },
+                {
+                  "ref": "V-RT-2-A",
+                  "label": "Derive test cases from security requirements",
+                  "description": "[Maturity Level 2] From the security requirements, derive automated security test cases. Systematically generate test cases from requirements. Automate these tests and run them as part of the continuous integration pipeline.",
+                  "tags": ["maturity:2"]
+                },
+                {
+                  "ref": "V-RT-3-A",
+                  "label": "Establish regression testing",
+                  "description": "[Maturity Level 3] Create security regression tests for all significant bugs found and fixed. Integrate security regression tests into the build and deploy pipeline. Ensure that all fixed security defects have corresponding regression tests.",
+                  "tags": ["maturity:3"]
+                }
+              ]
+            },
+            {
+              "ref": "V-RT-B",
+              "label": "Misuse/Abuse Testing",
+              "description": "Misuse/Abuse Testing leverages fuzzing, misuse/abuse cases, and the identification of any functionality or resources in the software that can be abused in order to identify weaknesses in features to attack an application.",
+              "group": true,
+              "controls": [
+                {
+                  "ref": "V-RT-1-B",
+                  "label": "Perform misuse/abuse testing",
+                  "description": "[Maturity Level 1] Test for abuse/misuse of application features, focusing on the most critical functionality. Identify resources and features that could be misused. Perform basic negative tests such as trying to bypass authentication or access unauthorized data.",
+                  "tags": ["maturity:1"]
+                },
+                {
+                  "ref": "V-RT-2-B",
+                  "label": "Derive abuse test cases from security requirements",
+                  "description": "[Maturity Level 2] Create misuse and abuse cases for important functionality, derived from functional requirements. Document misuse cases and create corresponding test cases. Consider the application from an attacker's perspective.",
+                  "tags": ["maturity:2"]
+                },
+                {
+                  "ref": "V-RT-3-B",
+                  "label": "Perform security stress testing",
+                  "description": "[Maturity Level 3] Perform security stress testing against applications. Perform denial of service testing, advanced fuzzing, and other stress tests. Ensure the application can handle unexpected or malicious input gracefully.",
+                  "tags": ["maturity:3"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ref": "V-ST",
+          "label": "Security Testing",
+          "description": "The Security Testing (ST) practice leverages the fact that, while automated security testing is fast and scales well to numerous applications, in-depth testing based on good knowledge of an application and its business logic is often only possible via slower, manual expert security testing. The first stream focuses on establishing a common security baseline to automatically detect low hanging fruit. The second stream focuses on manual expert testing for more complex attack vectors.",
+          "group": true,
+          "controls": [
+            {
+              "ref": "V-ST-A",
+              "label": "Scalable Baseline",
+              "description": "Scalable baseline focuses on the use of application-specific automated testing tools that integrate security validation into the build and deploy process. The goal of this stream is to favor width (a broad spectrum of applications) over depth of testing.",
+              "group": true,
+              "controls": [
+                {
+                  "ref": "V-ST-1-A",
+                  "label": "Perform automated security testing",
+                  "description": "[Maturity Level 1] Use automated security testing tools. Employ automated security testing tools such as SAST and DAST to identify common vulnerabilities. Integrate these tools into the development pipeline and process their output.",
+                  "tags": ["maturity:1"]
+                },
+                {
+                  "ref": "V-ST-2-A",
+                  "label": "Customize automated security testing",
+                  "description": "[Maturity Level 2] Customize automated security testing for each application. Tune testing tools for the specific technology stack and application context. Increase frequency of testing and improve integration with the CI/CD pipeline.",
+                  "tags": ["maturity:2"]
+                },
+                {
+                  "ref": "V-ST-3-A",
+                  "label": "Integrate automated testing with build pipeline",
+                  "description": "[Maturity Level 3] Integrate automated security testing into the build pipeline and fail the build on significant findings. Make security testing a mandatory quality gate. Ensure comprehensive coverage across all applications.",
+                  "tags": ["maturity:3"]
+                }
+              ]
+            },
+            {
+              "ref": "V-ST-B",
+              "label": "Deep Understanding",
+              "description": "Deep understanding focuses on performing manual security testing of high-risk components, using complex attack vectors with the goal of making advanced security testing an integral part of the development process. The goal of this stream is to favor testing depth over testing width.",
+              "group": true,
+              "controls": [
+                {
+                  "ref": "V-ST-1-B",
+                  "label": "Perform manual security testing",
+                  "description": "[Maturity Level 1] Perform manual security testing of high-risk components. Identify high-risk components and perform manual security testing on them. Use experienced security testers with knowledge of common attack techniques.",
+                  "tags": ["maturity:1"]
+                },
+                {
+                  "ref": "V-ST-2-B",
+                  "label": "Perform penetration testing",
+                  "description": "[Maturity Level 2] Perform penetration testing for critical applications. Conduct regular penetration tests by experienced security testers. Prioritize testing of high-risk applications and newly developed functionality.",
+                  "tags": ["maturity:2"]
+                },
+                {
+                  "ref": "V-ST-3-B",
+                  "label": "Establish a continuous security testing program",
+                  "description": "[Maturity Level 3] Integrate expert security testing into the development lifecycle. Establish an ongoing program of manual security testing, including bug bounty programs. Make advanced security testing an integral part of the development process.",
+                  "tags": ["maturity:3"]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "O",
+      "label": "Operations",
+      "description": "The Operations Business Function encompasses those activities necessary to ensure confidentiality, integrity, and availability are maintained throughout the operational lifetime of an application and its associated data. Increased maturity with regard to this Business Function provides greater assurance that the organization is resilient in the face of operational disruptions, and responsive to changes in the operational landscape.",
+      "group": true,
+      "controls": [
+        {
+          "ref": "O-IM",
+          "label": "Incident Management",
+          "description": "The Incident Management (IM) practice focuses on dealing with security incidents in your organization. A security incident is a breach, or the threat of an imminent breach, of at least one asset's security goals. The first activity stream, Incident Detection, focuses on decreasing dwell time before an incident is detected. The second stream focuses on responding in a disciplined, thorough manner to limit the damage and return to normal operations.",
+          "group": true,
+          "controls": [
+            {
+              "ref": "O-IM-A",
+              "label": "Incident Detection",
+              "description": "Incident Detection refers to the process of determining an identified security-relevant event is, in fact, a security incident. The activities in this stream focus on the organization's ability to identify security incidents when they occur, and to initiate appropriate incident response activities.",
+              "group": true,
+              "controls": [
+                {
+                  "ref": "O-IM-1-A",
+                  "label": "Use best-effort incident detection",
+                  "description": "[Maturity Level 1] Use available log data to perform best-effort detection of possible security incidents. Analyze available log data (e.g., access logs, application logs, infrastructure logs), to detect possible security incidents. With larger log volumes, employ automation techniques. Establish and share points of contact for formal creation of security incidents.",
+                  "tags": ["maturity:1"]
+                },
+                {
+                  "ref": "O-IM-2-A",
+                  "label": "Define an incident detection process",
+                  "description": "[Maturity Level 2] Follow an established, well-documented process for incident detection, with emphasis on automated log evaluation. Establish a dedicated owner for the incident detection process. The process typically relies on a high degree of automation, collecting and correlating log data from different sources. Use a checklist covering expected attack vectors and known kill chains.",
+                  "tags": ["maturity:2"]
+                },
+                {
+                  "ref": "O-IM-3-A",
+                  "label": "Improve the incident detection process",
+                  "description": "[Maturity Level 3] Use a proactively managed process for detection of incidents. Ensure the checklist for suspicious event detection is correlated from external sources, past security incidents, and threat model outcomes. Use correlation of logs for all reasonable incident scenarios. The quality of detection does not depend on the time or day of the event.",
+                  "tags": ["maturity:3"]
+                }
+              ]
+            },
+            {
+              "ref": "O-IM-B",
+              "label": "Incident Response",
+              "description": "Incident Response starts the moment you acknowledge and verify the existence of a security incident. Your goal is to act in a coordinated and efficient way so that further damage is limited as much as possible.",
+              "group": true,
+              "controls": [
+                {
+                  "ref": "O-IM-1-B",
+                  "label": "Create an incident response plan",
+                  "description": "[Maturity Level 1] Identify roles and responsibilities for incident response. Recognize incident response as a competence, define a responsible owner, and define participants of the process. Assign a single point of contact known to all relevant stakeholders. Document all actions taken during security incidents.",
+                  "tags": ["maturity:1"]
+                },
+                {
+                  "ref": "O-IM-2-B",
+                  "label": "Define an incident response process",
+                  "description": "[Maturity Level 2] Establish a formal incident response process and ensure staff are properly trained in performing their roles. Document common scenarios, rules for triaging, involvement of stakeholders, and root-cause analysis processes. Ensure a knowledgeable and trained incident response team is available both during and outside business hours.",
+                  "tags": ["maturity:2"]
+                },
+                {
+                  "ref": "O-IM-3-B",
+                  "label": "Establish an incident response team",
+                  "description": "[Maturity Level 3] Employ a dedicated, well-trained incident response team. Establish a dedicated team responsible for continuous process improvement with the help of regular root cause analyses. Document detailed procedures and automate where appropriate. Carry out incident and emergency exercises regularly.",
+                  "tags": ["maturity:3"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ref": "O-EM",
+          "label": "Environment Management",
+          "description": "The Environment Management (EM) practice focuses on keeping your environment clean and secure. Most technologies in any application stack are not secure by default, requiring consistent application of secure baseline configurations. Vulnerabilities are discovered throughout the lifecycles of the technologies on which your organization relies, making it essential to monitor vulnerability reports and perform timely patching.",
+          "group": true,
+          "controls": [
+            {
+              "ref": "O-EM-A",
+              "label": "Configuration Hardening",
+              "description": "The activities in this stream focus on the organization's management of security-related configurations in all elements of the technology stack, with emphasis on third-party elements whose architecture and design are not under the organization's control.",
+              "group": true,
+              "controls": [
+                {
+                  "ref": "O-EM-1-A",
+                  "label": "Use best-effort hardening",
+                  "description": "[Maturity Level 1] Perform best-effort hardening of configurations, based on readily available information. Apply secure configuration to stack elements based on readily available guidance such as open source projects, vendor documentation, and blog articles. Identify key elements of common technology stacks and establish configuration standards.",
+                  "tags": ["maturity:1"]
+                },
+                {
+                  "ref": "O-EM-2-A",
+                  "label": "Establish hardening baselines",
+                  "description": "[Maturity Level 2] Perform consistent hardening of configurations, following established baselines and guidance. Establish configuration hardening baselines for all components in each technology stack. Develop configuration guides and require product teams to apply baselines to all new and existing systems.",
+                  "tags": ["maturity:2"]
+                },
+                {
+                  "ref": "O-EM-3-A",
+                  "label": "Perform continuous configuration monitoring",
+                  "description": "[Maturity Level 3] Actively monitor configurations for non-conformance to baselines, and handle detected occurrences as security defects. Perform regular checks against established baselines. When non-conforming configurations are detected, treat each occurrence as a security finding and manage corrective actions within the Defect Management practice.",
+                  "tags": ["maturity:3"]
+                }
+              ]
+            },
+            {
+              "ref": "O-EM-B",
+              "label": "Patching and Updating",
+              "description": "The activities in this stream focus on the organization's handling of patches and updates for all elements of the technology stack, both for software developed by the organization and for third-party elements.",
+              "group": true,
+              "controls": [
+                {
+                  "ref": "O-EM-1-B",
+                  "label": "Practice best-effort patching",
+                  "description": "[Maturity Level 1] Perform best-effort patching of system and application components. Identify applications and third-party components which need to be updated or patched. Identification and patching activities are best-effort and ad hoc. Ensure teams can determine the versions of all components in use.",
+                  "tags": ["maturity:1"]
+                },
+                {
+                  "ref": "O-EM-2-B",
+                  "label": "Formalize patch management",
+                  "description": "[Maturity Level 2] Perform regular patching of system and application components, across the full stack. Ensure timely delivery of patches to customers. Develop and follow a well-defined process with regular schedules aligned with vendor update calendars. Create guidance for prioritizing component patching.",
+                  "tags": ["maturity:2"]
+                },
+                {
+                  "ref": "O-EM-3-B",
+                  "label": "Enforce timely patch management",
+                  "description": "[Maturity Level 3] Actively monitor update status and manage missing patches as security defects. Proactively obtain vulnerability and update information for components. Develop management dashboards to track compliance with patching processes and SLAs. Monitor external threat intelligence sources for zero day vulnerabilities.",
+                  "tags": ["maturity:3"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ref": "O-OM",
+          "label": "Operational Management",
+          "description": "The Operational Management (OM) practice focuses on activities to ensure security is maintained throughout operational support functions. The functions covered include system provisioning, administration, and decommissioning; database provisioning and administration; and data backup, restore, and archival. Although not performed directly by an application, the overall security of the application and its data depends on their proper performance.",
+          "group": true,
+          "controls": [
+            {
+              "ref": "O-OM-A",
+              "label": "Data Protection",
+              "description": "The activities in this stream focus on ensuring the organization properly protects data in all aspects of their creation, handling, storage, and processing.",
+              "group": true,
+              "controls": [
+                {
+                  "ref": "O-OM-1-A",
+                  "label": "Organize basic data protections",
+                  "description": "[Maturity Level 1] Implement basic data protection practices. Understand the types and sensitivity of data stored and processed by your applications, and maintain awareness of the fate of processed data. Protect and handle all data associated with a given application according to protection requirements applying to the most sensitive data stored and processed.",
+                  "tags": ["maturity:1"]
+                },
+                {
+                  "ref": "O-OM-2-A",
+                  "label": "Establish a data catalog",
+                  "description": "[Maturity Level 2] Develop data catalog and establish data protection policy. Identify the data stored, processed, and transmitted by applications, and capture information regarding their types, sensitivity levels, and storage locations. Establish processes and procedures for protecting and preserving data throughout their lifetime.",
+                  "tags": ["maturity:2"]
+                },
+                {
+                  "ref": "O-OM-3-A",
+                  "label": "Respond to data breaches",
+                  "description": "[Maturity Level 3] Automate detection of policy non-compliance, and audit compliance periodically. Regularly review and update data catalog and data protection policy. Implement technical controls to enforce compliance with your Data Protection Policy, and put monitoring in place to detect attempted or actual violations.",
+                  "tags": ["maturity:3"]
+                }
+              ]
+            },
+            {
+              "ref": "O-OM-B",
+              "label": "System Decommissioning / Legacy Management",
+              "description": "The activities in this stream focus on the identification, management, and tracking of systems, applications, application dependencies, and services that are no longer used, have reached end of life, or are no longer actively developed or supported.",
+              "group": true,
+              "controls": [
+                {
+                  "ref": "O-OM-1-B",
+                  "label": "Identify unused applications",
+                  "description": "[Maturity Level 1] Decommission unused applications and services as identified. Manage customer upgrades/migrations individually. Identify unused applications on an ad hoc basis, either by chance observation, or by occasionally performing a review.",
+                  "tags": ["maturity:1"]
+                },
+                {
+                  "ref": "O-OM-2-B",
+                  "label": "Formalize decommissioning process",
+                  "description": "[Maturity Level 2] Develop repeatable decommissioning processes for unused systems/services, and for migration from legacy dependencies. Manage legacy migration roadmaps for customers. Follow an established process for removing all relevant accounts, firewall rules, data, etc. from the operational environment.",
+                  "tags": ["maturity:2"]
+                },
+                {
+                  "ref": "O-OM-3-B",
+                  "label": "Review application lifecycle state regularly",
+                  "description": "[Maturity Level 3] Proactively manage migration roadmaps, for both unsupported end-of-life dependencies, and legacy versions of delivered software. Regularly evaluate the lifecycle state and support status of every software asset and underlying infrastructure component. Follow a well-defined process for actively mitigating security risks as assets approach end-of-life.",
+                  "tags": ["maturity:3"]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

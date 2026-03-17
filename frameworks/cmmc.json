@@ -1,12 +1,18 @@
 {
-  "name": "Cybersecurity Maturity Model Certification",
-  "short_name": "Cybersecurity Maturity Model Certification",
-  "last_updated": "2026-01-05",
-  "description": "Unifying cybersecurity standard for the U.S. defense industrial base (DIB).",
+  "name": "Cybersecurity Maturity Model Certification (CMMC)",
+  "short_name": "CMMC",
+  "last_updated": "2026-03-17",
+  "description": "The Cybersecurity Maturity Model Certification (CMMC) is a unifying cybersecurity standard for the U.S. defense industrial base (DIB).",
   "category": "framework",
   "keywords": [
     "cybersecurity",
-    "framework"
+    "framework",
+    "CMMC",
+    "cybersecurity maturity model certification",
+    "DIB",
+    "defense industrial base",
+    "NIST SP 800-171",
+    "FAR Clause 52.204-21"
   ],
   "controls": [
     {

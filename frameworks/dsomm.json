@@ -1,0 +1,1158 @@
+{
+  "name": "OWASP DevSecOps Maturity Model (DSOMM)",
+  "short_name": "DSOMM",
+  "last_updated": "2026-03-17",
+  "description": "The OWASP DevSecOps Maturity Model (DSOMM) provides a framework for integrating security into DevOps practices across five dimensions: Build and Deployment, Culture and Organization, Implementation, Information Gathering, and Test and Verification. Activities are organized into maturity levels 1 through 5.",
+  "category": "framework",
+  "keywords": [
+    "devsecops",
+    "framework",
+    "DSOMM",
+    "OWASP",
+    "maturity model",
+    "application security",
+    "DevOps",
+    "security culture",
+    "CI/CD security"
+  ],
+  "controls": [
+    {
+      "ref": "1",
+      "label": "Build and Deployment",
+      "description": "Covers secure build processes, deployment practices, and patch management for software artifacts and infrastructure.",
+      "group": true,
+      "controls": [
+        {
+          "ref": "1.1",
+          "label": "Build",
+          "group": true,
+          "controls": [
+            {
+              "ref": "1.1.1",
+              "label": "Defined build process",
+              "description": "[Maturity Level 1] A build process includes more than just compiling source code. It also covers managing dependencies, environment configuration, running tests, security scanning, artifact creation, and deployment preparation. Use tools such as Jenkins, GitHub Actions, GitLab CI, or Maven to codify the process."
+            },
+            {
+              "ref": "1.1.2",
+              "label": "Building and testing of artifacts in virtual environments",
+              "description": "[Maturity Level 2] Each step within the build and testing phase is performed in a separate virtual environment, which is destroyed afterward, to mitigate risk from malicious third-party systems, frameworks, and libraries."
+            },
+            {
+              "ref": "1.1.3",
+              "label": "Pinning of artifacts",
+              "description": "[Maturity Level 2] Pinning of artifacts ensures that changes are performed only when intended, preventing unauthorized manipulation of artifacts such as images with malicious code."
+            },
+            {
+              "ref": "1.1.4",
+              "label": "SBOM of components",
+              "description": "[Maturity Level 2] Creation of a Software Bill of Materials (SBOM) of components (e.g. application and container image content) during build to ensure transparency, security, and license compliance."
+            },
+            {
+              "ref": "1.1.5",
+              "label": "Signing of code",
+              "description": "[Maturity Level 3] Digitally signing commits helps to prevent unauthorized manipulation of source code."
+            },
+            {
+              "ref": "1.1.6",
+              "label": "Signing of artifacts",
+              "description": "[Maturity Level 5] Digitally signing artifacts for all steps during the build, especially docker images, helps to ensure their integrity and authenticity."
+            }
+          ]
+        },
+        {
+          "ref": "1.2",
+          "label": "Deployment",
+          "group": true,
+          "controls": [
+            {
+              "ref": "1.2.1",
+              "label": "Defined deployment process",
+              "description": "[Maturity Level 1] A defined deployment process is a documented and standardized procedure for releasing software into production, ensuring consistency and reducing the risk of errors."
+            },
+            {
+              "ref": "1.2.2",
+              "label": "Automated deployment process",
+              "description": "[Maturity Level 1] An automated deployment process implements the defined deployment steps using automation tools, ensuring consistency, auditability, and minimizing the risk of human errors or unauthorized changes."
+            },
+            {
+              "ref": "1.2.3",
+              "label": "Inventory of production components",
+              "description": "[Maturity Level 1] A documented inventory of components in production exists (gathered manually or automatically), such as applications running in production."
+            },
+            {
+              "ref": "1.2.4",
+              "label": "Defined decommissioning process",
+              "description": "[Maturity Level 2] A clear decommissioning process ensures the removal of unused applications from inventories. Unused applications are not maintained and may contain vulnerabilities."
+            },
+            {
+              "ref": "1.2.5",
+              "label": "Environment depending configuration parameters (secrets)",
+              "description": "[Maturity Level 2] Set configuration parameters via environment variables stored using specific platform functionalities or secrets management systems (e.g. Kubernetes secrets or Hashicorp Vault)."
+            },
+            {
+              "ref": "1.2.6",
+              "label": "Evaluation of the trust of used components",
+              "description": "[Maturity Level 2] Each component source is evaluated to be trusted. Create image assessment criteria, perform evaluation of images, and create a whitelist of artifacts/container images."
+            },
+            {
+              "ref": "1.2.7",
+              "label": "Inventory of production artifacts",
+              "description": "[Maturity Level 2] A documented inventory of artifacts in production like container images exists (gathered manually or automatically)."
+            },
+            {
+              "ref": "1.2.8",
+              "label": "Handover of confidential parameters",
+              "description": "[Maturity Level 3] Encryption ensures confidentiality of credentials from unauthorized access. Usage of a credential management system can help protect credentials."
+            },
+            {
+              "ref": "1.2.9",
+              "label": "Inventory of production dependencies",
+              "description": "[Maturity Level 3] A documented inventory of dependencies used in artifacts like container images and containers exists."
+            },
+            {
+              "ref": "1.2.10",
+              "label": "Rolling update on deployment",
+              "description": "[Maturity Level 3] A deployment without downtime is performed."
+            },
+            {
+              "ref": "1.2.11",
+              "label": "Same artifact for environments",
+              "description": "[Maturity Level 4] Building an artifact once and deploying it to different environments means that only tested artifacts are allowed to reach the production environment."
+            },
+            {
+              "ref": "1.2.12",
+              "label": "Usage of feature toggles",
+              "description": "[Maturity Level 4] Usage of environment independent configuration parameters, called static feature toggles, mitigates the risk of accidentally enabling insecure features in production."
+            },
+            {
+              "ref": "1.2.13",
+              "label": "Blue/Green Deployment",
+              "description": "[Maturity Level 5] Using a blue/green deployment strategy increases application availability and reduces deployment risk by simplifying the rollback process."
+            }
+          ]
+        },
+        {
+          "ref": "1.3",
+          "label": "Patch Management",
+          "group": true,
+          "controls": [
+            {
+              "ref": "1.3.1",
+              "label": "A patch policy is defined",
+              "description": "[Maturity Level 1] A patch policy defines how and when software components, images, and dependencies are updated, ensuring all artifacts are regularly reviewed and updated."
+            },
+            {
+              "ref": "1.3.2",
+              "label": "Automated PRs for patches",
+              "description": "[Maturity Level 1] Automated PRs for patches ensure that updates for outdated or vulnerable dependencies are created and proposed without manual intervention, covering applications, container images, OS components, and IaC."
+            },
+            {
+              "ref": "1.3.3",
+              "label": "Nightly build of images (base images)",
+              "description": "[Maturity Level 2] Custom base images are built at least nightly. In case packages in the base image have changed, the build server triggers the build of depending images."
+            },
+            {
+              "ref": "1.3.4",
+              "label": "Reduction of the attack surface",
+              "description": "[Maturity Level 2] Removal of unneeded components, dependencies, files or file access rights. For container images the usage of distroless images is recommended."
+            },
+            {
+              "ref": "1.3.5",
+              "label": "Usage of a maximum lifetime for images",
+              "description": "[Maturity Level 2] A short maximum lifetime for images is defined, e.g. 30 days. Project images and third party images are deployed at least once within the defined lifetime."
+            },
+            {
+              "ref": "1.3.6",
+              "label": "Automated merge of automated PRs",
+              "description": "[Maturity Level 2] Trusted dependencies are automatically merged after a grace period. Patches, fixes and minor updates are automatically merged, requiring high automated test coverage."
+            },
+            {
+              "ref": "1.3.7",
+              "label": "Automated deployment of automated PRs",
+              "description": "[Maturity Level 3] After merging of an automated dependency PR, automated deployment is performed to ensure vulnerabilities in running artifacts do not persist."
+            },
+            {
+              "ref": "1.3.8",
+              "label": "Usage of a short maximum lifetime for images",
+              "description": "[Maturity Level 4] Build and deployment is performed daily or even just-in-time when a new component for the image is available."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "2",
+      "label": "Culture and Organization",
+      "description": "Enhancing the security culture within an organization through design practices, education and guidance, and organizational processes.",
+      "group": true,
+      "controls": [
+        {
+          "ref": "2.1",
+          "label": "Design",
+          "group": true,
+          "controls": [
+            {
+              "ref": "2.1.1",
+              "label": "Conduction of simple threat modeling on technical level",
+              "description": "[Maturity Level 1] Perform threat modeling of technical features during product sprint planning using simple checklists like STRIDE and diagrams. Document identified threats and mitigations."
+            },
+            {
+              "ref": "2.1.2",
+              "label": "Information security targets are communicated",
+              "description": "[Maturity Level 2] Transparent and timely communication of the security targets by senior management is essential to ensure teams' buy-in and support."
+            },
+            {
+              "ref": "2.1.3",
+              "label": "Conduction of simple threat modeling on business level",
+              "description": "[Maturity Level 3] Threat modeling of business functionality is performed during the product backlog creation to facilitate early detection of security defects."
+            },
+            {
+              "ref": "2.1.4",
+              "label": "Creation of simple abuse stories",
+              "description": "[Maturity Level 3] Abuse stories are created during the creation of user stories to consider security implications."
+            },
+            {
+              "ref": "2.1.5",
+              "label": "Creation of threat modeling processes and standards",
+              "description": "[Maturity Level 3] Creation of threat modeling processes and standards through the organization helps to enhance the security culture and provide more structure to threat model exercises."
+            },
+            {
+              "ref": "2.1.6",
+              "label": "Conduction of advanced threat modeling",
+              "description": "[Maturity Level 4] Threat modeling is performed by reviewing user stories and producing security driven data flow diagrams."
+            },
+            {
+              "ref": "2.1.7",
+              "label": "Creation of advanced abuse stories",
+              "description": "[Maturity Level 5] Advanced abuse stories are created as part of threat modeling activities, going deeper than simple user stories."
+            }
+          ]
+        },
+        {
+          "ref": "2.2",
+          "label": "Education and Guidance",
+          "group": true,
+          "controls": [
+            {
+              "ref": "2.2.1",
+              "label": "Ad-Hoc Security trainings for software developers",
+              "description": "[Maturity Level 1] Provide security awareness training for all personnel involved in software development on an ad-hoc basis, covering topics when new risks or needs are identified."
+            },
+            {
+              "ref": "2.2.2",
+              "label": "Security consulting on request",
+              "description": "[Maturity Level 1] Make security consulting available to teams on request, ensuring that expert advice is accessible when needed to address security concerns during development."
+            },
+            {
+              "ref": "2.2.3",
+              "label": "Each team has a security champion",
+              "description": "[Maturity Level 2] Each team defines an individual to be responsible for security. These security champions have additional training and dedicated hours for security-related activities."
+            },
+            {
+              "ref": "2.2.4",
+              "label": "Regular security training for all",
+              "description": "[Maturity Level 2] Provide security awareness training for all internal personnel involved in software development on a regular basis like twice a year for 1-3 days."
+            },
+            {
+              "ref": "2.2.5",
+              "label": "Regular security training of security champions",
+              "description": "[Maturity Level 2] Regular security training of security champions to deepen their understanding of security topics."
+            },
+            {
+              "ref": "2.2.6",
+              "label": "Reward of good communication",
+              "description": "[Maturity Level 2] Good communication and transparency encourages cross-organizational support. Gamification of security including T-Shirts, mugs, gift cards and recognition."
+            },
+            {
+              "ref": "2.2.7",
+              "label": "Security code review",
+              "description": "[Maturity Level 2] Security-focused code reviews targeting high-risk areas such as crypto implementations, parsers, authentication, authorization, session management, and request throttling."
+            },
+            {
+              "ref": "2.2.8",
+              "label": "Conduction of build-it, break-it, fix-it contests",
+              "description": "[Maturity Level 3] The contest allows training people with security related roles to build, break and fix parts of a secure application, increasing learning of building secure components."
+            },
+            {
+              "ref": "2.2.9",
+              "label": "Office Hours",
+              "description": "[Maturity Level 3] As a security team, be open for questions and hints during defined office hours to encourage contact between developers/operations and the security team."
+            },
+            {
+              "ref": "2.2.10",
+              "label": "Security Coaching",
+              "description": "[Maturity Level 3] By coaching teams on security topics using methods like samman coaching, teams internalize security practices as new habits in their development process."
+            },
+            {
+              "ref": "2.2.11",
+              "label": "Security-Lessons-Learned",
+              "description": "[Maturity Level 3] Running a lessons learned session after an incident helps drive continuous improvement. Regular meetings with security champions to share and discuss lessons learned."
+            },
+            {
+              "ref": "2.2.12",
+              "label": "Simple mob hacking",
+              "description": "[Maturity Level 3] Participate with the whole team in a simple mob hacking session using insecure training apps like DVWA or OWASP Juice Shop to understand how exploits work."
+            },
+            {
+              "ref": "2.2.13",
+              "label": "Aligning security in teams",
+              "description": "[Maturity Level 4] By aligning security Subject Matter Experts with project teams, a higher security standard can be achieved beyond the security champion model."
+            },
+            {
+              "ref": "2.2.14",
+              "label": "Conduction of collaborative team security checks",
+              "description": "[Maturity Level 4] Mutual security testing of other teams' projects enhances security awareness and knowledge across the organization."
+            },
+            {
+              "ref": "2.2.15",
+              "label": "Conduction of war games",
+              "description": "[Maturity Level 4] War game activities help train for incidents. Security SMEs create attack scenarios in a testing environment enabling trainees to learn how to react in case of an incident."
+            },
+            {
+              "ref": "2.2.16",
+              "label": "Regular security training for externals",
+              "description": "[Maturity Level 4] Provide security awareness training for all personnel including externals involved in software development on a regular basis."
+            },
+            {
+              "ref": "2.2.17",
+              "label": "Conduction of collaborative security checks with developers and system administrators",
+              "description": "[Maturity Level 5] Periodical security reviews of source code in which security SMEs, developers and operations are involved, increasing robustness and security knowledge."
+            }
+          ]
+        },
+        {
+          "ref": "2.3",
+          "label": "Process",
+          "group": true,
+          "controls": [
+            {
+              "ref": "2.3.1",
+              "label": "Definition of simple BCDR practices for critical components",
+              "description": "[Maturity Level 1] Develop, document, and communicate a Business Continuity and Disaster Recovery plan for all critical components defining roles, SLAs, RPOs, RTOs, and failover procedures."
+            },
+            {
+              "ref": "2.3.2",
+              "label": "Determining the protection requirement",
+              "description": "[Maturity Level 2] Defining the protection requirement considering processed data criticality, application accessibility, regulatory compliance, and other relevant factors."
+            },
+            {
+              "ref": "2.3.3",
+              "label": "Approval by reviewing any new version",
+              "description": "[Maturity Level 3] On each new version (e.g. Pull Request) of source code or infrastructure components a security peer review of the changes is performed (two eyes principle)."
+            },
+            {
+              "ref": "2.3.4",
+              "label": "Definition of a change management process",
+              "description": "[Maturity Level 3] Each change of a system is automatically recorded and adequately logged."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "3",
+      "label": "Implementation",
+      "description": "Covers application hardening, development and source control practices, and infrastructure hardening.",
+      "group": true,
+      "controls": [
+        {
+          "ref": "3.1",
+          "label": "Application Hardening",
+          "group": true,
+          "controls": [
+            {
+              "ref": "3.1.1",
+              "label": "App. Hardening Level 1 (50%)",
+              "description": "[Maturity Level 1] Following frameworks like the OWASP ASVS Level 1 and OWASP MASVS in all applications provides a good baseline. Implement 50% of the recommendations."
+            },
+            {
+              "ref": "3.1.2",
+              "label": "Context-aware output encoding",
+              "description": "[Maturity Level 1] Use modern secure frameworks (React/Angular/Vue/Svelte), established encoding libraries (OWASP Java Encoder, Microsoft AntiXSS), and implement Content Security Policies."
+            },
+            {
+              "ref": "3.1.3",
+              "label": "Parametrization",
+              "description": "[Maturity Level 1] Use parameterized queries (prepared statements), stored procedures, or ORM tools that automatically handle input sanitization to prevent injection attacks."
+            },
+            {
+              "ref": "3.1.4",
+              "label": "App. Hardening Level 1",
+              "description": "[Maturity Level 2] Following frameworks like the OWASP ASVS Level 1 and OWASP MASVS in all applications. Implement 95%-100% of the recommendations."
+            },
+            {
+              "ref": "3.1.5",
+              "label": "Containers are running as non-root",
+              "description": "[Maturity Level 2] Containers are running as non-root to reduce container escape vectors, host system vulnerabilities, and resource management issues."
+            },
+            {
+              "ref": "3.1.6",
+              "label": "App. Hardening Level 2 (75%)",
+              "description": "[Maturity Level 3] Following frameworks like the OWASP ASVS Level 2 and OWASP MASVS Level 2. Implement 75% of the recommendations."
+            },
+            {
+              "ref": "3.1.7",
+              "label": "Secure headers",
+              "description": "[Maturity Level 3] Implement and enforce security headers (CSP, X-Frame-Options, HSTS, etc.) across all applications and services via reverse proxy, application middleware, or service mesh."
+            },
+            {
+              "ref": "3.1.8",
+              "label": "App. Hardening Level 2",
+              "description": "[Maturity Level 4] Following frameworks like the OWASP ASVS Level 2 and OWASP MASVS Level 2. Implement 95%-100% of the recommendations."
+            },
+            {
+              "ref": "3.1.9",
+              "label": "App. Hardening Level 3",
+              "description": "[Maturity Level 5] Following frameworks like the OWASP ASVS Level 3 and OWASP MASVS. Implement 95%-100% of the recommendations."
+            }
+          ]
+        },
+        {
+          "ref": "3.2",
+          "label": "Development and Source Control",
+          "group": true,
+          "controls": [
+            {
+              "ref": "3.2.1",
+              "label": "Version control",
+              "description": "[Maturity Level 1] Version source code to identify deployed features and issues. This includes application and infrastructure code, CI configuration, container and VM image definitions."
+            },
+            {
+              "ref": "3.2.2",
+              "label": "Require a PR before merging",
+              "description": "[Maturity Level 2] Define source code management policies (e.g. branch protection rules, mandatory code reviews) to ensure changes to critical branches are only possible under defined conditions."
+            },
+            {
+              "ref": "3.2.3",
+              "label": "Block force pushes",
+              "description": "[Maturity Level 3] Mandate blocking of force pushes in the version control platform to prevent loss of work, overwriting remote branches, and bypassing the pull request process."
+            },
+            {
+              "ref": "3.2.4",
+              "label": "Dismiss stale PR approvals",
+              "description": "[Maturity Level 3] Implement a policy where commits made after PR approval automatically revoke that approval, necessitating a fresh review and re-approval process."
+            },
+            {
+              "ref": "3.2.5",
+              "label": "Require status checks to pass",
+              "description": "[Maturity Level 3] Mandate passing of security related status checks, like successful builds or SAST tests, before proceeding with merges."
+            },
+            {
+              "ref": "3.2.6",
+              "label": ".gitignore",
+              "description": "[Maturity Level 4] .gitignore files help prevent accidental commits of secrets, debug, or workstation specific data."
+            },
+            {
+              "ref": "3.2.7",
+              "label": "Local development linting & style checks performed",
+              "description": "[Maturity Level 5] Integrate static code analysis tools in IDEs to maintain a secure and maintainable code base."
+            }
+          ]
+        },
+        {
+          "ref": "3.3",
+          "label": "Infrastructure Hardening",
+          "group": true,
+          "controls": [
+            {
+              "ref": "3.3.1",
+              "label": "MFA for admins",
+              "description": "[Maturity Level 1] Two or more factor authentication for all privileged accounts on systems and applications."
+            },
+            {
+              "ref": "3.3.2",
+              "label": "Simple access control for systems",
+              "description": "[Maturity Level 1] All internal systems are using simple authentication as basic access control."
+            },
+            {
+              "ref": "3.3.3",
+              "label": "Usage of edge encryption at transit",
+              "description": "[Maturity Level 1] By using encryption at the edge of traffic in transit (e.g. HTTPS), it is harder to sniff credentials or information outside the organization."
+            },
+            {
+              "ref": "3.3.4",
+              "label": "Applications are running in virtualized environments",
+              "description": "[Maturity Level 2] Applications are running in dedicated and isolated virtualized environments to prevent lateral movement through vulnerabilities."
+            },
+            {
+              "ref": "3.3.5",
+              "label": "Backup",
+              "description": "[Maturity Level 2] Performing automated periodical backups. Backup before deployment can help facilitate deployments whilst testing backup restore processes."
+            },
+            {
+              "ref": "3.3.6",
+              "label": "Baseline Hardening of the environment",
+              "description": "[Maturity Level 2] Harden environments according to best practices. Level 1 and partially level 2 from hardening practices like CIS Kubernetes Bench for Security."
+            },
+            {
+              "ref": "3.3.7",
+              "label": "Isolated networks for virtual environments",
+              "description": "[Maturity Level 2] The communication between virtual environments is controlled and regulated to prevent unauthorized cross-environment access."
+            },
+            {
+              "ref": "3.3.8",
+              "label": "MFA",
+              "description": "[Maturity Level 2] Two or more factor authentication for all accounts on all important systems and applications."
+            },
+            {
+              "ref": "3.3.9",
+              "label": "Usage of a security account",
+              "description": "[Maturity Level 2] Usage of a separate account dedicated for security activities to prevent evil administrators from altering evidence like audit logs."
+            },
+            {
+              "ref": "3.3.10",
+              "label": "Usage of encryption at rest",
+              "description": "[Maturity Level 2] By using encryption at rest, it is harder to read information from physical storage like hard disks."
+            },
+            {
+              "ref": "3.3.11",
+              "label": "Usage of test and production environments",
+              "description": "[Maturity Level 2] A test and a production-like environment is used so security tests can run regularly."
+            },
+            {
+              "ref": "3.3.12",
+              "label": "Virtual environments are limited",
+              "description": "[Maturity Level 2] All virtual environments are using resource limits on hard disks, memory and CPU to prevent denial of service effects on other services."
+            },
+            {
+              "ref": "3.3.13",
+              "label": "Filter outgoing traffic",
+              "description": "[Maturity Level 3] Having a whitelist and explicitly allowing egress traffic provides the ability to stop unauthorized data leakage from compromised components."
+            },
+            {
+              "ref": "3.3.14",
+              "label": "Immutable infrastructure",
+              "description": "[Maturity Level 3] Redundancies in IT systems to ensure availability is not disturbed due to component failures."
+            },
+            {
+              "ref": "3.3.15",
+              "label": "Infrastructure as Code",
+              "description": "[Maturity Level 3] Systems are setup by code. A full environment can be provisioned and configured in code, stored in a version control system."
+            },
+            {
+              "ref": "3.3.16",
+              "label": "Limitation of system events",
+              "description": "[Maturity Level 3] System calls are limited to prevent privilege escalation."
+            },
+            {
+              "ref": "3.3.17",
+              "label": "Role based authentication and authorization",
+              "description": "[Maturity Level 3] Usage of role based access control (RBAC) to restrict system access to authorized users. An enhancement is attribute based access control (ABAC)."
+            },
+            {
+              "ref": "3.3.18",
+              "label": "Usage of internal encryption at transit",
+              "description": "[Maturity Level 3] By using encryption internally (e.g. inside a cluster), it is harder to sniff credentials or information within the organization."
+            },
+            {
+              "ref": "3.3.19",
+              "label": "Usage of security by default for components",
+              "description": "[Maturity Level 3] Hardening of components is important, specially for images on which other teams base on. Hardening on the OS and services inside."
+            },
+            {
+              "ref": "3.3.20",
+              "label": "WAF baseline",
+              "description": "[Maturity Level 3] Implementing a web application firewall in monitoring/alert mode, progressively enforcing blocking actions based on intelligence gathered."
+            },
+            {
+              "ref": "3.3.21",
+              "label": "Hardening of the Environment",
+              "description": "[Maturity Level 4] Harden environments according to best practices. Level 2 and partially level 3 from hardening practices like CIS Kubernetes Bench for Security."
+            },
+            {
+              "ref": "3.3.22",
+              "label": "Production near environments are used by developers",
+              "description": "[Maturity Level 4] Usage of infrastructure as code helps create production-near environments for local development with anonymized production-like test data."
+            },
+            {
+              "ref": "3.3.23",
+              "label": "Usage of a chaos technology",
+              "description": "[Maturity Level 4] Randomized periodical shutdown of systems ensures nobody performs manual changes to a system and that redundancy works."
+            },
+            {
+              "ref": "3.3.24",
+              "label": "WAF medium",
+              "description": "[Maturity Level 4] A WAF deployed with medium-level protection offering enhanced rules, continuous monitoring and fine-tuning, and strategic incident response."
+            },
+            {
+              "ref": "3.3.25",
+              "label": "WAF Advanced",
+              "description": "[Maturity Level 5] Advanced WAF with strict input validation, denylist for unauthorized parameters, machine learning for anomaly detection, and integration with SIEM systems."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "4",
+      "label": "Information Gathering",
+      "description": "Gathering of information through logging, monitoring, and test KPIs to detect incidents and measure security effectiveness.",
+      "group": true,
+      "controls": [
+        {
+          "ref": "4.1",
+          "label": "Logging",
+          "group": true,
+          "controls": [
+            {
+              "ref": "4.1.1",
+              "label": "Centralized system logging",
+              "description": "[Maturity Level 1] Implement a centralized logging solution for all critical systems. System logs must be stored in a central repository, protected from unauthorized access and modification."
+            },
+            {
+              "ref": "4.1.2",
+              "label": "Centralized application logging",
+              "description": "[Maturity Level 2] A centralized logging system is used and application logs (including application exceptions) are shipped to it."
+            },
+            {
+              "ref": "4.1.3",
+              "label": "Logging of security events",
+              "description": "[Maturity Level 2] Security-relevant events like login/logout or creation, change, deletion of users, input validation errors, and transactions of value are logged."
+            },
+            {
+              "ref": "4.1.4",
+              "label": "Visualized logging",
+              "description": "[Maturity Level 3] Protocols are visualized in a simple-to-use real time monitoring system with the ability to search for special attributes."
+            },
+            {
+              "ref": "4.1.5",
+              "label": "Analyze logs",
+              "description": "[Maturity Level 3] Check logs for keywords to detect ongoing attacks."
+            },
+            {
+              "ref": "4.1.6",
+              "label": "Correlation of security events",
+              "description": "[Maturity Level 5] Events are correlated on one system, for example the correlation and visualization of failed login attempts combined with successful login attempts."
+            },
+            {
+              "ref": "4.1.7",
+              "label": "PII logging concept",
+              "description": "[Maturity Level 5] A concept for how to log PII is documented and applied to comply with privacy laws such as GDPR."
+            }
+          ]
+        },
+        {
+          "ref": "4.2",
+          "label": "Monitoring",
+          "group": true,
+          "controls": [
+            {
+              "ref": "4.2.1",
+              "label": "Simple application metrics",
+              "description": "[Maturity Level 1] Gathering application metrics such as authentication attempts, transaction volumes, API call rates, and user session metrics to identify incidents like brute force attacks."
+            },
+            {
+              "ref": "4.2.2",
+              "label": "Simple system metrics",
+              "description": "[Maturity Level 1] Collect and monitor key system metrics including CPU, memory, and disk usage to detect performance issues and potential security incidents."
+            },
+            {
+              "ref": "4.2.3",
+              "label": "Simple budget metrics",
+              "description": "[Maturity Level 1] Set up budget monitoring and alerting for all critical resources to prevent unexpected costs and potential service disruption."
+            },
+            {
+              "ref": "4.2.4",
+              "label": "Alerting",
+              "description": "[Maturity Level 2] Thresholds for metrics are set. In case thresholds are reached, alarms are sent out with appropriate criticality."
+            },
+            {
+              "ref": "4.2.5",
+              "label": "Visualized metrics",
+              "description": "[Maturity Level 2] Metrics are visualized in real time in a user friendly way."
+            },
+            {
+              "ref": "4.2.6",
+              "label": "Monitoring of costs",
+              "description": "[Maturity Level 2] Implement cost budgets with alert thresholds and limits to prevent unexpected high resource consumption."
+            },
+            {
+              "ref": "4.2.7",
+              "label": "Advanced availability and stability metrics",
+              "description": "[Maturity Level 3] Advanced metrics are gathered in relation to availability and stability, for example unplanned downtimes per year."
+            },
+            {
+              "ref": "4.2.8",
+              "label": "Audit of system events",
+              "description": "[Maturity Level 3] Gathering of system calls to detect trends and attacks."
+            },
+            {
+              "ref": "4.2.9",
+              "label": "Deactivation of unused metrics",
+              "description": "[Maturity Level 3] Deactivation of unused metrics helps to free resources."
+            },
+            {
+              "ref": "4.2.10",
+              "label": "Grouping of metrics",
+              "description": "[Maturity Level 3] Meaningful grouping of metrics helps to speed up analysis."
+            },
+            {
+              "ref": "4.2.11",
+              "label": "Targeted alerting",
+              "description": "[Maturity Level 3] By defining target groups for incidents, people only get alarms for incidents they are responsible for, reducing alert fatigue."
+            },
+            {
+              "ref": "4.2.12",
+              "label": "Advanced app. metrics",
+              "description": "[Maturity Level 4] All defects from the Test and Verification dimension are instrumented to ensure people review test results."
+            },
+            {
+              "ref": "4.2.13",
+              "label": "Coverage and control metrics",
+              "description": "[Maturity Level 4] Usage of coverage and control metrics to show the effectiveness of the security program, including anti-virus, patch management, server configuration, and vulnerability management."
+            },
+            {
+              "ref": "4.2.14",
+              "label": "Defense metrics",
+              "description": "[Maturity Level 4] Gathering of defense metrics like TCP/UDP sources to assume geographic location of requests, with alerting on egress/ingress traffic filter violations."
+            },
+            {
+              "ref": "4.2.15",
+              "label": "Screens with metric visualization",
+              "description": "[Maturity Level 4] Internal accessible screens with security related dashboards help visualize incidents in real time."
+            },
+            {
+              "ref": "4.2.16",
+              "label": "Metrics are combined with tests",
+              "description": "[Maturity Level 5] Metrics during tests help identify programming errors that might cause high load."
+            }
+          ]
+        },
+        {
+          "ref": "4.3",
+          "label": "Test KPI",
+          "group": true,
+          "controls": [
+            {
+              "ref": "4.3.1",
+              "label": "Number of vulnerabilities/severity",
+              "description": "[Maturity Level 2] Measurement and communication of vulnerabilities per severity for components like applications, at least quarterly."
+            },
+            {
+              "ref": "4.3.2",
+              "label": "Number of vulnerabilities/severity/layer",
+              "description": "[Maturity Level 2] Measurement and communication of vulnerabilities per severity and layer (app/infra) for components, at least quarterly."
+            },
+            {
+              "ref": "4.3.3",
+              "label": "Patching mean time to resolution via PR",
+              "description": "[Maturity Level 2] Measurement and communication of patching MTTR including existence of configured automated PR tools and time from opening to merging automated PRs."
+            },
+            {
+              "ref": "4.3.4",
+              "label": "SLA per criticality",
+              "description": "[Maturity Level 3] Measurement and communication of how many vulnerabilities per severity are aligned to SLAs across the organization, at least quarterly."
+            },
+            {
+              "ref": "4.3.5",
+              "label": "Generation of response statistics",
+              "description": "[Maturity Level 3] Creation and response statistics (e.g. Mean Time to Resolution) of findings."
+            },
+            {
+              "ref": "4.3.6",
+              "label": "Fix rate per repo/product",
+              "description": "[Maturity Level 3] Measurement and communication of vulnerabilities handled per severity broken down by team, product, application, repository, and/or service."
+            },
+            {
+              "ref": "4.3.7",
+              "label": "Patching mean time to resolution via production",
+              "description": "[Maturity Level 4] Measurement and communication of the time from patch availability to deployment in production, aligned to SLAs, at least quarterly."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "5",
+      "label": "Test and Verification",
+      "description": "Security testing activities covering application tests, consolidation of findings, dynamic and static analysis, and test intensity management.",
+      "group": true,
+      "controls": [
+        {
+          "ref": "5.1",
+          "label": "Application Tests",
+          "group": true,
+          "controls": [
+            {
+              "ref": "5.1.1",
+              "label": "Security unit tests for important components",
+              "description": "[Maturity Level 2] Usage of unit tests to test important security related features like authentication and authorization."
+            },
+            {
+              "ref": "5.1.2",
+              "label": "Security integration tests for important components",
+              "description": "[Maturity Level 3] Implementation of essential security related integration tests, for example for authentication and authorization."
+            },
+            {
+              "ref": "5.1.3",
+              "label": "Smoke Test",
+              "description": "[Maturity Level 4] Integration tests are performed against the production environment after each deployment."
+            },
+            {
+              "ref": "5.1.4",
+              "label": "High coverage of security related module and integration tests",
+              "description": "[Maturity Level 5] Implementation of security related tests via unit tests and integration tests, including the test of libraries."
+            }
+          ]
+        },
+        {
+          "ref": "5.2",
+          "label": "Consolidation",
+          "group": true,
+          "controls": [
+            {
+              "ref": "5.2.1",
+              "label": "Simple false positive treatment",
+              "description": "[Maturity Level 1] Findings from security tests are triaged and outcomes persisted to prevent re-analysis of known issues and track accepted risks vs false positives."
+            },
+            {
+              "ref": "5.2.2",
+              "label": "Treatment of defects with high or critical severity",
+              "description": "[Maturity Level 1] All high or critical security findings must be fixed before the software is approved for release or use in production."
+            },
+            {
+              "ref": "5.2.3",
+              "label": "Artifact-based false positive treatment",
+              "description": "[Maturity Level 2] Implement false positive marking and temporary acceptance of findings based on specific artifacts (applications, components, or repositories)."
+            },
+            {
+              "ref": "5.2.4",
+              "label": "Simple visualization of defects",
+              "description": "[Maturity Level 2] Vulnerabilities are simply visualized to make the security level of a component visible and motivate improvement."
+            },
+            {
+              "ref": "5.2.5",
+              "label": "Fix based on accessibility",
+              "description": "[Maturity Level 3] Implement a simple risk-based prioritization framework for vulnerability remediation based on accessibility of the applications."
+            },
+            {
+              "ref": "5.2.6",
+              "label": "Global false positive treatment",
+              "description": "[Maturity Level 3] Implement global false positive and acceptance management that applies consistently across all applications for organization-wide security decisions."
+            },
+            {
+              "ref": "5.2.7",
+              "label": "Integration of vulnerability issues into the development process",
+              "description": "[Maturity Level 3] Vulnerabilities are tracked in the teams' issue system (e.g. Jira) to ensure they are part of the development workflow."
+            },
+            {
+              "ref": "5.2.8",
+              "label": "Integration in development process",
+              "description": "[Maturity Level 3] Integration of findings into the development process, e.g. adding findings to the backlog of product teams."
+            },
+            {
+              "ref": "5.2.9",
+              "label": "Treatment of defects with medium severity",
+              "description": "[Maturity Level 3] Vulnerabilities with severity medium are added to the quality gate."
+            },
+            {
+              "ref": "5.2.10",
+              "label": "Treatment of defects per protection requirement",
+              "description": "[Maturity Level 3] Defining the protection requirement and corresponding handling of vulnerabilities per severity aligned to SLAs."
+            },
+            {
+              "ref": "5.2.11",
+              "label": "Usage of a vulnerability management system",
+              "description": "[Maturity Level 3] Aggregation of vulnerabilities in one tool to reduce workload for handling them and enable correlation of findings across different tools."
+            },
+            {
+              "ref": "5.2.12",
+              "label": "Advanced visualization of defects",
+              "description": "[Maturity Level 4] Findings are visualized per component/project/team for correlation of vulnerabilities across different tools."
+            },
+            {
+              "ref": "5.2.13",
+              "label": "Reproducible defect tickets",
+              "description": "[Maturity Level 4] Vulnerabilities include the test procedure so operations and development staff can reproduce vulnerabilities for higher quality fixes."
+            },
+            {
+              "ref": "5.2.14",
+              "label": "Treatment of all defects",
+              "description": "[Maturity Level 5] All vulnerabilities including low severity are added to the quality gate."
+            }
+          ]
+        },
+        {
+          "ref": "5.3",
+          "label": "Dynamic Depth for Applications",
+          "group": true,
+          "controls": [
+            {
+              "ref": "5.3.1",
+              "label": "Coverage of client side dynamic components",
+              "description": "[Maturity Level 2] Usage of a spider which executes dynamic content like JavaScript (e.g. via Selenium) to ensure client-side components are covered during scans."
+            },
+            {
+              "ref": "5.3.2",
+              "label": "Simple Scan",
+              "description": "[Maturity Level 2] A simple scan is performed to get a security baseline. If under 10 minutes, it should be part of the build and deployment process."
+            },
+            {
+              "ref": "5.3.3",
+              "label": "Usage of different roles",
+              "description": "[Maturity Level 2] Integration of authentication with all roles used in the service to ensure full coverage during scans."
+            },
+            {
+              "ref": "5.3.4",
+              "label": "Coverage of hidden endpoints",
+              "description": "[Maturity Level 3] Hidden endpoints are detected and included in the vulnerability scan."
+            },
+            {
+              "ref": "5.3.5",
+              "label": "Coverage of more input vectors",
+              "description": "[Maturity Level 3] Special parameters and encodings are defined so they get fuzzed by vulnerability scanners (e.g. REST-like URLs, JSON, base64)."
+            },
+            {
+              "ref": "5.3.6",
+              "label": "Coverage of sequential operations",
+              "description": "[Maturity Level 3] Sequential operations like workflows are defined and checked by the vulnerability scanner in the defined order."
+            },
+            {
+              "ref": "5.3.7",
+              "label": "Usage of multiple scanners",
+              "description": "[Maturity Level 4] Usage of multiple spiders and scanners to enhance coverage and find more vulnerabilities."
+            },
+            {
+              "ref": "5.3.8",
+              "label": "Coverage analysis",
+              "description": "[Maturity Level 5] Check that there are no missing paths in the application with coverage tools."
+            },
+            {
+              "ref": "5.3.9",
+              "label": "Coverage of service to service communication",
+              "description": "[Maturity Level 5] Service to service communication is dumped and checked for vulnerabilities."
+            }
+          ]
+        },
+        {
+          "ref": "5.4",
+          "label": "Dynamic Depth for Infrastructure",
+          "group": true,
+          "controls": [
+            {
+              "ref": "5.4.1",
+              "label": "Test for exposed services",
+              "description": "[Maturity Level 2] With tools, the network configuration of unintentionally exposed clusters are tested, including port scans based on subdomain identification."
+            },
+            {
+              "ref": "5.4.2",
+              "label": "Test network segmentation",
+              "description": "[Maturity Level 2] Cluster internal tests including integration of fine-grained network segmentation between pods in the same namespace."
+            },
+            {
+              "ref": "5.4.3",
+              "label": "Test of the configuration of cloud environments",
+              "description": "[Maturity Level 2] With tools, the configuration of virtual environments are tested against standard hardening practices."
+            },
+            {
+              "ref": "5.4.4",
+              "label": "Test for unauthorized installation",
+              "description": "[Maturity Level 3] Components must be whitelisted. Regular scans on the infrastructure verify that only standardized base images are used."
+            },
+            {
+              "ref": "5.4.5",
+              "label": "Weak password test",
+              "description": "[Maturity Level 3] Automatic brute force attacks are performed, especially testing standard accounts like admin and employee user-ids."
+            },
+            {
+              "ref": "5.4.6",
+              "label": "Load tests",
+              "description": "[Maturity Level 4] Load tests against the production system or a production-near system to understand capacity limits."
+            },
+            {
+              "ref": "5.4.7",
+              "label": "Test for unused Resources",
+              "description": "[Maturity Level 5] Test for unused resources, especially secrets, that might still be valid and exposing information."
+            }
+          ]
+        },
+        {
+          "ref": "5.5",
+          "label": "Static Depth for Applications",
+          "group": true,
+          "controls": [
+            {
+              "ref": "5.5.1",
+              "label": "Exploit likelihood estimation",
+              "description": "[Maturity Level 2] Use CISA KEV and EPSS to prioritize vulnerabilities that are more likely to be exploited, beyond severity-based triage alone."
+            },
+            {
+              "ref": "5.5.2",
+              "label": "Software Composition Analysis (server side)",
+              "description": "[Maturity Level 2] Tests for known vulnerabilities in server side components (e.g. backend/middleware) are performed."
+            },
+            {
+              "ref": "5.5.3",
+              "label": "Test libyear",
+              "description": "[Maturity Level 2] Test libyear, which provides insight into how effective patch management is."
+            },
+            {
+              "ref": "5.5.4",
+              "label": "Test for Time to Patch",
+              "description": "[Maturity Level 2] Test of the Time to Patch (e.g. based on Mean Time to Close automatic PRs). Applies to infrastructure as well."
+            },
+            {
+              "ref": "5.5.5",
+              "label": "API design validation",
+              "description": "[Maturity Level 3] Design contract-first APIs using OpenAPI, AsyncAPI or SOAP and validate the specification using specific tools integrated in IDEs and CI/CD."
+            },
+            {
+              "ref": "5.5.6",
+              "label": "Local development security checks performed",
+              "description": "[Maturity Level 3] Integration of quality and linting plugins with IDEs. Implement pre-commit checks to prevent secrets and other security issues being committed."
+            },
+            {
+              "ref": "5.5.7",
+              "label": "Software Composition Analysis (client side)",
+              "description": "[Maturity Level 3] Tests for known vulnerabilities in components via Software Composition Analysis of the frontend are performed."
+            },
+            {
+              "ref": "5.5.8",
+              "label": "Static analysis for important client side components",
+              "description": "[Maturity Level 3] Usage of static analysis tools for important parts of the frontend using string matching algorithms and/or dataflow analysis."
+            },
+            {
+              "ref": "5.5.9",
+              "label": "Static analysis for important server side components",
+              "description": "[Maturity Level 3] Usage of static analysis tools for important parts of the middleware using string matching algorithms and/or dataflow analysis."
+            },
+            {
+              "ref": "5.5.10",
+              "label": "Test for Patch Deployment Time",
+              "description": "[Maturity Level 3] Test of the Patch Deployment Time. Applies to infrastructure as well."
+            },
+            {
+              "ref": "5.5.11",
+              "label": "Static analysis for all self written components",
+              "description": "[Maturity Level 4] Usage of static analysis tools for all parts of the middleware and frontend."
+            },
+            {
+              "ref": "5.5.12",
+              "label": "Usage of multiple analyzers",
+              "description": "[Maturity Level 4] Usage of multiple static tools to find more vulnerabilities, as each analyzer has different strengths."
+            },
+            {
+              "ref": "5.5.13",
+              "label": "Dead code elimination",
+              "description": "[Maturity Level 5] Collection and manual removal of unused code that increases the attack surface."
+            },
+            {
+              "ref": "5.5.14",
+              "label": "Exclusion of source code duplicates",
+              "description": "[Maturity Level 5] Automatic detection and manual removal of duplicates in source code that might influence application stability."
+            },
+            {
+              "ref": "5.5.15",
+              "label": "Static analysis for all components/libraries",
+              "description": "[Maturity Level 5] Usage of static analysis for all used components including libraries and legacy applications."
+            },
+            {
+              "ref": "5.5.16",
+              "label": "Stylistic analysis",
+              "description": "[Maturity Level 5] Analysis of compliance to style guides of the source code to ensure formatting rules are met."
+            }
+          ]
+        },
+        {
+          "ref": "5.6",
+          "label": "Static Depth for Infrastructure",
+          "group": true,
+          "controls": [
+            {
+              "ref": "5.6.1",
+              "label": "Test for stored secrets in code",
+              "description": "[Maturity Level 1] Test for secrets in code and git history that shouldn't exist because they might be exposed to unauthorized parties."
+            },
+            {
+              "ref": "5.6.2",
+              "label": "Test for stored secrets in build artifacts",
+              "description": "[Maturity Level 1] Test for secrets in container images and other build artifacts that might be exposed to unauthorized parties."
+            },
+            {
+              "ref": "5.6.3",
+              "label": "Test cluster deployment resources",
+              "description": "[Maturity Level 2] Test the deployment configuration for virtualized environments (e.g. Kubernetes) for unsecured configurations."
+            },
+            {
+              "ref": "5.6.4",
+              "label": "Test for image lifetime",
+              "description": "[Maturity Level 2] Check the image age of containers in production, as old images indicate patch management is not performed."
+            },
+            {
+              "ref": "5.6.5",
+              "label": "Test of virtualized environments",
+              "description": "[Maturity Level 2] Test virtualized environments (e.g. container images) for unsecured configurations."
+            },
+            {
+              "ref": "5.6.6",
+              "label": "Test the cloud configuration",
+              "description": "[Maturity Level 2] With tools, the configuration of virtual environments are tested against standard hardening practices."
+            },
+            {
+              "ref": "5.6.7",
+              "label": "Test the definition of virtualized environments",
+              "description": "[Maturity Level 2] Test the definition of virtualized environments (e.g. Dockerfiles) for unsecured configurations."
+            },
+            {
+              "ref": "5.6.8",
+              "label": "Test for malware",
+              "description": "[Maturity Level 3] Check for malware in components such as container images, VM baseline images, and libraries."
+            },
+            {
+              "ref": "5.6.9",
+              "label": "Test for new image version",
+              "description": "[Maturity Level 3] Check for new images of containers in production, as new versions might fix security vulnerabilities."
+            },
+            {
+              "ref": "5.6.10",
+              "label": "Correlate known vulnerabilities in infrastructure with new image versions",
+              "description": "[Maturity Level 4] Correlate known vulnerabilities in infrastructure components with availability of new image versions."
+            },
+            {
+              "ref": "5.6.11",
+              "label": "Software Composition Analysis",
+              "description": "[Maturity Level 4] Check for known vulnerabilities in infrastructure components like container images."
+            },
+            {
+              "ref": "5.6.12",
+              "label": "Test of infrastructure components for known vulnerabilities",
+              "description": "[Maturity Level 4] Test for known vulnerabilities in infrastructure components. Depends on usage of a maximum lifetime for images for fast patching."
+            }
+          ]
+        },
+        {
+          "ref": "5.7",
+          "label": "Test Intensity",
+          "group": true,
+          "controls": [
+            {
+              "ref": "5.7.1",
+              "label": "Default settings for intensity",
+              "description": "[Maturity Level 1] The intensity of the used tools are not modified to save time, preventing false predictions for test intensity."
+            },
+            {
+              "ref": "5.7.2",
+              "label": "Regular automated tests",
+              "description": "[Maturity Level 2] On each push and/or at given intervals, automatic security tests are performed for fast feedback on defects."
+            },
+            {
+              "ref": "5.7.3",
+              "label": "Deactivating of unneeded tests",
+              "description": "[Maturity Level 3] Unneeded tests are deactivated to save time and resources, e.g. not testing for SQL injection if only a NoSQL database is used."
+            },
+            {
+              "ref": "5.7.4",
+              "label": "High test intensity",
+              "description": "[Maturity Level 3] A deep scan with high test intensity and a low confidence threshold is performed."
+            },
+            {
+              "ref": "5.7.5",
+              "label": "Creation and application of a testing concept",
+              "description": "[Maturity Level 4] A testing concept considering the amount of time per scan/intensity is created and applied, with dynamic analysis frequency varying by context."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
