@@ -1,0 +1,1620 @@
+{
+  "name": "NIST CSF v2.0 Catalog",
+  "controls": [
+    {
+      "ref": "GV",
+      "control": "<p>GOVERN</p>",
+      "description": "",
+      "testingProcedures": [],
+      "controls": [
+        {
+          "ref": "GV.OC",
+          "control": "<p>Organizational Context</p>",
+          "description": "<p>The circumstances - mission, stakeholder expectations, dependencies, and legal, regulatory, and contractual requirements - surrounding the organization's cybersecurity risk management decisions are understood</p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "GV.OC-01",
+              "control": "<p>GV.OC-01</p>",
+              "description": "<p>The organizational mission is understood and informs cybersecurity risk management</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "GV.OC-02",
+              "control": "<p>GV.OC-02</p>",
+              "description": "<p>Internal and external stakeholders are understood, and their needs and expectations regarding cybersecurity risk management are understood and considered</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "GV.OC-03",
+              "control": "<p>GV.OC-03</p>",
+              "description": "<p>Legal, regulatory, and contractual requirements regarding cybersecurity - including privacy and civil liberties obligations - are understood and managed</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "GV.OC-04",
+              "control": "<p>GV.OC-04</p>",
+              "description": "<p>Critical objectives, capabilities, and services that external stakeholders depend on or expect from the organization are understood and communicated</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "GV.OC-05",
+              "control": "<p>GV.OC-05</p>",
+              "description": "<p>Outcomes, capabilities, and services that the organization depends on are understood and communicated</p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "GV.OV",
+          "control": "<p>Oversight</p>",
+          "description": "<p>Results of organization-wide cybersecurity risk management activities and performance are used to inform, improve, and adjust the risk management strategy</p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "GV.OV-01",
+              "control": "<p>GV.OV-01</p>",
+              "description": "<p>Cybersecurity risk management strategy outcomes are reviewed to inform and adjust strategy and direction</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "GV.OV-02",
+              "control": "<p>GV.OV-02</p>",
+              "description": "<p>The cybersecurity risk management strategy is reviewed and adjusted to ensure coverage of organizational requirements and risks</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "GV.OV-03",
+              "control": "<p>GV.OV-03</p>",
+              "description": "<p>Organizational cybersecurity risk management performance is evaluated and reviewed for adjustments needed</p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "GV.PO",
+          "control": "<p>Policy</p>",
+          "description": "<p>Organizational cybersecurity policy is established, communicated, and enforced</p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "GV.PO-01",
+              "control": "<p>GV.PO-01</p>",
+              "description": "<p>Policy for managing cybersecurity risks is established based on organizational context, cybersecurity strategy, and priorities and is communicated and enforced</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "GV.PO-02",
+              "control": "<p>GV.PO-02</p>",
+              "description": "<p>Policy for managing cybersecurity risks is reviewed, updated, communicated, and enforced to reflect changes in requirements, threats, technology, and organizational mission</p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "GV.RM",
+          "control": "<p>Risk Management Strategy</p>",
+          "description": "<p>The organization's priorities, constraints, risk tolerance and appetite statements, and assumptions are established, communicated, and used to support operational risk decisions</p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "GV.RM-01",
+              "control": "<p>GV.RM-01</p>",
+              "description": "<p>Risk management objectives are established and agreed to by organizational stakeholders</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "GV.RM-02",
+              "control": "<p>GV.RM-02</p>",
+              "description": "<p>Risk appetite and risk tolerance statements are established, communicated, and maintained</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "GV.RM-03",
+              "control": "<p>GV.RM-03</p>",
+              "description": "<p>Cybersecurity risk management activities and outcomes are included in enterprise risk management processes</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "GV.RM-04",
+              "control": "<p>GV.RM-04</p>",
+              "description": "<p>Strategic direction that describes appropriate risk response options is established and communicated</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "GV.RM-05",
+              "control": "<p>GV.RM-05</p>",
+              "description": "<p>Lines of communication across the organization are established for cybersecurity risks, including risks from suppliers and other third parties</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "GV.RM-06",
+              "control": "<p>GV.RM-06</p>",
+              "description": "<p>A standardized method for calculating, documenting, categorizing, and prioritizing cybersecurity risks is established and communicated</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "GV.RM-07",
+              "control": "<p>GV.RM-07</p>",
+              "description": "<p>Strategic opportunities (i.e., positive risks) are characterized and are included in organizational cybersecurity risk discussions</p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "GV.RR",
+          "control": "<p>Roles, Responsibilities, and Authorities</p>",
+          "description": "<p>Cybersecurity roles, responsibilities, and authorities to foster accountability, performance assessment, and continuous improvement are established and communicated</p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "GV.RR-01",
+              "control": "<p>GV.RR-01</p>",
+              "description": "<p>Organizational leadership is responsible and accountable for cybersecurity risk and fosters a culture that is risk-aware, ethical, and continually improving</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "GV.RR-02",
+              "control": "<p>GV.RR-02</p>",
+              "description": "<p>Roles, responsibilities, and authorities related to cybersecurity risk management are established, communicated, understood, and enforced</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "GV.RR-03",
+              "control": "<p>GV.RR-03</p>",
+              "description": "<p>Adequate resources are allocated commensurate with the cybersecurity risk strategy, roles, responsibilities, and policies</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "GV.RR-04",
+              "control": "<p>GV.RR-04</p>",
+              "description": "<p>Cybersecurity is included in human resources practices</p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "GV.SC",
+          "control": "<p>Cybersecurity Supply Chain Risk Management</p>",
+          "description": "<p>Cyber supply chain risk management processes are identified, established, managed, monitored, and improved by organizational stakeholders</p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "GV.SC-01",
+              "control": "<p>GV.SC-01</p>",
+              "description": "<p>A cybersecurity supply chain risk management program, strategy, objectives, policies, and processes are established and agreed to by organizational stakeholders</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "GV.SC-02",
+              "control": "<p>GV.SC-02</p>",
+              "description": "<p>Cybersecurity roles and responsibilities for suppliers, customers, and partners are established, communicated, and coordinated internally and externally</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "GV.SC-03",
+              "control": "<p>GV.SC-03</p>",
+              "description": "<p>Cybersecurity supply chain risk management is integrated into cybersecurity and enterprise risk management, risk assessment, and improvement processes</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "GV.SC-04",
+              "control": "<p>GV.SC-04</p>",
+              "description": "<p>Suppliers are known and prioritized by criticality</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "GV.SC-05",
+              "control": "<p>GV.SC-05</p>",
+              "description": "<p>Requirements to address cybersecurity risks in supply chains are established, prioritized, and integrated into contracts and other types of agreements with suppliers and other relevant third parties</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "GV.SC-06",
+              "control": "<p>GV.SC-06</p>",
+              "description": "<p>Planning and due diligence are performed to reduce risks before entering into formal supplier or other third-party relationships</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "GV.SC-07",
+              "control": "<p>GV.SC-07</p>",
+              "description": "<p>The risks posed by a supplier, their products and services, and other third parties are understood, recorded, prioritized, assessed, responded to, and monitored over the course of the relationship</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "GV.SC-08",
+              "control": "<p>GV.SC-08</p>",
+              "description": "<p>Relevant suppliers and other third parties are included in incident planning, response, and recovery activities</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "GV.SC-09",
+              "control": "<p>GV.SC-09</p>",
+              "description": "<p>Supply chain security practices are integrated into cybersecurity and enterprise risk management programs, and their performance is monitored throughout the technology product and service life cycle</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "GV.SC-10",
+              "control": "<p>GV.SC-10</p>",
+              "description": "<p>Cybersecurity supply chain risk management plans include provisions for activities that occur after the conclusion of a partnership or service agreement</p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "ID",
+      "control": "<p>IDENTIFY</p>",
+      "description": "",
+      "testingProcedures": [],
+      "controls": [
+        {
+          "ref": "ID.AM",
+          "control": "<p>Asset Management</p>",
+          "description": "<p>Assets (e.g., data, hardware, software, systems, facilities, services, people) that enable the organization to achieve business purposes are identified and managed consistent with their relative importance to organizational objectives and the organization's risk strategy</p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "ID.AM-01",
+              "control": "<p>ID.AM-01</p>",
+              "description": "<p>Inventories of hardware managed by the organization are maintained</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "ID.AM-02",
+              "control": "<p>ID.AM-02</p>",
+              "description": "<p>Inventories of software, services, and systems managed by the organization are maintained</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "ID.AM-03",
+              "control": "<p>ID.AM-03</p>",
+              "description": "<p>Representations of the organization's authorized network communication and internal and external network data flows are maintained</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "ID.AM-04",
+              "control": "<p>ID.AM-04</p>",
+              "description": "<p>Inventories of services provided by suppliers are maintained</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "ID.AM-05",
+              "control": "<p>ID.AM-05</p>",
+              "description": "<p>Assets are prioritized based on classification, criticality, resources, and impact on the mission</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "ID.AM-06",
+              "control": "<p>ID.AM-06</p>",
+              "description": "<p>Cybersecurity roles and responsibilities for the entire workforce and third-party stakeholders (e.g., suppliers, customers, partners) are established</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "ID.AM-07",
+              "control": "<p>ID.AM-07</p>",
+              "description": "<p>Inventories of data and corresponding metadata for designated data types are maintained</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "ID.AM-08",
+              "control": "<p>ID.AM-08</p>",
+              "description": "<p>Systems, hardware, software, services, and data are managed throughout their life cycles</p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "ID.BE",
+          "control": "<p>Business Environment</p>",
+          "description": "<p></p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "ID.BE-01",
+              "control": "<p>ID.BE-01</p>",
+              "description": "<p>The organization’s role in the supply chain is identified and communicated</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "ID.BE-02",
+              "control": "<p>ID.BE-02</p>",
+              "description": "<p>The organization’s place in critical infrastructure and its industry sector is identified and communicated</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "ID.BE-03",
+              "control": "<p>ID.BE-03</p>",
+              "description": "<p>Priorities for organizational mission, objectives, and activities are established and communicated</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "ID.BE-04",
+              "control": "<p>ID.BE-04</p>",
+              "description": "<p>Dependencies and critical functions for delivery of critical services are established</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "ID.BE-05",
+              "control": "<p>ID.BE-05</p>",
+              "description": "<p>Resilience requirements to support delivery of critical services are established for all operating states (e.g. under duress/attack, during recovery, normal operations)</p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "ID.GV",
+          "control": "<p>Governance</p>",
+          "description": "<p></p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "ID.GV-01",
+              "control": "<p>ID.GV-01</p>",
+              "description": "<p>Organizational cybersecurity policy is established and communicated</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "ID.GV-02",
+              "control": "<p>ID.GV-02</p>",
+              "description": "<p>Cybersecurity roles and responsibilities are coordinated and aligned with internal roles and external partners</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "ID.GV-03",
+              "control": "<p>ID.GV-03</p>",
+              "description": "<p>Legal and regulatory requirements regarding cybersecurity, including privacy and civil liberties obligations, are understood and managed</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "ID.GV-04",
+              "control": "<p>ID.GV-04</p>",
+              "description": "<p>Governance and risk management processes address cybersecurity risks</p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "ID.IM",
+          "control": "<p>Improvement</p>",
+          "description": "<p>Improvements to organizational cybersecurity risk management processes, procedures and activities are identified across all CSF Functions</p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "ID.IM-01",
+              "control": "<p>ID.IM-01</p>",
+              "description": "<p>Improvements are identified from evaluations</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "ID.IM-02",
+              "control": "<p>ID.IM-02</p>",
+              "description": "<p>Improvements are identified from security tests and exercises, including those done in coordination with suppliers and relevant third parties</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "ID.IM-03",
+              "control": "<p>ID.IM-03</p>",
+              "description": "<p>Improvements are identified from execution of operational processes, procedures, and activities</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "ID.IM-04",
+              "control": "<p>ID.IM-04</p>",
+              "description": "<p>Incident response plans and other cybersecurity plans that affect operations are established, communicated, maintained, and improved</p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "ID.RA",
+          "control": "<p>Risk Assessment</p>",
+          "description": "<p>The cybersecurity risk to the organization, assets, and individuals is understood by the organization</p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "ID.RA-01",
+              "control": "<p>ID.RA-01</p>",
+              "description": "<p>Vulnerabilities in assets are identified, validated, and recorded</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "ID.RA-02",
+              "control": "<p>ID.RA-02</p>",
+              "description": "<p>Cyber threat intelligence is received from information sharing forums and sources</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "ID.RA-03",
+              "control": "<p>ID.RA-03</p>",
+              "description": "<p>Internal and external threats to the organization are identified and recorded</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "ID.RA-04",
+              "control": "<p>ID.RA-04</p>",
+              "description": "<p>Potential impacts and likelihoods of threats exploiting vulnerabilities are identified and recorded</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "ID.RA-05",
+              "control": "<p>ID.RA-05</p>",
+              "description": "<p>Threats, vulnerabilities, likelihoods, and impacts are used to understand inherent risk and inform risk response prioritization</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "ID.RA-06",
+              "control": "<p>ID.RA-06</p>",
+              "description": "<p>Risk responses are chosen, prioritized, planned, tracked, and communicated</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "ID.RA-07",
+              "control": "<p>ID.RA-07</p>",
+              "description": "<p>Changes and exceptions are managed, assessed for risk impact, recorded, and tracked</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "ID.RA-08",
+              "control": "<p>ID.RA-08</p>",
+              "description": "<p>Processes for receiving, analyzing, and responding to vulnerability disclosures are established</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "ID.RA-09",
+              "control": "<p>ID.RA-09</p>",
+              "description": "<p>The authenticity and integrity of hardware and software are assessed prior to acquisition and use</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "ID.RA-10",
+              "control": "<p>ID.RA-10</p>",
+              "description": "<p>Critical suppliers are assessed prior to acquisition</p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "ID.RM",
+          "control": "<p>Risk Management Strategy</p>",
+          "description": "<p></p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "ID.RM-01",
+              "control": "<p>ID.RM-01</p>",
+              "description": "<p>Risk management processes are established, managed, and agreed to by organizational stakeholders</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "ID.RM-02",
+              "control": "<p>ID.RM-02</p>",
+              "description": "<p>Organizational risk tolerance is determined and clearly expressed</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "ID.RM-03",
+              "control": "<p>ID.RM-03</p>",
+              "description": "<p>The organization’s determination of risk tolerance is informed by its role in critical infrastructure and sector specific risk analysis</p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "ID.SC",
+          "control": "<p>Supply Chain Risk Management</p>",
+          "description": "<p></p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "ID.SC-01",
+              "control": "<p>ID.SC-01</p>",
+              "description": "<p>Cyber supply chain risk management processes are identified, established, assessed, managed, and agreed to by organizational stakeholders</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "ID.SC-02",
+              "control": "<p>ID.SC-02</p>",
+              "description": "<p>Suppliers and third party partners of information systems, components, and services are identified, prioritized, and assessed using a cyber supply chain risk assessment process</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "ID.SC-03",
+              "control": "<p>ID.SC-03</p>",
+              "description": "<p>Contracts with suppliers and third-party partners are used to implement appropriate measures designed to meet the objectives of an organization’s cybersecurity program and Cyber Supply Chain Risk Management Plan.</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "ID.SC-04",
+              "control": "<p>ID.SC-04</p>",
+              "description": "<p>Suppliers and third-party partners are routinely assessed using audits, test results, or other forms of evaluations to confirm they are meeting their contractual obligations.</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "ID.SC-05",
+              "control": "<p>ID.SC-05</p>",
+              "description": "<p>Response and recovery planning and testing are conducted with suppliers and third-party providers</p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "PR",
+      "control": "<p>PROTECT</p>",
+      "description": "",
+      "testingProcedures": [],
+      "controls": [
+        {
+          "ref": "PR.AA",
+          "control": "<p>Identity Management, Authentication, and Access Control</p>",
+          "description": "<p>Access to physical and logical assets is limited to authorized users, services, and hardware and managed commensurate with the assessed risk of unauthorized access</p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "PR.AA-01",
+              "control": "<p>PR.AA-01</p>",
+              "description": "<p>Identities and credentials for authorized users, services, and hardware are managed by the organization</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PR.AA-02",
+              "control": "<p>PR.AA-02</p>",
+              "description": "<p>Identities are proofed and bound to credentials based on the context of interactions</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PR.AA-03",
+              "control": "<p>PR.AA-03</p>",
+              "description": "<p>Users, services, and hardware are authenticated</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PR.AA-04",
+              "control": "<p>PR.AA-04</p>",
+              "description": "<p>Identity assertions are protected, conveyed, and verified</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PR.AA-05",
+              "control": "<p>PR.AA-05</p>",
+              "description": "<p>Access permissions, entitlements, and authorizations are defined in a policy, managed, enforced, and reviewed, and incorporate the principles of least privilege and separation of duties</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PR.AA-06",
+              "control": "<p>PR.AA-06</p>",
+              "description": "<p>Physical access to assets is managed, monitored, and enforced commensurate with risk</p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "PR.AC",
+          "control": "<p>Identity Management, Authentication and Access Control</p>",
+          "description": "<p></p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "PR.AC-01",
+              "control": "<p>PR.AC-01</p>",
+              "description": "<p>Identities and credentials are issued, managed, verified, revoked, and audited for authorized devices, users and processes</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PR.AC-02",
+              "control": "<p>PR.AC-02</p>",
+              "description": "<p>Physical access to assets is managed and protected</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PR.AC-03",
+              "control": "<p>PR.AC-03</p>",
+              "description": "<p>Remote access is managed</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PR.AC-04",
+              "control": "<p>PR.AC-04</p>",
+              "description": "<p>Access permissions and authorizations are managed, incorporating the principles of least privilege and separation of duties</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PR.AC-05",
+              "control": "<p>PR.AC-05</p>",
+              "description": "<p>Network integrity is protected (e.g., network segregation, network segmentation)</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PR.AC-06",
+              "control": "<p>PR.AC-06</p>",
+              "description": "<p>Identities are proofed and bound to credentials and asserted in interactions</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PR.AC-07",
+              "control": "<p>PR.AC-07</p>",
+              "description": "<p>Users, devices, and other assets are authenticated (e.g., single-factor, multi-factor) commensurate with the risk of the transaction (e.g., individuals’ security and privacy risks and other organizational risks)</p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "PR.AT",
+          "control": "<p>Awareness and Training</p>",
+          "description": "<p>The organization's personnel are provided with cybersecurity awareness and training so that they can perform their cybersecurity-related tasks</p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "PR.AT-01",
+              "control": "<p>PR.AT-01</p>",
+              "description": "<p>Personnel are provided with awareness and training so that they possess the knowledge and skills to perform general tasks with cybersecurity risks in mind</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PR.AT-02",
+              "control": "<p>PR.AT-02</p>",
+              "description": "<p>Individuals in specialized roles are provided with awareness and training so that they possess the knowledge and skills to perform relevant tasks with cybersecurity risks in mind</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PR.AT-03",
+              "control": "<p>PR.AT-03</p>",
+              "description": "<p>Third-party stakeholders (e.g., suppliers, customers, partners) understand their roles and responsibilities</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PR.AT-04",
+              "control": "<p>PR.AT-04</p>",
+              "description": "<p>Senior executives understand their roles and responsibilities</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PR.AT-05",
+              "control": "<p>PR.AT-05</p>",
+              "description": "<p>Physical and cybersecurity personnel understand their roles and responsibilities</p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "PR.DS",
+          "control": "<p>Data Security</p>",
+          "description": "<p>Data are managed consistent with the organization's risk strategy to protect the confidentiality, integrity, and availability of information</p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "PR.DS-01",
+              "control": "<p>PR.DS-01</p>",
+              "description": "<p>The confidentiality, integrity, and availability of data-at-rest are protected</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PR.DS-02",
+              "control": "<p>PR.DS-02</p>",
+              "description": "<p>The confidentiality, integrity, and availability of data-in-transit are protected</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PR.DS-03",
+              "control": "<p>PR.DS-03</p>",
+              "description": "<p>Assets are formally managed throughout removal, transfers, and disposition</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PR.DS-04",
+              "control": "<p>PR.DS-04</p>",
+              "description": "<p>Adequate capacity to ensure availability is maintained</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PR.DS-05",
+              "control": "<p>PR.DS-05</p>",
+              "description": "<p>Protections against data leaks are implemented</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PR.DS-06",
+              "control": "<p>PR.DS-06</p>",
+              "description": "<p>Integrity checking mechanisms are used to verify software, firmware, and information integrity</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PR.DS-07",
+              "control": "<p>PR.DS-07</p>",
+              "description": "<p>The development and testing environment(s) are separate from the production environment</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PR.DS-08",
+              "control": "<p>PR.DS-08</p>",
+              "description": "<p>Integrity checking mechanisms are used to verify hardware integrity</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PR.DS-10",
+              "control": "<p>PR.DS-10</p>",
+              "description": "<p>The confidentiality, integrity, and availability of data-in-use are protected</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PR.DS-11",
+              "control": "<p>PR.DS-11</p>",
+              "description": "<p>Backups of data are created, protected, maintained, and tested</p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "PR.IP",
+          "control": "<p>Information Protection Processes and Procedures</p>",
+          "description": "<p></p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "PR.IP-01",
+              "control": "<p>PR.IP-01</p>",
+              "description": "<p>A baseline configuration of information technology/industrial control systems is created and maintained incorporating security principles (e.g. concept of least functionality)</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PR.IP-02",
+              "control": "<p>PR.IP-02</p>",
+              "description": "<p>A System Development Life Cycle to manage systems is implemented</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PR.IP-03",
+              "control": "<p>PR.IP-03</p>",
+              "description": "<p>Configuration change control processes are in place</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PR.IP-04",
+              "control": "<p>PR.IP-04</p>",
+              "description": "<p>Backups of information are conducted, maintained, and tested</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PR.IP-05",
+              "control": "<p>PR.IP-05</p>",
+              "description": "<p>Policy and regulations regarding the physical operating environment for organizational assets are met</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PR.IP-06",
+              "control": "<p>PR.IP-06</p>",
+              "description": "<p>Data is destroyed according to policy</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PR.IP-07",
+              "control": "<p>PR.IP-07</p>",
+              "description": "<p>Protection processes are improved</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PR.IP-08",
+              "control": "<p>PR.IP-08</p>",
+              "description": "<p>Effectiveness of protection technologies is shared</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PR.IP-09",
+              "control": "<p>PR.IP-09</p>",
+              "description": "<p>Response plans (Incident Response and Business Continuity) and recovery plans (Incident Recovery and Disaster Recovery) are in place and managed</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PR.IP-10",
+              "control": "<p>PR.IP-10</p>",
+              "description": "<p>Response and recovery plans are tested</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PR.IP-11",
+              "control": "<p>PR.IP-11</p>",
+              "description": "<p>Cybersecurity is included in human resources practices (e.g., deprovisioning, personnel screening)</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PR.IP-12",
+              "control": "<p>PR.IP-12</p>",
+              "description": "<p>A vulnerability management plan is developed and implemented</p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "PR.IR",
+          "control": "<p>Technology Infrastructure Resilience</p>",
+          "description": "<p>Security architectures are managed with the organization's risk strategy to protect asset confidentiality, integrity, and availability, and organizational resilience</p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "PR.IR-01",
+              "control": "<p>PR.IR-01</p>",
+              "description": "<p>Networks and environments are protected from unauthorized logical access and usage</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PR.IR-02",
+              "control": "<p>PR.IR-02</p>",
+              "description": "<p>The organization's technology assets are protected from environmental threats</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PR.IR-03",
+              "control": "<p>PR.IR-03</p>",
+              "description": "<p>Mechanisms are implemented to achieve resilience requirements in normal and adverse situations</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PR.IR-04",
+              "control": "<p>PR.IR-04</p>",
+              "description": "<p>Adequate resource capacity to ensure availability is maintained</p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "PR.MA",
+          "control": "<p>Maintenance</p>",
+          "description": "<p></p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "PR.MA-01",
+              "control": "<p>PR.MA-01</p>",
+              "description": "<p>Maintenance and repair of organizational assets are performed and logged, with approved and controlled tools</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PR.MA-02",
+              "control": "<p>PR.MA-02</p>",
+              "description": "<p>Remote maintenance of organizational assets is approved, logged, and performed in a manner that prevents unauthorized access</p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "PR.PS",
+          "control": "<p>Platform Security</p>",
+          "description": "<p>The hardware, software (e.g., firmware, operating systems, applications), and services of physical and virtual platforms are managed consistent with the organization's risk strategy to protect their confidentiality, integrity, and availability</p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "PR.PS-01",
+              "control": "<p>PR.PS-01</p>",
+              "description": "<p>Configuration management practices are established and applied</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PR.PS-02",
+              "control": "<p>PR.PS-02</p>",
+              "description": "<p>Software is maintained, replaced, and removed commensurate with risk</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PR.PS-03",
+              "control": "<p>PR.PS-03</p>",
+              "description": "<p>Hardware is maintained, replaced, and removed commensurate with risk</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PR.PS-04",
+              "control": "<p>PR.PS-04</p>",
+              "description": "<p>Log records are generated and made available for continuous monitoring</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PR.PS-05",
+              "control": "<p>PR.PS-05</p>",
+              "description": "<p>Installation and execution of unauthorized software are prevented</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PR.PS-06",
+              "control": "<p>PR.PS-06</p>",
+              "description": "<p>Secure software development practices are integrated, and their performance is monitored throughout the software development life cycle</p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "PR.PT",
+          "control": "<p>Protective Technology</p>",
+          "description": "<p></p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "PR.PT-01",
+              "control": "<p>PR.PT-01</p>",
+              "description": "<p>Audit/log records are determined, documented, implemented, and reviewed in accordance with policy</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PR.PT-02",
+              "control": "<p>PR.PT-02</p>",
+              "description": "<p>Removable media is protected and its use restricted according to policy</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PR.PT-03",
+              "control": "<p>PR.PT-03</p>",
+              "description": "<p>The principle of least functionality is incorporated by configuring systems to provide only essential capabilities</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PR.PT-04",
+              "control": "<p>PR.PT-04</p>",
+              "description": "<p>Communications and control networks are protected</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PR.PT-05",
+              "control": "<p>PR.PT-05</p>",
+              "description": "<p>Mechanisms (e.g., failsafe, load balancing, hot swap) are implemented to achieve resilience requirements in normal and adverse situations</p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "DE",
+      "control": "<p>DETECT</p>",
+      "description": "",
+      "testingProcedures": [],
+      "controls": [
+        {
+          "ref": "DE.AE",
+          "control": "<p>Adverse Event Analysis</p>",
+          "description": "<p>Anomalies, indicators of compromise, and other potentially adverse events are analyzed to characterize the events and detect cybersecurity incidents</p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "DE.AE-01",
+              "control": "<p>DE.AE-01</p>",
+              "description": "<p>A baseline of network operations and expected data flows for users and systems is established and managed</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "DE.AE-02",
+              "control": "<p>DE.AE-02</p>",
+              "description": "<p>Potentially adverse events are analyzed to better understand associated activities</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "DE.AE-03",
+              "control": "<p>DE.AE-03</p>",
+              "description": "<p>Information is correlated from multiple sources</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "DE.AE-04",
+              "control": "<p>DE.AE-04</p>",
+              "description": "<p>The estimated impact and scope of adverse events are understood</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "DE.AE-05",
+              "control": "<p>DE.AE-05</p>",
+              "description": "<p>Incident alert thresholds are established</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "DE.AE-06",
+              "control": "<p>DE.AE-06</p>",
+              "description": "<p>Information on adverse events is provided to authorized staff and tools</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "DE.AE-07",
+              "control": "<p>DE.AE-07</p>",
+              "description": "<p>Cyber threat intelligence and other contextual information are integrated into the analysis</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "DE.AE-08",
+              "control": "<p>DE.AE-08</p>",
+              "description": "<p>Incidents are declared when adverse events meet the defined incident criteria</p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "DE.CM",
+          "control": "<p>Continuous Monitoring</p>",
+          "description": "<p>Assets are monitored to find anomalies, indicators of compromise, and other potentially adverse events</p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "DE.CM-01",
+              "control": "<p>DE.CM-01</p>",
+              "description": "<p>Networks and network services are monitored to find potentially adverse events</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "DE.CM-02",
+              "control": "<p>DE.CM-02</p>",
+              "description": "<p>The physical environment is monitored to find potentially adverse events</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "DE.CM-03",
+              "control": "<p>DE.CM-03</p>",
+              "description": "<p>Personnel activity and technology usage are monitored to find potentially adverse events</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "DE.CM-04",
+              "control": "<p>DE.CM-04</p>",
+              "description": "<p>Malicious code is detected</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "DE.CM-05",
+              "control": "<p>DE.CM-05</p>",
+              "description": "<p>Unauthorized mobile code is detected</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "DE.CM-06",
+              "control": "<p>DE.CM-06</p>",
+              "description": "<p>External service provider activities and services are monitored to find potentially adverse events</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "DE.CM-07",
+              "control": "<p>DE.CM-07</p>",
+              "description": "<p>Monitoring for unauthorized personnel, connections, devices, and software is performed</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "DE.CM-08",
+              "control": "<p>DE.CM-08</p>",
+              "description": "<p>Vulnerability scans are performed</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "DE.CM-09",
+              "control": "<p>DE.CM-09</p>",
+              "description": "<p>Computing hardware and software, runtime environments, and their data are monitored to find potentially adverse events</p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "DE.DP",
+          "control": "<p>Detection Processes</p>",
+          "description": "<p></p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "DE.DP-01",
+              "control": "<p>DE.DP-01</p>",
+              "description": "<p>Roles and responsibilities for detection are well defined to ensure accountability</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "DE.DP-02",
+              "control": "<p>DE.DP-02</p>",
+              "description": "<p>Detection activities comply with all applicable requirements</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "DE.DP-03",
+              "control": "<p>DE.DP-03</p>",
+              "description": "<p>Detection processes are tested</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "DE.DP-04",
+              "control": "<p>DE.DP-04</p>",
+              "description": "<p>Event detection information is communicated</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "DE.DP-05",
+              "control": "<p>DE.DP-05</p>",
+              "description": "<p>Detection processes are continuously improved</p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "RS",
+      "control": "<p>RESPOND</p>",
+      "description": "",
+      "testingProcedures": [],
+      "controls": [
+        {
+          "ref": "RS.AN",
+          "control": "<p>Incident Analysis</p>",
+          "description": "<p>Investigations are conducted to ensure effective response and support forensics and recovery activities</p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "RS.AN-01",
+              "control": "<p>RS.AN-01</p>",
+              "description": "<p>Notifications from detection systems are investigated</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "RS.AN-02",
+              "control": "<p>RS.AN-02</p>",
+              "description": "<p>The impact of the incident is understood</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "RS.AN-03",
+              "control": "<p>RS.AN-03</p>",
+              "description": "<p>Analysis is performed to establish what has taken place during an incident and the root cause of the incident</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "RS.AN-04",
+              "control": "<p>RS.AN-04</p>",
+              "description": "<p>Incidents are categorized consistent with response plans</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "RS.AN-05",
+              "control": "<p>RS.AN-05</p>",
+              "description": "<p>Processes are established to receive, analyze and respond to vulnerabilities disclosed to the organization from internal and external sources (e.g. internal testing, security bulletins, or security researchers)</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "RS.AN-06",
+              "control": "<p>RS.AN-06</p>",
+              "description": "<p>Actions performed during an investigation are recorded, and the records' integrity and provenance are preserved</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "RS.AN-07",
+              "control": "<p>RS.AN-07</p>",
+              "description": "<p>Incident data and metadata are collected, and their integrity and provenance are preserved</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "RS.AN-08",
+              "control": "<p>RS.AN-08</p>",
+              "description": "<p>An incident's magnitude is estimated and validated</p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "RS.CO",
+          "control": "<p>Incident Response Reporting and Communication</p>",
+          "description": "<p>Response activities are coordinated with internal and external stakeholders as required by laws, regulations, or policies</p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "RS.CO-01",
+              "control": "<p>RS.CO-01</p>",
+              "description": "<p>Personnel know their roles and order of operations when a response is needed</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "RS.CO-02",
+              "control": "<p>RS.CO-02</p>",
+              "description": "<p>Internal and external stakeholders are notified of incidents</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "RS.CO-03",
+              "control": "<p>RS.CO-03</p>",
+              "description": "<p>Information is shared with designated internal and external stakeholders</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "RS.CO-04",
+              "control": "<p>RS.CO-04</p>",
+              "description": "<p>Coordination with stakeholders occurs consistent with response plans</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "RS.CO-05",
+              "control": "<p>RS.CO-05</p>",
+              "description": "<p>Voluntary information sharing occurs with external stakeholders to achieve broader cybersecurity situational awareness</p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "RS.IM",
+          "control": "<p>Improvements</p>",
+          "description": "<p></p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "RS.IM-01",
+              "control": "<p>RS.IM-01</p>",
+              "description": "<p>Response plans incorporate lessons learned</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "RS.IM-02",
+              "control": "<p>RS.IM-02</p>",
+              "description": "<p>Response strategies are updated</p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "RS.MA",
+          "control": "<p>Incident Management</p>",
+          "description": "<p>Responses to detected cybersecurity incidents are managed</p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "RS.MA-01",
+              "control": "<p>RS.MA-01</p>",
+              "description": "<p>The incident response plan is executed in coordination with relevant third parties once an incident is declared</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "RS.MA-02",
+              "control": "<p>RS.MA-02</p>",
+              "description": "<p>Incident reports are triaged and validated</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "RS.MA-03",
+              "control": "<p>RS.MA-03</p>",
+              "description": "<p>Incidents are categorized and prioritized</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "RS.MA-04",
+              "control": "<p>RS.MA-04</p>",
+              "description": "<p>Incidents are escalated or elevated as needed</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "RS.MA-05",
+              "control": "<p>RS.MA-05</p>",
+              "description": "<p>The criteria for initiating incident recovery are applied</p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "RS.MI",
+          "control": "<p>Incident Mitigation</p>",
+          "description": "<p>Activities are performed to prevent expansion of an event and mitigate its effects</p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "RS.MI-01",
+              "control": "<p>RS.MI-01</p>",
+              "description": "<p>Incidents are contained</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "RS.MI-02",
+              "control": "<p>RS.MI-02</p>",
+              "description": "<p>Incidents are eradicated</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "RS.MI-03",
+              "control": "<p>RS.MI-03</p>",
+              "description": "<p>Newly identified vulnerabilities are mitigated or documented as accepted risks</p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "RS.RP",
+          "control": "<p>Response Planning</p>",
+          "description": "<p></p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "RS.RP-01",
+              "control": "<p>RS.RP-01</p>",
+              "description": "<p>Response plan is executed during or after an incident</p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "RC",
+      "control": "<p>RECOVER</p>",
+      "description": "",
+      "testingProcedures": [],
+      "controls": [
+        {
+          "ref": "RC.CO",
+          "control": "<p>Incident Recovery Communication</p>",
+          "description": "<p>Restoration activities are coordinated with internal and external parties</p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "RC.CO-01",
+              "control": "<p>RC.CO-01</p>",
+              "description": "<p>Public relations are managed</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "RC.CO-02",
+              "control": "<p>RC.CO-02</p>",
+              "description": "<p>Reputation is repaired after an incident</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "RC.CO-03",
+              "control": "<p>RC.CO-03</p>",
+              "description": "<p>Recovery activities and progress in restoring operational capabilities are communicated to designated internal and external stakeholders</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "RC.CO-04",
+              "control": "<p>RC.CO-04</p>",
+              "description": "<p>Public updates on incident recovery are shared using approved methods and messaging</p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "RC.IM",
+          "control": "<p>Improvements</p>",
+          "description": "<p></p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "RC.IM-01",
+              "control": "<p>RC.IM-01</p>",
+              "description": "<p>Recovery plans incorporate lessons learned</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "RC.IM-02",
+              "control": "<p>RC.IM-02</p>",
+              "description": "<p>Recovery strategies are updated</p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "RC.RP",
+          "control": "<p>Incident Recovery Plan Execution</p>",
+          "description": "<p>Restoration activities are performed to ensure operational availability of systems and services affected by cybersecurity incidents</p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "RC.RP-01",
+              "control": "<p>RC.RP-01</p>",
+              "description": "<p>The recovery portion of the incident response plan is executed once initiated from the incident response process</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "RC.RP-02",
+              "control": "<p>RC.RP-02</p>",
+              "description": "<p>Recovery actions are selected, scoped, prioritized, and performed</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "RC.RP-03",
+              "control": "<p>RC.RP-03</p>",
+              "description": "<p>The integrity of backups and other restoration assets is verified before using them for restoration</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "RC.RP-04",
+              "control": "<p>RC.RP-04</p>",
+              "description": "<p>Critical mission functions and cybersecurity risk management are considered to establish post-incident operational norms</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "RC.RP-05",
+              "control": "<p>RC.RP-05</p>",
+              "description": "<p>The integrity of restored assets is verified, systems and services are restored, and normal operating status is confirmed</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "RC.RP-06",
+              "control": "<p>RC.RP-06</p>",
+              "description": "<p>The end of incident recovery is declared based on criteria, and incident-related documentation is completed</p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

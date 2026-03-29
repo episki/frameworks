@@ -1,0 +1,484 @@
+{
+  "name": "NIST SP 800-218 Ver 1 Catalog",
+  "description": "This catalog contains the security controls from NIST Special Publication 800-218 Version 1.",
+  "controls": [
+    {
+      "ref": "PO",
+      "control": "<p>Prepare the Organization</p>",
+      "description": "",
+      "testingProcedures": [],
+      "controls": [
+        {
+          "ref": "PO.1",
+          "control": "<p>Define Security Requirements for Software Development</p>",
+          "description": "<p>Ensure that security requirements for software development are known at all times so that they can be taken into account throughout the SDLC and duplication of effort can be minimized because the requirements information can be collected once and shared. This includes requirements from internal sources (e.g., the organization’s policies, business objectives, and risk management strategy) and external sources (e.g., applicable laws and regulations).</p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "PO.1.1",
+              "control": "<p>PO.1.1</p>",
+              "description": "<p>Identify and document all security requirements for the organization’s software development infrastructures and processes, and maintain the requirements over time.</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PO.1.2",
+              "control": "<p>PO.1.2</p>",
+              "description": "<p>Identify and document all security requirements for organization-developed software to meet, and maintain the requirements over time.</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PO.1.3",
+              "control": "<p>PO.1.3</p>",
+              "description": "<p>Communicate requirements to all third parties who will provide commercial software components to the organization for reuse by the organization’s own software. .Formerly PW.3.1</p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "PO.2",
+          "control": "<p>Implement Roles and Responsibilities</p>",
+          "description": "<p>Ensure that everyone inside and outside of the organization involved in the SDLC is prepared to perform their SDLC-related roles and responsibilities throughout the SDLC.</p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "PO.2.1",
+              "control": "<p>PO.2.1</p>",
+              "description": "<p>Create new roles and alter responsibilities for existing roles as needed to encompass all parts of the SDLC. Periodically review and maintain the defined roles and responsibilities, updating them as needed.</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PO.2.2",
+              "control": "<p>PO.2.2</p>",
+              "description": "<p>Provide role-based training for all personnel with responsibilities that contribute to secure development. Periodically review personnel proficiency and role-based training, and update the training as needed.</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PO.2.3",
+              "control": "<p>PO.2.3</p>",
+              "description": "<p>Obtain upper management or authorizing official commitment to secure development, and convey that commitment to all with development-related roles and responsibilities.</p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "PO.3",
+          "control": "<p>Implement Supporting Toolchains</p>",
+          "description": "<p>Use automation to reduce human effort and improve the accuracy, reproducibility, usability, and comprehensiveness of security practices throughout the SDLC, as well as provide a way to document and demonstrate the use of these practices. Toolchains and tools may be used at different levels of the organization, such as organization-wide or project-specific, and may address a particular part of the SDLC, like a build pipeline.</p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "PO.3.1",
+              "control": "<p>PO.3.1</p>",
+              "description": "<p>Specify which tools or tool types must or should be included in each toolchain to mitigate identified risks, as well as how the toolchain components are to be integrated with each other.</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PO.3.2",
+              "control": "<p>PO.3.2</p>",
+              "description": "<p>Follow recommended security practices to deploy, operate, and maintain tools and toolchains.</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PO.3.3",
+              "control": "<p>PO.3.3</p>",
+              "description": "<p>Configure tools to generate artifacts of their support of secure software development practices as defined by the organization.</p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "PO.4",
+          "control": "<p>Define and Use Criteria for Software Security Checks</p>",
+          "description": "<p>Help ensure that the software resulting from the SDLC meets the organization’s expectations by defining and using criteria for checking the software’s security during development.</p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "PO.4.1",
+              "control": "<p>PO.4.1</p>",
+              "description": "<p>Define criteria for software security checks and track throughout the SDLC.</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PO.4.2",
+              "control": "<p>PO.4.2</p>",
+              "description": "<p>Implement processes, mechanisms, etc. to gather and safeguard the necessary information in support of the criteria.</p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "PO.5",
+          "control": "<p>Implement and Maintain Secure Environments for Software Development</p>",
+          "description": "<p>Ensure that all components of the environments for software development are strongly protected from internal and external threats to prevent compromises of the environments or the software being developed or maintained within them. Examples of environments for software development include development, build, test, and distribution environments.</p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "PO.5.1",
+              "control": "<p>PO.5.1</p>",
+              "description": "<p>Separate and protect each environment involved in software development.</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PO.5.2",
+              "control": "<p>PO.5.2</p>",
+              "description": "<p>Secure and harden development endpoints (i.e., endpoints for software designers, developers, testers, builders, etc.) to perform development-related tasks using a risk-based approach.</p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "PS",
+      "control": "<p>Protect Software</p>",
+      "description": "",
+      "testingProcedures": [],
+      "controls": [
+        {
+          "ref": "PS.1",
+          "control": "<p>Protect All Forms of Code from Unauthorized Access and Tampering</p>",
+          "description": "<p>Help prevent unauthorized changes to code, both inadvertent and intentional, which could circumvent or negate the intended security characteristics of the software. For code that is not intended to be publicly accessible, this helps prevent theft of the software and may make it more difficult or time-consuming for attackers to find vulnerabilities in the software.</p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "PS.1.1",
+              "control": "<p>PS.1.1</p>",
+              "description": "<p>Store all forms of code – including source code, executable code, and configuration-as-code – based on the principle of least privilege so that only authorized personnel, tools, services, etc. have access.</p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "PS.2",
+          "control": "<p>Provide a Mechanism for Verifying Software Release Integrity</p>",
+          "description": "<p>Help software acquirers ensure that the software they acquire is legitimate and has not been tampered with.</p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "PS.2.1",
+              "control": "<p>PS.2.1</p>",
+              "description": "<p>Make software integrity verification information available to software acquirers.</p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "PS.3",
+          "control": "<p>Archive and Protect Each Software Release</p>",
+          "description": "<p>Preserve software releases in order to help identify, analyze, and eliminate vulnerabilities discovered in the software after release.</p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "PS.3.1",
+              "control": "<p>PS.3.1</p>",
+              "description": "<p>Securely archive the necessary files and supporting data (e.g., integrity verification information, provenance data) to be retained for each software release.</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PS.3.2",
+              "control": "<p>PS.3.2</p>",
+              "description": "<p>Collect, safeguard, maintain, and share provenance data for all components of each software release (e.g., in a software bill of materials .SBOM).</p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "PW",
+      "control": "<p>Produce Well-Secured Software</p>",
+      "description": "",
+      "testingProcedures": [],
+      "controls": [
+        {
+          "ref": "PW.1",
+          "control": "<p>Design Software to Meet Security Requirements and Mitigate Security Risks</p>",
+          "description": "<p>Identify and evaluate the security requirements for the software; determine what security risks the software is likely to face during operation and how the software’s design and architecture should mitigate those risks; and justify any cases where risk-based analysis indicates that security requirements should be relaxed or waived. Addressing security requirements and risks during software design (secure by design) is key for improving software security and also helps improve development efficiency.</p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "PW.1.1",
+              "control": "<p>PW.1.1</p>",
+              "description": "<p>Use forms of risk modeling – such as threat modeling, attack modeling, or attack surface mapping – to help assess the security risk for the software.</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PW.1.2",
+              "control": "<p>PW.1.2</p>",
+              "description": "<p>Track and maintain the software’s security requirements, risks, and design decisions.</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PW.1.3",
+              "control": "<p>PW.1.3</p>",
+              "description": "<p>Where appropriate, build in support for using standardized security features and services (e.g., enabling software to integrate with existing log management, identity management, access control, and vulnerability management systems) instead of creating proprietary implementations of security features and services. .Formerly PW.4.3</p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "PW.2",
+          "control": "<p>Review the Software Design to Verify Compliance with Security Requirements and Risk Information</p>",
+          "description": "<p>Help ensure that the software will meet the security requirements and satisfactorily address the identified risk information.</p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "PW.2.1",
+              "control": "<p>PW.2.1</p>",
+              "description": "<p>Have 1) a qualified person (or people) who were not involved with the design and/or 2) automated processes instantiated in the toolchain review the software design to confirm and enforce that it meets all of the security requirements and satisfactorily addresses the identified risk information.</p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "PW.4",
+          "control": "<p>Reuse Existing, Well-Secured Software When Feasible Instead of Duplicating Functionality</p>",
+          "description": "<p>Lower the costs of software development, expedite software development, and decrease the likelihood of introducing additional security vulnerabilities into the software by reusing software modules and services that have already had their security posture checked. This is particularly important for software that implements security functionality, such as cryptographic modules and protocols.</p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "PW.4.1",
+              "control": "<p>PW.4.1</p>",
+              "description": "<p>Acquire and maintain well-secured software components (e.g., software libraries, modules, middleware, frameworks) from commercial, open-source, and other third-party developers for use by the organization’s software.</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PW.4.2",
+              "control": "<p>PW.4.2</p>",
+              "description": "<p>Create and maintain well-secured software components in-house following SDLC processes to meet common internal software development needs that cannot be better met by third-party software components.</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PW.4.4",
+              "control": "<p>PW.4.4</p>",
+              "description": "<p>Verify that acquired commercial, open-source, and all other third-party software components comply with the requirements, as defined by the organization, throughout their life cycles.</p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "PW.5",
+          "control": "<p>Create Source Code by Adhering to Secure Coding Practices</p>",
+          "description": "<p>Decrease the number of security vulnerabilities in the software, and reduce costs by minimizing vulnerabilities introduced during source code creation that meet or exceed organization-defined vulnerability severity criteria.</p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "PW.5.1",
+              "control": "<p>PW.5.1</p>",
+              "description": "<p>Follow all secure coding practices that are appropriate to the development languages and environment to meet the organization’s requirements.</p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "PW.6",
+          "control": "<p>Configure the Compilation, Interpreter, and Build Processes to Improve Executable Security</p>",
+          "description": "<p>Decrease the number of security vulnerabilities in the software and reduce costs by eliminating vulnerabilities before testing occurs.</p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "PW.6.1",
+              "control": "<p>PW.6.1</p>",
+              "description": "<p>Use compiler, interpreter, and build tools that offer features to improve executable security.</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PW.6.2",
+              "control": "<p>PW.6.2</p>",
+              "description": "<p>Determine which compiler, interpreter, and build tool features should be used and how each should be configured, then implement and use the approved configurations.</p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "PW.7",
+          "control": "<p>Review and/or Analyze Human-Readable Code to Identify Vulnerabilities and Verify Compliance with Security Requirements</p>",
+          "description": "<p>Help identify vulnerabilities so that they can be corrected before the software is released to prevent exploitation. Using automated methods lowers the effort and resources needed to detect vulnerabilities. Human-readable code includes source code, scripts, and any other form of code that an organization deems human-readable.</p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "PW.7.1",
+              "control": "<p>PW.7.1</p>",
+              "description": "<p>Determine whether code review (a person looks directly at the code to find issues) and/or code analysis (tools are used to find issues in code, either in a fully automated way or in conjunction with a person) should be used, as defined by the organization.</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PW.7.2",
+              "control": "<p>PW.7.2</p>",
+              "description": "<p>Perform the code review and/or code analysis based on the organization’s secure coding standards, and record and triage all discovered issues and recommended remediations in the development team’s workflow or issue tracking system.</p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "PW.8",
+          "control": "<p>Test Executable Code to Identify Vulnerabilities and Verify Compliance with Security Requirements</p>",
+          "description": "<p>Help identify vulnerabilities so that they can be corrected before the software is released in order to prevent exploitation. Using automated methods lowers the effort and resources needed to detect vulnerabilities and improves traceability and repeatability. Executable code includes binaries, directly executed bytecode and source code, and any other form of code that an organization deems executable.</p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "PW.8.1",
+              "control": "<p>PW.8.1</p>",
+              "description": "<p>Determine whether executable code testing should be performed to find vulnerabilities not identified by previous reviews, analysis, or testing and, if so, which types of testing should be used.</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PW.8.2",
+              "control": "<p>PW.8.2</p>",
+              "description": "<p>Scope the testing, design the tests, perform the testing, and document the results, including recording and triaging all discovered issues and recommended remediations in the development team’s workflow or issue tracking system.</p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "PW.9",
+          "control": "<p>Configure Software to Have Secure Settings by Default</p>",
+          "description": "<p>Help improve the security of the software at the time of installation to reduce the likelihood of the software being deployed with weak security settings, putting it at greater risk of compromise.</p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "PW.9.1",
+              "control": "<p>PW.9.1</p>",
+              "description": "<p>Define a secure baseline by determining how to configure each setting that has an effect on security or a security-related setting so that the default settings are secure and do not weaken the security functions provided by the platform, network infrastructure, or services.</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "PW.9.2",
+              "control": "<p>PW.9.2</p>",
+              "description": "<p>Implement the default settings (or groups of default settings, if applicable), and document each setting for software administrators.</p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "RV",
+      "control": "<p>Respond to Vulnerabilities</p>",
+      "description": "",
+      "testingProcedures": [],
+      "controls": [
+        {
+          "ref": "RV.1",
+          "control": "<p>Identify and Confirm Vulnerabilities on an Ongoing Basis</p>",
+          "description": "<p>Help ensure that vulnerabilities are identified more quickly so that they can be remediated more quickly in accordance with risk, reducing the window of opportunity for attackers.</p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "RV.1.1",
+              "control": "<p>RV.1.1</p>",
+              "description": "<p>Gather information from software acquirers, users, and public sources on potential vulnerabilities in the software and third-party components that the software uses, and investigate all credible reports.</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "RV.1.2",
+              "control": "<p>RV.1.2</p>",
+              "description": "<p>Review, analyze, and/or test the software’s code to identify or confirm the presence of previously undetected vulnerabilities.</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "RV.1.3",
+              "control": "<p>RV.1.3</p>",
+              "description": "<p>Have a policy that addresses vulnerability disclosure and remediation, and implement the roles, responsibilities, and processes needed to support that policy.</p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "RV.2",
+          "control": "<p>Assess, Prioritize, and Remediate Vulnerabilities</p>",
+          "description": "<p>Help ensure that vulnerabilities are remediated in accordance with risk to reduce the window of opportunity for attackers.</p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "RV.2.1",
+              "control": "<p>RV.2.1</p>",
+              "description": "<p>Analyze each vulnerability to gather sufficient information about risk to plan its remediation or other risk response.</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "RV.2.2",
+              "control": "<p>RV.2.2</p>",
+              "description": "<p>Plan and implement risk responses for vulnerabilities.</p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        },
+        {
+          "ref": "RV.3",
+          "control": "<p>Analyze Vulnerabilities to Identify Their Root Causes</p>",
+          "description": "<p>Help reduce the frequency of vulnerabilities in the future.</p>",
+          "testingProcedures": [],
+          "controls": [
+            {
+              "ref": "RV.3.1",
+              "control": "<p>RV.3.1</p>",
+              "description": "<p>Analyze identified vulnerabilities to determine their root causes.</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "RV.3.2",
+              "control": "<p>RV.3.2</p>",
+              "description": "<p>Analyze the root causes over time to identify patterns, such as a particular secure coding practice not being followed consistently.</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "RV.3.3",
+              "control": "<p>RV.3.3</p>",
+              "description": "<p>Review the software for similar vulnerabilities to eradicate a class of vulnerabilities, and proactively fix them rather than waiting for external reports.</p>",
+              "testingProcedures": [],
+              "controls": []
+            },
+            {
+              "ref": "RV.3.4",
+              "control": "<p>RV.3.4</p>",
+              "description": "<p>Review the SDLC process, and update it if appropriate to prevent (or reduce the likelihood of) the root cause recurring in updates to the software or in new software that is created.</p>",
+              "testingProcedures": [],
+              "controls": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
