@@ -1,6 +1,12 @@
 {
+  "key": "emea-eu-gdpr",
   "name": "GDPR",
   "short_name": "GDPR",
+  "publisher": "European Union",
+  "source_url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+  "scf_keys": [
+    "emea-eu-gdpr"
+  ],
   "last_updated": "2025-07-18",
   "description": "European Union regulation on data protection and privacy for individuals within the EU and EEA.",
   "category": "framework",

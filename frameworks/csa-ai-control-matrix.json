@@ -1,6 +1,9 @@
 {
+  "key": "csa-ai-control-matrix",
   "name": "CSA AI Control Matrix",
-  "short_name": "CSA AI Control Matrix",
+  "short_name": "CSA AICM",
+  "publisher": "Cloud Security Alliance",
+  "source_url": "https://cloudsecurityalliance.org/research/working-groups/ai-controls/",
   "last_updated": "2025-10-20",
   "description": "Vendor-agnostic security controls for cloud-based AI systems, covering 243 objectives across 18 domains.",
   "category": "framework",

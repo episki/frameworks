@@ -1,6 +1,9 @@
 {
-  "name": "OWASP DevSecOps Maturity Model (DSOMM)",
+  "key": "owasp-dsomm",
+  "name": "OWASP DevSecOps Maturity Model",
   "short_name": "DSOMM",
+  "publisher": "OWASP",
+  "source_url": "https://owasp.org/www-project-devsecops-maturity-model/",
   "last_updated": "2026-03-17",
   "description": "The OWASP DevSecOps Maturity Model (DSOMM) provides a framework for integrating security into DevOps practices across five dimensions: Build and Deployment, Culture and Organization, Implementation, Information Gathering, and Test and Verification. Activities are organized into maturity levels 1 through 5.",
   "category": "framework",

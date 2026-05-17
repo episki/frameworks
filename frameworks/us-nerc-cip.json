@@ -1,6 +1,12 @@
 {
+  "key": "us-nerc-cip",
   "name": "NERC CIP",
   "short_name": "NERC CIP",
+  "publisher": "North American Electric Reliability Corporation",
+  "source_url": "https://www.nerc.com/pa/Stand/Pages/CIPStandards.aspx",
+  "scf_keys": [
+    "us-nerc-cip-2024"
+  ],
   "last_updated": "2025-09-30",
   "description": "Mandatory cybersecurity standards for North American bulk electric system operators.",
   "category": "framework",

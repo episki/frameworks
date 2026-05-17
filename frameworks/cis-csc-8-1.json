@@ -1,6 +1,16 @@
 {
+  "key": "cis-csc-8-1",
   "name": "CIS Critical Security Controls",
-  "short_name": "CIS Critical Security Controls",
+  "short_name": "CIS CSC",
+  "version": "8.1",
+  "publisher": "Center for Internet Security",
+  "source_url": "https://www.cisecurity.org/controls",
+  "scf_keys": [
+    "cis-csc-8-1",
+    "cis-csc-8-1-ig1",
+    "cis-csc-8-1-ig2",
+    "cis-csc-8-1-ig3"
+  ],
   "last_updated": "2026-01-14",
   "description": "Prioritized cybersecurity best practices to defend against common attacks.",
   "category": "framework",

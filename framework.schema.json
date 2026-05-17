@@ -4,6 +4,7 @@
   "title": "episki Framework Definition (Unified Controls + Recursive Tests)",
   "type": "object",
   "required": [
+    "key",
     "name",
     "short_name",
     "last_updated",
@@ -13,6 +14,22 @@
     "controls"
   ],
   "properties": {
+    "key": {
+      "description": "Stable slug identifier for the framework. Lowercase, hyphen-separated. Hand-set to match SCF's slug where the framework exists in SCF; arbitrary otherwise. This is what eload writes to catalog.frameworks.key.",
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]*$",
+      "minLength": 1
+    },
+    "scf_keys": {
+      "description": "SCF framework keys that should alias to this framework. When eload loads SCF crosswalks, mapping refs to any of these SCF keys are attached to this framework instead of creating duplicate SCF-only stub rows.",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9][a-z0-9-]*$",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
     "name": { "type": "string", "minLength": 1 },
     "short_name": { "type": "string", "minLength": 1 },
 
