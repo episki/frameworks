@@ -1,6 +1,13 @@
 {
+  "key": "nist-ai-100-1-ai-rmf",
   "name": "NIST AI Risk Management Framework",
-  "short_name": "NIST AI Risk Management Framework",
+  "short_name": "NIST AI RMF",
+  "version": "1.0",
+  "publisher": "National Institute of Standards and Technology",
+  "source_url": "https://www.nist.gov/itl/ai-risk-management-framework",
+  "scf_keys": [
+    "nist-ai-100-1-ai-rmf-1-0"
+  ],
   "last_updated": "2025-11-18",
   "description": "Framework for managing risks throughout the AI system lifecycle.",
   "category": "framework",

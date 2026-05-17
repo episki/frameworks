@@ -1,6 +1,13 @@
 {
-  "name": "PCI DSS 4.0.1",
-  "short_name": "PCI DSS 4.0.1",
+  "key": "pci-dss-4-0-1",
+  "name": "PCI DSS",
+  "short_name": "PCI DSS",
+  "version": "4.0.1",
+  "publisher": "PCI Security Standards Council",
+  "source_url": "https://www.pcisecuritystandards.org/document_library",
+  "scf_keys": [
+    "pci-dss-4-0-1"
+  ],
   "last_updated": "2026-01-22",
   "description": "Payment card industry standard for protecting cardholder data through security controls.",
   "category": "framework",

@@ -1,6 +1,13 @@
 {
-  "name": "NIST 800-66 r2",
-  "short_name": "NIST 800-66 r2",
+  "key": "nist-sp-800-66-r2",
+  "name": "NIST SP 800-66",
+  "short_name": "NIST 800-66",
+  "version": "r2",
+  "publisher": "National Institute of Standards and Technology",
+  "source_url": "https://csrc.nist.gov/pubs/sp/800/66/r2/final",
+  "scf_keys": [
+    "nist-sp-800-66-r2"
+  ],
   "last_updated": "2025-05-07",
   "description": "NIST guidance for implementing the HIPAA Security Rule through recognized cybersecurity practices.",
   "category": "framework",

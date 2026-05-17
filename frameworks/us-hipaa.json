@@ -1,6 +1,13 @@
 {
+  "key": "us-hipaa",
   "name": "HIPAA",
   "short_name": "HIPAA",
+  "publisher": "US Department of Health and Human Services",
+  "source_url": "https://www.hhs.gov/hipaa/",
+  "scf_keys": [
+    "us-hipaa-administrative-simplification-2013",
+    "us-hipaa-security-rule-nist-sp-800-66-r2"
+  ],
   "last_updated": "2025-07-21",
   "description": "U.S. federal law establishing privacy and security standards for protected health information (45 CFR Part 164).",
   "category": "framework",

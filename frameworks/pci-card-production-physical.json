@@ -1,6 +1,10 @@
 {
-  "name": "PCI Card Production and Provisioning Physical Security v3.0.1",
-  "short_name": "PCI Card Production and Provisioning Physical Security v3.0.1",
+  "key": "pci-card-production-physical",
+  "name": "PCI Card Production and Provisioning Physical Security",
+  "short_name": "PCI CP Physical",
+  "version": "3.0.1",
+  "publisher": "PCI Security Standards Council",
+  "source_url": "https://www.pcisecuritystandards.org/document_library",
   "last_updated": "2026-01-22",
   "description": "PCI SSC requirements for physical security in card production and provisioning environments.",
   "category": "framework",

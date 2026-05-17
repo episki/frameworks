@@ -1,6 +1,13 @@
 {
-  "name": "Cyber Essentials UK v3.2",
-  "short_name": "Cyber Essentials UK v3.2",
+  "key": "emea-uk-cyber-essentials",
+  "name": "Cyber Essentials UK",
+  "short_name": "Cyber Essentials UK",
+  "version": "3.2",
+  "publisher": "UK National Cyber Security Centre",
+  "source_url": "https://www.ncsc.gov.uk/cyberessentials/",
+  "scf_keys": [
+    "emea-uk-cyber-essentials"
+  ],
   "last_updated": "2025-04-01",
   "description": "UK government-backed certification scheme for protecting against common cyber threats through basic security controls.",
   "category": "framework",

@@ -1,6 +1,13 @@
 {
-  "name": "SOC2 Trust Service Criteria",
-  "short_name": "SOC2 Trust Service Criteria",
+  "key": "aicpa-tsc-soc-2",
+  "name": "AICPA Trust Services Criteria (SOC 2)",
+  "short_name": "AICPA TSC",
+  "version": "2017:2022",
+  "publisher": "AICPA",
+  "source_url": "https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-2",
+  "scf_keys": [
+    "aicpa-tsc-2017-2022-used-for-soc-2"
+  ],
   "last_updated": "2025-07-17",
   "description": "AICPA trust service criteria for evaluating controls related to security, availability, processing integrity, confidentiality, and privacy.",
   "category": "framework",
