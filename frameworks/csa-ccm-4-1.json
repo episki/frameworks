@@ -35,7 +35,7 @@
         {
           "ref": "A&A-03",
           "label": "Risk Based Planning Assessment",
-          "description": "Perform independent audit and assurance assessments according to risk-based plans and policies,and in response to significant changes or emerging risks."
+          "description": "Perform independent audit and assurance assessments according to risk-based plans and policies, and in response to significant changes or emerging risks."
         },
         {
           "ref": "A&A-04",
@@ -512,7 +512,7 @@
         {
           "ref": "DSP-17",
           "label": "Sensitive Data Protection",
-          "description": "Define and implement, processes, procedures and technical measures to protect sensitive data throughout it's lifecycle."
+          "description": "Define and implement, processes, procedures and technical measures to protect sensitive data throughout its lifecycle."
         },
         {
           "ref": "DSP-18",
