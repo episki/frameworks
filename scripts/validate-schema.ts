@@ -1,7 +1,11 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import Ajv from "ajv/dist/2020";
-import { listFrameworkFiles } from "./lib/frameworks";
+import {
+  listFrameworkFiles,
+  listProfileFiles,
+  listMappingFiles,
+} from "./lib/frameworks";
 
 async function loadSchema(schemaPath: string): Promise<unknown> {
   const source = await readFile(schemaPath, "utf8");
@@ -11,21 +15,26 @@ async function loadSchema(schemaPath: string): Promise<unknown> {
   return JSON.parse(source);
 }
 
-async function main() {
-  const schemaPath = path.join(process.cwd(), "framework.schema.json");
-  const schemaDisplayPath = path.relative(process.cwd(), schemaPath);
-  const files = await listFrameworkFiles();
-  let schema: unknown;
+const ajv = new Ajv({ allErrors: true, strict: false });
 
+// Validate every file in `files` against the schema at `schemaFile`.
+// Returns true if any error was encountered.
+async function validateArtifacts(
+  label: string,
+  schemaFile: string,
+  files: string[],
+): Promise<boolean> {
+  const schemaPath = path.join(process.cwd(), schemaFile);
+  const schemaDisplayPath = path.relative(process.cwd(), schemaPath);
+
+  let schema: unknown;
   try {
     schema = await loadSchema(schemaPath);
   } catch (error) {
     console.error(`${schemaDisplayPath}: ${(error as Error).message}`);
-    process.exitCode = 1;
-    return;
+    return true;
   }
 
-  const ajv = new Ajv({ allErrors: true, strict: false });
   const validate = ajv.compile(schema);
   let hasErrors = false;
 
@@ -53,7 +62,18 @@ async function main() {
     }
   }
 
-  if (hasErrors) {
+  console.log(`${label}: validated ${files.length} file(s) against ${schemaDisplayPath}`);
+  return hasErrors;
+}
+
+async function main() {
+  const results = await Promise.all([
+    validateArtifacts("frameworks", "framework.schema.json", await listFrameworkFiles()),
+    validateArtifacts("profiles", "profile.schema.json", await listProfileFiles()),
+    validateArtifacts("mappings", "mapping.schema.json", await listMappingFiles()),
+  ]);
+
+  if (results.some(Boolean)) {
     process.exitCode = 1;
   }
 }
