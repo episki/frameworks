@@ -20,7 +20,7 @@
       "ref": "GOVERN",
       "controls": [
         {
-          "ref": "GOVERN 1.0",
+          "ref": "GOVERN 1",
           "label": "Policies, processes, procedures and practices across the organization related to the mapping, measuring and managing of AI risks are in place, transparent, and implemented effectively.",
           "controls": [
             {
@@ -61,7 +61,7 @@
           ]
         },
         {
-          "ref": "GOVERN 2.0",
+          "ref": "GOVERN 2",
           "label": "Accountability structures are in place so that the appropriate teams and individuals are empowered, responsible, and trained for mapping, measuring, and managing AI risks.",
           "controls": [
             {
@@ -82,7 +82,7 @@
           ]
         },
         {
-          "ref": "GOVERN 3.0",
+          "ref": "GOVERN 3",
           "label": "Workforce diversity, equity, inclusion, and accessibility processes are prioritized in the mapping, measuring, and managing of AI risks throughout the lifecycle.",
           "controls": [
             {
@@ -98,7 +98,7 @@
           ]
         },
         {
-          "ref": "GOVERN 4.0",
+          "ref": "GOVERN 4",
           "label": "Organizational teams are committed to a culture that considers and communicates AI risk.",
           "controls": [
             {
@@ -119,7 +119,7 @@
           ]
         },
         {
-          "ref": "GOVERN 5.0",
+          "ref": "GOVERN 5",
           "label": "Processes are in place for robust engagement with relevant AI actors.",
           "controls": [
             {
@@ -135,7 +135,7 @@
           ]
         },
         {
-          "ref": "GOVERN 6.0",
+          "ref": "GOVERN 6",
           "label": "Policies and procedures are in place to address AI risks and benefits arising from third-party software and data and other supply chain issues.",
           "controls": [
             {
@@ -156,7 +156,7 @@
       "ref": "MANAGE",
       "controls": [
         {
-          "ref": "MANAGE 1.0",
+          "ref": "MANAGE 1",
           "label": "AI risks based on assessments and other analytical output from the Map and Measure functions are prioritized, responded to, and managed.",
           "controls": [
             {
@@ -182,7 +182,7 @@
           ]
         },
         {
-          "ref": "MANAGE 2.0",
+          "ref": "MANAGE 2",
           "label": "Strategies to maximize AI benefits and minimize negative impacts are planned, prepared, implemented, and documented, and informed by input from relevant AI actors.",
           "controls": [
             {
@@ -208,7 +208,7 @@
           ]
         },
         {
-          "ref": "MANAGE 3.0",
+          "ref": "MANAGE 3",
           "label": "AI risks and benefits from third-party entities are managed.",
           "controls": [
             {
@@ -224,7 +224,7 @@
           ]
         },
         {
-          "ref": "MANAGE 4.0",
+          "ref": "MANAGE 4",
           "label": "Risk treatments including response and recovery, and communication plans to the identified and measured AI risks are documented and monitored regularly.",
           "controls": [
             {
@@ -250,7 +250,7 @@
       "ref": "MAP",
       "controls": [
         {
-          "ref": "MAP 1.0",
+          "ref": "MAP 1",
           "label": "Context is established and understood.",
           "controls": [
             {
@@ -286,7 +286,7 @@
           ]
         },
         {
-          "ref": "MAP 2.0",
+          "ref": "MAP 2",
           "label": "Categorization of the AI system is performed.",
           "controls": [
             {
@@ -307,7 +307,7 @@
           ]
         },
         {
-          "ref": "MAP 3.0",
+          "ref": "MAP 3",
           "label": "AI capabilities, targeted usage, goals, and expected benefits and costs compared with appropriate benchmarks are understood.",
           "controls": [
             {
@@ -338,7 +338,7 @@
           ]
         },
         {
-          "ref": "MAP 4.0",
+          "ref": "MAP 4",
           "label": "Risks and benefits are mapped for all components of the AI system including third-party software and data.",
           "controls": [
             {
@@ -354,7 +354,7 @@
           ]
         },
         {
-          "ref": "MAP 5.0",
+          "ref": "MAP 5",
           "label": "Impacts to individuals, groups, communities, organizations, and society are characterized.",
           "controls": [
             {
@@ -375,7 +375,7 @@
       "ref": "MEASURE",
       "controls": [
         {
-          "ref": "MEASURE 1.0",
+          "ref": "MEASURE 1",
           "label": "Appropriate methods and metrics are identified and applied.",
           "controls": [
             {
@@ -396,7 +396,7 @@
           ]
         },
         {
-          "ref": "MEASURE 2.0",
+          "ref": "MEASURE 2",
           "label": "AI systems are evaluated for trustworthy characteristics.",
           "controls": [
             {
@@ -467,7 +467,7 @@
           ]
         },
         {
-          "ref": "MEASURE 3.0",
+          "ref": "MEASURE 3",
           "label": "Mechanisms for tracking identified AI risks over time are in place.",
           "controls": [
             {
@@ -488,7 +488,7 @@
           ]
         },
         {
-          "ref": "MEASURE 4.0",
+          "ref": "MEASURE 4",
           "label": "Feedback about efficacy of measurement is gathered and assessed.",
           "controls": [
             {
