@@ -1,0 +1,98 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://episki.example/schemas/profile.v1.schema.json",
+  "title": "episki Profile Definition (Control Selection / Tailoring)",
+  "description": "A profile selects and tailors controls from one or more catalogs (frameworks) for a specific context — e.g. a PCI SAQ type or a CCM-lite subset. Modeled on the OSCAL Profile model: each import points at a catalog and includes/excludes controls by ref. Selection lives here, never inside the catalog.",
+  "type": "object",
+  "required": ["key", "name", "last_updated", "imports"],
+  "properties": {
+    "key": {
+      "description": "Stable slug identifier for the profile. Lowercase, hyphen-separated.",
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]*$",
+      "minLength": 1
+    },
+    "name": { "type": "string", "minLength": 1 },
+    "short_name": { "type": "string", "minLength": 1 },
+    "version": {
+      "description": "Profile version string.",
+      "type": "string",
+      "minLength": 1
+    },
+    "publisher": {
+      "description": "Publishing organization (e.g., 'PCI SSC', 'CSA').",
+      "type": "string",
+      "minLength": 1
+    },
+    "source_url": {
+      "description": "Canonical public reference URL for the profile/selection.",
+      "type": "string",
+      "format": "uri"
+    },
+    "last_updated": {
+      "description": "Last updated date (ISO 8601 date).",
+      "type": "string",
+      "format": "date"
+    },
+    "effective_date": { "type": "string", "format": "date" },
+    "retired_date": { "type": "string", "format": "date" },
+    "description": { "type": "string" },
+    "category": {
+      "description": "High-level grouping (e.g., 'profile', 'saq', 'baseline').",
+      "type": "string",
+      "minLength": 1
+    },
+    "keywords": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true
+    },
+    "imports": {
+      "description": "Catalogs this profile draws from. Each import selects controls from exactly one catalog.",
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/import" }
+    }
+  },
+  "additionalProperties": false,
+
+  "$defs": {
+    "import": {
+      "description": "A selection from one catalog. Provide either include_all (optionally narrowed by exclude_controls) or an explicit include_controls list.",
+      "type": "object",
+      "required": ["catalog"],
+      "properties": {
+        "catalog": {
+          "description": "Key of the catalog framework this import selects from (must match a frameworks/*.json `key`).",
+          "type": "string",
+          "pattern": "^[a-z0-9][a-z0-9-]*$",
+          "minLength": 1
+        },
+        "include_all": {
+          "description": "Include every control in the catalog. Typically combined with exclude_controls.",
+          "type": "boolean"
+        },
+        "include_controls": {
+          "description": "Control refs to include, as written in the catalog (e.g. '1.1.1', 'CC6.1').",
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "minLength": 1 },
+          "uniqueItems": true
+        },
+        "exclude_controls": {
+          "description": "Control refs to remove from the selection (meaningful with include_all).",
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "minLength": 1 },
+          "uniqueItems": true
+        },
+        "notes": { "type": "string" }
+      },
+      "additionalProperties": false,
+      "anyOf": [
+        { "required": ["include_all"] },
+        { "required": ["include_controls"] }
+      ]
+    }
+  }
+}

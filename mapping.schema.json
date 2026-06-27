@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://episki.example/schemas/mapping.v1.schema.json",
+  "title": "episki Control Mapping (Crosswalk Collection)",
+  "description": "A crosswalk collection relating controls in one source catalog to controls in one or more target catalogs. Modeled on the OSCAL Control Mapping model. Crosswalks live in their own artifact, never inside a catalog. The relationship vocabulary is set-theoretic (matching OSCAL and SCF's STRM), so relationships can be composed through a hub catalog (e.g. SCF) by weakest link.",
+  "type": "object",
+  "required": ["key", "source_catalog", "last_updated", "mappings"],
+  "properties": {
+    "key": {
+      "description": "Stable slug identifier for this mapping collection. Lowercase, hyphen-separated.",
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]*$",
+      "minLength": 1
+    },
+    "name": { "type": "string", "minLength": 1 },
+    "source_catalog": {
+      "description": "Key of the catalog whose controls are the source side of every map here (must match a frameworks/*.json `key`).",
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]*$",
+      "minLength": 1
+    },
+    "source_url": {
+      "description": "Canonical public reference URL for the crosswalk, if any.",
+      "type": "string",
+      "format": "uri"
+    },
+    "last_updated": {
+      "description": "Last updated date (ISO 8601 date).",
+      "type": "string",
+      "format": "date"
+    },
+    "description": { "type": "string" },
+    "provenance": {
+      "description": "Default provenance for maps in this collection. 'curated' = hand-authored/editorial; 'scf' = sourced directly from SCF STRM; 'derived-via-scf' = computed by joining through the SCF hub. Per-map provenance overrides this.",
+      "$ref": "#/$defs/provenance",
+      "default": "curated"
+    },
+    "mappings": {
+      "description": "Crosswalks grouped by target catalog.",
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/targetGroup" }
+    }
+  },
+  "additionalProperties": false,
+
+  "$defs": {
+    "provenance": {
+      "type": "string",
+      "enum": ["curated", "scf", "derived-via-scf"]
+    },
+    "relationship": {
+      "description": "Set-theoretic relationship of source to target (OSCAL/STRM vocabulary). 'intersects-with' is the loosest (related/overlapping) and the safe default.",
+      "type": "string",
+      "enum": ["equal", "equivalent-to", "subset-of", "superset-of", "intersects-with"]
+    },
+    "targetGroup": {
+      "description": "All maps from the source catalog into one target catalog.",
+      "type": "object",
+      "required": ["target_catalog", "maps"],
+      "properties": {
+        "target_catalog": {
+          "description": "Key of the target catalog (must match a frameworks/*.json `key`).",
+          "type": "string",
+          "pattern": "^[a-z0-9][a-z0-9-]*$",
+          "minLength": 1
+        },
+        "maps": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/map" }
+        }
+      },
+      "additionalProperties": false
+    },
+    "map": {
+      "description": "Relates one or more source control refs to one or more target control refs. Arrays on both sides express many-to-many crosswalks.",
+      "type": "object",
+      "required": ["source", "target", "relationship"],
+      "properties": {
+        "source": {
+          "description": "Control refs in source_catalog, as written there (e.g. 'AI-GOV-001').",
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "minLength": 1 },
+          "uniqueItems": true
+        },
+        "target": {
+          "description": "Control refs in target_catalog, as written there (e.g. 'CC6.1').",
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "minLength": 1 },
+          "uniqueItems": true
+        },
+        "relationship": { "$ref": "#/$defs/relationship" },
+        "provenance": { "$ref": "#/$defs/provenance" },
+        "notes": { "type": "string" }
+      },
+      "additionalProperties": false
+    }
+  }
+}
