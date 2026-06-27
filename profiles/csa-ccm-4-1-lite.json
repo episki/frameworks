@@ -6,6 +6,7 @@
   "last_updated": "2026-06-27",
   "description": "The \"CCM Lite\" subset of CSA Cloud Controls Matrix v4.1 (96 controls).",
   "category": "subset",
+  "subset_code": "lite",
   "imports": [
     {
       "catalog": "csa-ccm-4-1",

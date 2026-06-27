@@ -6,6 +6,7 @@
   "last_updated": "2026-06-27",
   "description": "Self-Assessment Questionnaire P2PE subset of PCI DSS v4.0.1 (32 requirements).",
   "category": "saq",
+  "subset_code": "P2PE",
   "imports": [
     {
       "catalog": "pci-dss-4-0-1",

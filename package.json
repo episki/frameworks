@@ -13,6 +13,7 @@
     "jsonc-parser": "^3.3.1"
   },
   "dependencies": {
+    "episki-frameworks": "github:episki/frameworks#5ad20ca15f0b2227c27a80c093cee122e55228d3",
     "securecontrolsframework": "securecontrolsframework/securecontrolsframework"
   }
 }

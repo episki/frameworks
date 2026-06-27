@@ -6,6 +6,7 @@
   "last_updated": "2026-06-27",
   "description": "Self-Assessment Questionnaire D-Merchant subset of PCI DSS v4.0.1 (317 requirements).",
   "category": "saq",
+  "subset_code": "D-Merchant",
   "imports": [
     {
       "catalog": "pci-dss-4-0-1",
