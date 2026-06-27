@@ -1,0 +1,886 @@
+{
+  "key": "episki-ai-governance-crosswalks",
+  "name": "episki AI Governance crosswalks",
+  "source_catalog": "episki-ai-governance",
+  "last_updated": "2026-06-27",
+  "description": "Curated crosswalks from episki AI Governance controls to NIST CSF, NIST AI RMF, ISO 27001, ISO 42001, SOC 2, PCI DSS, and the EU AI Act. Relationships default to intersects-with; tighten as equivalences are confirmed.",
+  "provenance": "curated",
+  "mappings": [
+    {
+      "target_catalog": "aicpa-tsc-soc-2",
+      "maps": [
+        {
+          "source": [
+            "AI-GOV-001"
+          ],
+          "target": [
+            "CC6.1"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-GOV-002"
+          ],
+          "target": [
+            "CC3.2"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-GOV-003"
+          ],
+          "target": [
+            "CC6.5"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-DATA-001"
+          ],
+          "target": [
+            "CC6.1"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-DATA-002"
+          ],
+          "target": [
+            "CC9.2"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-DATA-004"
+          ],
+          "target": [
+            "CC6.1"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-TPR-001"
+          ],
+          "target": [
+            "CC9.2"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-TPR-002"
+          ],
+          "target": [
+            "CC9.2"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-TPR-003"
+          ],
+          "target": [
+            "CC7.3"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-TPR-004"
+          ],
+          "target": [
+            "CC9.2"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-RISK-001"
+          ],
+          "target": [
+            "CC5.1"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-RISK-003"
+          ],
+          "target": [
+            "A1.2"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-PROG-001"
+          ],
+          "target": [
+            "CC1.1"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-PROG-002"
+          ],
+          "target": [
+            "CC1.3"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-PROG-003"
+          ],
+          "target": [
+            "CC1.4"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-PROG-004"
+          ],
+          "target": [
+            "CC2.2"
+          ],
+          "relationship": "intersects-with"
+        }
+      ]
+    },
+    {
+      "target_catalog": "emea-eu-ai-act",
+      "maps": [
+        {
+          "source": [
+            "AI-GOV-002"
+          ],
+          "target": [
+            "Article 9"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-DATA-001"
+          ],
+          "target": [
+            "Article 10"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-DATA-003"
+          ],
+          "target": [
+            "Article 10"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-DATA-004"
+          ],
+          "target": [
+            "Article 10"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-RISK-001"
+          ],
+          "target": [
+            "Article 14"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-RISK-002"
+          ],
+          "target": [
+            "Article 10",
+            "Article 15"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-RISK-003"
+          ],
+          "target": [
+            "Article 15"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-RISK-004"
+          ],
+          "target": [
+            "Article 6",
+            "Article 9"
+          ],
+          "relationship": "intersects-with"
+        }
+      ]
+    },
+    {
+      "target_catalog": "iso-27001-2022",
+      "maps": [
+        {
+          "source": [
+            "AI-GOV-001"
+          ],
+          "target": [
+            "A.5.9"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-GOV-002"
+          ],
+          "target": [
+            "A.5.8"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-GOV-003"
+          ],
+          "target": [
+            "A.5.11"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-DATA-001"
+          ],
+          "target": [
+            "A.5.12",
+            "A.5.13"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-DATA-002"
+          ],
+          "target": [
+            "A.5.20"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-DATA-003"
+          ],
+          "target": [
+            "A.5.34"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-DATA-004"
+          ],
+          "target": [
+            "A.5.34"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-TPR-001"
+          ],
+          "target": [
+            "A.5.20",
+            "A.5.22"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-TPR-002"
+          ],
+          "target": [
+            "A.5.21"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-TPR-003"
+          ],
+          "target": [
+            "A.5.20",
+            "A.5.24"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-TPR-004"
+          ],
+          "target": [
+            "A.5.22"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-PROG-001"
+          ],
+          "target": [
+            "A.5.1"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-PROG-002"
+          ],
+          "target": [
+            "A.5.2"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-PROG-003"
+          ],
+          "target": [
+            "A.6.3"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-PROG-004"
+          ],
+          "target": [
+            "A.5.1"
+          ],
+          "relationship": "intersects-with"
+        }
+      ]
+    },
+    {
+      "target_catalog": "iso-42001-2023",
+      "maps": [
+        {
+          "source": [
+            "AI-GOV-001"
+          ],
+          "target": [
+            "A.4.2",
+            "A.6.2.2"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-GOV-002"
+          ],
+          "target": [
+            "A.6.2.2",
+            "A.6.2.3"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-GOV-003"
+          ],
+          "target": [
+            "A.6.2.6"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-DATA-001"
+          ],
+          "target": [
+            "A.7.2",
+            "A.7.3"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-DATA-002"
+          ],
+          "target": [
+            "A.10.2",
+            "A.10.3"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-DATA-003"
+          ],
+          "target": [
+            "A.7.4",
+            "A.10.3"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-DATA-004"
+          ],
+          "target": [
+            "A.7.2"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-TPR-001"
+          ],
+          "target": [
+            "A.10.2"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-TPR-002"
+          ],
+          "target": [
+            "A.10.3"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-TPR-003"
+          ],
+          "target": [
+            "A.10.2"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-TPR-004"
+          ],
+          "target": [
+            "A.10.4"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-RISK-001"
+          ],
+          "target": [
+            "A.9.2",
+            "A.9.3"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-RISK-002"
+          ],
+          "target": [
+            "A.6.2.4",
+            "A.9.4"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-RISK-003"
+          ],
+          "target": [
+            "A.9.3"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-RISK-004"
+          ],
+          "target": [
+            "A.5.2",
+            "A.5.4"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-PROG-001"
+          ],
+          "target": [
+            "A.2.2",
+            "A.2.3"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-PROG-002"
+          ],
+          "target": [
+            "A.3.2"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-PROG-003"
+          ],
+          "target": [
+            "A.4.6"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-PROG-004"
+          ],
+          "target": [
+            "A.9.2"
+          ],
+          "relationship": "intersects-with"
+        }
+      ]
+    },
+    {
+      "target_catalog": "nist-ai-100-1-ai-rmf",
+      "maps": [
+        {
+          "source": [
+            "AI-GOV-001"
+          ],
+          "target": [
+            "GOVERN 1.1",
+            "MAP 1.1"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-GOV-002"
+          ],
+          "target": [
+            "MAP 1.1",
+            "MAP 4.1",
+            "GOVERN 1.3"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-DATA-001"
+          ],
+          "target": [
+            "MAP 2.1",
+            "MAP 3.1"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-DATA-002"
+          ],
+          "target": [
+            "GOVERN 6.1"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-DATA-003"
+          ],
+          "target": [
+            "GOVERN 6.1",
+            "MAP 4.1"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-RISK-001"
+          ],
+          "target": [
+            "MANAGE 1.3",
+            "GOVERN 1.2"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-RISK-002"
+          ],
+          "target": [
+            "MEASURE 2.11",
+            "MAP 1.1"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-RISK-003"
+          ],
+          "target": [
+            "MANAGE 2.3",
+            "MANAGE 4.1"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-RISK-004"
+          ],
+          "target": [
+            "MAP 1.5",
+            "GOVERN 1.1"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-PROG-001"
+          ],
+          "target": [
+            "GOVERN 1.1",
+            "GOVERN 2.1"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-PROG-002"
+          ],
+          "target": [
+            "GOVERN 2.1",
+            "GOVERN 3.2"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-PROG-003"
+          ],
+          "target": [
+            "GOVERN 2.2"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-PROG-004"
+          ],
+          "target": [
+            "GOVERN 1.5",
+            "MANAGE 4.1"
+          ],
+          "relationship": "intersects-with"
+        }
+      ]
+    },
+    {
+      "target_catalog": "nist-csf-2-0",
+      "maps": [
+        {
+          "source": [
+            "AI-GOV-001"
+          ],
+          "target": [
+            "ID.AM-01",
+            "ID.AM-02"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-GOV-003"
+          ],
+          "target": [
+            "ID.AM-08"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-DATA-001"
+          ],
+          "target": [
+            "ID.AM-05",
+            "GV.OC-03"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-DATA-002"
+          ],
+          "target": [
+            "GV.SC-05"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-DATA-004"
+          ],
+          "target": [
+            "GV.OC-03"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-TPR-001"
+          ],
+          "target": [
+            "GV.SC-07"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-TPR-002"
+          ],
+          "target": [
+            "GV.SC-04"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-TPR-003"
+          ],
+          "target": [
+            "GV.SC-08",
+            "RS.MA-01"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-TPR-004"
+          ],
+          "target": [
+            "GV.SC-07",
+            "ID.IM-01"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-RISK-003"
+          ],
+          "target": [
+            "RC.RP-01"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-PROG-001"
+          ],
+          "target": [
+            "GV.PO-01"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-PROG-002"
+          ],
+          "target": [
+            "GV.RR-02"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-PROG-003"
+          ],
+          "target": [
+            "PR.AT-01"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-PROG-004"
+          ],
+          "target": [
+            "GV.OV-01",
+            "GV.OV-03"
+          ],
+          "relationship": "intersects-with"
+        }
+      ]
+    },
+    {
+      "target_catalog": "pci-dss-4-0-1",
+      "maps": [
+        {
+          "source": [
+            "AI-GOV-001"
+          ],
+          "target": [
+            "12.5.2"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-DATA-002"
+          ],
+          "target": [
+            "12.8.2"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-TPR-001"
+          ],
+          "target": [
+            "12.8.4"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-TPR-002"
+          ],
+          "target": [
+            "12.8.5"
+          ],
+          "relationship": "intersects-with"
+        },
+        {
+          "source": [
+            "AI-PROG-003"
+          ],
+          "target": [
+            "12.6.1"
+          ],
+          "relationship": "intersects-with"
+        }
+      ]
+    }
+  ]
+}

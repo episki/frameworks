@@ -1,0 +1,149 @@
+{
+  "key": "episki-ai-governance",
+  "name": "episki AI Governance",
+  "short_name": "AI Governance",
+  "version": "1.0",
+  "publisher": "episki",
+  "last_updated": "2026-06-27",
+  "description": "episki's plain-language AI governance control set: asset management, data protection, third-party AI risk, AI-specific risk, and program governance — crosswalked to NIST AI RMF, ISO 42001, the EU AI Act, NIST CSF, ISO 27001, SOC 2, and PCI DSS.",
+  "category": "standard",
+  "keywords": [
+    "ai",
+    "ai governance",
+    "responsible ai",
+    "third-party ai risk",
+    "episki"
+  ],
+  "controls": [
+    {
+      "ref": "AI-GOV",
+      "label": "AI Asset Management",
+      "group": true,
+      "controls": [
+        {
+          "ref": "AI-GOV-001",
+          "label": "AI asset inventory is maintained and current",
+          "description": "A centralized inventory of AI tools, models, and APIs in use across the organization is maintained, classified, and kept current as new tools are adopted."
+        },
+        {
+          "ref": "AI-GOV-002",
+          "label": "New AI tools undergo governance review before adoption",
+          "description": "New AI tools are assessed for data sensitivity, deployment context, and regulatory applicability before they are approved for use; high-risk tools require documented evidence before activation."
+        },
+        {
+          "ref": "AI-GOV-003",
+          "label": "Deprecated AI tools are decommissioned with evidence",
+          "description": "AI tools that are retired or replaced are decommissioned through a documented process, with access revoked and data disposition recorded."
+        }
+      ]
+    },
+    {
+      "ref": "AI-DATA",
+      "label": "Data Protection in AI",
+      "group": true,
+      "controls": [
+        {
+          "ref": "AI-DATA-001",
+          "label": "Data classification is documented for all AI assets",
+          "description": "For every AI asset, the categories of data it processes (PII, financial, health, proprietary, public) and the direction of data flow are documented."
+        },
+        {
+          "ref": "AI-DATA-002",
+          "label": "Data processing agreements are in place and current",
+          "description": "A signed data processing agreement is in place with each AI provider that handles regulated or customer data, and is reviewed on a defined cadence."
+        },
+        {
+          "ref": "AI-DATA-003",
+          "label": "Training opt-out is confirmed where applicable",
+          "description": "Where a provider may use inputs or outputs to train models, the organization has confirmed and recorded an opt-out (or accepted the residual risk explicitly)."
+        },
+        {
+          "ref": "AI-DATA-004",
+          "label": "Data residency requirements are met per jurisdiction",
+          "description": "The geographic regions where each AI provider processes and stores data are documented and verified against the organization's data residency obligations."
+        }
+      ]
+    },
+    {
+      "ref": "AI-TPR",
+      "label": "Third-Party AI Risk",
+      "group": true,
+      "controls": [
+        {
+          "ref": "AI-TPR-001",
+          "label": "Provider security certifications are verified annually",
+          "description": "Each AI provider's security certifications (SOC 2 Type II, ISO 27001, etc.) are obtained and re-verified at least annually."
+        },
+        {
+          "ref": "AI-TPR-002",
+          "label": "Sub-processor lists are reviewed on provider update",
+          "description": "The sub-processors each AI provider relies on are tracked and re-reviewed whenever the provider updates its sub-processor list."
+        },
+        {
+          "ref": "AI-TPR-003",
+          "label": "Provider incident response obligations are documented",
+          "description": "Each AI provider's breach-notification and incident-response obligations are documented and aligned with the organization's own incident response plan."
+        },
+        {
+          "ref": "AI-TPR-004",
+          "label": "Provider terms of service changes are monitored",
+          "description": "Changes to AI providers' terms of service, acceptable use, and data-handling policies are monitored, and material changes trigger re-review."
+        }
+      ]
+    },
+    {
+      "ref": "AI-RISK",
+      "label": "AI-Specific Risk",
+      "group": true,
+      "controls": [
+        {
+          "ref": "AI-RISK-001",
+          "label": "AI outputs are not used for automated decisions on individuals without human review",
+          "description": "AI systems are not permitted to make legal or similarly significant automated decisions about individuals without meaningful human review."
+        },
+        {
+          "ref": "AI-RISK-002",
+          "label": "Bias and fairness considerations are documented for customer-facing AI",
+          "description": "For customer-facing AI, bias and fairness risks are assessed and the assessment is documented and reviewed as models change."
+        },
+        {
+          "ref": "AI-RISK-003",
+          "label": "AI system failures have defined fallback procedures",
+          "description": "AI systems that support business processes have documented fallback procedures for when the AI is unavailable, degraded, or produces unreliable output."
+        },
+        {
+          "ref": "AI-RISK-004",
+          "label": "EU AI Act risk classification is assessed where applicable",
+          "description": "For organizations subject to the EU AI Act, each AI system is classified (prohibited, high-risk, limited, minimal) and the classification is documented."
+        }
+      ]
+    },
+    {
+      "ref": "AI-PROG",
+      "label": "AI Governance Program",
+      "group": true,
+      "controls": [
+        {
+          "ref": "AI-PROG-001",
+          "label": "AI acceptable use policy is published and acknowledged",
+          "description": "An AI acceptable use policy is published, communicated, and acknowledged by personnel, and reviewed at least annually."
+        },
+        {
+          "ref": "AI-PROG-002",
+          "label": "AI governance roles and responsibilities are assigned",
+          "description": "Accountability for AI governance is assigned to named roles, with defined responsibilities for approval, oversight, and review."
+        },
+        {
+          "ref": "AI-PROG-003",
+          "label": "AI usage is included in security awareness training",
+          "description": "Personnel receive training on the safe and compliant use of AI tools as part of the security awareness program."
+        },
+        {
+          "ref": "AI-PROG-004",
+          "label": "AI governance posture is reported to leadership periodically",
+          "description": "The AI governance posture — inventory, risk, and control status — is reported to leadership on a defined cadence."
+        }
+      ]
+    }
+  ]
+}
