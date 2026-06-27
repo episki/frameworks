@@ -6,6 +6,7 @@
   "last_updated": "2026-06-27",
   "description": "Self-Assessment Questionnaire A subset of PCI DSS v4.0.1 (37 requirements).",
   "category": "saq",
+  "subset_code": "A",
   "imports": [
     {
       "catalog": "pci-dss-4-0-1",

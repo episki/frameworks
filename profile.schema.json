@@ -42,6 +42,11 @@
       "type": "string",
       "minLength": 1
     },
+    "subset_code": {
+      "description": "Short, stable membership label for this selection, e.g. 'A-EP' or 'lite'. This is the token a loader records against each included control (catalog.controls.subsets) and that consumers filter on. Distinct from `key`, which is the slug identifier.",
+      "type": "string",
+      "minLength": 1
+    },
     "keywords": {
       "type": "array",
       "items": { "type": "string", "minLength": 1 },
