@@ -6,7 +6,8 @@
   "publisher": "UK National Cyber Security Centre",
   "source_url": "https://www.ncsc.gov.uk/cyberessentials/",
   "scf_keys": [
-    "emea-uk-cyber-essentials"
+    "emea-uk-cyber-essentials",
+    "emea-uk-cyber-essentials-3-3"
   ],
   "last_updated": "2025-04-01",
   "description": "UK government-backed certification scheme for protecting against common cyber threats through basic security controls.",
