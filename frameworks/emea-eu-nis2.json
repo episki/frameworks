@@ -1,0 +1,400 @@
+{
+  "key": "emea-eu-nis2",
+  "name": "NIS2 Directive",
+  "short_name": "NIS2",
+  "version": "Directive (EU) 2022/2555",
+  "publisher": "European Union",
+  "source_url": "https://eur-lex.europa.eu/eli/dir/2022/2555/oj",
+  "scf_keys": [
+    "emea-eu-nis2",
+    "emea-eu-nis2-2022"
+  ],
+  "last_updated": "2026-08-25",
+  "description": "EU directive on a high common level of cybersecurity: the governance, risk-management, incident-reporting, registration, and information-sharing obligations that apply to essential and important entities (Articles 20, 21, 23, 24, and 27–30).",
+  "category": "regulation",
+  "keywords": [
+    "cybersecurity",
+    "incident reporting",
+    "critical infrastructure",
+    "european union",
+    "regulation"
+  ],
+  "controls": [
+    {
+      "ref": "Article 20",
+      "label": "Governance",
+      "group": true,
+      "controls": [
+        {
+          "ref": "Article 20.1",
+          "description": "Member States shall ensure that the management bodies of essential and important entities approve the cybersecurity risk-management measures taken by those entities in order to comply with Article 21, oversee its implementation and can be held liable for infringements by the entities of that Article. The application of this paragraph shall be without prejudice to national law as regards the liability rules applicable to public institutions, as well as the liability of public servants and elected or appointed officials."
+        },
+        {
+          "ref": "Article 20.2",
+          "description": "Member States shall ensure that the members of the management bodies of essential and important entities are required to follow training, and shall encourage essential and important entities to offer similar training to their employees on a regular basis, in order that they gain sufficient knowledge and skills to enable them to identify risks and assess cybersecurity risk-management practices and their impact on the services provided by the entity."
+        }
+      ]
+    },
+    {
+      "ref": "Article 21",
+      "label": "Cybersecurity risk-management measures",
+      "group": true,
+      "controls": [
+        {
+          "ref": "Article 21.1",
+          "description": "Member States shall ensure that essential and important entities take appropriate and proportionate technical, operational and organisational measures to manage the risks posed to the security of network and information systems which those entities use for their operations or for the provision of their services, and to prevent or minimise the impact of incidents on recipients of their services and on other services. Taking into account the state-of-the-art and, where applicable, relevant European and international standards, as well as the cost of implementation, the measures referred to in the first subparagraph shall ensure a level of security of network and information systems appropriate to the risks posed. When assessing the proportionality of those measures, due account shall be taken of the degree of the entity’s exposure to risks, the entity’s size and the likelihood of occurrence of incidents and their severity, including their societal and economic impact."
+        },
+        {
+          "ref": "Article 21.2",
+          "description": "The measures referred to in paragraph 1 shall be based on an all-hazards approach that aims to protect network and information systems and the physical environment of those systems from incidents, and shall include at least the following:",
+          "controls": [
+            {
+              "ref": "Article 21.2(a)",
+              "description": "policies on risk analysis and information system security;"
+            },
+            {
+              "ref": "Article 21.2(b)",
+              "description": "incident handling;"
+            },
+            {
+              "ref": "Article 21.2(c)",
+              "description": "business continuity, such as backup management and disaster recovery, and crisis management;"
+            },
+            {
+              "ref": "Article 21.2(d)",
+              "description": "supply chain security, including security-related aspects concerning the relationships between each entity and its direct suppliers or service providers;"
+            },
+            {
+              "ref": "Article 21.2(e)",
+              "description": "security in network and information systems acquisition, development and maintenance, including vulnerability handling and disclosure;"
+            },
+            {
+              "ref": "Article 21.2(f)",
+              "description": "policies and procedures to assess the effectiveness of cybersecurity risk-management measures;"
+            },
+            {
+              "ref": "Article 21.2(g)",
+              "description": "basic cyber hygiene practices and cybersecurity training;"
+            },
+            {
+              "ref": "Article 21.2(h)",
+              "description": "policies and procedures regarding the use of cryptography and, where appropriate, encryption;"
+            },
+            {
+              "ref": "Article 21.2(i)",
+              "description": "human resources security, access control policies and asset management;"
+            },
+            {
+              "ref": "Article 21.2(j)",
+              "description": "the use of multi-factor authentication or continuous authentication solutions, secured voice, video and text communications and secured emergency communication systems within the entity, where appropriate."
+            }
+          ],
+          "group": true
+        },
+        {
+          "ref": "Article 21.3",
+          "description": "Member States shall ensure that, when considering which measures referred to in paragraph 2, point (d), of this Article are appropriate, entities take into account the vulnerabilities specific to each direct supplier and service provider and the overall quality of products and cybersecurity practices of their suppliers and service providers, including their secure development procedures. Member States shall also ensure that, when considering which measures referred to in that point are appropriate, entities are required to take into account the results of the coordinated security risk assessments of critical supply chains carried out in accordance with Article 22(1)."
+        },
+        {
+          "ref": "Article 21.4",
+          "description": "Member States shall ensure that an entity that finds that it does not comply with the measures provided for in paragraph 2 takes, without undue delay, all necessary, appropriate and proportionate corrective measures."
+        },
+        {
+          "ref": "Article 21.5",
+          "description": "By 17 October 2024, the Commission shall adopt implementing acts laying down the technical and the methodological requirements of the measures referred to in paragraph 2 with regard to DNS service providers, TLD name registries, cloud computing service providers, data centre service providers, content delivery network providers, managed service providers, managed security service providers, providers of online market places, of online search engines and of social networking services platforms, and trust service providers. The Commission may adopt implementing acts laying down the technical and the methodological requirements, as well as sectoral requirements, as necessary, of the measures referred to in paragraph 2 with regard to essential and important entities other than those referred to in the first subparagraph of this paragraph. When preparing the implementing acts referred to in the first and second subparagraphs of this paragraph, the Commission shall, to the extent possible, follow European and international standards, as well as relevant technical specifications. The Commission shall exchange advice and cooperate with the Cooperation Group and ENISA on the draft implementing acts in accordance with Article 14(4), point (e). Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 39(2)."
+        }
+      ]
+    },
+    {
+      "ref": "Article 23",
+      "label": "Reporting obligations",
+      "group": true,
+      "controls": [
+        {
+          "ref": "Article 23.1",
+          "description": "Each Member State shall ensure that essential and important entities notify, without undue delay, its CSIRT or, where applicable, its competent authority in accordance with paragraph 4 of any incident that has a significant impact on the provision of their services as referred to in paragraph 3 (significant incident). Where appropriate, entities concerned shall notify, without undue delay, the recipients of their services of significant incidents that are likely to adversely affect the provision of those services. Each Member State shall ensure that those entities report, inter alia, any information enabling the CSIRT or, where applicable, the competent authority to determine any cross-border impact of the incident. The mere act of notification shall not subject the notifying entity to increased liability. Where the entities concerned notify the competent authority of a significant incident under the first subparagraph, the Member State shall ensure that that competent authority forwards the notification to the CSIRT upon receipt. In the case of a cross-border or cross-sectoral significant incident, Member States shall ensure that their single points of contact are provided in due time with relevant information notified in accordance with paragraph 4."
+        },
+        {
+          "ref": "Article 23.2",
+          "description": "Where applicable, Member States shall ensure that essential and important entities communicate, without undue delay, to the recipients of their services that are potentially affected by a significant cyber threat any measures or remedies that those recipients are able to take in response to that threat. Where appropriate, the entities shall also inform those recipients of the significant cyber threat itself."
+        },
+        {
+          "ref": "Article 23.3",
+          "description": "An incident shall be considered to be significant if:",
+          "controls": [
+            {
+              "ref": "Article 23.3(a)",
+              "description": "it has caused or is capable of causing severe operational disruption of the services or financial loss for the entity concerned;"
+            },
+            {
+              "ref": "Article 23.3(b)",
+              "description": "it has affected or is capable of affecting other natural or legal persons by causing considerable material or non-material damage."
+            }
+          ],
+          "group": true
+        },
+        {
+          "ref": "Article 23.4",
+          "description": "Member States shall ensure that, for the purpose of notification under paragraph 1, the entities concerned submit to the CSIRT or, where applicable, the competent authority:\nBy way of derogation from the first subparagraph, point (b), a trust service provider shall, with regard to significant incidents that have an impact on the provision of its trust services, notify the CSIRT or, where applicable, the competent authority, without undue delay and in any event within 24 hours of becoming aware of the significant incident.",
+          "controls": [
+            {
+              "ref": "Article 23.4(a)",
+              "description": "without undue delay and in any event within 24 hours of becoming aware of the significant incident, an early warning, which, where applicable, shall indicate whether the significant incident is suspected of being caused by unlawful or malicious acts or could have a cross-border impact;"
+            },
+            {
+              "ref": "Article 23.4(b)",
+              "description": "without undue delay and in any event within 72 hours of becoming aware of the significant incident, an incident notification, which, where applicable, shall update the information referred to in point (a) and indicate an initial assessment of the significant incident, including its severity and impact, as well as, where available, the indicators of compromise;"
+            },
+            {
+              "ref": "Article 23.4(c)",
+              "description": "upon the request of a CSIRT or, where applicable, the competent authority, an intermediate report on relevant status updates;"
+            },
+            {
+              "ref": "Article 23.4(d)",
+              "description": "a final report not later than one month after the submission of the incident notification under point (b), including the following:",
+              "controls": [
+                {
+                  "ref": "Article 23.4(d)(i)",
+                  "description": "a detailed description of the incident, including its severity and impact;"
+                },
+                {
+                  "ref": "Article 23.4(d)(ii)",
+                  "description": "the type of threat or root cause that is likely to have triggered the incident;"
+                },
+                {
+                  "ref": "Article 23.4(d)(iii)",
+                  "description": "applied and ongoing mitigation measures;"
+                },
+                {
+                  "ref": "Article 23.4(d)(iv)",
+                  "description": "where applicable, the cross-border impact of the incident;"
+                }
+              ],
+              "group": true
+            },
+            {
+              "ref": "Article 23.4(e)",
+              "description": "in the event of an ongoing incident at the time of the submission of the final report referred to in point (d), Member States shall ensure that entities concerned provide a progress report at that time and a final report within one month of their handling of the incident."
+            }
+          ],
+          "group": false
+        },
+        {
+          "ref": "Article 23.5",
+          "description": "The CSIRT or the competent authority shall provide, without undue delay and where possible within 24 hours of receiving the early warning referred to in paragraph 4, point (a), a response to the notifying entity, including initial feedback on the significant incident and, upon request of the entity, guidance or operational advice on the implementation of possible mitigation measures. Where the CSIRT is not the initial recipient of the notification referred to in paragraph 1, the guidance shall be provided by the competent authority in cooperation with the CSIRT. The CSIRT shall provide additional technical support if the entity concerned so requests. Where the significant incident is suspected to be of criminal nature, the CSIRT or the competent authority shall also provide guidance on reporting the significant incident to law enforcement authorities."
+        },
+        {
+          "ref": "Article 23.6",
+          "description": "Where appropriate, and in particular where the significant incident concerns two or more Member States, the CSIRT, the competent authority or the single point of contact shall inform, without undue delay, the other affected Member States and ENISA of the significant incident. Such information shall include the type of information received in accordance with paragraph 4. In so doing, the CSIRT, the competent authority or the single point of contact shall, in accordance with Union or national law, preserve the entity’s security and commercial interests as well as the confidentiality of the information provided."
+        },
+        {
+          "ref": "Article 23.7",
+          "description": "Where public awareness is necessary to prevent a significant incident or to deal with an ongoing significant incident, or where disclosure of the significant incident is otherwise in the public interest, a Member State’s CSIRT or, where applicable, its competent authority, and, where appropriate, the CSIRTs or the competent authorities of other Member States concerned, may, after consulting the entity concerned, inform the public about the significant incident or require the entity to do so."
+        },
+        {
+          "ref": "Article 23.8",
+          "description": "At the request of the CSIRT or the competent authority, the single point of contact shall forward notifications received pursuant to paragraph 1 to the single points of contact of other affected Member States."
+        },
+        {
+          "ref": "Article 23.9",
+          "description": "The single point of contact shall submit to ENISA every three months a summary report, including anonymised and aggregated data on significant incidents, incidents, cyber threats and near misses notified in accordance with paragraph 1 of this Article and with Article 30. In order to contribute to the provision of comparable information, ENISA may adopt technical guidance on the parameters of the information to be included in the summary report. ENISA shall inform the Cooperation Group and the CSIRTs network about its findings on notifications received every six months."
+        },
+        {
+          "ref": "Article 23.10",
+          "description": "The CSIRTs or, where applicable, the competent authorities shall provide to the competent authorities under Directive (EU) 2022/2557 information about significant incidents, incidents, cyber threats and near misses notified in accordance with paragraph 1 of this Article and with Article 30 by entities identified as critical entities under Directive (EU) 2022/2557."
+        },
+        {
+          "ref": "Article 23.11",
+          "description": "The Commission may adopt implementing acts further specifying the type of information, the format and the procedure of a notification submitted pursuant to paragraph 1 of this Article and to Article 30 and of a communication submitted pursuant to paragraph 2 of this Article. By 17 October 2024, the Commission shall, with regard to DNS service providers, TLD name registries, cloud computing service providers, data centre service providers, content delivery network providers, managed service providers, managed security service providers, as well as providers of online marketplaces, of online search engines and of social networking services platforms, adopt implementing acts further specifying the cases in which an incident shall be considered to be significant as referred to in paragraph 3. The Commission may adopt such implementing acts with regard to other essential and important entities. The Commission shall exchange advice and cooperate with the Cooperation Group on the draft implementing acts referred to in the first and second subparagraphs of this paragraph in accordance with Article 14(4), point (e). Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 39(2)."
+        }
+      ]
+    },
+    {
+      "ref": "Article 24",
+      "label": "Use of European cybersecurity certification schemes",
+      "group": true,
+      "controls": [
+        {
+          "ref": "Article 24.1",
+          "description": "In order to demonstrate compliance with particular requirements of Article 21, Member States may require essential and important entities to use particular ICT products, ICT services and ICT processes, developed by the essential or important entity or procured from third parties, that are certified under European cybersecurity certification schemes adopted pursuant to Article 49 of Regulation (EU) 2019/881. Furthermore, Member States shall encourage essential and important entities to use qualified trust services."
+        },
+        {
+          "ref": "Article 24.2",
+          "description": "The Commission is empowered to adopt delegated acts, in accordance with Article 38, to supplement this Directive by specifying which categories of essential and important entities are to be required to use certain certified ICT products, ICT services and ICT processes or obtain a certificate under a European cybersecurity certification scheme adopted pursuant to Article 49 of Regulation (EU) 2019/881. Those delegated acts shall be adopted where insufficient levels of cybersecurity have been identified and shall include an implementation period. Before adopting such delegated acts, the Commission shall carry out an impact assessment and shall carry out consultations in accordance with Article 56 of Regulation (EU) 2019/881."
+        },
+        {
+          "ref": "Article 24.3",
+          "description": "Where no appropriate European cybersecurity certification scheme for the purposes of paragraph 2 of this Article is available, the Commission may, after consulting the Cooperation Group and the European Cybersecurity Certification Group, request ENISA to prepare a candidate scheme pursuant to Article 48(2) of Regulation (EU) 2019/881."
+        }
+      ]
+    },
+    {
+      "ref": "Article 27",
+      "label": "Registry of entities",
+      "group": true,
+      "controls": [
+        {
+          "ref": "Article 27.1",
+          "description": "ENISA shall create and maintain a registry of DNS service providers, TLD name registries, entities providing domain name registration services, cloud computing service providers, data centre service providers, content delivery network providers, managed service providers, managed security service providers, as well as providers of online marketplaces, of online search engines and of social networking services platforms, on the basis of the information received from the single points of contact in accordance with paragraph 4. Upon request, ENISA shall allow the competent authorities access to that registry, while ensuring that the confidentiality of information is protected where applicable."
+        },
+        {
+          "ref": "Article 27.2",
+          "description": "Member States shall require entities referred to in paragraph 1 to submit the following information to the competent authorities by 17 January 2025:",
+          "controls": [
+            {
+              "ref": "Article 27.2(a)",
+              "description": "the name of the entity;"
+            },
+            {
+              "ref": "Article 27.2(b)",
+              "description": "the relevant sector, subsector and type of entity referred to in Annex I or II, where applicable;"
+            },
+            {
+              "ref": "Article 27.2(c)",
+              "description": "the address of the entity’s main establishment and its other legal establishments in the Union or, if not established in the Union, of its representative designated pursuant to Article 26(3);"
+            },
+            {
+              "ref": "Article 27.2(d)",
+              "description": "up-to-date contact details, including email addresses and telephone numbers of the entity and, where applicable, its representative designated pursuant to Article 26(3);"
+            },
+            {
+              "ref": "Article 27.2(e)",
+              "description": "the Member States where the entity provides services; and"
+            },
+            {
+              "ref": "Article 27.2(f)",
+              "description": "the entity’s IP ranges."
+            }
+          ],
+          "group": true
+        },
+        {
+          "ref": "Article 27.3",
+          "description": "Member States shall ensure that the entities referred to in paragraph 1 notify the competent authority about any changes to the information they submitted under paragraph 2 without delay and in any event within three months of the date of the change."
+        },
+        {
+          "ref": "Article 27.4",
+          "description": "Upon receipt of the information referred to in paragraphs 2 and 3, except for that referred to in paragraph 2, point (f), the single point of contact of the Member State concerned shall, without undue delay, forward it to ENISA."
+        },
+        {
+          "ref": "Article 27.5",
+          "description": "Where applicable, the information referred to in paragraphs 2 and 3 of this Article shall be submitted through the national mechanism referred to in Article 3(4), fourth subparagraph."
+        }
+      ]
+    },
+    {
+      "ref": "Article 28",
+      "label": "Database of domain name registration data",
+      "group": true,
+      "controls": [
+        {
+          "ref": "Article 28.1",
+          "description": "For the purpose of contributing to the security, stability and resilience of the DNS, Member States shall require TLD name registries and entities providing domain name registration services to collect and maintain accurate and complete domain name registration data in a dedicated database with due diligence in accordance with Union data protection law as regards data which are personal data."
+        },
+        {
+          "ref": "Article 28.2",
+          "description": "For the purposes of paragraph 1, Member States shall require the database of domain name registration data to contain the necessary information to identify and contact the holders of the domain names and the points of contact administering the domain names under the TLDs. Such information shall include:",
+          "controls": [
+            {
+              "ref": "Article 28.2(a)",
+              "description": "the domain name;"
+            },
+            {
+              "ref": "Article 28.2(b)",
+              "description": "the date of registration;"
+            },
+            {
+              "ref": "Article 28.2(c)",
+              "description": "the registrant’s name, contact email address and telephone number;"
+            },
+            {
+              "ref": "Article 28.2(d)",
+              "description": "the contact email address and telephone number of the point of contact administering the domain name in the event that they are different from those of the registrant."
+            }
+          ],
+          "group": true
+        },
+        {
+          "ref": "Article 28.3",
+          "description": "Member States shall require the TLD name registries and the entities providing domain name registration services to have policies and procedures, including verification procedures, in place to ensure that the databases referred to in paragraph 1 include accurate and complete information. Member States shall require such policies and procedures to be made publicly available."
+        },
+        {
+          "ref": "Article 28.4",
+          "description": "Member States shall require the TLD name registries and the entities providing domain name registration services to make publicly available, without undue delay after the registration of a domain name, the domain name registration data which are not personal data."
+        },
+        {
+          "ref": "Article 28.5",
+          "description": "Member States shall require the TLD name registries and the entities providing domain name registration services to provide access to specific domain name registration data upon lawful and duly substantiated requests by legitimate access seekers, in accordance with Union data protection law. Member States shall require the TLD name registries and the entities providing domain name registration services to reply without undue delay and in any event within 72 hours of receipt of any requests for access. Member States shall require policies and procedures with regard to the disclosure of such data to be made publicly available."
+        },
+        {
+          "ref": "Article 28.6",
+          "description": "Compliance with the obligations laid down in paragraphs 1 to 5 shall not result in a duplication of collecting domain name registration data. To that end, Member States shall require TLD name registries and entities providing domain name registration services to cooperate with each other."
+        }
+      ]
+    },
+    {
+      "ref": "Article 29",
+      "label": "Cybersecurity information-sharing arrangements",
+      "group": true,
+      "controls": [
+        {
+          "ref": "Article 29.1",
+          "description": "Member States shall ensure that entities falling within the scope of this Directive and, where relevant, other entities not falling within the scope of this Directive are able to exchange on a voluntary basis relevant cybersecurity information among themselves, including information relating to cyber threats, near misses, vulnerabilities, techniques and procedures, indicators of compromise, adversarial tactics, threat-actor-specific information, cybersecurity alerts and recommendations regarding configuration of cybersecurity tools to detect cyberattacks, where such information sharing:",
+          "controls": [
+            {
+              "ref": "Article 29.1(a)",
+              "description": "aims to prevent, detect, respond to or recover from incidents or to mitigate their impact;"
+            },
+            {
+              "ref": "Article 29.1(b)",
+              "description": "enhances the level of cybersecurity, in particular through raising awareness in relation to cyber threats, limiting or impeding the ability of such threats to spread, supporting a range of defensive capabilities, vulnerability remediation and disclosure, threat detection, containment and prevention techniques, mitigation strategies, or response and recovery stages or promoting collaborative cyber threat research between public and private entities."
+            }
+          ],
+          "group": true
+        },
+        {
+          "ref": "Article 29.2",
+          "description": "Member States shall ensure that the exchange of information takes place within communities of essential and important entities, and where relevant, their suppliers or service providers. Such exchange shall be implemented through cybersecurity information-sharing arrangements in respect of the potentially sensitive nature of the information shared."
+        },
+        {
+          "ref": "Article 29.3",
+          "description": "Member States shall facilitate the establishment of cybersecurity information-sharing arrangements referred to in paragraph 2 of this Article. Such arrangements may specify operational elements, including the use of dedicated ICT platforms and automation tools, content and conditions of the information-sharing arrangements. In laying down the details of the involvement of public authorities in such arrangements, Member States may impose conditions on the information made available by the competent authorities or the CSIRTs. Member States shall offer assistance for the application of such arrangements in accordance with their policies referred to in Article 7(2), point (h)."
+        },
+        {
+          "ref": "Article 29.4",
+          "description": "Member States shall ensure that essential and important entities notify the competent authorities of their participation in the cybersecurity information-sharing arrangements referred to in paragraph 2, upon entering into such arrangements, or, as applicable, of their withdrawal from such arrangements, once the withdrawal takes effect."
+        },
+        {
+          "ref": "Article 29.5",
+          "description": "ENISA shall provide assistance for the establishment of cybersecurity information-sharing arrangements referred to in paragraph 2 by exchanging best practices and providing guidance."
+        }
+      ]
+    },
+    {
+      "ref": "Article 30",
+      "label": "Voluntary notification of relevant information",
+      "group": true,
+      "controls": [
+        {
+          "ref": "Article 30.1",
+          "description": "Member States shall ensure that, in addition to the notification obligation provided for in Article 23, notifications can be submitted to the CSIRTs or, where applicable, the competent authorities, on a voluntary basis, by:",
+          "controls": [
+            {
+              "ref": "Article 30.1(a)",
+              "description": "essential and important entities with regard to incidents, cyber threats and near misses;"
+            },
+            {
+              "ref": "Article 30.1(b)",
+              "description": "entities other than those referred to in point (a), regardless of whether they fall within the scope of this Directive, with regard to significant incidents, cyber threats and near misses."
+            }
+          ],
+          "group": true
+        },
+        {
+          "ref": "Article 30.2",
+          "description": "Member States shall process the notifications referred to in paragraph 1 of this Article in accordance with the procedure laid down in Article 23. Member States may prioritise the processing of mandatory notifications over voluntary notifications. Where necessary, the CSIRTs and, where applicable, the competent authorities shall provide the single points of contact with the information about notifications received pursuant to this Article, while ensuring the confidentiality and appropriate protection of the information provided by the notifying entity. Without prejudice to the prevention, investigation, detection and prosecution of criminal offences, voluntary reporting shall not result in the imposition of any additional obligations upon the notifying entity to which it would not have been subject had it not submitted the notification."
+        }
+      ]
+    }
+  ]
+}

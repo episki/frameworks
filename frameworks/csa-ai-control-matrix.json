@@ -13,12 +13,14 @@
   ],
   "controls": [
     {
-      "ref": "Application & Interface Security",
+      "ref": "AIS",
+      "label": "Application & Interface Security",
+      "group": true,
       "controls": [
         {
           "ref": "AIS-01",
           "label": "Application and Interface Security Policy and Procedures",
-          "description": "Establish, document, approve, communicate, apply, evaluate and maintain policies and procedures for application security. Review[ ](http://security.Review)and update the policies and procedures at least annually or after significant system changes."
+          "description": "Establish, document, approve, communicate, apply, evaluate and maintain policies and procedures for application security. Review and update the policies and procedures at least annually or after significant system changes."
         },
         {
           "ref": "AIS-02",
@@ -93,7 +95,9 @@
       ]
     },
     {
-      "ref": "Audit & Assurance",
+      "ref": "A&A",
+      "label": "Audit & Assurance",
+      "group": true,
       "controls": [
         {
           "ref": "A&A-01",
@@ -128,32 +132,9 @@
       ]
     },
     {
-      "ref": "Audit & Assurance",
-      "controls": [
-        {
-          "ref": "A&A-01",
-          "label": "Audit and Assurance Policy and Procedures",
-          "description": "Establish, document, approve, communicate, apply, evaluate and maintain audit and assurance policies and procedures and standards. Review and update the policies and procedures at least annually or upon significant changes."
-        },
-        {
-          "ref": "A&A-02",
-          "label": "Independent Assessments",
-          "description": "Conduct independent audit and assurance assessments according to relevant standards at least annually."
-        }
-      ]
-    },
-    {
-      "ref": "Audit & Assurance",
-      "controls": [
-        {
-          "ref": "A&A-01",
-          "label": "Audit and Assurance Policy and Procedures",
-          "description": "Establish, document, approve, communicate, apply, evaluate and maintain audit and assurance policies and procedures and standards. Review and update the policies and procedures at least annually or upon significant changes."
-        }
-      ]
-    },
-    {
-      "ref": "Business Continuity Management and Operational Resilience",
+      "ref": "BCR",
+      "label": "Business Continuity Management and Operational Resilience",
+      "group": true,
       "controls": [
         {
           "ref": "BCR-01",
@@ -213,7 +194,9 @@
       ]
     },
     {
-      "ref": "Change Control and Configuration Management",
+      "ref": "CCC",
+      "label": "Change Control and Configuration Management",
+      "group": true,
       "controls": [
         {
           "ref": "CCC-01",
@@ -263,7 +246,9 @@
       ]
     },
     {
-      "ref": "Cryptography, Encryption & Key Management",
+      "ref": "CEK",
+      "label": "Cryptography, Encryption & Key Management",
+      "group": true,
       "controls": [
         {
           "ref": "CEK-01",
@@ -373,7 +358,9 @@
       ]
     },
     {
-      "ref": "Data Security and Privacy Lifecycle Management",
+      "ref": "DSP",
+      "label": "Data Security and Privacy Lifecycle Management",
+      "group": true,
       "controls": [
         {
           "ref": "DSP-01",
@@ -498,7 +485,9 @@
       ]
     },
     {
-      "ref": "Datacenter Security",
+      "ref": "DCS",
+      "label": "Datacenter Security",
+      "group": true,
       "controls": [
         {
           "ref": "DCS-01",
@@ -578,7 +567,9 @@
       ]
     },
     {
-      "ref": "Governance, Risk and Compliance",
+      "ref": "GRC",
+      "label": "Governance, Risk and Compliance",
+      "group": true,
       "controls": [
         {
           "ref": "GRC-01",
@@ -658,7 +649,9 @@
       ]
     },
     {
-      "ref": "Human Resources",
+      "ref": "HRS",
+      "label": "Human Resources",
+      "group": true,
       "controls": [
         {
           "ref": "HRS-01",
@@ -738,7 +731,9 @@
       ]
     },
     {
-      "ref": "Identity & Access Management",
+      "ref": "IAM",
+      "label": "Identity & Access Management",
+      "group": true,
       "controls": [
         {
           "ref": "IAM-01",
@@ -838,7 +833,9 @@
       ]
     },
     {
-      "ref": "Infrastructure Security",
+      "ref": "I&S",
+      "label": "Infrastructure Security",
+      "group": true,
       "controls": [
         {
           "ref": "I&S-01",
@@ -888,7 +885,9 @@
       ]
     },
     {
-      "ref": "Interoperability & Portability",
+      "ref": "IPY",
+      "label": "Interoperability & Portability",
+      "group": true,
       "controls": [
         {
           "ref": "IPY-01",
@@ -913,7 +912,9 @@
       ]
     },
     {
-      "ref": "Logging and Monitoring",
+      "ref": "LOG",
+      "label": "Logging and Monitoring",
+      "group": true,
       "controls": [
         {
           "ref": "LOG-01",
@@ -993,7 +994,9 @@
       ]
     },
     {
-      "ref": "Model Security",
+      "ref": "MDS",
+      "label": "Model Security",
+      "group": true,
       "controls": [
         {
           "ref": "MDS-01",
@@ -1063,7 +1066,9 @@
       ]
     },
     {
-      "ref": "Security Incident Management, E-Discovery, & Cloud Forensics",
+      "ref": "SEF",
+      "label": "Security Incident Management, E-Discovery, & Cloud Forensics",
+      "group": true,
       "controls": [
         {
           "ref": "SEF-01",
@@ -1113,7 +1118,9 @@
       ]
     },
     {
-      "ref": "Supply Chain Management, Transparency, and Accountability",
+      "ref": "STA",
+      "label": "Supply Chain Management, Transparency, and Accountability",
+      "group": true,
       "controls": [
         {
           "ref": "STA-01",
@@ -1198,7 +1205,9 @@
       ]
     },
     {
-      "ref": "Threat & Vulnerability Management",
+      "ref": "TVM",
+      "label": "Threat & Vulnerability Management",
+      "group": true,
       "controls": [
         {
           "ref": "TVM-01",
@@ -1268,7 +1277,9 @@
       ]
     },
     {
-      "ref": "Universal Endpoint Management",
+      "ref": "UEM",
+      "label": "Universal Endpoint Management",
+      "group": true,
       "controls": [
         {
           "ref": "UEM-01",

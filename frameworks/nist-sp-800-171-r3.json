@@ -1,0 +1,893 @@
+{
+  "key": "nist-sp-800-171-r3",
+  "name": "NIST SP 800-171",
+  "short_name": "NIST 800-171",
+  "version": "Rev 3",
+  "publisher": "National Institute of Standards and Technology",
+  "source_url": "https://csrc.nist.gov/pubs/sp/800/171/r3/final",
+  "scf_keys": [
+    "nist-sp-800-171-r3",
+    "nist-sp-800-171-rev3"
+  ],
+  "last_updated": "2026-08-25",
+  "description": "Security requirements for protecting the confidentiality of Controlled Unclassified Information (CUI) in nonfederal systems and organizations. The requirements CMMC Level 2 assesses against.",
+  "category": "framework",
+  "keywords": [
+    "cybersecurity",
+    "cui",
+    "cmmc",
+    "defense",
+    "federal",
+    "framework"
+  ],
+  "controls": [
+    {
+      "ref": "03.01",
+      "label": "Access Control",
+      "group": true,
+      "controls": [
+        {
+          "ref": "03.01.01",
+          "label": "Account Management",
+          "description": "a. Define the types of system accounts allowed and prohibited.\nb. Create, enable, modify, disable, and remove system accounts in accordance with policy, procedures, prerequisites, and criteria.\nc. Specify:\n  c.01. Authorized users of the system,\n  c.02. Group and role membership, and\n  c.03. Access authorizations (i.e., privileges) for each account.\nd. Authorize access to the system based on:\n  d.01. A valid access authorization and\n  d.02. Intended system usage.\ne. Monitor the use of system accounts.\nf. Disable system accounts when:\n  f.01. The accounts have expired,\n  f.02. The accounts have been inactive for [Assignment: organization-defined time period],\n  f.03. The accounts are no longer associated with a user or individual,\n  f.04. The accounts are in violation of organizational policy, or\n  f.05. Significant risks associated with individuals are discovered.\ng. Notify account managers and designated personnel or roles within:\n  g.01. [Assignment: organization-defined time period] when accounts are no longer required.\n  g.02. [Assignment: organization-defined time period] when users are terminated or transferred.\n  g.03. [Assignment: organization-defined time period] when system usage or the need-to-know changes for an individual.\nh. Require that users log out of the system after [Assignment: organization-defined time period] of expected inactivity or when [Assignment: organization-defined circumstances]."
+        },
+        {
+          "ref": "03.01.02",
+          "label": "Access Enforcement",
+          "description": "Enforce approved authorizations for logical access to CUI and system resources in accordance with applicable access control policies."
+        },
+        {
+          "ref": "03.01.03",
+          "label": "Information Flow Enforcement",
+          "description": "Enforce approved authorizations for controlling the flow of CUI within the system and between connected systems."
+        },
+        {
+          "ref": "03.01.04",
+          "label": "Separation of Duties",
+          "description": "a. Identify the duties of individuals requiring separation.\nb. Define system access authorizations to support separation of duties."
+        },
+        {
+          "ref": "03.01.05",
+          "label": "Least Privilege",
+          "description": "a. Allow only authorized system access for users (or processes acting on behalf of users) that is necessary to accomplish assigned organizational tasks.\nb. Authorize access to [Assignment: organization-defined security functions] and [Assignment: organization-defined security-relevant information].\nc. Review the privileges assigned to roles or classes of users [Assignment: organization-defined frequency] to validate the need for such privileges.\nd. Reassign or remove privileges, as necessary."
+        },
+        {
+          "ref": "03.01.06",
+          "label": "Least Privilege – Privileged Accounts",
+          "description": "a. Restrict privileged accounts on the system to [Assignment: organization-defined personnel or roles]..\nb. Require that users (or roles) with privileged accounts use non-privileged accounts when accessing non-security functions or non-security information."
+        },
+        {
+          "ref": "03.01.07",
+          "label": "Least Privilege – Privileged Functions",
+          "description": "a. Prevent non-privileged users from executing privileged functions.\nb. Log the execution of privileged functions."
+        },
+        {
+          "ref": "03.01.08",
+          "label": "Unsuccessful Logon Attempts",
+          "description": "a. Enforce a limit of [Assignment: organization-defined number] consecutive invalid logon attempts by a user during a [Assignment: organization-defined time period].\nb. Automatically [Selection (one or more): lock the account or node for an {{ insert: param, A.03.01.08.ODP.04 }}; lock the account or node until released by an administrator; delay next logon prompt; notify system administrator; take other action] when the maximum number of unsuccessful attempts is exceeded."
+        },
+        {
+          "ref": "03.01.09",
+          "label": "System Use Notification",
+          "description": "Display a system use notification message with privacy and security notices consistent with applicable CUI rules before granting access to the system."
+        },
+        {
+          "ref": "03.01.10",
+          "label": "Device Lock",
+          "description": "a. Prevent access to the system by [Selection (one or more): initiating a device lock after {{ insert: param, A.03.01.10.ODP.02 }} of inactivity; requiring the user to initiate a device lock before leaving the system unattended].\nb. Retain the device lock until the user reestablishes access using established identification and authentication procedures.\nc. Conceal, via the device lock, information previously visible on the display with a publicly viewable image."
+        },
+        {
+          "ref": "03.01.11",
+          "label": "Session Termination",
+          "description": "Terminate a user session automatically after [Assignment: organization-defined conditions or trigger events requiring session disconnect]."
+        },
+        {
+          "ref": "03.01.12",
+          "label": "Remote Access",
+          "description": "a. Establish usage restrictions, configuration requirements, and connection requirements for each type of allowable remote system access.\nb. Authorize each type of remote system access prior to establishing such connections.\nc. Route remote access to the system through authorized and managed access control points.\nd. Authorize the remote execution of privileged commands and remote access to security-relevant information."
+        },
+        {
+          "ref": "03.01.13",
+          "label": "Withdrawn",
+          "description": "Withdrawn — addressed by 03.13.08.",
+          "tags": [
+            "withdrawn"
+          ]
+        },
+        {
+          "ref": "03.01.14",
+          "label": "Withdrawn",
+          "description": "Withdrawn.",
+          "tags": [
+            "withdrawn"
+          ]
+        },
+        {
+          "ref": "03.01.15",
+          "label": "Withdrawn",
+          "description": "Withdrawn.",
+          "tags": [
+            "withdrawn"
+          ]
+        },
+        {
+          "ref": "03.01.16",
+          "label": "Wireless Access",
+          "description": "a. Establish usage restrictions, configuration requirements, and connection requirements for each type of wireless access to the system.\nb. Authorize each type of wireless access to the system prior to establishing such connections.\nc. Disable, when not intended for use, wireless networking capabilities prior to issuance and deployment.\nd. Protect wireless access to the system using authentication and encryption."
+        },
+        {
+          "ref": "03.01.17",
+          "label": "Withdrawn",
+          "description": "Withdrawn.",
+          "tags": [
+            "withdrawn"
+          ]
+        },
+        {
+          "ref": "03.01.18",
+          "label": "Access Control for Mobile Devices",
+          "description": "a. Establish usage restrictions, configuration requirements, and connection requirements for mobile devices.\nb. Authorize the connection of mobile devices to the system.\nc. Implement full-device or container-based encryption to protect the confidentiality of CUI on mobile devices."
+        },
+        {
+          "ref": "03.01.19",
+          "label": "Withdrawn",
+          "description": "Withdrawn.",
+          "tags": [
+            "withdrawn"
+          ]
+        },
+        {
+          "ref": "03.01.20",
+          "label": "Use of External Systems",
+          "description": "a. Prohibit the use of external systems unless the systems are specifically authorized.\nb. Establish the following security requirements to be satisfied on external systems prior to allowing use of or access to those systems by authorized individuals: [Assignment: organization-defined security requirements].\nc. Permit authorized individuals to use external systems to access the organizational system or to process, store, or transmit CUI only after:\n  c.01. Verifying that the security requirements on the external systems as specified in the organization’s system security plans have been satisfied and\n  c.02. Retaining approved system connection or processing agreements with the organizational entities hosting the external systems.\nd. Restrict the use of organization-controlled portable storage devices by authorized individuals on external systems."
+        },
+        {
+          "ref": "03.01.21",
+          "label": "Withdrawn",
+          "description": "Withdrawn.",
+          "tags": [
+            "withdrawn"
+          ]
+        },
+        {
+          "ref": "03.01.22",
+          "label": "Publicly Accessible Content",
+          "description": "a. Train authorized individuals to ensure that publicly accessible information does not contain CUI.\nb. Review the content on publicly accessible systems for CUI and remove such information, if discovered."
+        }
+      ]
+    },
+    {
+      "ref": "03.02",
+      "label": "Awareness and Training",
+      "group": true,
+      "controls": [
+        {
+          "ref": "03.02.01",
+          "label": "Literacy Training and Awareness",
+          "description": "a. Provide security literacy training to system users:\n  a.01. As part of initial training for new users and [Assignment: organization-defined frequency] thereafter,\n  a.02. When required by system changes or following [Assignment: organization-defined events], and\n  a.03. On recognizing and reporting indicators of insider threat, social engineering, and social mining.\nb. Update security literacy training content [Assignment: organization-defined frequency] and following [Assignment: organization-defined events]."
+        },
+        {
+          "ref": "03.02.02",
+          "label": "Role-Based Training",
+          "description": "a. Provide role-based security training to organizational personnel:\n  a.01. Before authorizing access to the system or CUI, before performing assigned duties, and [Assignment: organization-defined frequency] thereafter\n  a.02. When required by system changes or following [Assignment: organization-defined events].\nb. Update role-based training content [Assignment: organization-defined frequency] and following [Assignment: organization-defined events]."
+        },
+        {
+          "ref": "03.02.03",
+          "label": "Withdrawn",
+          "description": "Withdrawn.",
+          "tags": [
+            "withdrawn"
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "03.03",
+      "label": "Audit and Accountability",
+      "group": true,
+      "controls": [
+        {
+          "ref": "03.03.01",
+          "label": "Event Logging",
+          "description": "a. Specify the following event types selected for logging within the system: [Assignment: organization-defined event types].\nb. Review and update the event types selected for logging [Assignment: organization-defined frequency]."
+        },
+        {
+          "ref": "03.03.02",
+          "label": "Audit Record Content",
+          "description": "a. Include the following content in audit records:\n  a.01. What type of event occurred\n  a.02. When the event occurred\n  a.03. Where the event occurred\n  a.04. Source of the event\n  a.05. Outcome of the event\n  a.06. Identity of the individuals, subjects, objects, or entities associated with the event\nb. Provide additional information for audit records as needed."
+        },
+        {
+          "ref": "03.03.03",
+          "label": "Audit Record Generation",
+          "description": "a. Generate audit records for the selected event types and audit record content specified in 03.03.01 and 03.03.02.\nb. Retain audit records for a time period consistent with the records retention policy."
+        },
+        {
+          "ref": "03.03.04",
+          "label": "Response to Audit Logging Process Failures",
+          "description": "a. Alert organizational personnel or roles within [Assignment: organization-defined time period] in the event of an audit logging process failure.\nb. Take the following additional actions: [Assignment: organization-defined additional actions]."
+        },
+        {
+          "ref": "03.03.05",
+          "label": "Audit Record Review, Analysis, and Reporting",
+          "description": "a. Review and analyze system audit records [Assignment: organization-defined frequency] for indications and the potential impact of inappropriate or unusual activity.\nb. Report findings to organizational personnel or roles.\nc. Analyze and correlate audit records across different repositories to gain organization-wide situational awareness."
+        },
+        {
+          "ref": "03.03.06",
+          "label": "Audit Record Reduction and Report Generation",
+          "description": "a. Implement an audit record reduction and report generation capability that supports audit record review, analysis, reporting requirements, and after-the-fact investigations of incidents.\nb. Preserve the original content and time ordering of audit records."
+        },
+        {
+          "ref": "03.03.07",
+          "label": "Time Stamps",
+          "description": "a. Use internal system clocks to generate time stamps for audit records.\nb. Record time stamps for audit records that meet [Assignment: organization-defined granularity of time measurement] and that use Coordinated Universal Time (UTC), have a fixed local time offset from UTC, or include the local time offset as part of the time stamp."
+        },
+        {
+          "ref": "03.03.08",
+          "label": "Protection of Audit Information",
+          "description": "a. Protect audit information and audit logging tools from unauthorized access, modification, and deletion.\nb. Authorize access to management of audit logging functionality to only a subset of privileged users or roles."
+        },
+        {
+          "ref": "03.03.09",
+          "label": "Withdrawn",
+          "description": "Withdrawn.",
+          "tags": [
+            "withdrawn"
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "03.04",
+      "label": "Configuration Management",
+      "group": true,
+      "controls": [
+        {
+          "ref": "03.04.01",
+          "label": "Baseline Configuration",
+          "description": "a. Develop and maintain under configuration control, a current baseline configuration of the system.\nb. Review and update the baseline configuration of the system [Assignment: organization-defined frequency] and when system components are installed or modified."
+        },
+        {
+          "ref": "03.04.02",
+          "label": "Configuration Settings",
+          "description": "a. Establish, document, and implement the following configuration settings for the system that reflect the most restrictive mode consistent with operational requirements: [Assignment: organization-defined configuration settings].\nb. Identify, document, and approve any deviations from established configuration settings."
+        },
+        {
+          "ref": "03.04.03",
+          "label": "Configuration Change Control",
+          "description": "a. Define the types of changes to the system that are configuration-controlled.\nb. Review proposed configuration-controlled changes to the system, and approve or disapprove such changes with explicit consideration for security impacts.\nc. Implement and document approved configuration-controlled changes to the system.\nd. Monitor and review activities associated with configuration-controlled changes to the system."
+        },
+        {
+          "ref": "03.04.04",
+          "label": "Impact Analyses",
+          "description": "a. Analyze changes to the system to determine potential security impacts prior to change implementation.\nb. Verify that the security requirements for the system continue to be satisfied after the system changes have been implemented."
+        },
+        {
+          "ref": "03.04.05",
+          "label": "Access Restrictions for Change",
+          "description": "Define, document, approve, and enforce physical and logical access restrictions associated with changes to the system."
+        },
+        {
+          "ref": "03.04.06",
+          "label": "Least Functionality",
+          "description": "a. Configure the system to provide only mission-essential capabilities.\nb. Prohibit or restrict use of the following functions, ports, protocols, connections, and services: [Assignment: organization-defined functions, ports, protocols, connections, and services].\nc. Review the system [Assignment: organization-defined frequency] to identify unnecessary or nonsecure functions, ports, protocols, connections, and services.\nd. Disable or remove functions, ports, protocols, connections, and services that are unnecessary or nonsecure."
+        },
+        {
+          "ref": "03.04.07",
+          "label": "Withdrawn",
+          "description": "Withdrawn.",
+          "tags": [
+            "withdrawn"
+          ]
+        },
+        {
+          "ref": "03.04.08",
+          "label": "Authorized Software – Allow by Exception",
+          "description": "a. Identify software programs authorized to execute on the system.\nb. Implement a deny-all, allow-by-exception policy for the execution of authorized software programs on the system.\nc. Review and update the list of authorized software programs [Assignment: organization-defined frequency]."
+        },
+        {
+          "ref": "03.04.09",
+          "label": "Withdrawn",
+          "description": "Withdrawn — addressed by 03.01.05, 03.01.06, 03.01.07, 03.04.08, 03.12.03.",
+          "tags": [
+            "withdrawn"
+          ]
+        },
+        {
+          "ref": "03.04.10",
+          "label": "System Component Inventory",
+          "description": "a. Develop and document an inventory of system components.\nb. Review and update the system component inventory [Assignment: organization-defined frequency].\nc. Update the system component inventory as part of installations, removals, and system updates."
+        },
+        {
+          "ref": "03.04.11",
+          "label": "Information Location",
+          "description": "a. Identify and document the location of CUI and the system components on which the information is processed and stored.\nb. Document changes to the system or system component location where CUI is processed and stored."
+        },
+        {
+          "ref": "03.04.12",
+          "label": "System and Component Configuration for High-Risk Areas",
+          "description": "a. Issue systems or system components with the following configurations to individuals traveling to high-risk locations: [Assignment: organization-defined system configurations].\nb. Apply the following security requirements to the systems or components when the individuals return from travel: [Assignment: organization-defined security requirements]."
+        }
+      ]
+    },
+    {
+      "ref": "03.05",
+      "label": "Identification and Authentication",
+      "group": true,
+      "controls": [
+        {
+          "ref": "03.05.01",
+          "label": "User Identification and Authentication",
+          "description": "a. Uniquely identify and authenticate system users, and associate that unique identification with processes acting on behalf of those users.\nb. Re-authenticate users when [Assignment: organization-defined circumstances or situations requiring re-authentication]."
+        },
+        {
+          "ref": "03.05.02",
+          "label": "Device Identification and Authentication",
+          "description": "Uniquely identify and authenticate [Assignment: organization-defined devices or types of devices] before establishing a system connection."
+        },
+        {
+          "ref": "03.05.03",
+          "label": "Multi-Factor Authentication",
+          "description": "Implement multi-factor authentication for access to privileged and non-privileged accounts."
+        },
+        {
+          "ref": "03.05.04",
+          "label": "Replay-Resistant Authentication",
+          "description": "Implement replay-resistant authentication mechanisms for access to privileged and non-privileged accounts."
+        },
+        {
+          "ref": "03.05.05",
+          "label": "Identifier Management",
+          "description": "a. Receive authorization from organizational personnel or roles to assign an individual, group, role, service, or device identifier.\nb. Select and assign an identifier that identifies an individual, group, role, service, or device.\nc. Prevent the reuse of identifiers for [Assignment: organization-defined time period].\nd. Manage individual identifiers by uniquely identifying each individual as [Assignment: organization-defined characteristic identifying individual status]."
+        },
+        {
+          "ref": "03.05.06",
+          "label": "Withdrawn",
+          "description": "Withdrawn.",
+          "tags": [
+            "withdrawn"
+          ]
+        },
+        {
+          "ref": "03.05.07",
+          "label": "Password Management",
+          "description": "a. Maintain a list of commonly-used, expected, or compromised passwords, and update the list [Assignment: organization-defined frequency] and when organizational passwords are suspected to have been compromised.\nb. Verify that passwords are not found on the list of commonly used, expected, or compromised passwords when users create or update passwords.\nc. Transmit passwords only over cryptographically protected channels.\nd. Store passwords in a cryptographically protected form.\ne. Select a new password upon first use after account recovery.\nf. Enforce the following composition and complexity rules for passwords: [Assignment: organization-defined composition and complexity rules]."
+        },
+        {
+          "ref": "03.05.08",
+          "label": "Withdrawn",
+          "description": "Withdrawn.",
+          "tags": [
+            "withdrawn"
+          ]
+        },
+        {
+          "ref": "03.05.09",
+          "label": "Withdrawn",
+          "description": "Withdrawn.",
+          "tags": [
+            "withdrawn"
+          ]
+        },
+        {
+          "ref": "03.05.10",
+          "label": "Withdrawn",
+          "description": "Withdrawn.",
+          "tags": [
+            "withdrawn"
+          ]
+        },
+        {
+          "ref": "03.05.11",
+          "label": "Authentication Feedback",
+          "description": "Obscure feedback of authentication information during the authentication process."
+        },
+        {
+          "ref": "03.05.12",
+          "label": "Authenticator Management",
+          "description": "a. Verify the identity of the individual, group, role, service, or device receiving the authenticator as part of the initial authenticator distribution.\nb. Establish initial authenticator content for any authenticators issued by the organization.\nc. Establish and implement administrative procedures for initial authenticator distribution; for lost, compromised, or damaged authenticators; and for revoking authenticators.\nd. Change default authenticators at first use.\ne. Change or refresh authenticators [Assignment: organization-defined frequency] or when the following events occur: [Assignment: organization-defined events].\nf. Protect authenticator content from unauthorized disclosure and modification."
+        }
+      ]
+    },
+    {
+      "ref": "03.06",
+      "label": "Incident Response",
+      "group": true,
+      "controls": [
+        {
+          "ref": "03.06.01",
+          "label": "Incident Handling",
+          "description": "Implement an incident-handling capability that is consistent with the incident response plan and includes preparation, detection and analysis, containment, eradication, and recovery."
+        },
+        {
+          "ref": "03.06.02",
+          "label": "Incident Monitoring, Reporting, and Response Assistance",
+          "description": "a. Track and document system security incidents.\nb. Report suspected incidents to the organizational incident response capability within [Assignment: organization-defined time period].\nc. Report incident information to [Assignment: organization-defined authorities].\nd. Provide an incident response support resource that offers advice and assistance to system users on handling and reporting incidents."
+        },
+        {
+          "ref": "03.06.03",
+          "label": "Incident Response Testing",
+          "description": "Test the effectiveness of the incident response capability [Assignment: organization-defined frequency]."
+        },
+        {
+          "ref": "03.06.04",
+          "label": "Incident Response Training",
+          "description": "a. Provide incident response training to system users consistent with assigned roles and responsibilities:\n  a.01. Within [Assignment: organization-defined time period] of assuming an incident response role or responsibility or acquiring system access,\n  a.02. When required by system changes, and\n  a.03. [Assignment: organization-defined frequency] thereafter.\nb. Review and update incident response training content [Assignment: organization-defined frequency] and following [Assignment: organization-defined events]."
+        },
+        {
+          "ref": "03.06.05",
+          "label": "Incident Response Plan",
+          "description": "a. Develop an incident response plan that:\n  a.01. Provides the organization with a roadmap for implementing its incident response capability,\n  a.02. Describes the structure and organization of the incident response capability,\n  a.03. Provides a high-level approach for how the incident response capability fits into the overall organization,\n  a.04. Defines reportable incidents,\n  a.05. Addresses the sharing of incident information, and\n  a.06. Designates responsibilities to organizational entities, personnel, or roles.\nb. Distribute copies of the incident response plan to designated incident response personnel (identified by name and/or by role) and organizational elements.\nc. Update the incident response plan to address system and organizational changes or problems encountered during plan implementation, execution, or testing.\nd. Protect the incident response plan from unauthorized disclosure."
+        }
+      ]
+    },
+    {
+      "ref": "03.07",
+      "label": "Maintenance",
+      "group": true,
+      "controls": [
+        {
+          "ref": "03.07.01",
+          "label": "Withdrawn",
+          "description": "Withdrawn.",
+          "tags": [
+            "withdrawn"
+          ]
+        },
+        {
+          "ref": "03.07.02",
+          "label": "Withdrawn",
+          "description": "Withdrawn.",
+          "tags": [
+            "withdrawn"
+          ]
+        },
+        {
+          "ref": "03.07.03",
+          "label": "Withdrawn",
+          "description": "Withdrawn.",
+          "tags": [
+            "withdrawn"
+          ]
+        },
+        {
+          "ref": "03.07.04",
+          "label": "Maintenance Tools",
+          "description": "a. Approve, control, and monitor the use of system maintenance tools.\nb. Check media with diagnostic and test programs for malicious code before it is used in the system.\nc. Prevent the removal of system maintenance equipment containing CUI by verifying that there is no CUI on the equipment, sanitizing or destroying the equipment, or retaining the equipment within the facility."
+        },
+        {
+          "ref": "03.07.05",
+          "label": "Nonlocal Maintenance",
+          "description": "a. Approve and monitor nonlocal maintenance and diagnostic activities.\nb. Implement multi-factor authentication and replay resistance in the establishment of nonlocal maintenance and diagnostic sessions.\nc. Terminate session and network connections when nonlocal maintenance is completed."
+        },
+        {
+          "ref": "03.07.06",
+          "label": "Maintenance Personnel",
+          "description": "a. Establish a process for maintenance personnel authorization.\nb. Maintain a list of authorized maintenance organizations or personnel.\nc. Verify that non-escorted personnel who perform maintenance on the system possess the required access authorizations.\nd. Designate organizational personnel with required access authorizations and technical competence to supervise the maintenance activities of personnel who do not possess the required access authorizations."
+        }
+      ]
+    },
+    {
+      "ref": "03.08",
+      "label": "Media Protection",
+      "group": true,
+      "controls": [
+        {
+          "ref": "03.08.01",
+          "label": "Media Storage",
+          "description": "Physically control and securely store system media that contain CUI."
+        },
+        {
+          "ref": "03.08.02",
+          "label": "Media Access",
+          "description": "Restrict access to CUI on system media to authorized personnel or roles."
+        },
+        {
+          "ref": "03.08.03",
+          "label": "Media Sanitization",
+          "description": "Sanitize system media that contain CUI prior to disposal, release out of organizational control, or release for reuse."
+        },
+        {
+          "ref": "03.08.04",
+          "label": "Media Marking",
+          "description": "Mark system media that contain CUI to indicate distribution limitations, handling caveats, and applicable CUI markings."
+        },
+        {
+          "ref": "03.08.05",
+          "label": "Media Transport",
+          "description": "a. Protect and control system media that contain CUI during transport outside of controlled areas.\nb. Maintain accountability of system media that contain CUI during transport outside of controlled areas.\nc. Document activities associated with the transport of system media that contain CUI."
+        },
+        {
+          "ref": "03.08.06",
+          "label": "Withdrawn",
+          "description": "Withdrawn.",
+          "tags": [
+            "withdrawn"
+          ]
+        },
+        {
+          "ref": "03.08.07",
+          "label": "Media Use",
+          "description": "a. Restrict or prohibit the use of [Assignment: organization-defined types of system media].\nb. Prohibit the use of removable system media without an identifiable owner."
+        },
+        {
+          "ref": "03.08.08",
+          "label": "Withdrawn",
+          "description": "Withdrawn.",
+          "tags": [
+            "withdrawn"
+          ]
+        },
+        {
+          "ref": "03.08.09",
+          "label": "System Backup – Cryptographic Protection",
+          "description": "a. Protect the confidentiality of backup information.\nb. Implement cryptographic mechanisms to prevent the unauthorized disclosure of CUI at backup storage locations."
+        }
+      ]
+    },
+    {
+      "ref": "03.09",
+      "label": "Personnel Security",
+      "group": true,
+      "controls": [
+        {
+          "ref": "03.09.01",
+          "label": "Personnel Screening",
+          "description": "a. Screen individuals prior to authorizing access to the system.\nb. Rescreen individuals in accordance with [Assignment: organization-defined conditions requiring rescreening]."
+        },
+        {
+          "ref": "03.09.02",
+          "label": "Personnel Termination and Transfer",
+          "description": "a. When individual employment is terminated:\n  a.01. Disable system access within [Assignment: organization-defined time period],\n  a.02. Terminate or revoke authenticators and credentials associated with the individual, and\n  a.03. Retrieve security-related system property.\nb. When individuals are reassigned or transferred to other positions in the organization:\n  b.01. Review and confirm the ongoing operational need for current logical and physical access authorizations to the system and facility, and\n  b.02. Modify access authorization to correspond with any changes in operational need."
+        }
+      ]
+    },
+    {
+      "ref": "03.10",
+      "label": "Physical Protection",
+      "group": true,
+      "controls": [
+        {
+          "ref": "03.10.01",
+          "label": "Physical Access Authorizations",
+          "description": "a. Develop, approve, and maintain a list of individuals with authorized access to the facility where the system resides.\nb. Issue authorization credentials for facility access.\nc. Review the facility access list [Assignment: organization-defined frequency].\nd. Remove individuals from the facility access list when access is no longer required."
+        },
+        {
+          "ref": "03.10.02",
+          "label": "Monitoring Physical Access",
+          "description": "a. Monitor physical access to the facility where the system resides to detect and respond to physical security incidents.\nb. Review physical access logs [Assignment: organization-defined frequency] and upon occurrence of [Assignment: organization-defined events or potential indications of events]."
+        },
+        {
+          "ref": "03.10.03",
+          "label": "Withdrawn",
+          "description": "Withdrawn.",
+          "tags": [
+            "withdrawn"
+          ]
+        },
+        {
+          "ref": "03.10.04",
+          "label": "Withdrawn",
+          "description": "Withdrawn.",
+          "tags": [
+            "withdrawn"
+          ]
+        },
+        {
+          "ref": "03.10.05",
+          "label": "Withdrawn",
+          "description": "Withdrawn.",
+          "tags": [
+            "withdrawn"
+          ]
+        },
+        {
+          "ref": "03.10.06",
+          "label": "Alternate Work Site",
+          "description": "a. Determine alternate work sites allowed for use by employees.\nb. Employ the following security requirements at alternate work sites: [Assignment: organization-defined security requirements]."
+        },
+        {
+          "ref": "03.10.07",
+          "label": "Physical Access Control",
+          "description": "a. Enforce physical access authorizations at entry and exit points to the facility where the system resides by:\n  a.01. Verifying individual physical access authorizations before granting access to the facility and\n  a.02. Controlling ingress and egress with physical access control systems, devices, or guards.\nb. Maintain physical access audit logs for entry or exit points.\nc. Escort visitors, and control visitor activity.\nd. Secure keys, combinations, and other physical access devices.\ne. Control physical access to output devices to prevent unauthorized individuals from obtaining access to CUI."
+        },
+        {
+          "ref": "03.10.08",
+          "label": "Access Control for Transmission",
+          "description": "Control physical access to system distribution and transmission lines within organizational facilities."
+        }
+      ]
+    },
+    {
+      "ref": "03.11",
+      "label": "Risk Assessment",
+      "group": true,
+      "controls": [
+        {
+          "ref": "03.11.01",
+          "label": "Risk Assessment",
+          "description": "a. Assess the risk (including supply chain risk) of unauthorized disclosure resulting from the processing, storage, or transmission of CUI.\nb. Update risk assessments [Assignment: organization-defined frequency]."
+        },
+        {
+          "ref": "03.11.02",
+          "label": "Vulnerability Monitoring and Scanning",
+          "description": "a. Monitor and scan the system for vulnerabilities [Assignment: organization-defined frequency] and when new vulnerabilities affecting the system are identified.\nb. Remediate system vulnerabilities within [Assignment: organization-defined response times].\nc. Update system vulnerabilities to be scanned [Assignment: organization-defined frequency] and when new vulnerabilities are identified and reported."
+        },
+        {
+          "ref": "03.11.03",
+          "label": "Withdrawn",
+          "description": "Withdrawn.",
+          "tags": [
+            "withdrawn"
+          ]
+        },
+        {
+          "ref": "03.11.04",
+          "label": "Risk Response",
+          "description": "Respond to findings from security assessments, monitoring, and audits."
+        }
+      ]
+    },
+    {
+      "ref": "03.12",
+      "label": "Security Assessment and Monitoring",
+      "group": true,
+      "controls": [
+        {
+          "ref": "03.12.01",
+          "label": "Security Assessment",
+          "description": "Assess the security requirements for the system and its environment of operation [Assignment: organization-defined frequency] to determine if the requirements have been satisfied."
+        },
+        {
+          "ref": "03.12.02",
+          "label": "Plan of Action and Milestones",
+          "description": "a. Develop a plan of action and milestones for the system:\n  a.01. To document the planned remediation actions to correct weaknesses or deficiencies noted during security assessments and\n  a.02. To reduce or eliminate known system vulnerabilities.\nb. Update the existing plan of action and milestones based on the findings from:\n  b.01. Security assessments,\n  b.02. Audits or reviews, and\n  b.03. Continuous monitoring activities."
+        },
+        {
+          "ref": "03.12.03",
+          "label": "Continuous Monitoring",
+          "description": "Develop and implement a system-level continuous monitoring strategy that includes ongoing monitoring and security assessments."
+        },
+        {
+          "ref": "03.12.04",
+          "label": "Withdrawn",
+          "description": "Withdrawn.",
+          "tags": [
+            "withdrawn"
+          ]
+        },
+        {
+          "ref": "03.12.05",
+          "label": "Information Exchange",
+          "description": "a. Approve and manage the exchange of CUI between the system and other systems using [Selection (one or more): interconnection security agreements; information exchange security agreements; memoranda of understanding or agreement; service-level agreements; user agreements; non-disclosure agreements; other types of agreements].\nb. Document interface characteristics, security requirements, and responsibilities for each system as part of the exchange agreements.\nc. Review and update the exchange agreements [Assignment: organization-defined frequency]."
+        }
+      ]
+    },
+    {
+      "ref": "03.13",
+      "label": "System and Communications Protection",
+      "group": true,
+      "controls": [
+        {
+          "ref": "03.13.01",
+          "label": "Boundary Protection",
+          "description": "a. Monitor and control communications at external managed interfaces to the system and key internal managed interfaces within the system.\nb. Implement subnetworks for publicly accessible system components that are physically or logically separated from internal networks.\nc. Connect to external systems only through managed interfaces that consist of boundary protection devices arranged in accordance with an organizational security architecture."
+        },
+        {
+          "ref": "03.13.02",
+          "label": "Withdrawn",
+          "description": "Withdrawn.",
+          "tags": [
+            "withdrawn"
+          ]
+        },
+        {
+          "ref": "03.13.03",
+          "label": "Withdrawn",
+          "description": "Withdrawn — addressed by 03.01.01, 03.01.02, 03.01.03, 03.01.04, 03.01.05, 03.01.06, 03.01.07.",
+          "tags": [
+            "withdrawn"
+          ]
+        },
+        {
+          "ref": "03.13.04",
+          "label": "Information in Shared System Resources",
+          "description": "Prevent unauthorized and unintended information transfer via shared system resources."
+        },
+        {
+          "ref": "03.13.05",
+          "label": "Withdrawn",
+          "description": "Withdrawn.",
+          "tags": [
+            "withdrawn"
+          ]
+        },
+        {
+          "ref": "03.13.06",
+          "label": "Network Communications – Deny by Default – Allow by Exception",
+          "description": "Deny network communications traffic by default, and allow network communications traffic by exception."
+        },
+        {
+          "ref": "03.13.07",
+          "label": "Withdrawn",
+          "description": "Withdrawn — addressed by 03.01.12, 03.04.02, 03.04.06.",
+          "tags": [
+            "withdrawn"
+          ]
+        },
+        {
+          "ref": "03.13.08",
+          "label": "Transmission and Storage Confidentiality",
+          "description": "Implement cryptographic mechanisms to prevent the unauthorized disclosure of CUI during transmission and while in storage."
+        },
+        {
+          "ref": "03.13.09",
+          "label": "Network Disconnect",
+          "description": "Terminate the network connection associated with a communications session at the end of the session or after [Assignment: organization-defined time period] of inactivity."
+        },
+        {
+          "ref": "03.13.10",
+          "label": "Cryptographic Key Establishment and Management",
+          "description": "Establish and manage cryptographic keys in the system in accordance with the following key management requirements: [Assignment: organization-defined requirements for key generation, distribution, storage, access, and destruction]."
+        },
+        {
+          "ref": "03.13.11",
+          "label": "Cryptographic Protection",
+          "description": "Implement the following types of cryptography to protect the confidentiality of CUI: [Assignment: organization-defined types of cryptography]."
+        },
+        {
+          "ref": "03.13.12",
+          "label": "Collaborative Computing Devices and Applications",
+          "description": "a. Prohibit the remote activation of collaborative computing devices and applications with the following exceptions: [Assignment: organization-defined exceptions where remote activation is to be allowed].\nb. Provide an explicit indication of use to users physically present at the devices."
+        },
+        {
+          "ref": "03.13.13",
+          "label": "Mobile Code",
+          "description": "a. Define acceptable mobile code and mobile code technologies.\nb. Authorize, monitor, and control the use of mobile code."
+        },
+        {
+          "ref": "03.13.14",
+          "label": "Withdrawn",
+          "description": "Withdrawn.",
+          "tags": [
+            "withdrawn"
+          ]
+        },
+        {
+          "ref": "03.13.15",
+          "label": "Session Authenticity",
+          "description": "Protect the authenticity of communications sessions."
+        },
+        {
+          "ref": "03.13.16",
+          "label": "Withdrawn",
+          "description": "Withdrawn.",
+          "tags": [
+            "withdrawn"
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "03.14",
+      "label": "System and Information Integrity",
+      "group": true,
+      "controls": [
+        {
+          "ref": "03.14.01",
+          "label": "Flaw Remediation",
+          "description": "a. Identify, report, and correct system flaws.\nb. Install security-relevant software and firmware updates within [Assignment: organization-defined time period] of the release of the updates."
+        },
+        {
+          "ref": "03.14.02",
+          "label": "Malicious Code Protection",
+          "description": "a. Implement malicious code protection mechanisms at system entry and exit points to detect and eradicate malicious code.\nb. Update malicious code protection mechanisms as new releases are available in accordance with configuration management policies and procedures.\nc. Configure malicious code protection mechanisms to:\n  c.01. Perform scans of the system [Assignment: organization-defined frequency] and real-time scans of files from external sources at endpoints or system entry and exit points as the files are downloaded, opened, or executed; and\n  c.02. Block malicious code, quarantine malicious code, or take other mitigation actions in response to malicious code detection."
+        },
+        {
+          "ref": "03.14.03",
+          "label": "Security Alerts, Advisories, and Directives",
+          "description": "a. Receive system security alerts, advisories, and directives from external organizations on an ongoing basis.\nb. Generate and disseminate internal system security alerts, advisories, and directives, as necessary."
+        },
+        {
+          "ref": "03.14.04",
+          "label": "Withdrawn",
+          "description": "Withdrawn.",
+          "tags": [
+            "withdrawn"
+          ]
+        },
+        {
+          "ref": "03.14.05",
+          "label": "Withdrawn",
+          "description": "Withdrawn — addressed by 03.14.02.",
+          "tags": [
+            "withdrawn"
+          ]
+        },
+        {
+          "ref": "03.14.06",
+          "label": "System Monitoring",
+          "description": "a. Monitor the system to detect:\n  a.01. Attacks and indicators of potential attacks and\n  a.02. Unauthorized connections.\nb. Identify unauthorized use of the system.\nc. Monitor inbound and outbound communications traffic to detect unusual or unauthorized activities or conditions."
+        },
+        {
+          "ref": "03.14.07",
+          "label": "Withdrawn",
+          "description": "Withdrawn.",
+          "tags": [
+            "withdrawn"
+          ]
+        },
+        {
+          "ref": "03.14.08",
+          "label": "Information Management and Retention",
+          "description": "Manage and retain CUI within the system and CUI output from the system in accordance with applicable laws, Executive Orders, directives, regulations, policies, standards, guidelines, and operational requirements."
+        }
+      ]
+    },
+    {
+      "ref": "03.15",
+      "label": "Planning",
+      "group": true,
+      "controls": [
+        {
+          "ref": "03.15.01",
+          "label": "Policy and Procedures",
+          "description": "a. Develop, document, and disseminate to organizational personnel or roles the policies and procedures needed to satisfy the security requirements for the protection of CUI.\nb. Review and update policies and procedures [Assignment: organization-defined frequency]."
+        },
+        {
+          "ref": "03.15.02",
+          "label": "System Security Plan",
+          "description": "a. Develop a system security plan that:\n  a.01. Defines the constituent system components;\n  a.02. Identifies the information types processed, stored, and transmitted by the system;\n  a.03. Describes specific threats to the system that are of concern to the organization;\n  a.04. Describes the operational environment for the system and any dependencies on or connections to other systems or system components;\n  a.05. Provides an overview of the security requirements for the system;\n  a.06. Describes the safeguards in place or planned for meeting the security requirements;\n  a.07. Identifies individuals that fulfill system roles and responsibilities; and\n  a.08. Includes other relevant information necessary for the protection of CUI.\nb. Review and update the system security plan [Assignment: organization-defined frequency].\nc. Protect the system security plan from unauthorized disclosure."
+        },
+        {
+          "ref": "03.15.03",
+          "label": "Rules of Behavior",
+          "description": "a. Establish rules that describe the responsibilities and expected behavior for system usage and protecting CUI.\nb. Provide rules to individuals who require access to the system.\nc. Receive a documented acknowledgement from individuals indicating that they have read, understand, and agree to abide by the rules of behavior before authorizing access to CUI and the system.\nd. Review and update the rules of behavior [Assignment: organization-defined frequency]."
+        }
+      ]
+    },
+    {
+      "ref": "03.16",
+      "label": "System and Services Acquisition",
+      "group": true,
+      "controls": [
+        {
+          "ref": "03.16.01",
+          "label": "Security Engineering Principles",
+          "description": "Apply the following systems security engineering principles to the development or modification of the system and system components: [Assignment: organization-defined systems security engineering principles]."
+        },
+        {
+          "ref": "03.16.02",
+          "label": "Unsupported System Components",
+          "description": "a. Replace system components when support for the components is no longer available from the developer, vendor, or manufacturer.\nb. Provide options for risk mitigation or alternative sources for continued support for unsupported components that cannot be replaced."
+        },
+        {
+          "ref": "03.16.03",
+          "label": "External System Services",
+          "description": "a. Require the providers of external system services used for the processing, storage, or transmission of CUI to comply with the following security requirements: [Assignment: organization-defined security requirements].\nb. Define and document user roles and responsibilities with regard to external system services, including shared responsibilities with external service providers.\nc. Implement processes, methods, and techniques to monitor security requirement compliance by external service providers on an ongoing basis."
+        }
+      ]
+    },
+    {
+      "ref": "03.17",
+      "label": "Supply Chain Risk Management",
+      "group": true,
+      "controls": [
+        {
+          "ref": "03.17.01",
+          "label": "Supply Chain Risk Management Plan",
+          "description": "a. Develop a plan for managing supply chain risks associated with the research and development, design, manufacturing, acquisition, delivery, integration, operations, maintenance, and disposal of the system, system components, or system services.\nb. Review and update the supply chain risk management plan [Assignment: organization-defined frequency].\nc. Protect the supply chain risk management plan from unauthorized disclosure."
+        },
+        {
+          "ref": "03.17.02",
+          "label": "Acquisition Strategies, Tools, and Methods",
+          "description": "Develop and implement acquisition strategies, contract tools, and procurement methods to identify, protect against, and mitigate supply chain risks."
+        },
+        {
+          "ref": "03.17.03",
+          "label": "Supply Chain Requirements and Processes",
+          "description": "a. Establish a process for identifying and addressing weaknesses or deficiencies in the supply chain elements and processes.\nb. Enforce the following security requirements to protect against supply chain risks to the system, system components, or system services and to limit the harm or consequences from supply chain-related events: [Assignment: organization-defined security requirements]."
+        }
+      ]
+    }
+  ]
+}

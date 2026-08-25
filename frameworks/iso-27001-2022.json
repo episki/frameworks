@@ -62,7 +62,7 @@
               "label": "interfaces and dependencies between activities performed by the organization, and those that are performed by other organizations."
             },
             {
-              "ref": "Documented",
+              "ref": "4.3-Documented",
               "label": "The scope shall be available as documented information."
             }
           ]
@@ -283,7 +283,7 @@
                   ]
                 },
                 {
-                  "ref": "Documented",
+                  "ref": "6.1.2-Documented",
                   "label": "The organization shall retain documented information about the information security risk assessment process."
                 }
               ]
@@ -321,7 +321,7 @@
                   "label": "obtain risk owners’ approval of the information security risk treatment plan and acceptance of the residual information security risks."
                 },
                 {
-                  "ref": "Documented",
+                  "ref": "6.1.3-Documented",
                   "label": "The organization shall retain documented information about the information security risk treatment process."
                 }
               ]
@@ -382,7 +382,7 @@
               "label": "When planning how to achieve its information security objectives, the organization shall determine how the results will be evaluated."
             },
             {
-              "ref": "Documented",
+              "ref": "6.2-Documented",
               "label": "The organization shall retain documented information on the information security objectives.",
               "description": "Referring to 6.2a-g"
             }
@@ -536,7 +536,7 @@
                   "label": "For the control of documented information, the organization shall address the following activities, as applicable:\n\nretention and disposition."
                 },
                 {
-                  "ref": "Documented & Controlled",
+                  "ref": "7.5.3-Documented & Controlled",
                   "label": "Documented information of external origin, determined by the organization to be necessary for the planning and operation of the information security management system, shall be identified as appropriate, and controlled."
                 }
               ]
@@ -600,11 +600,11 @@
               "label": "who shall analyse and evaluate these results."
             },
             {
-              "ref": "Documented",
+              "ref": "9.1-Documented",
               "label": "Documented information shall be available as evidence of the results."
             },
             {
-              "ref": "Evaluate",
+              "ref": "9.1-Evaluate",
               "label": "The organization shall evaluate the information security performance and the effectiveness of the information security management system."
             }
           ]
@@ -656,7 +656,7 @@
                   "label": "ensure that the results of the audits are reported to relevant management;"
                 },
                 {
-                  "ref": "Documented",
+                  "ref": "9.2.2-Documented",
                   "label": "Documented information shall be available as evidence of the implementation of the audit programme(s) and the audit results."
                 }
               ]
@@ -731,7 +731,7 @@
               "description": "The results of the management review shall include decisions related to continual improvement opportunities and any needs for changes to the information security management system.",
               "controls": [
                 {
-                  "ref": "Documented",
+                  "ref": "9.3.3-Documented",
                   "label": "Documented information shall be available as evidence of the results of management reviews."
                 }
               ]
@@ -809,7 +809,7 @@
               "description": "Documented information shall be available as evidence of the nature of the results of any corrective action."
             },
             {
-              "ref": "Corrective Action",
+              "ref": "10.2-Corrective Action",
               "label": "Corrective actions shall be appropriate to the effects of the nonconformities encountered."
             }
           ]

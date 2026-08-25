@@ -1,0 +1,756 @@
+{
+  "key": "nist-sp-800-172-r3",
+  "name": "NIST SP 800-172",
+  "short_name": "NIST 800-172",
+  "version": "Rev 3",
+  "publisher": "National Institute of Standards and Technology",
+  "source_url": "https://csrc.nist.gov/pubs/sp/800/172/r3/final",
+  "scf_keys": [
+    "nist-sp-800-172-r3",
+    "nist-sp-800-172-rev3"
+  ],
+  "last_updated": "2026-08-25",
+  "description": "Enhanced security requirements supplementing NIST SP 800-171 for protecting Controlled Unclassified Information in nonfederal systems against advanced persistent threats. The source of the CMMC Level 3 requirements.",
+  "category": "framework",
+  "keywords": [
+    "cybersecurity",
+    "cui",
+    "apt",
+    "cmmc",
+    "defense",
+    "federal",
+    "framework"
+  ],
+  "controls": [
+    {
+      "ref": "03.01",
+      "label": "Access Control",
+      "group": true,
+      "controls": [
+        {
+          "ref": "03.01.01E",
+          "label": "Dual Authorization",
+          "description": "Enforce dual authorization for [Assignment: organization-defined privileged commands and/or other organization-defined actions]."
+        },
+        {
+          "ref": "03.01.02E",
+          "label": "Non-Organizationally Owned Systems - Restricted Use",
+          "description": "Restrict the use of non-organizationally owned systems or system components to process, store, or transmit CUI using [Assignment: organization-defined restrictions]."
+        },
+        {
+          "ref": "03.01.03E",
+          "label": "Withdrawn",
+          "description": "Withdrawn.",
+          "tags": [
+            "withdrawn"
+          ]
+        },
+        {
+          "ref": "03.01.04E",
+          "label": "Concurrent Session Control",
+          "description": "Limit the number of concurrent sessions for each [Assignment: organization-defined account and/or account type] to [Assignment: organization-defined number]."
+        },
+        {
+          "ref": "03.01.05E",
+          "label": "Remote Access Monitoring and Control",
+          "description": "Employ automated mechanisms to monitor and control remote access methods."
+        },
+        {
+          "ref": "03.01.06E",
+          "label": "Protection of Remote Access Mechanism Information",
+          "description": "Protect information about remote access mechanisms from unauthorized use and disclosure."
+        },
+        {
+          "ref": "03.01.07E",
+          "label": "Automated Audit Actions for Account Management",
+          "description": "Use automated mechanisms to audit account creation, modification, enabling, disabling, and removal actions."
+        },
+        {
+          "ref": "03.01.08E",
+          "label": "Account Monitoring for Atypical Usage",
+          "description": "ES-03.01.08E-a Monitor system accounts for [Assignment: organization-defined atypical usage].\nES-03.01.08E-b Report atypical usage of system accounts to [Assignment: organization-defined personnel or roles]."
+        },
+        {
+          "ref": "03.01.09E",
+          "label": "Attribute-Based Access Control",
+          "description": "ES-03.01.09E-a Enforce attribute-based access control policy over defined subjects and objects.\nES-03.01.09E-b Control access based upon [Assignment: organization-defined attributes to assume access permissions]."
+        },
+        {
+          "ref": "03.01.10E",
+          "label": "Object Security Attributes",
+          "description": "Use [Assignment: organization-defined security attributes] associated with [Assignment: organization-defined security attributes] to enforce [Assignment: organization-defined security attributes] as a basis for flow control decisions."
+        },
+        {
+          "ref": "03.01.11E",
+          "label": "Role-Based Access Control",
+          "description": "ES-03.01.11E-a Enforce a role-based access control policy over defined subjects and objects.\nES-03.01.11E-b Control access based upon [Assignment: organization-defined roles and users authorized to assume such roles]."
+        },
+        {
+          "ref": "03.01.12E",
+          "label": "Physical or Logical Separation of CUI Flows",
+          "description": "Separate CUI flows logically or physically using [Assignment: organization-defined mechanisms and/or techniques]."
+        },
+        {
+          "ref": "03.01.13E",
+          "label": "Metadata",
+          "description": "Enforce information flow control based on [Assignment: organization-defined metadata]."
+        },
+        {
+          "ref": "03.01.14E",
+          "label": "Security Policy Filters",
+          "description": "ES-03.01.14E-a Enforce information flow control using [Assignment: organization-defined security policy filters] as a basis for flow control decisions for [Assignment: organization-defined information flows].\nES-03.01.14E-b [Selection (one or more): Block; Strip; Modify; Quarantine] data after a filter processing failure in accordance with [Assignment: organization-defined security policy]."
+        },
+        {
+          "ref": "03.01.15E",
+          "label": "Data Type Identifiers",
+          "description": "Use [Assignment: organization-defined data type identifiers] to validate data that is essential for information flow decisions when transferring CUI between security domains."
+        },
+        {
+          "ref": "03.01.16E",
+          "label": "Decomposition Into Policy-Relevant Subcomponents",
+          "description": "Decompose CUI into [Assignment: organization-defined policy-relevant subcomponents] for submission to policy enforcement mechanisms when transferring CUI between different security domains."
+        },
+        {
+          "ref": "03.01.17E",
+          "label": "Detection of Unsanctioned CUI",
+          "description": "ES-03.01.17E-a Examine CUI for the presence of [Assignment: organization-defined unsanctioned information] when transferring information between different security domains.\nES-03.01.17E-b Prohibit the transfer of the CUI defined in 03.01.17E.a in accordance with the [Assignment: organization-defined security policy]."
+        }
+      ]
+    },
+    {
+      "ref": "03.02",
+      "label": "Awareness and Training",
+      "group": true,
+      "controls": [
+        {
+          "ref": "03.02.01E",
+          "label": "Advanced Literacy and Awareness Training",
+          "description": "ES-03.02.01E-a Provide security literacy training to system users:\n  ES-03.02.01E-a-1 On the advanced persistent threat,\n  ES-03.02.01E-a-2 On recognizing suspicious communications and anomalous behavior in systems using [Assignment: organization-defined indicators of malicious code], and\n  ES-03.02.01E-a-3 On the cyber threat environment.\nES-03.02.01E-b Update security literacy training content [Assignment: organization-defined frequency] and following [Assignment: organization-defined events]."
+        },
+        {
+          "ref": "03.02.02E",
+          "label": "Literacy and Awareness Training Practical Exercises",
+          "description": "Provide practical exercises in literacy training that simulate events and incidents."
+        },
+        {
+          "ref": "03.02.03E",
+          "label": "Literacy and Awareness Training Feedback",
+          "description": "Provide feedback on organizational training results to the following personnel [Assignment: organization-defined personnel]."
+        },
+        {
+          "ref": "03.02.04E",
+          "label": "Anti-Counterfeit Training",
+          "description": "Train [Assignment: organization-defined personnel or roles] to detect counterfeit system components."
+        }
+      ]
+    },
+    {
+      "ref": "03.03",
+      "label": "Audit and Accountability",
+      "group": true,
+      "controls": [
+        {
+          "ref": "03.03.01E",
+          "label": "Protection of Audit Record Storage in Separate Physical Systems or Components",
+          "description": "Store audit records in a repository that is part of a physically different system or system component than the system or component being audited."
+        },
+        {
+          "ref": "03.03.02E",
+          "label": "Real-Time Alerts for Audit Processing Failures",
+          "description": "Provide an alert within [Assignment: organization-defined real-time period] to [Assignment: organization-defined personnel, roles, and/or locations] when the following audit failure events occur: [Assignment: organization-defined audit logging failure events requiring real-time alerts]."
+        },
+        {
+          "ref": "03.03.03E",
+          "label": "Dual Authorization for Audit Information and Actions",
+          "description": "Enforce dual authorization for [Selection (one or more): movement; deletion] of [Assignment: organization-defined audit information]."
+        },
+        {
+          "ref": "03.03.04E",
+          "label": "Integrated Analysis of Audit Records",
+          "description": "Integrate analysis of audit records with analysis of [Selection (one or more): vulnerability scanning information; performance data; system monitoring information; {{ insert: param, A.03.03.04E.ODP.02 }} ] to further enhance the ability to identify inappropriate or unusual activity."
+        }
+      ]
+    },
+    {
+      "ref": "03.04",
+      "label": "Configuration Management",
+      "group": true,
+      "controls": [
+        {
+          "ref": "03.04.01E",
+          "label": "Withdrawn",
+          "description": "Withdrawn.",
+          "tags": [
+            "withdrawn"
+          ]
+        },
+        {
+          "ref": "03.04.02E",
+          "label": "Automated Unauthorized Component Detection",
+          "description": "ES-03.04.02E-a Detect the presence of unauthorized or misconfigured system components using [Assignment: organization-defined automated mechanisms].\nES-03.04.02E-b Take the following actions when unauthorized or misconfigured components are detected: [Selection (one or more): disable network access by such components; isolate the components; notify {{ insert: param, A.03.04.02E.ODP.03 }} ]."
+        },
+        {
+          "ref": "03.04.03E",
+          "label": "Automated Maintenance of System Component Inventory",
+          "description": "Maintain the currency, completeness, accuracy, and availability of the inventory of system components using [Assignment: organization-defined organization-defined automated mechanisms]."
+        },
+        {
+          "ref": "03.04.04E",
+          "label": "Automation Support for Baseline Configuration",
+          "description": "Maintain the currency, completeness, accuracy, and availability of the baseline configuration of the system using [Assignment: organization-defined automated mechanisms]."
+        },
+        {
+          "ref": "03.04.05E",
+          "label": "Dual Authorization for System Changes",
+          "description": "Enforce dual authorization for implementing changes to [Assignment: organization-defined organization-defined system components and system-level information]."
+        },
+        {
+          "ref": "03.04.06E",
+          "label": "Retention of Previous Configurations",
+          "description": "Retain [Assignment: organization-defined number] previous versions of baseline configurations of the system to support rollback."
+        },
+        {
+          "ref": "03.04.07E",
+          "label": "Testing, Validation, and Documentation of Changes",
+          "description": "Test, validate, and document changes to the system before finalizing the implementation of the changes."
+        },
+        {
+          "ref": "03.04.08E",
+          "label": "Centralized Repository",
+          "description": "Provide a centralized repository for the inventory of system components."
+        }
+      ]
+    },
+    {
+      "ref": "03.05",
+      "label": "Identification and Authentication",
+      "group": true,
+      "controls": [
+        {
+          "ref": "03.05.01E",
+          "label": "Cryptographic Bidirectional Authentication",
+          "description": "Authenticate [Assignment: organization-defined devices and/or types of devices] before establishing a system connection using bidirectional authentication that is cryptographically based."
+        },
+        {
+          "ref": "03.05.02E",
+          "label": "Password Managers",
+          "description": "ES-03.05.02E-a Employ [Assignment: organization-defined password managers] to generate and manage passwords.\nES-03.05.02E-b Protect the passwords using [Assignment: organization-defined controls]."
+        },
+        {
+          "ref": "03.05.03E",
+          "label": "Device Attestation",
+          "description": "Handle device identification and authentication based on attestation by [Assignment: organization-defined configuration management process]."
+        },
+        {
+          "ref": "03.05.04E",
+          "label": "No Embedded Unencrypted Static Authenticators",
+          "description": "Ensure that unencrypted static authenticators are not embedded in applications or other forms of static storage."
+        },
+        {
+          "ref": "03.05.05E",
+          "label": "Expiration of Cached Authenticators",
+          "description": "Prohibit the use of cached authenticators after [Assignment: organization-defined time period]."
+        },
+        {
+          "ref": "03.05.06E",
+          "label": "Identity Proofing",
+          "description": "ES-03.05.06E-a Identity proof users that require accounts for logical access to systems based on appropriate identity assurance level requirements as specified in applicable standards and guidelines.\nES-03.05.06E-b Resolve user identities to a unique individual.\nES-03.05.06E-c Collect, validate, and verify identity evidence."
+        },
+        {
+          "ref": "03.05.07E",
+          "label": "Identity Providers and Authorization Servers",
+          "description": "Employ identity providers and authorization servers to manage user, device, and non-person entity identities, attributes, and access rights that support authentication and authorization decisions in accordance with [Assignment: organization-defined identification and authentication policy] using [Assignment: organization-defined mechanisms]."
+        }
+      ]
+    },
+    {
+      "ref": "03.06",
+      "label": "Incident Response",
+      "group": true,
+      "controls": [
+        {
+          "ref": "03.06.01E",
+          "label": "Security Operations Center",
+          "description": "Establish and maintain a security operations center."
+        },
+        {
+          "ref": "03.06.02E",
+          "label": "Integrated Incident Response Team",
+          "description": "Establish and maintain an integrated incident response team that can be deployed to any location identified by the organization in [Assignment: organization-defined time period]."
+        },
+        {
+          "ref": "03.06.03E",
+          "label": "Behavior Analysis",
+          "description": "Analyze anomalous or suspected adversarial behavior in or related to [Assignment: organization-defined environments or resources]."
+        },
+        {
+          "ref": "03.06.04E",
+          "label": "Automated Tracking, Data Collection, and Analysis for Incident Monitoring",
+          "description": "Track incidents and collect and analyze incident information using [Assignment: organization-defined organization-defined automated mechanisms]."
+        }
+      ]
+    },
+    {
+      "ref": "03.07",
+      "label": "Maintenance",
+      "group": true,
+      "controls": [
+        {
+          "ref": "03.07.01E",
+          "label": "Software Updates and Patches for Maintenance Tools",
+          "description": "Inspect maintenance tools to ensure the latest software updates and patches are installed."
+        }
+      ]
+    },
+    {
+      "ref": "03.08",
+      "label": "Media Protection",
+      "group": true,
+      "controls": [
+        {
+          "ref": "03.08.01E",
+          "label": "Dual Authorization for Media Sanitization",
+          "description": "Enforce dual authorization for the sanitization of [Assignment: organization-defined system media containing CUI]."
+        },
+        {
+          "ref": "03.08.02E",
+          "label": "Dual Authorization for System Backup Deletion and Destruction",
+          "description": "Enforce dual authorization for the deletion or destruction of [Assignment: organization-defined system backup information]."
+        },
+        {
+          "ref": "03.08.03E",
+          "label": "Testing System Backups for Reliability and Integrity",
+          "description": "Test backup information [Assignment: organization-defined organization-defined frequency] to verify media reliability and information integrity."
+        },
+        {
+          "ref": "03.08.04E",
+          "label": "System Recovery and Reconstitution",
+          "description": "Provide for the recovery and reconstitution of the system to a known state within [Assignment: organization-defined organization-defined time period consistent with recovery time and recovery point objectives] after a disruption, compromise, or failure."
+        }
+      ]
+    },
+    {
+      "ref": "03.09",
+      "label": "Personnel Security",
+      "group": true,
+      "controls": [
+        {
+          "ref": "03.09.01E",
+          "label": "Withdrawn",
+          "description": "Withdrawn.",
+          "tags": [
+            "withdrawn"
+          ]
+        },
+        {
+          "ref": "03.09.02E",
+          "label": "Withdrawn",
+          "description": "Withdrawn.",
+          "tags": [
+            "withdrawn"
+          ]
+        },
+        {
+          "ref": "03.09.03E",
+          "label": "Access Agreements",
+          "description": "ES-03.09.03E-a Develop and document access agreements for systems processing, storing, or transmitting CUI.\nES-03.09.03E-b Review and update the access agreements [Assignment: organization-defined organization-defined frequency].\nES-03.09.03E-c Verify that individuals requiring access to CUI and systems processing, storing, or transmitting CUI:\n  ES-03.09.03E-c-1 Sign appropriate access agreements prior to being granted access; and\n  ES-03.09.03E-c-2 Re-sign access agreements to maintain access to systems when access agreements have been updated or [Assignment: organization-defined organization-defined frequency]."
+        },
+        {
+          "ref": "03.09.04E",
+          "label": "Citizenship Requirements",
+          "description": "Verify that individuals accessing a system that processes, stores, or transmits CUI meet [Assignment: organization-defined citizenship requirements]."
+        }
+      ]
+    },
+    {
+      "ref": "03.10",
+      "label": "Physical Protection",
+      "group": true,
+      "controls": [
+        {
+          "ref": "03.10.01E",
+          "label": "Intrusion Alarms and Surveillance Equipment",
+          "description": "Monitor physical access to the facility where the system resides using physical intrusion alarms and surveillance equipment."
+        },
+        {
+          "ref": "03.10.02E",
+          "label": "Delivery and Removal of System Components",
+          "description": "ES-03.10.02E-a Authorize and control [Assignment: organization-defined organization-defined types of system components] entering and exiting the facility.\nES-03.10.02E-b Maintain records of the system components."
+        }
+      ]
+    },
+    {
+      "ref": "03.11",
+      "label": "Risk Assessment",
+      "group": true,
+      "controls": [
+        {
+          "ref": "03.11.01E",
+          "label": "Threat Awareness Program",
+          "description": "Implement a threat awareness program that includes a cross-organization information-sharing capability for threat intelligence."
+        },
+        {
+          "ref": "03.11.02E",
+          "label": "Threat Hunting",
+          "description": "ES-03.11.02E-a Establish and maintain a cyber threat-hunting capability to:\n  ES-03.11.02E-a-1 Search for indicators of compromise in organizational systems and\n  ES-03.11.02E-a-2 Detect, track, and disrupt threats that evade existing safeguards.\nES-03.11.02E-b Employ the threat-hunting capability [Assignment: organization-defined frequency]."
+        },
+        {
+          "ref": "03.11.03E",
+          "label": "Predictive Cyber Analytics",
+          "description": "Employ the following advanced automation and analytics capabilities to predict and identify risks to [Assignment: organization-defined advanced automation and analytics capabilities]: [Assignment: organization-defined systems or system components]."
+        },
+        {
+          "ref": "03.11.04E",
+          "label": "Withdrawn",
+          "description": "Withdrawn.",
+          "tags": [
+            "withdrawn"
+          ]
+        },
+        {
+          "ref": "03.11.05E",
+          "label": "Withdrawn",
+          "description": "Withdrawn.",
+          "tags": [
+            "withdrawn"
+          ]
+        },
+        {
+          "ref": "03.11.06E",
+          "label": "Withdrawn",
+          "description": "Withdrawn.",
+          "tags": [
+            "withdrawn"
+          ]
+        },
+        {
+          "ref": "03.11.07E",
+          "label": "Withdrawn",
+          "description": "Withdrawn.",
+          "tags": [
+            "withdrawn"
+          ]
+        },
+        {
+          "ref": "03.11.08E",
+          "label": "Dynamic Threat Awareness",
+          "description": "Determine the current cyber threat environment on an ongoing basis using [Assignment: organization-defined means]."
+        },
+        {
+          "ref": "03.11.09E",
+          "label": "Indicators of Compromise",
+          "description": "Discover, collect, and distribute to [Assignment: organization-defined sources], indicators of compromise provided by [Assignment: organization-defined personnel or roles]."
+        },
+        {
+          "ref": "03.11.10E",
+          "label": "Criticality Analysis",
+          "description": "Identify critical system components and functions by performing a criticality analysis for [Assignment: organization-defined systems, system components, or system services] at [Assignment: organization-defined decision points in the system development life cycle]."
+        },
+        {
+          "ref": "03.11.11E",
+          "label": "Discoverable Information",
+          "description": "Determine information about the system that is discoverable and take [Assignment: organization-defined corrective actions]."
+        },
+        {
+          "ref": "03.11.12E",
+          "label": "Automated Means for Sharing Threat Intelligence",
+          "description": "Employ automated mechanisms to maximize the effectiveness of sharing threat intelligence information."
+        }
+      ]
+    },
+    {
+      "ref": "03.12",
+      "label": "Security Assessment and Monitoring",
+      "group": true,
+      "controls": [
+        {
+          "ref": "03.12.01E",
+          "label": "Penetration Testing",
+          "description": "Conduct penetration testing [Assignment: organization-defined frequency] on [Assignment: organization-defined systems or system components]."
+        },
+        {
+          "ref": "03.12.02E",
+          "label": "Independent Assessors",
+          "description": "Use independent assessors or assessment teams to conduct security requirement assessments."
+        },
+        {
+          "ref": "03.12.03E",
+          "label": "Risk Monitoring",
+          "description": "Ensure risk monitoring is an integral part of the continuous monitoring strategy that includes effectiveness monitoring, compliance monitoring, change monitoring."
+        },
+        {
+          "ref": "03.12.04E",
+          "label": "Internal System Connections",
+          "description": "ES-03.12.04E-a Authorize internal connections of [Assignment: organization-defined system components or classes of components] to the system.\nES-03.12.04E-b Document, for each internal connection, the interface characteristics, security requirements, and the nature of the information communicated.\nES-03.12.04E-c Terminate internal system connections after [Assignment: organization-defined conditions].\nES-03.12.04E-d Review [Assignment: organization-defined frequency] the continued need for each internal connection."
+        }
+      ]
+    },
+    {
+      "ref": "03.13",
+      "label": "System and Communications Protection",
+      "group": true,
+      "controls": [
+        {
+          "ref": "03.13.01E",
+          "label": "Heterogeneity",
+          "description": "Employ a diverse set of information technologies for the following system components in the implementation of the system: [Assignment: organization-defined system components]."
+        },
+        {
+          "ref": "03.13.02E",
+          "label": "Randomness",
+          "description": "Employ [Assignment: organization-defined techniques] to introduce randomness into organizational operations and assets."
+        },
+        {
+          "ref": "03.13.03E",
+          "label": "Concealment and Misdirection",
+          "description": "Employ the following concealment and misdirection techniques to mislead adversaries: [Assignment: organization-defined concealment and misdirection techniques]."
+        },
+        {
+          "ref": "03.13.04E",
+          "label": "Isolation of System Components",
+          "description": "Employ boundary protection mechanisms to isolate [Assignment: organization-defined system components]."
+        },
+        {
+          "ref": "03.13.05E",
+          "label": "Change Processing and Storage Locations",
+          "description": "Change the location of [Selection: {{ insert: param, A.03.13.05E.ODP.03 }}; at random time intervals] [Assignment: organization-defined processing and/or storage]."
+        },
+        {
+          "ref": "03.13.06E",
+          "label": "Platform-Independent Applications",
+          "description": "Include within organizational systems the following platform independent applications: [Assignment: organization-defined platform-independent applications]."
+        },
+        {
+          "ref": "03.13.07E",
+          "label": "Virtualization Techniques",
+          "description": "Employ virtualization techniques to support the deployment of a diversity of operating systems and applications that are changed [Assignment: organization-defined frequency]."
+        },
+        {
+          "ref": "03.13.08E",
+          "label": "Decoys",
+          "description": "Include components within organizational systems specifically designed to be the target of malicious attacks for detecting, deflecting, and analyzing such attacks."
+        },
+        {
+          "ref": "03.13.09E",
+          "label": "Isolation of Security Tools, Mechanisms, and Support Components",
+          "description": "Isolate [Assignment: organization-defined information security tools, mechanisms, and support components] from other internal system components by implementing physically separate subnetworks with managed interfaces to other components of the system."
+        },
+        {
+          "ref": "03.13.10E",
+          "label": "Separate Subnetworks",
+          "description": "Implement separate network addresses to connect to systems in different security domains."
+        },
+        {
+          "ref": "03.13.11E",
+          "label": "Thin Nodes",
+          "description": "Employ minimal functionality and information storage on the following system components: [Assignment: organization-defined system components]."
+        },
+        {
+          "ref": "03.13.12E",
+          "label": "Denial-of-Service Protection",
+          "description": "ES-03.13.12E-a [Assignment: organization-defined types of denial-of-service events] the effects of the following types of denial-of-service events: [Selection: Protect against; Limit].\nES-03.13.12E-b Employ the following safeguards to prevent the denial-of-service events [Assignment: organization-defined safeguards by type of denial-of-service event]."
+        },
+        {
+          "ref": "03.13.13E",
+          "label": "Port and Input/Output Device Access",
+          "description": "[Assignment: organization-defined connection ports or input/output devices] disable or remove [Selection: Physically; Logically] on the following systems or system components: [Assignment: organization-defined systems or system components]."
+        },
+        {
+          "ref": "03.13.14E",
+          "label": "Detonation Chambers",
+          "description": "Employ a detonation chamber capability within [Assignment: organization-defined system, system component, or location]."
+        },
+        {
+          "ref": "03.13.15E",
+          "label": "Separate Subnets to Isolate System Components and Functions",
+          "description": "Implement [Selection: physically; logically] separate subnetworks to isolate the following critical system components and functions: [Assignment: organization-defined critical system components and functions]."
+        },
+        {
+          "ref": "03.13.16E",
+          "label": "System Partitioning",
+          "description": "Partition the system into [Selection: physical; logical] residing in separate [Assignment: organization-defined system components] domains or environments based on [Assignment: organization-defined circumstances for physical or logical separation of components]."
+        }
+      ]
+    },
+    {
+      "ref": "03.14",
+      "label": "System and Information Integrity",
+      "group": true,
+      "controls": [
+        {
+          "ref": "03.14.01E",
+          "label": "Software, Firmware, and Information Integrity",
+          "description": "ES-03.14.01E-a Employ integrity verification tools to detect unauthorized changes to the following software, firmware, and information: [Assignment: organization-defined organization-defined software, firmware, and information].\nES-03.14.01E-b Take the following actions when unauthorized changes to the software, firmware, and information are detected: [Assignment: organization-defined organization-defined actions]."
+        },
+        {
+          "ref": "03.14.02E",
+          "label": "Withdrawn",
+          "description": "Withdrawn.",
+          "tags": [
+            "withdrawn"
+          ]
+        },
+        {
+          "ref": "03.14.03E",
+          "label": "Withdrawn",
+          "description": "Withdrawn.",
+          "tags": [
+            "withdrawn"
+          ]
+        },
+        {
+          "ref": "03.14.04E",
+          "label": "Refresh From Trusted Sources",
+          "description": "Obtain software and data employed during system component and service refreshes from the following trusted sources: [Assignment: organization-defined trusted sources]."
+        },
+        {
+          "ref": "03.14.05E",
+          "label": "Non-Persistent Information",
+          "description": "ES-03.14.05E-a [Selection: Refresh {{ insert: param, A.03.14.05E.ODP.02 }} {{ insert: param, A.03.14.05E.ODP.03 }}; Generate {{ insert: param, A.03.14.05E.ODP.04 }} on demand ].\nES-03.14.05E-b Delete information when no longer needed."
+        },
+        {
+          "ref": "03.14.06E",
+          "label": "Withdrawn",
+          "description": "Withdrawn.",
+          "tags": [
+            "withdrawn"
+          ]
+        },
+        {
+          "ref": "03.14.07E",
+          "label": "Withdrawn",
+          "description": "Withdrawn.",
+          "tags": [
+            "withdrawn"
+          ]
+        },
+        {
+          "ref": "03.14.08E",
+          "label": "Integrity Checks",
+          "description": "Perform an integrity check of [Assignment: organization-defined organization-defined software, firmware, and information] [Selection (one or more): at startup; at {{ insert: param, A.03.14.08E.ODP.03 }}; {{ insert: param, A.03.14.08E.ODP.04 }} ]."
+        },
+        {
+          "ref": "03.14.09E",
+          "label": "Cryptographic Protection",
+          "description": "Implement cryptographic mechanisms to detect unauthorized changes to software, firmware, and information."
+        },
+        {
+          "ref": "03.14.10E",
+          "label": "Protection of Boot Firmware",
+          "description": "Implement the following mechanisms to protect the integrity of boot firmware in [Assignment: organization-defined mechanisms]: [Assignment: organization-defined system components]."
+        },
+        {
+          "ref": "03.14.11E",
+          "label": "Integration of Detection and Response",
+          "description": "Incorporate the detection of the following unauthorized changes into the organizational incident response capability: [Assignment: organization-defined security-relevant changes to the system]."
+        },
+        {
+          "ref": "03.14.12E",
+          "label": "Information Input Validation",
+          "description": "Check the validity of the following information inputs: [Assignment: organization-defined information inputs to the system]."
+        },
+        {
+          "ref": "03.14.13E",
+          "label": "Error Handling",
+          "description": "ES-03.14.13E-a Generate error messages that provide information necessary for corrective actions without revealing information that could be exploited.\nES-03.14.13E-b Reveal error messages only to [Assignment: organization-defined personnel or roles]."
+        },
+        {
+          "ref": "03.14.14E",
+          "label": "Memory Protection",
+          "description": "Implement the following safeguards to protect the system memory from unauthorized code execution: [Assignment: organization-defined safeguards]."
+        },
+        {
+          "ref": "03.14.15E",
+          "label": "Non-Persistent System Components and Services",
+          "description": "ES-03.14.15E-a Implement non-persistent [Assignment: organization-defined system components and services].\nES-03.14.15E-b Initiate non-persistent [Assignment: organization-defined system components and services] from a known state.\nES-03.14.15E-c Terminate non-persistent [Selection (one or more): upon end of session of use; {{ insert: param, A.03.14.15E.ODP.03 }} ] [Assignment: organization-defined system components and services]."
+        },
+        {
+          "ref": "03.14.16E",
+          "label": "Tainting",
+          "description": "Embed data or capabilities in the following systems or system components to determine if CUI has been exfiltrated or improperly removed from the organization: [Assignment: organization-defined systems or system components]."
+        },
+        {
+          "ref": "03.14.17E",
+          "label": "System-Generated Alerts",
+          "description": "Alert [Assignment: organization-defined personnel or roles] when the following system-generated indications of compromise or potential compromise occur: [Assignment: organization-defined personnel or roles]."
+        },
+        {
+          "ref": "03.14.18E",
+          "label": "Automated Organization-Generated Alerts",
+          "description": "Alert [Assignment: organization-defined personnel or roles] using [Assignment: organization-defined automated mechanisms] when the following indications of inappropriate or unusual activities with security implications occur: [Assignment: organization-defined activities that trigger alerts]."
+        },
+        {
+          "ref": "03.14.19E",
+          "label": "Wireless Intrusion Detection",
+          "description": "Employ a wireless intrusion detection system to identify rogue wireless devices and to detect attack attempts and potential compromises or breaches to the system"
+        }
+      ]
+    },
+    {
+      "ref": "03.15",
+      "label": "Planning",
+      "group": true,
+      "controls": [
+        {
+          "ref": "03.15.01E",
+          "label": "Security Architecture",
+          "description": "ES-03.15.01E-a Develop a security architecture for the system that:\n  ES-03.15.01E-a-1 Describes the security requirements and approach to be taken for protecting the confidentiality, integrity, and availability of CUI,\n  ES-03.15.01E-a-2 Describes how the architecture is integrated into and supports the enterprise architecture, and\n  ES-03.15.01E-a-3 Describes any assumptions about, and dependencies on, external systems and services.\nES-03.15.01E-b Review and update the security architecture [Assignment: organization-defined frequency] to reflect changes in the enterprise architecture.\nES-03.15.01E-c Reflect planned security architecture changes in system security plans, concept of operations, criticality analysis, organizational procedures, and procurements and acquisitions."
+        },
+        {
+          "ref": "03.15.02E",
+          "label": "Defense In Depth",
+          "description": "ES-03.15.02E-a Design the security architecture for the system using a defense-in-depth approach.\nES-03.15.02E-b Allocate [Assignment: organization-defined security requirements] to [Assignment: organization-defined architectural layers and locations].\nES-03.15.02E-c Ensure that the allocated requirements operate in a coordinated and mutually reinforcing manner."
+        },
+        {
+          "ref": "03.15.03E",
+          "label": "Supplier Diversity",
+          "description": "Require that [Assignment: organization-defined safeguards] allocated to [Assignment: organization-defined safeguards] are obtained from different suppliers."
+        }
+      ]
+    },
+    {
+      "ref": "03.16",
+      "label": "System and Services Acquisition",
+      "group": true,
+      "controls": [
+        {
+          "ref": "03.16.01E",
+          "label": "Specialization",
+          "description": "Employ [Selection (one or more): design; modification; augmentation; reconfiguration] on [Assignment: organization-defined systems or system components] supporting mission-essential services or functions to increase the trustworthiness in those systems or components."
+        }
+      ]
+    },
+    {
+      "ref": "03.17",
+      "label": "Supply Chain Risk Management",
+      "group": true,
+      "controls": [
+        {
+          "ref": "03.17.01E",
+          "label": "Notification Agreements",
+          "description": "Establish agreements and procedures with entities involved in the supply chain for the system, system component, or system service for the [Selection (one or more): notification of supply chain compromises; results of assessments or audits; {{ insert: param, A.03.17.01E.ODP.02 }} ]."
+        },
+        {
+          "ref": "03.17.02E",
+          "label": "Inspection of Systems or Components",
+          "description": "Inspect the following systems or system components [Assignment: organization-defined systems or system components] to detect tampering: [Selection (one or more): at random; {{ insert: param, A.03.17.02E.ODP.03 }}; upon {{ insert: param, A.03.17.02E.ODP.04 }} ]."
+        },
+        {
+          "ref": "03.17.03E",
+          "label": "Component Authenticity",
+          "description": "ES-03.17.03E-a Develop and implement anti-counterfeit policy and procedures that include the means to detect and prevent counterfeit components from entering the system.\nES-03.17.03E-b Report counterfeit system components to [Selection (one or more): source of counterfeit component; {{ insert: param, A.03.17.03E.ODP.02 }}; {{ insert: param, A.03.17.03E.ODP.03 }} ]."
+        },
+        {
+          "ref": "03.17.04E",
+          "label": "Provenance",
+          "description": "Document, monitor, and maintain valid provenance of the following systems, system components, and associated CUI: [Assignment: organization-defined systems, system components, and associated CUI]."
+        },
+        {
+          "ref": "03.17.05E",
+          "label": "Supply Chain Integrity – Pedigree",
+          "description": "Employ [Assignment: organization-defined safeguards] and conduct [Assignment: organization-defined safeguards] to ensure the integrity of the system and system components by validating the internal composition and provenance of critical or mission-essential technologies, products, and services."
+        }
+      ]
+    }
+  ]
+}
