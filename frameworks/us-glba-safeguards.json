@@ -1,0 +1,335 @@
+{
+  "key": "us-glba-safeguards",
+  "name": "GLBA Safeguards Rule",
+  "short_name": "GLBA Safeguards",
+  "version": "16 CFR Part 314 (2023 amendments)",
+  "publisher": "US Federal Trade Commission",
+  "source_url": "https://www.ecfr.gov/current/title-16/part-314",
+  "scf_keys": [
+    "us-glba-safeguards",
+    "us-ftc-safeguards-rule"
+  ],
+  "last_updated": "2026-08-25",
+  "description": "The FTC Safeguards Rule implementing the Gramm-Leach-Bliley Act: the standards (§ 314.3) and required elements (§ 314.4) of a financial institution's information security program, including the FTC notification duty added in 2023. Purpose/scope, definitions, and exceptions are out of scope.",
+  "category": "regulation",
+  "keywords": [
+    "financial services",
+    "privacy",
+    "customer information",
+    "ftc",
+    "glba",
+    "regulation"
+  ],
+  "controls": [
+    {
+      "ref": "314.3",
+      "label": "Standards for safeguarding customer information",
+      "group": true,
+      "controls": [
+        {
+          "ref": "314.3(a)",
+          "description": "Information security program. You shall develop, implement, and maintain a comprehensive information security program that is written in one or more readily accessible parts and contains administrative, technical, and physical safeguards that are appropriate to your size and complexity, the nature and scope of your activities, and the sensitivity of any customer information at issue. The information security program shall include the elements set forth in § 314.4 and shall be reasonably designed to achieve the objectives of this part, as set forth in paragraph (b) of this section."
+        },
+        {
+          "ref": "314.3(b)",
+          "description": "Objectives. The objectives of section 501(b) of the Act, and of this part, are to:",
+          "controls": [
+            {
+              "ref": "314.3(b)(1)",
+              "description": "Insure the security and confidentiality of customer information;"
+            },
+            {
+              "ref": "314.3(b)(2)",
+              "description": "Protect against any anticipated threats or hazards to the security or integrity of such information; and"
+            },
+            {
+              "ref": "314.3(b)(3)",
+              "description": "Protect against unauthorized access to or use of such information that could result in substantial harm or inconvenience to any customer."
+            }
+          ],
+          "group": false
+        }
+      ]
+    },
+    {
+      "ref": "314.4",
+      "label": "Elements",
+      "group": true,
+      "controls": [
+        {
+          "ref": "314.4(a)",
+          "description": "Designate a qualified individual responsible for overseeing and implementing your information security program and enforcing your information security program (for purposes of this part, “Qualified Individual”). The Qualified Individual may be employed by you, an affiliate, or a service provider. To the extent the requirement in this paragraph (a) is met using a service provider or an affiliate, you shall:",
+          "controls": [
+            {
+              "ref": "314.4(a)(1)",
+              "description": "Retain responsibility for compliance with this part;"
+            },
+            {
+              "ref": "314.4(a)(2)",
+              "description": "Designate a senior member of your personnel responsible for direction and oversight of the Qualified Individual; and"
+            },
+            {
+              "ref": "314.4(a)(3)",
+              "description": "Require the service provider or affiliate to maintain an information security program that protects you in accordance with the requirements of this part."
+            }
+          ],
+          "group": false
+        },
+        {
+          "ref": "314.4(b)",
+          "description": "Base your information security program on a risk assessment that identifies reasonably foreseeable internal and external risks to the security, confidentiality, and integrity of customer information that could result in the unauthorized disclosure, misuse, alteration, destruction, or other compromise of such information, and assesses the sufficiency of any safeguards in place to control these risks.",
+          "controls": [
+            {
+              "ref": "314.4(b)(1)",
+              "description": "The risk assessment shall be written and shall include:",
+              "controls": [
+                {
+                  "ref": "314.4(b)(1)(i)",
+                  "description": "Criteria for the evaluation and categorization of identified security risks or threats you face;"
+                },
+                {
+                  "ref": "314.4(b)(1)(ii)",
+                  "description": "Criteria for the assessment of the confidentiality, integrity, and availability of your information systems and customer information, including the adequacy of the existing controls in the context of the identified risks or threats you face; and"
+                },
+                {
+                  "ref": "314.4(b)(1)(iii)",
+                  "description": "Requirements describing how identified risks will be mitigated or accepted based on the risk assessment and how the information security program will address the risks."
+                }
+              ],
+              "group": false
+            },
+            {
+              "ref": "314.4(b)(2)",
+              "description": "You shall periodically perform additional risk assessments that reexamine the reasonably foreseeable internal and external risks to the security, confidentiality, and integrity of customer information that could result in the unauthorized disclosure, misuse, alteration, destruction, or other compromise of such information, and reassess the sufficiency of any safeguards in place to control these risks."
+            }
+          ],
+          "group": false
+        },
+        {
+          "ref": "314.4(c)",
+          "description": "Design and implement safeguards to control the risks you identify through risk assessment, including by:",
+          "controls": [
+            {
+              "ref": "314.4(c)(1)",
+              "description": "Implementing and periodically reviewing access controls, including technical and, as appropriate, physical controls to:",
+              "controls": [
+                {
+                  "ref": "314.4(c)(1)(i)",
+                  "description": "Authenticate and permit access only to authorized users to protect against the unauthorized acquisition of customer information; and"
+                },
+                {
+                  "ref": "314.4(c)(1)(ii)",
+                  "description": "Limit authorized users' access only to customer information that they need to perform their duties and functions, or, in the case of customers, to access their own information;"
+                }
+              ],
+              "group": false
+            },
+            {
+              "ref": "314.4(c)(2)",
+              "description": "Identify and manage the data, personnel, devices, systems, and facilities that enable you to achieve business purposes in accordance with their relative importance to business objectives and your risk strategy;"
+            },
+            {
+              "ref": "314.4(c)(3)",
+              "description": "Protect by encryption all customer information held or transmitted by you both in transit over external networks and at rest. To the extent you determine that encryption of customer information, either in transit over external networks or at rest, is infeasible, you may instead secure such customer information using effective alternative compensating controls reviewed and approved by your Qualified Individual;"
+            },
+            {
+              "ref": "314.4(c)(4)",
+              "description": "Adopt secure development practices for in-house developed applications utilized by you for transmitting, accessing, or storing customer information and procedures for evaluating, assessing, or testing the security of externally developed applications you utilize to transmit, access, or store customer information;"
+            },
+            {
+              "ref": "314.4(c)(5)",
+              "description": "Implement multi-factor authentication for any individual accessing any information system, unless your Qualified Individual has approved in writing the use of reasonably equivalent or more secure access controls;"
+            },
+            {
+              "ref": "314.4(c)(6)",
+              "controls": [
+                {
+                  "ref": "314.4(c)(6)(i)",
+                  "description": "Develop, implement, and maintain procedures for the secure disposal of customer information in any format no later than two years after the last date the information is used in connection with the provision of a product or service to the customer to which it relates, unless such information is necessary for business operations or for other legitimate business purposes, is otherwise required to be retained by law or regulation, or where targeted disposal is not reasonably feasible due to the manner in which the information is maintained; and"
+                },
+                {
+                  "ref": "314.4(c)(6)(ii)",
+                  "description": "Periodically review your data retention policy to minimize the unnecessary retention of data;"
+                }
+              ],
+              "group": true
+            },
+            {
+              "ref": "314.4(c)(7)",
+              "description": "Adopt procedures for change management; and"
+            },
+            {
+              "ref": "314.4(c)(8)",
+              "description": "Implement policies, procedures, and controls designed to monitor and log the activity of authorized users and detect unauthorized access or use of, or tampering with, customer information by such users."
+            }
+          ],
+          "group": false
+        },
+        {
+          "ref": "314.4(d)",
+          "controls": [
+            {
+              "ref": "314.4(d)(1)",
+              "description": "Regularly test or otherwise monitor the effectiveness of the safeguards' key controls, systems, and procedures, including those to detect actual and attempted attacks on, or intrusions into, information systems."
+            },
+            {
+              "ref": "314.4(d)(2)",
+              "description": "For information systems, the monitoring and testing shall include continuous monitoring or periodic penetration testing and vulnerability assessments. Absent effective continuous monitoring or other systems to detect, on an ongoing basis, changes in information systems that may create vulnerabilities, you shall conduct:",
+              "controls": [
+                {
+                  "ref": "314.4(d)(2)(i)",
+                  "description": "Annual penetration testing of your information systems determined each given year based on relevant identified risks in accordance with the risk assessment; and"
+                },
+                {
+                  "ref": "314.4(d)(2)(ii)",
+                  "description": "Vulnerability assessments, including any systemic scans or reviews of information systems reasonably designed to identify publicly known security vulnerabilities in your information systems based on the risk assessment, at least every six months; and whenever there are material changes to your operations or business arrangements; and whenever there are circumstances you know or have reason to know may have a material impact on your information security program."
+                }
+              ],
+              "group": false
+            }
+          ],
+          "group": true
+        },
+        {
+          "ref": "314.4(e)",
+          "description": "Implement policies and procedures to ensure that personnel are able to enact your information security program by:",
+          "controls": [
+            {
+              "ref": "314.4(e)(1)",
+              "description": "Providing your personnel with security awareness training that is updated as necessary to reflect risks identified by the risk assessment;"
+            },
+            {
+              "ref": "314.4(e)(2)",
+              "description": "Utilizing qualified information security personnel employed by you or an affiliate or service provider sufficient to manage your information security risks and to perform or oversee the information security program;"
+            },
+            {
+              "ref": "314.4(e)(3)",
+              "description": "Providing information security personnel with security updates and training sufficient to address relevant security risks; and"
+            },
+            {
+              "ref": "314.4(e)(4)",
+              "description": "Verifying that key information security personnel take steps to maintain current knowledge of changing information security threats and countermeasures."
+            }
+          ],
+          "group": false
+        },
+        {
+          "ref": "314.4(f)",
+          "description": "Oversee service providers, by:",
+          "controls": [
+            {
+              "ref": "314.4(f)(1)",
+              "description": "Taking reasonable steps to select and retain service providers that are capable of maintaining appropriate safeguards for the customer information at issue;"
+            },
+            {
+              "ref": "314.4(f)(2)",
+              "description": "Requiring your service providers by contract to implement and maintain such safeguards; and"
+            },
+            {
+              "ref": "314.4(f)(3)",
+              "description": "Periodically assessing your service providers based on the risk they present and the continued adequacy of their safeguards."
+            }
+          ],
+          "group": false
+        },
+        {
+          "ref": "314.4(g)",
+          "description": "Evaluate and adjust your information security program in light of the results of the testing and monitoring required by paragraph (d) of this section; any material changes to your operations or business arrangements; the results of risk assessments performed under paragraph (b)(2) of this section; or any other circumstances that you know or have reason to know may have a material impact on your information security program."
+        },
+        {
+          "ref": "314.4(h)",
+          "description": "Establish a written incident response plan designed to promptly respond to, and recover from, any security event materially affecting the confidentiality, integrity, or availability of customer information in your control. Such incident response plan shall address the following areas:",
+          "controls": [
+            {
+              "ref": "314.4(h)(1)",
+              "description": "The goals of the incident response plan;"
+            },
+            {
+              "ref": "314.4(h)(2)",
+              "description": "The internal processes for responding to a security event;"
+            },
+            {
+              "ref": "314.4(h)(3)",
+              "description": "The definition of clear roles, responsibilities, and levels of decision-making authority;"
+            },
+            {
+              "ref": "314.4(h)(4)",
+              "description": "External and internal communications and information sharing;"
+            },
+            {
+              "ref": "314.4(h)(5)",
+              "description": "Identification of requirements for the remediation of any identified weaknesses in information systems and associated controls;"
+            },
+            {
+              "ref": "314.4(h)(6)",
+              "description": "Documentation and reporting regarding security events and related incident response activities; and"
+            },
+            {
+              "ref": "314.4(h)(7)",
+              "description": "The evaluation and revision as necessary of the incident response plan following a security event."
+            }
+          ],
+          "group": false
+        },
+        {
+          "ref": "314.4(i)",
+          "description": "Require your Qualified Individual to report in writing, regularly and at least annually, to your board of directors or equivalent governing body. If no such board of directors or equivalent governing body exists, such report shall be timely presented to a senior officer responsible for your information security program. The report shall include the following information:",
+          "controls": [
+            {
+              "ref": "314.4(i)(1)",
+              "description": "The overall status of the information security program and your compliance with this part; and"
+            },
+            {
+              "ref": "314.4(i)(2)",
+              "description": "Material matters related to the information security program, addressing issues such as risk assessment, risk management and control decisions, service provider arrangements, results of testing, security events or violations and management's responses thereto, and recommendations for changes in the information security program."
+            }
+          ],
+          "group": false
+        },
+        {
+          "ref": "314.4(j)",
+          "description": "Notify the Federal Trade Commission about notification events in accordance with paragraphs (j)(1) and (2) of this section.",
+          "controls": [
+            {
+              "ref": "314.4(j)(1)",
+              "description": "Notification requirement. Upon discovery of a notification event as described in paragraph (j)(2) of this section, if the notification event involves the information of at least 500 consumers, you must notify the Federal Trade Commission as soon as possible, and no later than 30 days after discovery of the event. The notice shall be made electronically on a form to be located on the FTC's website, https://www.ftc.gov. The notice shall include the following:",
+              "controls": [
+                {
+                  "ref": "314.4(j)(1)(i)",
+                  "description": "The name and contact information of the reporting financial institution;"
+                },
+                {
+                  "ref": "314.4(j)(1)(ii)",
+                  "description": "A description of the types of information that were involved in the notification event;"
+                },
+                {
+                  "ref": "314.4(j)(1)(iii)",
+                  "description": "If the information is possible to determine, the date or date range of the notification event;"
+                },
+                {
+                  "ref": "314.4(j)(1)(iv)",
+                  "description": "The number of consumers affected or potentially affected by the notification event;"
+                },
+                {
+                  "ref": "314.4(j)(1)(v)",
+                  "description": "A general description of the notification event; and"
+                },
+                {
+                  "ref": "314.4(j)(1)(vi)",
+                  "description": "Whether any law enforcement official has provided you with a written determination that notifying the public of the breach would impede a criminal investigation or cause damage to national security, and a means for the Federal Trade Commission to contact the law enforcement official. A law enforcement official may request an initial delay of up to 30 days following the date when notice was provided to the Federal Trade Commission. The delay may be extended for an additional period of up to 60 days if the law enforcement official seeks such an extension in writing. Additional delay may be permitted only if the Commission staff determines that public disclosure of a security event continues to impede a criminal investigation or cause damage to national security."
+                }
+              ],
+              "group": false
+            },
+            {
+              "ref": "314.4(j)(2)",
+              "description": "Notification event treated as discovered. A notification event shall be treated as discovered as of the first day on which such event is known to you. You shall be deemed to have knowledge of a notification event if such event is known to any person, other than the person committing the breach, who is your employee, officer, or other agent."
+            }
+          ],
+          "group": false
+        }
+      ],
+      "description": "In order to develop, implement, and maintain your information security program, you shall:"
+    }
+  ]
+}
