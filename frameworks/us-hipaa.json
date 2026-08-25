@@ -8,18 +8,232 @@
     "us-hipaa-administrative-simplification-2013",
     "us-hipaa-security-rule-nist-sp-800-66-r2"
   ],
-  "last_updated": "2026-06-26",
-  "description": "U.S. federal law establishing privacy and security standards for protected health information (45 CFR Part 164).",
+  "last_updated": "2026-08-25",
+  "description": "U.S. federal privacy, security, and breach notification standards for protected health information (45 CFR Part 164): the Security Rule (Subpart C), Breach Notification Rule (Subpart D), and Privacy Rule (Subpart E), with the organizational requirements of § 164.105.",
   "category": "framework",
   "keywords": [
-    "cybersecurity",
-    "framework"
+    "privacy",
+    "security",
+    "protected health information",
+    "healthcare",
+    "hipaa",
+    "regulation"
   ],
   "controls": [
     {
-      "ref": "Breach Notification Rule",
+      "ref": "General Provisions",
+      "label": "Subpart A — General Provisions",
       "group": true,
       "controls": [
+        {
+          "ref": "164.105",
+          "label": "Organizational requirements",
+          "controls": [
+            {
+              "ref": "164.105(a)",
+              "controls": [
+                {
+                  "ref": "164.105(a)(1)",
+                  "description": "Standard: Health care component. If a covered entity is a hybrid entity, the requirements of this part, other than the requirements of this section, §§ 164.314, and 164.504, apply only to the health care component(s) of the entity, as specified in this section."
+                },
+                {
+                  "ref": "164.105(a)(2)",
+                  "description": "Implementation specifications:",
+                  "controls": [
+                    {
+                      "ref": "164.105(a)(2)(i)",
+                      "description": "Application of other provisions. In applying a provision of this part, other than the requirements of this section, §§ 164.314, and 164.504, to a hybrid entity:",
+                      "controls": [
+                        {
+                          "ref": "164.105(a)(2)(i)(A)",
+                          "description": "A reference in such provision to a “covered entity” refers to a health care component of the covered entity;"
+                        },
+                        {
+                          "ref": "164.105(a)(2)(i)(B)",
+                          "description": "A reference in such provision to a “health plan,” “covered health care provider,” or “health care clearinghouse,” refers to a health care component of the covered entity if such health care component performs the functions of a health plan, health care provider, or health care clearinghouse, as applicable;"
+                        },
+                        {
+                          "ref": "164.105(a)(2)(i)(C)",
+                          "description": "A reference in such provision to “protected health information” refers to protected health information that is created or received by or on behalf of the health care component of the covered entity; and"
+                        },
+                        {
+                          "ref": "164.105(a)(2)(i)(D)",
+                          "description": "A reference in such provision to “electronic protected health information” refers to electronic protected health information that is created, received, maintained, or transmitted by or on behalf of the health care component of the covered entity."
+                        }
+                      ],
+                      "group": false
+                    },
+                    {
+                      "ref": "164.105(a)(2)(ii)",
+                      "description": "Safeguard requirements. The covered entity that is a hybrid entity must ensure that a health care component of the entity complies with the applicable requirements of this part. In particular, and without limiting this requirement, such covered entity must ensure that:",
+                      "controls": [
+                        {
+                          "ref": "164.105(a)(2)(ii)(A)",
+                          "description": "Its health care component does not disclose protected health information to another component of the covered entity in circumstances in which subpart E of this part would prohibit such disclosure if the health care component and the other component were separate and distinct legal entities;"
+                        },
+                        {
+                          "ref": "164.105(a)(2)(ii)(B)",
+                          "description": "Its health care component protects electronic protected health information with respect to another component of the covered entity to the same extent that it would be required under subpart C of this part to protect such information if the health care component and the other component were separate and distinct legal entities;"
+                        },
+                        {
+                          "ref": "164.105(a)(2)(ii)(C)",
+                          "description": "If a person performs duties for both the health care component in the capacity of a member of the workforce of such component and for another component of the entity in the same capacity with respect to that component, such workforce member must not use or disclose protected health information created or received in the course of or incident to the member's work for the health care component in a way prohibited by subpart E of this part."
+                        }
+                      ],
+                      "group": false
+                    },
+                    {
+                      "ref": "164.105(a)(2)(iii)",
+                      "description": "Responsibilities of the covered entity. A covered entity that is a hybrid entity has the following responsibilities:",
+                      "controls": [
+                        {
+                          "ref": "164.105(a)(2)(iii)(A)",
+                          "description": "For purposes of subpart C of part 160 of this subchapter, pertaining to compliance and enforcement, the covered entity has the responsibility of complying with this part."
+                        },
+                        {
+                          "ref": "164.105(a)(2)(iii)(B)",
+                          "description": "The covered entity is responsible for complying with §§ 164.316(a) and 164.530(i), pertaining to the implementation of policies and procedures to ensure compliance with applicable requirements of this part, including the safeguard requirements in paragraph (a)(2)(ii) of this section."
+                        },
+                        {
+                          "ref": "164.105(a)(2)(iii)(C)",
+                          "description": "The covered entity is responsible for complying with §§ 164.314 and 164.504 regarding business associate arrangements and other organizational requirements."
+                        },
+                        {
+                          "ref": "164.105(a)(2)(iii)(D)",
+                          "description": "The covered entity is responsible for designating the components that are part of one or more health care components of the covered entity and documenting the designation in accordance with paragraph (c) of this section, provided that, if the covered entity designates one or more health care components, it must include any component that would meet the definition of a covered entity or business associate if it were a separate legal entity. Health care component(s) also may include a component only to the extent that it performs covered functions."
+                        }
+                      ],
+                      "group": false
+                    }
+                  ],
+                  "group": false
+                }
+              ],
+              "group": true
+            },
+            {
+              "ref": "164.105(b)",
+              "controls": [
+                {
+                  "ref": "164.105(b)(1)",
+                  "description": "Standard: Affiliated covered entities. Legally separate covered entities that are affiliated may designate themselves as a single covered entity for purposes of this part."
+                },
+                {
+                  "ref": "164.105(b)(2)",
+                  "description": "Implementation specifications",
+                  "controls": [
+                    {
+                      "ref": "164.105(b)(2)(i)",
+                      "description": "Requirements for designation of an affiliated covered entity.",
+                      "controls": [
+                        {
+                          "ref": "164.105(b)(2)(i)(A)",
+                          "description": "Legally separate covered entities may designate themselves (including any health care component of such covered entity) as a single affiliated covered entity, for purposes of this part, if all of the covered entities designated are under common ownership or control."
+                        },
+                        {
+                          "ref": "164.105(b)(2)(i)(B)",
+                          "description": "The designation of an affiliated covered entity must be documented and the documentation maintained as required by paragraph (c) of this section."
+                        }
+                      ],
+                      "group": false
+                    },
+                    {
+                      "ref": "164.105(b)(2)(ii)",
+                      "description": "Safeguard requirements. An affiliated covered entity must ensure that it complies with the applicable requirements of this part, including, if the affiliated covered entity combines the functions of a health plan, health care provider, or health care clearinghouse, §§ 164.308(a)(4)(ii)(A) and 164.504(g), as applicable."
+                    }
+                  ],
+                  "group": false
+                }
+              ],
+              "group": true
+            },
+            {
+              "ref": "164.105(c)",
+              "controls": [
+                {
+                  "ref": "164.105(c)(1)",
+                  "description": "Standard: Documentation. A covered entity must maintain a written or electronic record of a designation as required by paragraphs (a) or (b) of this section."
+                },
+                {
+                  "ref": "164.105(c)(2)",
+                  "description": "Implementation specification: Retention period. A covered entity must retain the documentation as required by paragraph (c)(1) of this section for 6 years from the date of its creation or the date when it last was in effect, whichever is later."
+                }
+              ],
+              "group": true
+            }
+          ],
+          "group": true
+        }
+      ]
+    },
+    {
+      "ref": "Breach Notification Rule",
+      "label": "Subpart D — Notification in the Case of Breach of Unsecured Protected Health Information",
+      "group": true,
+      "controls": [
+        {
+          "ref": "164.402",
+          "label": "Definitions",
+          "description": "As used in this subpart, the following terms have the following meanings:",
+          "group": true,
+          "controls": [
+            {
+              "ref": "164.402-breach",
+              "label": "Breach",
+              "description": "Breach means the acquisition, access, use, or disclosure of protected health information in a manner not permitted under subpart E of this part which compromises the security or privacy of the protected health information.",
+              "controls": [
+                {
+                  "ref": "164.402-breach(1)",
+                  "description": "Breach excludes:",
+                  "controls": [
+                    {
+                      "ref": "164.402-breach(1)(i)",
+                      "description": "Any unintentional acquisition, access, or use of protected health information by a workforce member or person acting under the authority of a covered entity or a business associate, if such acquisition, access, or use was made in good faith and within the scope of authority and does not result in further use or disclosure in a manner not permitted under subpart E of this part."
+                    },
+                    {
+                      "ref": "164.402-breach(1)(ii)",
+                      "description": "Any inadvertent disclosure by a person who is authorized to access protected health information at a covered entity or business associate to another person authorized to access protected health information at the same covered entity or business associate, or organized health care arrangement in which the covered entity participates, and the information received as a result of such disclosure is not further used or disclosed in a manner not permitted under subpart E of this part."
+                    },
+                    {
+                      "ref": "164.402-breach(1)(iii)",
+                      "description": "A disclosure of protected health information where a covered entity or business associate has a good faith belief that an unauthorized person to whom the disclosure was made would not reasonably have been able to retain such information."
+                    }
+                  ],
+                  "group": false
+                },
+                {
+                  "ref": "164.402-breach(2)",
+                  "description": "Except as provided in paragraph (1) of this definition, an acquisition, access, use, or disclosure of protected health information in a manner not permitted under subpart E is presumed to be a breach unless the covered entity or business associate, as applicable, demonstrates that there is a low probability that the protected health information has been compromised based on a risk assessment of at least the following factors:",
+                  "controls": [
+                    {
+                      "ref": "164.402-breach(2)(i)",
+                      "description": "The nature and extent of the protected health information involved, including the types of identifiers and the likelihood of re-identification;"
+                    },
+                    {
+                      "ref": "164.402-breach(2)(ii)",
+                      "description": "The unauthorized person who used the protected health information or to whom the disclosure was made;"
+                    },
+                    {
+                      "ref": "164.402-breach(2)(iii)",
+                      "description": "Whether the protected health information was actually acquired or viewed; and"
+                    },
+                    {
+                      "ref": "164.402-breach(2)(iv)",
+                      "description": "The extent to which the risk to the protected health information has been mitigated."
+                    }
+                  ],
+                  "group": false
+                }
+              ],
+              "group": false
+            },
+            {
+              "ref": "164.402-unsecured",
+              "label": "Unsecured protected health information",
+              "description": "Unsecured protected health information means protected health information that is not rendered unusable, unreadable, or indecipherable to unauthorized persons through the use of a technology or methodology specified by the Secretary in the guidance issued under section 13402(h)(2) of Public Law 111-5."
+            }
+          ]
+        },
         {
           "ref": "164.404",
           "label": "Notification to individuals.",
@@ -56,7 +270,7 @@
                   "ref": "164.404(c)(1)",
                   "label": "Elements.",
                   "description": "The notification required by paragraph (a) of this section shall include, to the extent possible:",
-                  "group": false,
+                  "group": true,
                   "controls": [
                     {
                       "ref": "164.404(c)(1)(A)",
@@ -91,7 +305,7 @@
               "ref": "164.404(d)",
               "label": "Implementation specifications: Methods of individual notification",
               "description": "The notification required by paragraph (a) of this section shall be provided in the following form:",
-              "group": false,
+              "group": true,
               "controls": [
                 {
                   "ref": "164.404(d)(1)",
@@ -236,7 +450,7 @@
           "ref": "164.412",
           "label": "Law enforcement delay.",
           "description": "If a law enforcement official states to a covered entity or business associate that a notification, notice, or posting required under this subpart would impede a criminal investigation or cause damage to national security, a covered entity or business associate shall:",
-          "group": false,
+          "group": true,
           "controls": [
             {
               "ref": "164.412(a)",
@@ -269,6 +483,7 @@
     },
     {
       "ref": "Privacy Rule",
+      "label": "Subpart E — Privacy of Individually Identifiable Health Information",
       "group": true,
       "controls": [
         {
@@ -286,7 +501,7 @@
                   "ref": "164.502(a)(1)",
                   "label": "Covered entities: Permitted uses and disclosures",
                   "description": "A covered entity is permitted to use or disclose protected health information as follows:",
-                  "group": false,
+                  "group": true,
                   "controls": [
                     {
                       "ref": "164.502(a)(1)(i)",
@@ -333,7 +548,7 @@
                   "ref": "164.502(a)(2)",
                   "label": "Covered entities: Required disclosures",
                   "description": "A covered entity is required to disclose protected health information:",
-                  "group": false,
+                  "group": true,
                   "controls": [
                     {
                       "ref": "164.502(a)(2)(i)",
@@ -354,7 +569,7 @@
                   "ref": "164.502(a)(4)",
                   "label": "Business associates: Required uses and disclosures",
                   "description": "A business associate is required to disclose protected health information:",
-                  "group": false,
+                  "group": true,
                   "controls": [
                     {
                       "ref": "164.502(a)(4)(i)",
@@ -375,7 +590,7 @@
                       "ref": "164.502(a)(5)(i)",
                       "label": "se and disclosure of genetic information for underwriting purposes",
                       "description": "Notwithstanding any other provision of this subpart, a health plan, excluding an issuer of a long-term care policy falling within paragraph (1)(viii) of the definition of health plan, shall not use or disclose protected health information that is genetic information for underwriting purposes. For purposes of paragraph (a)(5)(i) of this section, underwriting purposes means, with respect to a health plan:",
-                      "group": false,
+                      "group": true,
                       "controls": [
                         {
                           "ref": "164.502(a)(5)(i)(A)",
@@ -476,7 +691,7 @@
                           "ref": "164.502(a)(5)(iii)(A)",
                           "label": "Prohibition",
                           "description": "Subject to paragraphs (a)(5)(iii)(B) and (C) of this section, a covered entity or business associate may not use or disclose protected health information for any of the following activities:",
-                          "group": false,
+                          "group": true,
                           "controls": [
                             {
                               "ref": "164.502(a)(5)(iii)(A)(1)",
@@ -496,7 +711,7 @@
                           "ref": "164.502(a)(5)(iii)(B)",
                           "label": "Rule of applicability.",
                           "description": "The prohibition at paragraph (a)(5)(iii)(A) of this section applies only where the relevant activity is in connection with any person seeking, obtaining, providing, or facilitating reproductive health care, and the covered entity or business associate that received the request for protected health information has reasonably determined that one or more of the following conditions exists:",
-                          "group": false,
+                          "group": true,
                           "controls": [
                             {
                               "ref": "164.502(a)(5)(iii)(B)(1)",
@@ -516,7 +731,7 @@
                           "ref": "164.502(a)(5)(iii)(C)",
                           "label": "Presumption.",
                           "description": "The reproductive health care provided by another person is presumed lawful under paragraph (a)(5)(iii)(B)(1) or (2) of this section unless the covered entity or business associate has any of the following:",
-                          "group": false,
+                          "group": true,
                           "controls": [
                             {
                               "ref": "164.502(a)(5)(iii)(C)(1)",
@@ -549,7 +764,7 @@
                   "ref": "164.502(b)(2)",
                   "label": "Minimum necessary does not apply.",
                   "description": "This requirement does not apply to:",
-                  "group": false,
+                  "group": true,
                   "controls": [
                     {
                       "ref": "164.502(b)(2)(i)",
@@ -598,7 +813,7 @@
                   "ref": "164.502(d)(2)",
                   "label": "Uses and disclosures of de-identified information",
                   "description": "Health information that meets the standard and implementation specifications for de-identification under § 164.514(a) and (b) is considered not to be individually identifiable health information, i.e., de-identified. The requirements of this subpart do not apply to information that has been de-identified in accordance with the applicable requirements of § 164.514, provided that:",
-                  "group": false,
+                  "group": true,
                   "controls": [
                     {
                       "ref": "164.502(d)(2)(i)",
@@ -614,6 +829,7 @@
             },
             {
               "ref": "164.502(e)",
+              "label": "Standard: Disclosures to business associates",
               "group": true,
               "controls": [
                 {
@@ -645,6 +861,7 @@
             },
             {
               "ref": "164.502(g)",
+              "label": "Standard: Personal representatives",
               "group": true,
               "controls": [
                 {
@@ -659,13 +876,14 @@
                 },
                 {
                   "ref": "164.502(g)(3)",
+                  "label": "Implementation specification: Unemancipated minors",
                   "group": true,
                   "controls": [
                     {
                       "ref": "164.502(g)(3)(i)",
                       "label": "Implementation specification: Unemancipated minors",
                       "description": "If under applicable law a parent, guardian, or other person acting in loco parentis has authority to act on behalf of an individual who is an unemancipated minor in making decisions related to health care, a covered entity must treat such person as a personal representative under this subchapter, with respect to protected health information relevant to such personal representation, except that such person may not be a personal representative of an unemancipated minor, and the minor has the authority to act as an individual, with respect to protected health information pertaining to a health care service, if:",
-                      "group": false,
+                      "group": true,
                       "controls": [
                         {
                           "ref": "164.502(g)(3)(i)(A)",
@@ -711,7 +929,7 @@
                   "ref": "164.502(g)(5)",
                   "label": "Implementation specification: Abuse, neglect, endangerment situations.",
                   "description": "Notwithstanding a State law or any requirement of this paragraph to the contrary, a covered entity may elect not to treat a person as the personal representative, provided that the conditions at paragraphs (g)(5)(i) and (ii) of this section are met:",
-                  "group": false,
+                  "group": true,
                   "controls": [
                     {
                       "ref": "164.502(g)(5)(i)",
@@ -766,7 +984,7 @@
                   "ref": "164.502(j)(1)",
                   "label": "Disclosures by whistleblowers",
                   "description": "A covered entity is not considered to have violated the requirements of this subpart if a member of its workforce or a business associate discloses protected health information, provided that:",
-                  "group": false,
+                  "group": true,
                   "controls": [
                     {
                       "ref": "164.502(j)(1)(i)",
@@ -793,7 +1011,7 @@
                   "ref": "164.502(j)(2)",
                   "label": "Disclosures by workforce members who are victims of a crime",
                   "description": "A covered entity is not considered to have violated the requirements of this subpart if a member of its workforce who is the victim of a criminal act discloses protected health information to a law enforcement official, provided that:",
-                  "group": false,
+                  "group": true,
                   "controls": [
                     {
                       "ref": "164.502(j)(2)(i)",
@@ -816,6 +1034,7 @@
           "controls": [
             {
               "ref": "164.504(e)",
+              "label": "Standard: Business associate contracts",
               "group": true,
               "controls": [
                 {
@@ -841,7 +1060,7 @@
                   "ref": "164.504(e)(2)",
                   "label": "Implementation specifications: Business associate contracts",
                   "description": "A contract between the covered entity and a business associate must:",
-                  "group": false,
+                  "group": true,
                   "controls": [
                     {
                       "ref": "164.504(e)(2)(i)",
@@ -976,6 +1195,7 @@
                         },
                         {
                           "ref": "164.504(e)(4)(ii)(B)",
+                          "label": "Reasonable assurances from the recipient",
                           "group": true,
                           "controls": [
                             {
@@ -1001,6 +1221,7 @@
             },
             {
               "ref": "164.504(f)",
+              "label": "Standard: Requirements for group health plans",
               "group": true,
               "controls": [
                 {
@@ -1037,7 +1258,7 @@
                   "ref": "164.504(f)(2)",
                   "label": "Implementation specifications: Requirements for plan documents.",
                   "description": "The plan documents of the group health plan must be amended to incorporate provisions to:",
-                  "group": false,
+                  "group": true,
                   "controls": [
                     {
                       "ref": "164.504(f)(2)(i)",
@@ -1115,7 +1336,7 @@
                   "ref": "164.504(f)(3)",
                   "label": "Implementation specifications: Uses and disclosures.",
                   "description": "A group health plan may:",
-                  "group": false,
+                  "group": true,
                   "controls": [
                     {
                       "ref": "164.504(f)(3)(i)",
@@ -1238,7 +1459,7 @@
                   "ref": "164.508(a)(2)",
                   "label": "Authorization required: Psychotherapy notes",
                   "description": "Notwithstanding any provision of this subpart, other than the transition provisions in § 164.532, a covered entity must obtain an authorization for any use or disclosure of psychotherapy notes, except:",
-                  "group": false,
+                  "group": true,
                   "controls": [
                     {
                       "ref": "164.508(a)(2)(i)",
@@ -1332,7 +1553,7 @@
                   "ref": "164.508(b)(2)",
                   "label": "Defective authorizations",
                   "description": "An authorization is not valid, if the document submitted has any of the following defects:",
-                  "group": false,
+                  "group": true,
                   "controls": [
                     {
                       "ref": "164.508(b)(2)(i)",
@@ -1360,7 +1581,7 @@
                   "ref": "164.508(b)(3)",
                   "label": "Compound authorizations.",
                   "description": "An authorization for use or disclosure of protected health information may not be combined with any other document to create a compound authorization, except as follows:",
-                  "group": false,
+                  "group": true,
                   "controls": [
                     {
                       "ref": "164.508(b)(3)(i)",
@@ -1380,7 +1601,7 @@
                   "ref": "164.508(b)(4)",
                   "label": "Prohibition on conditioning of authorizations",
                   "description": "A covered entity may not condition the provision to an individual of treatment, payment, enrollment in the health plan, or eligibility for benefits on the provision of an authorization, except:",
-                  "group": false,
+                  "group": true,
                   "controls": [
                     {
                       "ref": "164.508(b)(4)(i)",
@@ -1411,7 +1632,7 @@
                   "ref": "164.508(b)(5)",
                   "label": "Revocation of authorizations.",
                   "description": "An individual may revoke an authorization provided under this section at any time, provided that the revocation is in writing, except to the extent that:",
-                  "group": false,
+                  "group": true,
                   "controls": [
                     {
                       "ref": "164.508(b)(5)(i)",
@@ -1439,7 +1660,7 @@
                   "ref": "164.508(c)(1)",
                   "label": "Core elements",
                   "description": "A valid authorization under this section must contain at least the following elements:",
-                  "group": false,
+                  "group": true,
                   "controls": [
                     {
                       "ref": "164.508(c)(1)(i)",
@@ -1471,7 +1692,7 @@
                   "ref": "164.508(c)(2)",
                   "label": "Required statements.",
                   "description": "In addition to the core elements, the authorization must contain statements adequate to place the individual on notice of all of the following:",
-                  "group": false,
+                  "group": true,
                   "controls": [
                     {
                       "ref": "164.508(c)(2)(i)",
@@ -1572,7 +1793,7 @@
                   "ref": "164.509(b)(2)",
                   "label": "Defective attestations.",
                   "description": "An attestation is not valid if the document submitted has any of the following defects:",
-                  "group": false,
+                  "group": true,
                   "controls": [
                     {
                       "ref": "164.509(b)(2)(i)",
@@ -1612,7 +1833,7 @@
                   "ref": "164.509(c)(1)",
                   "label": "Required elements.",
                   "description": "A valid attestation under this section must contain the following elements:",
-                  "group": false,
+                  "group": true,
                   "controls": [
                     {
                       "ref": "164.509(c)(1)(i)",
@@ -1669,7 +1890,7 @@
                   "ref": "164.510(a)(1)",
                   "label": "Permitted uses and disclosure",
                   "description": "Except when an objection is expressed in accordance with paragraphs (a)(2) or (3) of this section, a covered health care provider may:",
-                  "group": false,
+                  "group": true,
                   "controls": [
                     {
                       "ref": "164.510(a)(1)(i)",
@@ -1768,7 +1989,7 @@
                   "ref": "164.510(b)(2)",
                   "label": "Uses and disclosures with the individual present",
                   "description": "If the individual is present for, or otherwise available prior to, a use or disclosure permitted by paragraph (b)(1) of this section and has the capacity to make health care decisions, the covered entity may use or disclose the protected health information if it:",
-                  "group": false,
+                  "group": true,
                   "controls": [
                     {
                       "ref": "164.510(b)(2)(i)",
@@ -1833,7 +2054,7 @@
                   "ref": "164.512(b)(1)",
                   "label": "Permitted uses and disclosures.",
                   "description": "A covered entity may use or disclose protected health information for the public health activities and purposes described in this paragraph to:",
-                  "group": false,
+                  "group": true,
                   "controls": [
                     {
                       "ref": "164.512(b)(1)(i)",
@@ -1963,7 +2184,7 @@
                   "ref": "164.512(c)(1)",
                   "label": "Permitted disclosures.",
                   "description": "Except for reports of child abuse or neglect permitted by paragraph (b)(1)(ii) of this section, a covered entity may disclose protected health information about an individual whom the covered entity reasonably believes to be a victim of abuse, neglect, or domestic violence to a government authority, including a social service or protective services agency, authorized by law to receive reports of such abuse, neglect, or domestic violence:",
-                  "group": false,
+                  "group": true,
                   "controls": [
                     {
                       "ref": "164.512(c)(1)(i)",
@@ -1994,7 +2215,7 @@
                   "ref": "164.512(c)(2)",
                   "label": "Informing the individual",
                   "description": "A covered entity that makes a disclosure permitted by paragraph (c)(1) of this section must promptly inform the individual that such a report has been or will be made, except if:",
-                  "group": false,
+                  "group": true,
                   "controls": [
                     {
                       "ref": "164.512(c)(2)(i)",
@@ -2022,7 +2243,7 @@
                   "ref": "164.512(d)(1)",
                   "label": "Permitted disclosures.",
                   "description": "A covered entity may disclose protected health information to a health oversight agency for oversight activities authorized by law, including audits; civil, administrative, or criminal investigations; inspections; licensure or disciplinary actions; civil, administrative, or criminal proceedings or actions; or other activities necessary for appropriate oversight of:",
-                  "group": false,
+                  "group": true,
                   "controls": [
                     {
                       "ref": "164.512(d)(1)(i)",
@@ -2046,7 +2267,7 @@
                   "ref": "164.512(d)(2)",
                   "label": "Exception to health oversight activities.",
                   "description": "For the purpose of the disclosures permitted by paragraph (d)(1) of this section, a health oversight activity does not include an investigation or other activity in which the individual is the subject of the investigation or activity and such investigation or other activity does not arise out of and is not directly related to:",
-                  "group": false,
+                  "group": true,
                   "controls": [
                     {
                       "ref": "164.512(d)(2)(i)",
@@ -2083,7 +2304,7 @@
                   "ref": "164.512(e)(1)",
                   "label": "Permitted disclosures.",
                   "description": "A covered entity may disclose protected health information in the course of any judicial or administrative proceeding:",
-                  "group": false,
+                  "group": true,
                   "controls": [
                     {
                       "ref": "164.512(e)(1)(i)",
@@ -2185,7 +2406,7 @@
                   "ref": "164.512(f)(1)",
                   "label": "Permitted disclosures: Pursuant to process and as otherwise required by law.",
                   "description": "A covered entity may disclose protected health information:",
-                  "group": false,
+                  "group": true,
                   "controls": [
                     {
                       "ref": "164.512(f)(1)(i)",
@@ -2231,7 +2452,7 @@
                   "ref": "164.512(f)(2)",
                   "label": "Permitted disclosures: Limited information for identification and location purposes",
                   "description": "Except for disclosures required by law as permitted by paragraph (f)(1) of this section, a covered entity may disclose protected health information in response to a law enforcement official's request for such information for the purpose of identifying or locating a suspect, fugitive, material witness, or missing person, provided that:",
-                  "group": false,
+                  "group": true,
                   "controls": [
                     {
                       "ref": "164.512(f)(2)(i)",
@@ -2282,7 +2503,7 @@
                   "ref": "164.512(f)(3)",
                   "label": "Permitted disclosure: Victims of a crime",
                   "description": "Except for disclosures required by law as permitted by paragraph (f)(1) of this section, a covered entity may disclose protected health information in response to a law enforcement official's request for such information about an individual who is or is suspected to be a victim of a crime, other than disclosures that are subject to paragraph (b) or (c) of this section, if:",
-                  "group": false,
+                  "group": true,
                   "controls": [
                     {
                       "ref": "164.512(f)(3)(i)",
@@ -2383,13 +2604,13 @@
                   "ref": "164.512(i)(1)",
                   "label": "Permitted uses and disclosures",
                   "description": "A covered entity may use or disclose protected health information for research, regardless of the source of funding of the research, provided that:",
-                  "group": false,
+                  "group": true,
                   "controls": [
                     {
                       "ref": "164.512(i)(1)(i)",
                       "label": "Board approval of a waiver of authorization.",
                       "description": "The covered entity obtains documentation that an alteration to or waiver, in whole or in part, of the individual authorization required by § 164.508 for use or disclosure of protected health information has been approved by either:",
-                      "group": false,
+                      "group": true,
                       "controls": [
                         {
                           "ref": "164.512(i)(1)(i)(A)",
@@ -2420,7 +2641,7 @@
                       "ref": "164.512(i)(1)(ii)",
                       "label": "Reviews preparatory to research",
                       "description": "The covered entity obtains from the researcher representations that:",
-                      "group": false,
+                      "group": true,
                       "controls": [
                         {
                           "ref": "164.512(i)(1)(ii)(A)",
@@ -2440,7 +2661,7 @@
                       "ref": "164.512(i)(1)(iii)",
                       "label": "Research on decedent's information",
                       "description": "The covered entity obtains from the researcher:",
-                      "group": false,
+                      "group": true,
                       "controls": [
                         {
                           "ref": "164.512(i)(1)(iii)(A)",
@@ -2462,7 +2683,7 @@
                   "ref": "164.512(i)(2)",
                   "label": "Documentation of waiver approval.",
                   "description": "For a use or disclosure to be permitted based on documentation of approval of an alteration or waiver, under paragraph (i)(1)(i) of this section, the documentation must include all of the following:",
-                  "group": false,
+                  "group": true,
                   "controls": [
                     {
                       "ref": "164.512(i)(2)(i)",
@@ -2473,7 +2694,7 @@
                       "ref": "164.512(i)(2)(ii)",
                       "label": "Waiver criteria",
                       "description": "A statement that the IRB or privacy board has determined that the alteration or waiver, in whole or in part, of authorization satisfies the following criteria:",
-                      "group": false,
+                      "group": true,
                       "controls": [
                         {
                           "ref": "164.512(i)(2)(ii)(A)",
@@ -2513,7 +2734,7 @@
                       "ref": "164.512(i)(2)(iv)",
                       "label": "Review and approval procedures",
                       "description": "A statement that the alteration or waiver of authorization has been reviewed and approved under either normal or expedited review procedures, as follows:",
-                      "group": false,
+                      "group": true,
                       "controls": [
                         {
                           "ref": "164.512(i)(2)(iv)(A)",
@@ -2547,10 +2768,11 @@
                   "ref": "164.512(j)(1)",
                   "label": "Permitted disclosures.",
                   "description": "A covered entity may, consistent with applicable law and standards of ethical conduct, use or disclose protected health information, if the covered entity, in good faith, believes the use or disclosure:",
-                  "group": false,
+                  "group": true,
                   "controls": [
                     {
                       "ref": "164.512(j)(1)(i)",
+                      "label": "Prevention of or lessening a serious and imminent threat",
                       "group": true,
                       "controls": [
                         {
@@ -2584,7 +2806,7 @@
                   "ref": "164.512(j)(2)",
                   "label": "Use or disclosure not permitted.",
                   "description": "A use or disclosure pursuant to paragraph (j)(1)(ii)(A) of this section may not be made if the information described in paragraph (j)(1)(ii)(A) of this section is learned by the covered entity:",
-                  "group": false,
+                  "group": true,
                   "controls": [
                     {
                       "ref": "164.512(j)(2)(i)",
@@ -2663,7 +2885,7 @@
                   "ref": "164.512(k)(4)",
                   "label": "Medical suitability determinations.",
                   "description": "A covered entity that is a component of the Department of State may use protected health information to make medical suitability determinations and may disclose whether or not the individual was determined to be medically suitable to the officials in the Department of State who need access to such information for the following purposes:",
-                  "group": false,
+                  "group": true,
                   "controls": [
                     {
                       "ref": "164.512(k)(4)(i)",
@@ -2688,7 +2910,7 @@
                       "ref": "164.512(k)(5)(i)",
                       "label": "Permitted disclosures",
                       "description": "A covered entity may disclose to a correctional institution or a law enforcement official having lawful custody of an inmate or other individual protected health information about such inmate or individual, if the correctional institution or such law enforcement official represents that such protected health information is necessary for:",
-                      "group": false,
+                      "group": true,
                       "controls": [
                         {
                           "ref": "164.512(k)(5)(i)(A)",
@@ -2747,7 +2969,7 @@
                   "ref": "164.512(k)(7)",
                   "label": "National Instant Criminal Background Check System.",
                   "description": "A covered entity may use or disclose protected health information for purposes of reporting to the National Instant Criminal Background Check System the identity of an individual who is prohibited from possessing a firearm under 18 U.S.C. 922(g)(4), provided the covered entity:",
-                  "group": false,
+                  "group": true,
                   "controls": [
                     {
                       "ref": "164.512(k)(7)(i)",
@@ -2781,6 +3003,7 @@
                     },
                     {
                       "ref": "164.512(k)(7)(iii)",
+                      "label": "Limits on the information disclosed",
                       "group": true,
                       "controls": [
                         {
@@ -2818,7 +3041,7 @@
               "ref": "164.514(b)",
               "label": "Implementation specifications: Requirements for de-identification of protected health information.",
               "description": "A covered entity may determine that health information is not individually identifiable health information only if:",
-              "group": false,
+              "group": true,
               "controls": [
                 {
                   "ref": "164.514(b)(1)",
@@ -2837,6 +3060,7 @@
                 },
                 {
                   "ref": "164.514(b)(2)",
+                  "label": "Safe harbor de-identification method",
                   "group": true,
                   "controls": [
                     {
@@ -2941,7 +3165,7 @@
               "ref": "164.514(c)",
               "label": "Implementation specifications: Re-identification",
               "description": "A covered entity may assign a code or other means of record identification to allow information de-identified under this section to be re-identified by the covered entity, provided that:",
-              "group": false,
+              "group": true,
               "controls": [
                 {
                   "ref": "164.514(c)(1)",
@@ -2957,6 +3181,7 @@
             },
             {
               "ref": "164.514(d)",
+              "label": "Standard: Minimum necessary requirements",
               "group": true,
               "controls": [
                 {
@@ -3077,6 +3302,7 @@
             },
             {
               "ref": "164.514(e)",
+              "label": "Standard: Limited data set",
               "group": true,
               "controls": [
                 {
@@ -3088,7 +3314,7 @@
                   "ref": "164.514(e)(2)",
                   "label": "Implementation specification: Limited data set:",
                   "description": "A limited data set is protected health information that excludes the following direct identifiers of the individual or of relatives, employers, or household members of the individual:",
-                  "group": false,
+                  "group": true,
                   "controls": [
                     {
                       "ref": "164.514(e)(2)(i)",
@@ -3185,7 +3411,7 @@
                       "ref": "164.514(e)(4)(ii)",
                       "label": "Contents.",
                       "description": "A data use agreement between the covered entity and the limited data set recipient must:",
-                      "group": false,
+                      "group": true,
                       "controls": [
                         {
                           "ref": "164.514(e)(4)(ii)(A)",
@@ -3263,7 +3489,7 @@
                   "ref": "164.514(f)(1)",
                   "label": "Standard: Uses and disclosures for fundraising.",
                   "description": "Subject to the conditions of paragraph (f)(2) of this section, a covered entity may use, or disclose to a business associate or to an institutionally related foundation, the following protected health information for the purpose of raising funds for its own benefit, without an authorization meeting the requirements of § 164.508:",
-                  "group": false,
+                  "group": true,
                   "controls": [
                     {
                       "ref": "164.514(f)(1)(i)",
@@ -3327,13 +3553,14 @@
             },
             {
               "ref": "164.514(h)",
+              "label": "Standard: Verification requirements",
               "group": true,
               "controls": [
                 {
                   "ref": "164.514(h)(1)",
                   "label": "Standard: Verification requirements.",
                   "description": "Prior to any disclosure permitted by this subpart, a covered entity must:",
-                  "group": false,
+                  "group": true,
                   "controls": [
                     {
                       "ref": "164.514(h)(1)(i)",
@@ -3370,7 +3597,7 @@
                       "ref": "164.514(h)(2)(ii)",
                       "label": "Identity of public officials.",
                       "description": "A covered entity may rely, if such reliance is reasonable under the circumstances, on any of the following to verify identity when the disclosure of protected health information is to a public official or a person acting on behalf of the public official:",
-                      "group": false,
+                      "group": true,
                       "controls": [
                         {
                           "ref": "164.514(h)(2)(ii)(A)",
@@ -3390,7 +3617,7 @@
                       "ref": "164.514(h)(2)(iii)",
                       "label": "Authority of public officials.",
                       "description": "A covered entity may rely, if such reliance is reasonable under the circumstances, on any of the following to verify authority when the disclosure of protected health information is to a public official or a person acting on behalf of the public official:",
-                      "group": false,
+                      "group": true,
                       "controls": [
                         {
                           "ref": "164.514(h)(2)(iii)(A)",
@@ -3501,7 +3728,7 @@
                       "ref": "164.520(b)(1)(ii)",
                       "label": "Uses and disclosures.",
                       "description": "The notice must contain:",
-                      "group": false,
+                      "group": true,
                       "controls": [
                         {
                           "ref": "164.520(b)(1)(ii)(A)",
@@ -3541,7 +3768,7 @@
                       "ref": "164.520(b)(1)(iii)",
                       "label": "Separate statements for certain uses or disclosures",
                       "description": "If the covered entity intends to engage in any of the following activities, the description required by paragraph (b)(1)(ii)(A) or (B) of this section must include a separate statement informing the individual of such activities, as applicable:",
-                      "group": false,
+                      "group": true,
                       "controls": [
                         {
                           "ref": "164.520(b)(1)(iii)(A)",
@@ -3569,7 +3796,7 @@
                       "ref": "164.520(b)(1)(iv)",
                       "label": "Individual rights.",
                       "description": "The notice must contain a statement of the individual's rights with respect to protected health information and a brief description of how the individual may exercise these rights, as follows:",
-                      "group": false,
+                      "group": true,
                       "controls": [
                         {
                           "ref": "164.520(b)(1)(iv)(A)",
@@ -3601,7 +3828,7 @@
                       "ref": "164.520(b)(1)(v)",
                       "label": "Covered entity's duties.",
                       "description": "The notice must contain:",
-                      "group": false,
+                      "group": true,
                       "controls": [
                         {
                           "ref": "164.520(b)(1)(v)(A)",
@@ -3714,7 +3941,7 @@
                   "ref": "164.520(c)(2)",
                   "label": "Specific requirements for certain covered health care providers.",
                   "description": "A covered health care provider that has a direct treatment relationship with an individual must:",
-                  "group": false,
+                  "group": true,
                   "controls": [
                     {
                       "ref": "164.520(c)(2)(i)",
@@ -3785,7 +4012,7 @@
               "ref": "164.520(d)",
               "label": "Implementation specifications: Joint notice by separate covered entities.",
               "description": "Covered entities that participate in organized health care arrangements may comply with this section by a joint notice, provided that:",
-              "group": false,
+              "group": true,
               "controls": [
                 {
                   "ref": "164.520(d)(1)",
@@ -3834,6 +4061,7 @@
           "controls": [
             {
               "ref": "164.522(a)",
+              "label": "Standard: Right of an individual to request restriction of uses and disclosures",
               "group": true,
               "controls": [
                 {
@@ -3893,7 +4121,7 @@
                   "ref": "164.522(a)(2)",
                   "label": "Implementation specifications: Terminating a restriction",
                   "description": "A covered entity may terminate a restriction, if:",
-                  "group": false,
+                  "group": true,
                   "controls": [
                     {
                       "ref": "164.522(a)(2)(i)",
@@ -3929,6 +4157,7 @@
             },
             {
               "ref": "164.522(b)",
+              "label": "Standard: Confidential communications requirements",
               "group": true,
               "controls": [
                 {
@@ -3998,7 +4227,7 @@
                   "ref": "164.524(a)(1)",
                   "label": "Right of access",
                   "description": "Except as otherwise provided in paragraph (a)(2) or (a)(3) of this section, an individual has a right of access to inspect and obtain a copy of protected health information about the individual in a designated record set, for as long as the protected health information is maintained in the designated record set, except for:",
-                  "group": false,
+                  "group": true,
                   "controls": [
                     {
                       "ref": "164.524(a)(1)(i)",
@@ -4042,7 +4271,7 @@
                   "ref": "164.524(a)(3)",
                   "label": "Reviewable grounds for denial.",
                   "description": "A covered entity may deny an individual access, provided that the individual is given a right to have such denials reviewed, as required by paragraph (a)(4) of this section, in the following circumstances:",
-                  "group": false,
+                  "group": true,
                   "controls": [
                     {
                       "ref": "164.524(a)(3)(i)",
@@ -4174,7 +4403,7 @@
                   "ref": "164.524(c)(4)",
                   "label": "Fees",
                   "description": "If the individual requests a copy of the protected health information or agrees to a summary or explanation of such information, the covered entity may impose a reasonable, cost-based fee, provided that the fee includes only the cost of:",
-                  "group": false,
+                  "group": true,
                   "controls": [
                     {
                       "ref": "164.524(c)(4)(i)",
@@ -4211,7 +4440,7 @@
                   "ref": "164.524(d)(2)",
                   "label": "Denial.",
                   "description": "The covered entity must provide a timely, written denial to the individual, in accordance with paragraph (b)(2) of this section. The denial must be in plain language and contain:",
-                  "group": false,
+                  "group": true,
                   "controls": [
                     {
                       "ref": "164.524(d)(2)(i)",
@@ -4243,7 +4472,7 @@
               "ref": "164.524(e)",
               "label": "Implementation specification: Documentation",
               "description": "A covered entity must document the following and retain the documentation as required by § 164.530(j):",
-              "group": false,
+              "group": true,
               "controls": [
                 {
                   "ref": "164.524(e)(1)",
@@ -4276,7 +4505,7 @@
                   "ref": "164.526(a)(2)",
                   "label": "Denial of amendment.",
                   "description": "A covered entity may deny an individual's request for amendment, if it determines that the protected health information or record that is the subject of the request:",
-                  "group": false,
+                  "group": true,
                   "controls": [
                     {
                       "ref": "164.526(a)(2)(i)",
@@ -4367,7 +4596,7 @@
                   "ref": "164.526(c)(3)",
                   "label": "Informing others.",
                   "description": "The covered entity must make reasonable efforts to inform and provide the amendment within a reasonable time to:",
-                  "group": false,
+                  "group": true,
                   "controls": [
                     {
                       "ref": "164.526(c)(3)(i)",
@@ -4391,7 +4620,7 @@
                   "ref": "164.526(d)(1)",
                   "label": "Denial.",
                   "description": "The covered entity must provide the individual with a timely, written denial, in accordance with paragraph (b)(2) of this section. The denial must use plain language and contain:",
-                  "group": false,
+                  "group": true,
                   "controls": [
                     {
                       "ref": "164.526(d)(1)(i)",
@@ -4514,6 +4743,7 @@
                 },
                 {
                   "ref": "164.528(a)(2)",
+                  "label": "Temporary suspension of the right to an accounting",
                   "group": true,
                   "controls": [
                     {
@@ -4601,6 +4831,7 @@
                 },
                 {
                   "ref": "164.528(b)(4)",
+                  "label": "Accounting for multiple research disclosures",
                   "group": true,
                   "controls": [
                     {
@@ -4683,7 +4914,7 @@
               "ref": "164.528(d)",
               "label": "Implementation specification: Documentation.",
               "description": "A covered entity must document the following and retain the documentation as required by § 164.530(j):",
-              "group": false,
+              "group": true,
               "controls": [
                 {
                   "ref": "164.528(d)(1)",
@@ -4708,6 +4939,7 @@
           "controls": [
             {
               "ref": "164.530(a)",
+              "label": "Standard: Personnel designations",
               "group": true,
               "controls": [
                 {
@@ -4734,6 +4966,7 @@
             },
             {
               "ref": "164.530(b)",
+              "label": "Standard: Training",
               "group": true,
               "controls": [
                 {
@@ -4775,6 +5008,7 @@
             },
             {
               "ref": "164.530(c)",
+              "label": "Standard: Safeguards",
               "group": true,
               "controls": [
                 {
@@ -4784,6 +5018,7 @@
                 },
                 {
                   "ref": "164.530(c)(2)",
+                  "label": "Implementation specifications: Safeguards",
                   "group": true,
                   "controls": [
                     {
@@ -4801,6 +5036,7 @@
             },
             {
               "ref": "164.530(d)",
+              "label": "Standard: Complaints to the covered entity",
               "group": true,
               "controls": [
                 {
@@ -4817,6 +5053,7 @@
             },
             {
               "ref": "164.530(e)",
+              "label": "Standard: Sanctions",
               "group": true,
               "controls": [
                 {
@@ -4840,7 +5077,7 @@
               "ref": "164.530(g)",
               "label": "Standard: Refraining from intimidating or retaliatory acts.",
               "description": "A covered entity—",
-              "group": false,
+              "group": true,
               "controls": [
                 {
                   "ref": "164.530(g)(1)",
@@ -4859,6 +5096,7 @@
             },
             {
               "ref": "164.530(i)",
+              "label": "Standard: Policies and procedures",
               "group": true,
               "controls": [
                 {
@@ -4935,7 +5173,7 @@
                   "ref": "164.530(i)(5)",
                   "label": "Implementation specification: Changes to other policies or procedures",
                   "description": "A covered entity may change, at any time, a policy or procedure that does not materially affect the content of the notice required by § 164.520, provided that:",
-                  "group": false,
+                  "group": true,
                   "controls": [
                     {
                       "ref": "164.530(i)(5)(i)",
@@ -4951,13 +5189,14 @@
             },
             {
               "ref": "164.530(j)",
+              "label": "Standard: Documentation",
               "group": true,
               "controls": [
                 {
                   "ref": "164.530(j)(1)",
                   "label": "Standard: Documentation",
                   "description": "A covered entity must:",
-                  "group": false,
+                  "group": true,
                   "controls": [
                     {
                       "ref": "164.530(j)(1)(i)",
@@ -5027,6 +5266,7 @@
     },
     {
       "ref": "Security Rule",
+      "label": "Subpart C — Security Standards for the Protection of Electronic Protected Health Information",
       "group": true,
       "controls": [
         {
@@ -5156,6 +5396,7 @@
               "controls": [
                 {
                   "ref": "164.308(a)(1)",
+                  "label": "Security management process",
                   "group": true,
                   "controls": [
                     {
@@ -5195,6 +5436,7 @@
                 },
                 {
                   "ref": "164.308(a)(3)",
+                  "label": "Workforce security",
                   "group": true,
                   "controls": [
                     {
@@ -5228,6 +5470,7 @@
                 },
                 {
                   "ref": "164.308(a)(4)",
+                  "label": "Information access management",
                   "group": true,
                   "controls": [
                     {
@@ -5261,6 +5504,7 @@
                 },
                 {
                   "ref": "164.308(a)(5)",
+                  "label": "Security awareness and training",
                   "group": true,
                   "controls": [
                     {
@@ -5272,7 +5516,7 @@
                       "ref": "164.308(a)(5)(ii)",
                       "label": "Implementation specifications.",
                       "description": "Implement:",
-                      "group": false,
+                      "group": true,
                       "controls": [
                         {
                           "ref": "164.308(a)(5)(ii)(A)",
@@ -5300,6 +5544,7 @@
                 },
                 {
                   "ref": "164.308(a)(6)",
+                  "label": "Security incident procedures",
                   "group": true,
                   "controls": [
                     {
@@ -5316,6 +5561,7 @@
                 },
                 {
                   "ref": "164.308(a)(7)",
+                  "label": "Contingency plan",
                   "group": true,
                   "controls": [
                     {
@@ -5366,6 +5612,7 @@
             },
             {
               "ref": "164.308(b)",
+              "label": "Business associate contracts and other arrangements",
               "group": true,
               "controls": [
                 {
@@ -5390,10 +5637,11 @@
           "ref": "164.310",
           "label": "Physical safeguards.",
           "description": "A covered entity or business associate must, in accordance with § 164.306:",
-          "group": false,
+          "group": true,
           "controls": [
             {
               "ref": "164.310(a)",
+              "label": "Facility access controls",
               "group": true,
               "controls": [
                 {
@@ -5442,6 +5690,7 @@
             },
             {
               "ref": "164.310(d)",
+              "label": "Device and media controls",
               "group": true,
               "controls": [
                 {
@@ -5484,10 +5733,11 @@
           "ref": "164.312",
           "label": "Technical safeguards.",
           "description": "A covered entity or business associate must, in accordance with § 164.306:",
-          "group": false,
+          "group": true,
           "controls": [
             {
               "ref": "164.312(a)",
+              "label": "Access control",
               "group": true,
               "controls": [
                 {
@@ -5531,6 +5781,7 @@
             },
             {
               "ref": "164.312(c)",
+              "label": "Integrity",
               "group": true,
               "controls": [
                 {
@@ -5552,6 +5803,7 @@
             },
             {
               "ref": "164.312(e)",
+              "label": "Transmission security",
               "group": true,
               "controls": [
                 {
@@ -5587,6 +5839,7 @@
           "controls": [
             {
               "ref": "164.314(a)",
+              "label": "Business associate contracts or other arrangements",
               "group": true,
               "controls": [
                 {
@@ -5603,7 +5856,7 @@
                       "ref": "164.314(a)(2)(i)",
                       "label": "Business associate contracts",
                       "description": "The contract must provide that the business associate will—",
-                      "group": false,
+                      "group": true,
                       "controls": [
                         {
                           "ref": "164.314(a)(2)(i)(A)",
@@ -5635,6 +5888,7 @@
             },
             {
               "ref": "164.314(b)",
+              "label": "Requirements for group health plans",
               "group": true,
               "controls": [
                 {
@@ -5646,7 +5900,7 @@
                   "ref": "164.314(b)(2)",
                   "label": "Implementation specifications (Required).",
                   "description": "The plan documents of the group health plan must be amended to incorporate provisions to require the plan sponsor to—",
-                  "group": false,
+                  "group": true,
                   "controls": [
                     {
                       "ref": "164.314(b)(2)(i)",
@@ -5674,7 +5928,7 @@
           "ref": "164.316",
           "label": "Policies and procedures and documentation requirements.",
           "description": "A covered entity or business associate must, in accordance with § 164.306:",
-          "group": false,
+          "group": true,
           "controls": [
             {
               "ref": "164.316(a)",
@@ -5683,6 +5937,7 @@
             },
             {
               "ref": "164.316(b)",
+              "label": "Documentation",
               "group": true,
               "controls": [
                 {
@@ -5728,5 +5983,7 @@
         }
       ]
     }
-  ]
+  ],
+  "version": "45 CFR Part 164 (2024 amendments)",
+  "effective_date": "2013-03-26"
 }
