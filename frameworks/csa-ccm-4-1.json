@@ -6,8 +6,7 @@
   "publisher": "Cloud Security Alliance",
   "source_url": "https://cloudsecurityalliance.org/research/cloud-controls-matrix",
   "scf_keys": [
-    "csa-ccm-4-1-0",
-    "csa-ccm-4"
+    "csa-ccm-4-1-0"
   ],
   "last_updated": "2026-06-26",
   "description": "Cybersecurity control framework for cloud computing, composed of 197 control objectives across 17 domains, covering all key aspects of cloud technology.",

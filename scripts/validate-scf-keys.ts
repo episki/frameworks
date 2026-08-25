@@ -3,7 +3,14 @@ import path from "node:path";
 
 import { listFrameworkFiles } from "./lib/frameworks";
 
-const SCF_FILE = path.join(process.cwd(), "scf", "scf-latest.json");
+/**
+ * The export checked in under scf/ is a minimal one — it carries only a handful of
+ * crosswalk columns. Point SCF_JSON_PATH at a full export (eload keeps the current
+ * scf-full-<version>.json) to validate scf_keys against the real column set.
+ */
+const SCF_FILE = process.env.SCF_JSON_PATH
+  ? path.resolve(process.env.SCF_JSON_PATH)
+  : path.join(process.cwd(), "scf", "scf-latest.json");
 
 /**
  * SCF framework column headings are spreadsheet cells with embedded newlines
