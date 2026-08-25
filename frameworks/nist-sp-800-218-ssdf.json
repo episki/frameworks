@@ -6,8 +6,7 @@
   "publisher": "National Institute of Standards and Technology",
   "source_url": "https://csrc.nist.gov/pubs/sp/800/218/final",
   "scf_keys": [
-    "nist-sp-800-218-ssdf",
-    "nist-ssdf-1-1"
+    "nist-800-218"
   ],
   "last_updated": "2026-08-25",
   "description": "A core set of high-level secure software development practices, organized as four practice groups (Prepare the Organization, Protect the Software, Produce Well-Secured Software, Respond to Vulnerabilities) broken into practices and tasks.",

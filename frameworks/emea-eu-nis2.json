@@ -6,8 +6,8 @@
   "publisher": "European Union",
   "source_url": "https://eur-lex.europa.eu/eli/dir/2022/2555/oj",
   "scf_keys": [
-    "emea-eu-nis2",
-    "emea-eu-nis2-2022"
+    "emea-eu-nis2-2022",
+    "emea-eu-nis2-annex-2024"
   ],
   "last_updated": "2026-08-25",
   "description": "EU directive on a high common level of cybersecurity: the governance, risk-management, incident-reporting, registration, and information-sharing obligations that apply to essential and important entities (Articles 20, 21, 23, 24, and 27–30).",

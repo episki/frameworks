@@ -6,8 +6,7 @@
   "publisher": "National Institute of Standards and Technology",
   "source_url": "https://csrc.nist.gov/pubs/sp/800/171/r3/final",
   "scf_keys": [
-    "nist-sp-800-171-r3",
-    "nist-sp-800-171-rev3"
+    "nist-800-171-r3"
   ],
   "last_updated": "2026-08-25",
   "description": "Security requirements for protecting the confidentiality of Controlled Unclassified Information (CUI) in nonfederal systems and organizations. The requirements CMMC Level 2 assesses against.",
