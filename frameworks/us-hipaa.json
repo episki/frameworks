@@ -5,8 +5,8 @@
   "publisher": "US Department of Health and Human Services",
   "source_url": "https://www.hhs.gov/hipaa/",
   "scf_keys": [
-    "us-hipaa-administrative-simplification-2013",
-    "us-hipaa-security-rule-nist-sp-800-66-r2"
+    "usa-federal-hipaa-administrative-simplification-2013",
+    "usa-federal-hipaa-security-rule-nist-sp-800-66-r2"
   ],
   "last_updated": "2026-08-25",
   "description": "U.S. federal privacy, security, and breach notification standards for protected health information (45 CFR Part 164): the Security Rule (Subpart C), Breach Notification Rule (Subpart D), and Privacy Rule (Subpart E), with the organizational requirements of § 164.105.",

@@ -8,8 +8,9 @@ import { listFrameworkFiles } from "./lib/frameworks";
  * crosswalk columns. Point SCF_JSON_PATH at a full export (eload keeps the current
  * scf-full-<version>.json) to validate scf_keys against the real column set.
  */
-const SCF_FILE = process.env.SCF_JSON_PATH
-  ? path.resolve(process.env.SCF_JSON_PATH)
+const SCF_EXPORT_IS_FULL = Boolean(process.env.SCF_JSON_PATH);
+const SCF_FILE = SCF_EXPORT_IS_FULL
+  ? path.resolve(process.env.SCF_JSON_PATH!)
   : path.join(process.cwd(), "scf", "scf-latest.json");
 
 /**
@@ -118,6 +119,18 @@ if (unresolved.length > 0) {
     "scf-keys: unresolved (no such column in the local SCF export — crosswalks cannot be derived):",
   );
   for (const { framework, key } of unresolved) console.log(`  ${framework} -> ${key}`);
+
+  // Against the minimal checked-in export almost everything is unresolved, so this
+  // is only informational there. Against a full export an unresolved key is a real
+  // defect: SCF renames mapping columns between releases (2026.3 re-prefixed the US
+  // columns, us-hipaa-* -> usa-federal-hipaa-*), and a stale key silently detaches
+  // the alias — the framework then loads with none of its SCF crosswalks.
+  if (SCF_EXPORT_IS_FULL) {
+    errors.push(
+      `${unresolved.length} scf_key(s) match no column in ${path.basename(SCF_FILE)}; ` +
+        `update them to the current SCF column names`,
+    );
+  }
 }
 
 if (unclaimed.length > 0) {

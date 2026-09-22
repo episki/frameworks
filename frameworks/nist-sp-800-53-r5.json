@@ -6,7 +6,7 @@
   "publisher": "National Institute of Standards and Technology",
   "source_url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
   "scf_keys": [
-    "nist-800-53-r5"
+    "nist-800-53-r5-2"
   ],
   "last_updated": "2026-08-25",
   "description": "U.S. federal catalog of security and privacy controls for information systems and organizations, organized into 20 control families. The control baselines that select from it are published separately as profiles.",

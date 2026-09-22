@@ -6,9 +6,9 @@
   "publisher": "US Department of Defense",
   "source_url": "https://www.ecfr.gov/current/title-32/part-170",
   "scf_keys": [
-    "us-cmmc-2-0-level-1",
-    "us-cmmc-2-0-level-2",
-    "us-cmmc-2-0-level-3"
+    "usa-federal-cmmc-2-0-level-1",
+    "usa-federal-cmmc-2-0-level-2",
+    "usa-federal-cmmc-2-0-level-3"
   ],
   "last_updated": "2026-08-25",
   "description": "DoD Cybersecurity Maturity Model Certification. Level 1 is the 15 basic safeguarding requirements of 48 CFR 52.204-21(b)(1); Level 2 is identical to the 110 security requirements of NIST SP 800-171 Rev 2; Level 3 adds the selected NIST SP 800-172 Feb2021 requirements of table 1 to 32 CFR 170.14(c)(4), with DoD organization-defined parameters.",
