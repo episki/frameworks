@@ -104,7 +104,7 @@
                       "label": "These files must be available to the security inspectors during site reviews.",
                       "tests": [
                         {
-                          "label": "Examine the personnel files of a sample of individuals to verify that they contain the minimumrequired documentation during their hiring process and during their time of employment as follows:\n\n- Current photograph, updated at least every three years\n- Record of any arrests or convictions, updated annually\n- Annual credit checks"
+                          "label": "Examine the personnel files of a sample of individuals to verify that they contain the minimum required documentation during their hiring process and during their time of employment as follows:\n\n- Current photograph, updated at least every three years\n- Record of any arrests or convictions, updated annually\n- Annual credit checks"
                         }
                       ]
                     }
