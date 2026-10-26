@@ -1,0 +1,853 @@
+{
+  "key": "iso-27001-annex-a-crosswalks",
+  "name": "ISO 27001 Annex A to ISO 27002",
+  "source_catalog": "iso-27001-2022",
+  "source_url": "https://www.iso.org/standard/27001",
+  "last_updated": "2026-10-26",
+  "description": "Links each ISO/IEC 27001:2022 Annex A control to the ISO/IEC 27002:2022 control it is taken from. SCF's ISO 27001 column covers only clauses 4-10, so this is what connects Annex A to the SCF hub (via ISO 27002).",
+  "provenance": "curated",
+  "mappings": [
+    {
+      "target_catalog": "iso-27002-2022",
+      "maps": [
+        {
+          "source": [
+            "A.5.1"
+          ],
+          "target": [
+            "5.1"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.5.2"
+          ],
+          "target": [
+            "5.2"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.5.3"
+          ],
+          "target": [
+            "5.3"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.5.4"
+          ],
+          "target": [
+            "5.4"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.5.5"
+          ],
+          "target": [
+            "5.5"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.5.6"
+          ],
+          "target": [
+            "5.6"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.5.7"
+          ],
+          "target": [
+            "5.7"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.5.8"
+          ],
+          "target": [
+            "5.8"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.5.9"
+          ],
+          "target": [
+            "5.9"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.5.10"
+          ],
+          "target": [
+            "5.10"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.5.11"
+          ],
+          "target": [
+            "5.11"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.5.12"
+          ],
+          "target": [
+            "5.12"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.5.13"
+          ],
+          "target": [
+            "5.13"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.5.14"
+          ],
+          "target": [
+            "5.14"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.5.15"
+          ],
+          "target": [
+            "5.15"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.5.16"
+          ],
+          "target": [
+            "5.16"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.5.17"
+          ],
+          "target": [
+            "5.17"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.5.18"
+          ],
+          "target": [
+            "5.18"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.5.19"
+          ],
+          "target": [
+            "5.19"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.5.20"
+          ],
+          "target": [
+            "5.20"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.5.21"
+          ],
+          "target": [
+            "5.21"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.5.22"
+          ],
+          "target": [
+            "5.22"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.5.23"
+          ],
+          "target": [
+            "5.23"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.5.24"
+          ],
+          "target": [
+            "5.24"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.5.25"
+          ],
+          "target": [
+            "5.25"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.5.26"
+          ],
+          "target": [
+            "5.26"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.5.27"
+          ],
+          "target": [
+            "5.27"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.5.28"
+          ],
+          "target": [
+            "5.28"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.5.29"
+          ],
+          "target": [
+            "5.29"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.5.30"
+          ],
+          "target": [
+            "5.30"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.5.31"
+          ],
+          "target": [
+            "5.31"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.5.32"
+          ],
+          "target": [
+            "5.32"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.5.33"
+          ],
+          "target": [
+            "5.33"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.5.34"
+          ],
+          "target": [
+            "5.34"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.5.35"
+          ],
+          "target": [
+            "5.35"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.5.36"
+          ],
+          "target": [
+            "5.36"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.5.37"
+          ],
+          "target": [
+            "5.37"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.6.1"
+          ],
+          "target": [
+            "6.1"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.6.2"
+          ],
+          "target": [
+            "6.2"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.6.3"
+          ],
+          "target": [
+            "6.3"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.6.4"
+          ],
+          "target": [
+            "6.4"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.6.5"
+          ],
+          "target": [
+            "6.5"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.6.6"
+          ],
+          "target": [
+            "6.6"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.6.7"
+          ],
+          "target": [
+            "6.7"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.6.8"
+          ],
+          "target": [
+            "6.8"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.7.1"
+          ],
+          "target": [
+            "7.1"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.7.2"
+          ],
+          "target": [
+            "7.2"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.7.3"
+          ],
+          "target": [
+            "7.3"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.7.4"
+          ],
+          "target": [
+            "7.4"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.7.5"
+          ],
+          "target": [
+            "7.5"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.7.6"
+          ],
+          "target": [
+            "7.6"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.7.7"
+          ],
+          "target": [
+            "7.7"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.7.8"
+          ],
+          "target": [
+            "7.8"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.7.9"
+          ],
+          "target": [
+            "7.9"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.7.10"
+          ],
+          "target": [
+            "7.10"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.7.11"
+          ],
+          "target": [
+            "7.11"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.7.12"
+          ],
+          "target": [
+            "7.12"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.7.13"
+          ],
+          "target": [
+            "7.13"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.7.14"
+          ],
+          "target": [
+            "7.14"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.8.1"
+          ],
+          "target": [
+            "8.1"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.8.2"
+          ],
+          "target": [
+            "8.2"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.8.3"
+          ],
+          "target": [
+            "8.3"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.8.4"
+          ],
+          "target": [
+            "8.4"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.8.5"
+          ],
+          "target": [
+            "8.5"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.8.6"
+          ],
+          "target": [
+            "8.6"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.8.7"
+          ],
+          "target": [
+            "8.7"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.8.8"
+          ],
+          "target": [
+            "8.8"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.8.9"
+          ],
+          "target": [
+            "8.9"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.8.10"
+          ],
+          "target": [
+            "8.10"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.8.11"
+          ],
+          "target": [
+            "8.11"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.8.12"
+          ],
+          "target": [
+            "8.12"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.8.13"
+          ],
+          "target": [
+            "8.13"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.8.14"
+          ],
+          "target": [
+            "8.14"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.8.15"
+          ],
+          "target": [
+            "8.15"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.8.16"
+          ],
+          "target": [
+            "8.16"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.8.17"
+          ],
+          "target": [
+            "8.17"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.8.18"
+          ],
+          "target": [
+            "8.18"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.8.19"
+          ],
+          "target": [
+            "8.19"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.8.20"
+          ],
+          "target": [
+            "8.20"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.8.21"
+          ],
+          "target": [
+            "8.21"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.8.22"
+          ],
+          "target": [
+            "8.22"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.8.23"
+          ],
+          "target": [
+            "8.23"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.8.24"
+          ],
+          "target": [
+            "8.24"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.8.25"
+          ],
+          "target": [
+            "8.25"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.8.26"
+          ],
+          "target": [
+            "8.26"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.8.27"
+          ],
+          "target": [
+            "8.27"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.8.28"
+          ],
+          "target": [
+            "8.28"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.8.29"
+          ],
+          "target": [
+            "8.29"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.8.30"
+          ],
+          "target": [
+            "8.30"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.8.31"
+          ],
+          "target": [
+            "8.31"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.8.32"
+          ],
+          "target": [
+            "8.32"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.8.33"
+          ],
+          "target": [
+            "8.33"
+          ],
+          "relationship": "equal"
+        },
+        {
+          "source": [
+            "A.8.34"
+          ],
+          "target": [
+            "8.34"
+          ],
+          "relationship": "equal"
+        }
+      ]
+    }
+  ]
+}
