@@ -5,8 +5,8 @@
   "version": "2023",
   "publisher": "ISO/IEC",
   "source_url": "https://www.iso.org/standard/81230.html",
-  "last_updated": "2026-06-27",
-  "description": "International standard specifying requirements for establishing, implementing, maintaining, and continually improving an Artificial Intelligence Management System (AIMS); Annex A provides reference control objectives and controls.",
+  "last_updated": "2026-10-28",
+  "description": "International standard specifying requirements for establishing, implementing, maintaining, and continually improving an Artificial Intelligence Management System (AIMS). Clauses 4-10 set the management system requirements; Annex A provides reference control objectives and controls, with Annex B implementation guidance attached to each control.",
   "category": "standard",
   "keywords": [
     "ai",
@@ -17,6 +17,243 @@
   ],
   "controls": [
     {
+      "ref": "4",
+      "label": "Context of the organization",
+      "group": true,
+      "controls": [
+        {
+          "ref": "4.1",
+          "label": "Understanding the organization and its context",
+          "description": "Determine the external and internal issues that are relevant to the organization's purpose and that affect its ability to achieve the intended results of its AI management system (AIMS). Take into account the intended purpose of the AI systems the organization develops, provides or uses, and determine the organization's roles with respect to those systems (for example AI provider, producer, customer, partner or subject)."
+        },
+        {
+          "ref": "4.2",
+          "label": "Understanding the needs and expectations of interested parties",
+          "description": "Determine the interested parties that are relevant to the AIMS, their relevant requirements, and which of those requirements will be addressed through the AIMS."
+        },
+        {
+          "ref": "4.3",
+          "label": "Determining the scope of the AI management system",
+          "description": "Determine the boundaries and applicability of the AIMS, considering the issues from 4.1 and the requirements from 4.2. Keep the scope available as documented information."
+        },
+        {
+          "ref": "4.4",
+          "label": "AI management system",
+          "description": "Establish, implement, maintain, continually improve and document an AIMS, including the processes it needs and how they interact, in accordance with this standard."
+        }
+      ]
+    },
+    {
+      "ref": "5",
+      "label": "Leadership",
+      "group": true,
+      "controls": [
+        {
+          "ref": "5.1",
+          "label": "Leadership and commitment",
+          "description": "Top management demonstrates leadership and commitment to the AIMS by:\n- ensuring the AI policy and AI objectives are set and fit the organization's strategic direction;\n- integrating AIMS requirements into business processes;\n- making the needed resources available;\n- communicating why effective AI management and conformity with the AIMS matter;\n- ensuring the AIMS achieves its intended results;\n- directing and supporting people to contribute to its effectiveness;\n- promoting continual improvement; and\n- supporting other managers in showing leadership in their areas."
+        },
+        {
+          "ref": "5.2",
+          "label": "AI policy",
+          "description": "Top management establishes an AI policy that:\na) is appropriate to the purpose of the organization;\nb) provides a framework for setting AI objectives;\nc) commits to satisfying applicable requirements;\nd) commits to continual improvement of the AIMS.\n\nThe policy is documented information, refers to other organizational policies where relevant, is communicated within the organization and is available to interested parties as appropriate."
+        },
+        {
+          "ref": "5.3",
+          "label": "Roles, responsibilities and authorities",
+          "description": "Top management ensures that responsibilities and authorities for relevant roles are assigned and communicated, including responsibility and authority for:\na) ensuring the AIMS conforms to this standard;\nb) reporting on AIMS performance to top management."
+        }
+      ]
+    },
+    {
+      "ref": "6",
+      "label": "Planning",
+      "group": true,
+      "controls": [
+        {
+          "ref": "6.1",
+          "label": "Actions to address risks and opportunities",
+          "group": true,
+          "controls": [
+            {
+              "ref": "6.1.1",
+              "label": "General",
+              "description": "When planning the AIMS, consider the issues in 4.1 and the requirements in 4.2 and determine the risks and opportunities that need addressing so the AIMS can achieve its intended results, undesired effects are prevented or reduced, and continual improvement is achieved.\n\nEstablish and maintain AI risk criteria that support distinguishing acceptable from non-acceptable risks, performing AI risk assessments, conducting AI risk treatment and assessing AI risk impacts. Determine risks and opportunities in light of the domain and application context of each AI system, its intended use and the organization's context.\n\nPlan actions to address these risks and opportunities, integrate them into AIMS processes, evaluate their effectiveness, and retain documented information on the actions taken."
+            },
+            {
+              "ref": "6.1.2",
+              "label": "AI risk assessment",
+              "description": "Define and establish an AI risk assessment process that:\na) is informed by and aligned with the AI policy and AI objectives;\nb) produces consistent, valid and comparable results when repeated;\nc) identifies the risks that help or prevent achieving the AI objectives;\nd) analyses the AI risks by (1) assessing the potential consequences to the organization, individuals and societies if they materialize, (2) assessing their realistic likelihood where applicable, and (3) determining risk levels;\ne) evaluates the AI risks by (1) comparing the analysis results with the risk criteria and (2) prioritizing risks for treatment.\n\nRetain documented information about the AI risk assessment process."
+            },
+            {
+              "ref": "6.1.3",
+              "label": "AI risk treatment",
+              "description": "Define an AI risk treatment process, taking the risk assessment results into account, to:\na) select appropriate AI risk treatment options;\nb) determine all controls needed to implement the chosen options and compare them with Annex A to verify no necessary control has been omitted;\nc) consider the Annex A controls relevant to the treatment options;\nd) identify whether controls beyond Annex A are needed;\ne) consider the Annex B guidance when implementing the controls from b) and c);\nf) produce a statement of applicability listing the necessary controls and the justification for each inclusion and exclusion;\ng) formulate an AI risk treatment plan.\n\nObtain management approval of the treatment plan and acceptance of residual risks, and retain documented information about the AI risk treatment process."
+            },
+            {
+              "ref": "6.1.4",
+              "label": "AI system impact assessment",
+              "description": "Define a process for assessing the potential consequences for individuals, groups of individuals and societies that can result from the development, provision or use of AI systems. Take into account the technical and societal context and the applicable jurisdictions. Document the results, make them available to relevant interested parties where appropriate, and use them as input to the AI risk assessment."
+            }
+          ]
+        },
+        {
+          "ref": "6.2",
+          "label": "AI objectives and planning to achieve them",
+          "description": "Establish AI objectives at relevant functions and levels. The objectives shall:\na) be consistent with the AI policy;\nb) be measurable, where practicable;\nc) take into account applicable requirements;\nd) be monitored;\ne) be communicated;\nf) be updated as appropriate;\ng) be available as documented information.\n\nWhen planning how to achieve them, determine what will be done, the resources required, who is responsible, when it will be completed and how results will be evaluated."
+        },
+        {
+          "ref": "6.3",
+          "label": "Planning of changes",
+          "description": "When changes to the AIMS are needed, carry them out in a planned manner."
+        }
+      ]
+    },
+    {
+      "ref": "7",
+      "label": "Support",
+      "group": true,
+      "controls": [
+        {
+          "ref": "7.1",
+          "label": "Resources",
+          "description": "Determine and provide the resources needed to establish, implement, maintain and continually improve the AIMS."
+        },
+        {
+          "ref": "7.2",
+          "label": "Competence",
+          "description": "Determine the competence needed by people whose work affects AI performance, ensure they are competent through education, training or experience, take actions to acquire competence where needed and evaluate their effectiveness, and retain documented information as evidence of competence."
+        },
+        {
+          "ref": "7.3",
+          "label": "Awareness",
+          "description": "People working under the organization's control are aware of the AI policy, their contribution to the effectiveness of the AIMS and its benefits, and the implications of not conforming with AIMS requirements."
+        },
+        {
+          "ref": "7.4",
+          "label": "Communication",
+          "description": "Determine the internal and external communications relevant to the AIMS: what to communicate, when, with whom and how."
+        },
+        {
+          "ref": "7.5",
+          "label": "Documented information",
+          "group": true,
+          "controls": [
+            {
+              "ref": "7.5.1",
+              "label": "General",
+              "description": "The AIMS includes:\na) the documented information this standard requires;\nb) the documented information the organization determines is necessary for the AIMS to be effective."
+            },
+            {
+              "ref": "7.5.2",
+              "label": "Creating and updating documented information",
+              "description": "When creating and updating documented information, ensure appropriate identification and description, format and media, and review and approval for suitability and adequacy."
+            },
+            {
+              "ref": "7.5.3",
+              "label": "Control of documented information",
+              "description": "Control the documented information required by the AIMS and this standard so that:\na) it is available and suitable for use where and when it is needed;\nb) it is adequately protected (for example from loss of confidentiality, improper use or loss of integrity).\n\nAddress distribution, access, retrieval and use; storage and preservation, including legibility; control of changes; and retention and disposition. Identify and control documented information of external origin that is needed for the AIMS."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "8",
+      "label": "Operation",
+      "group": true,
+      "controls": [
+        {
+          "ref": "8.1",
+          "label": "Operational planning and control",
+          "description": "Plan, implement and control the processes needed to meet requirements and to implement the actions determined in Clause 6, by setting criteria for those processes and controlling them against the criteria. Implement the controls determined under 6.1.3 that relate to the development, provision or use of AI systems, monitor their effectiveness and consider corrective action when intended results are not achieved. Keep documented information to the extent needed to have confidence that processes ran as planned. Control planned changes, review the consequences of unintended changes, and ensure externally provided processes, products or services relevant to the AIMS are controlled."
+        },
+        {
+          "ref": "8.2",
+          "label": "AI risk assessment",
+          "description": "Perform AI risk assessments in line with 6.1.2 at planned intervals or when significant changes are proposed or occur, and retain documented information of the results."
+        },
+        {
+          "ref": "8.3",
+          "label": "AI risk treatment",
+          "description": "Implement the AI risk treatment plan from 6.1.3 and verify its effectiveness. When an assessment identifies new risks that need treatment, apply the treatment process to them. When treatment options are not effective, review and revalidate them and update the plan. Retain documented information of the results."
+        },
+        {
+          "ref": "8.4",
+          "label": "AI system impact assessment",
+          "description": "Perform AI system impact assessments in line with 6.1.4 at planned intervals or when significant changes are proposed or occur, and retain documented information of the results."
+        }
+      ]
+    },
+    {
+      "ref": "9",
+      "label": "Performance evaluation",
+      "group": true,
+      "controls": [
+        {
+          "ref": "9.1",
+          "label": "Monitoring, measurement, analysis and evaluation",
+          "description": "Determine what needs to be monitored and measured, the methods used to obtain valid results, when monitoring and measuring is performed, and when the results are analysed and evaluated. Retain documented information as evidence of the results, and evaluate the performance and effectiveness of the AIMS."
+        },
+        {
+          "ref": "9.2",
+          "label": "Internal audit",
+          "group": true,
+          "controls": [
+            {
+              "ref": "9.2.1",
+              "label": "General",
+              "description": "Conduct internal audits at planned intervals to determine whether the AIMS:\na) conforms to (1) the organization's own requirements for its AIMS and (2) the requirements of this standard;\nb) is effectively implemented and maintained."
+            },
+            {
+              "ref": "9.2.2",
+              "label": "Internal audit programme",
+              "description": "Plan, establish, implement and maintain an audit programme covering frequency, methods, responsibilities, planning requirements and reporting, taking into account the importance of the processes concerned and the results of previous audits. For the programme:\na) define the objectives, criteria and scope of each audit;\nb) select auditors and conduct audits so the process is objective and impartial;\nc) ensure audit results are reported to the relevant managers.\n\nRetain documented information as evidence of the audit programme and the audit results."
+            }
+          ]
+        },
+        {
+          "ref": "9.3",
+          "label": "Management review",
+          "group": true,
+          "controls": [
+            {
+              "ref": "9.3.1",
+              "label": "General",
+              "description": "Top management reviews the AIMS at planned intervals to ensure its continuing suitability, adequacy and effectiveness."
+            },
+            {
+              "ref": "9.3.2",
+              "label": "Management review inputs",
+              "description": "The management review considers:\na) the status of actions from previous reviews;\nb) changes in external and internal issues relevant to the AIMS;\nc) changes in the needs and expectations of interested parties relevant to the AIMS;\nd) information on AIMS performance, including trends in (1) nonconformities and corrective actions, (2) monitoring and measurement results, and (3) audit results;\ne) opportunities for continual improvement."
+            },
+            {
+              "ref": "9.3.3",
+              "label": "Management review results",
+              "description": "The results of the management review include decisions on continual improvement opportunities and any need for changes to the AIMS. Retain documented information as evidence of the results."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ref": "10",
+      "label": "Improvement",
+      "group": true,
+      "controls": [
+        {
+          "ref": "10.1",
+          "label": "Continual improvement",
+          "description": "Continually improve the suitability, adequacy and effectiveness of the AIMS."
+        },
+        {
+          "ref": "10.2",
+          "label": "Nonconformity and corrective action",
+          "description": "When a nonconformity occurs:\na) react to it and, as applicable, (1) take action to control and correct it and (2) deal with the consequences;\nb) evaluate the need for action to eliminate its causes so it does not recur or occur elsewhere, by (1) reviewing it, (2) determining its causes, and (3) determining whether similar nonconformities exist or could occur;\nc) implement any action needed;\nd) review the effectiveness of corrective action taken;\ne) make changes to the AIMS, if necessary.\n\nCorrective actions are appropriate to the effects of the nonconformities. Retain documented information on the nature of the nonconformities, the actions taken and the results of corrective action."
+        }
+      ]
+    },
+    {
       "ref": "A.2",
       "label": "Policies related to AI",
       "group": true,
@@ -25,17 +262,41 @@
         {
           "ref": "A.2.2",
           "label": "AI policy",
-          "description": "The organization shall document a policy for the development or use of AI systems."
+          "description": "The organization shall document a policy for the development or use of AI systems.",
+          "guidance": [
+            {
+              "ref": "B.2.2",
+              "label": "Implementation guidance (Annex B)",
+              "text": "Shape the AI policy around the business strategy, organizational values and culture, the risk environment and the level of risk the organization is willing to accept, legal requirements, and the expected impact on interested parties. Include the principles that guide AI activities, how exceptions and deviations are handled, and how the policy relates to topic-specific policies (for example AI resources and assets, impact assessments and system development). Make it available to relevant interested parties.",
+              "source_url": "https://www.iso.org/standard/81230.html"
+            }
+          ]
         },
         {
           "ref": "A.2.3",
           "label": "Alignment with other organizational policies",
-          "description": "The organization shall determine where other policies can be affected by or apply to, the organization's objectives with respect to AI systems."
+          "description": "The organization shall determine where other policies can be affected by or apply to, the organization's objectives with respect to AI systems.",
+          "guidance": [
+            {
+              "ref": "B.2.3",
+              "label": "Implementation guidance (Annex B)",
+              "text": "Many domains intersect with AI: quality, security, safety and privacy among them. Review existing policies to see where AI changes or extends them, and either update those policies or reference them from the AI policy rather than duplicating their content.",
+              "source_url": "https://www.iso.org/standard/81230.html"
+            }
+          ]
         },
         {
           "ref": "A.2.4",
           "label": "Review of the AI policy",
-          "description": "The AI policy shall be reviewed at planned intervals or additionally as needed to ensure its continuing suitability, adequacy and effectiveness."
+          "description": "The AI policy shall be reviewed at planned intervals or additionally as needed to ensure its continuing suitability, adequacy and effectiveness.",
+          "guidance": [
+            {
+              "ref": "B.2.4",
+              "label": "Implementation guidance (Annex B)",
+              "text": "Assign a management-approved role to develop, review and evaluate the AI policy, and set a review cadence. Reviews look for opportunities to improve the policy and approach in response to changes in the organization, its business circumstances, the legal environment or AI technology, and take into account the results of management reviews.",
+              "source_url": "https://www.iso.org/standard/81230.html"
+            }
+          ]
         }
       ]
     },
@@ -48,12 +309,28 @@
         {
           "ref": "A.3.2",
           "label": "AI roles and responsibilities",
-          "description": "Roles and responsibilities for AI shall be defined and allocated according to the needs of the organization."
+          "description": "Roles and responsibilities for AI shall be defined and allocated according to the needs of the organization.",
+          "guidance": [
+            {
+              "ref": "B.3.2",
+              "label": "Implementation guidance (Annex B)",
+              "text": "Define AI roles and responsibilities across the whole life cycle so accountability is clear. Typical areas include risk management, impact assessments, asset and resource management, security, safety, privacy, development, performance, human oversight, supplier relationships, and legal and regulatory compliance. Detail the responsibilities to the level the people performing them need.",
+              "source_url": "https://www.iso.org/standard/81230.html"
+            }
+          ]
         },
         {
           "ref": "A.3.3",
           "label": "Reporting of concerns",
-          "description": "The organization shall define and put in place a process to report concerns about the organization's role with respect to an AI system throughout its life cycle."
+          "description": "The organization shall define and put in place a process to report concerns about the organization's role with respect to an AI system throughout its life cycle.",
+          "guidance": [
+            {
+              "ref": "B.3.3",
+              "label": "Implementation guidance (Annex B)",
+              "text": "Provide a reporting mechanism for concerns about AI systems that offers confidentiality or anonymity where possible, is available and promoted to staff and contractors, is staffed by qualified people with appropriate authority, protects reporters from reprisal, and escalates reports to management in a timely way. The mechanism can be combined with existing whistleblowing or speak-up channels.",
+              "source_url": "https://www.iso.org/standard/81230.html"
+            }
+          ]
         }
       ]
     },
@@ -66,27 +343,67 @@
         {
           "ref": "A.4.2",
           "label": "Resource documentation",
-          "description": "The organization shall identify and document relevant resources required for the activities at given AI system life cycle stages and other AI-related activities relevant for the organization."
+          "description": "The organization shall identify and document relevant resources required for the activities at given AI system life cycle stages and other AI-related activities relevant for the organization.",
+          "guidance": [
+            {
+              "ref": "B.4.2",
+              "label": "Implementation guidance (Annex B)",
+              "text": "Document the resources each AI system needs at each life cycle stage, typically the system components, data, tooling, system and computing resources, and people. Treat this as a living inventory: it supports risk and impact assessment and should be updated as systems change.",
+              "source_url": "https://www.iso.org/standard/81230.html"
+            }
+          ]
         },
         {
           "ref": "A.4.3",
           "label": "Data resources",
-          "description": "As part of resource identification, the organization shall document information about the data resources utilized for the AI system."
+          "description": "As part of resource identification, the organization shall document information about the data resources utilized for the AI system.",
+          "guidance": [
+            {
+              "ref": "B.4.3",
+              "label": "Implementation guidance (Annex B)",
+              "text": "For each data resource, record items such as its provenance, when it was last updated or modified, its categories (for example training, validation, test or production data), labelling process, intended use, known or potential bias, quality, retention and disposal arrangements, and any data preparation applied.",
+              "source_url": "https://www.iso.org/standard/81230.html"
+            }
+          ]
         },
         {
           "ref": "A.4.4",
           "label": "Tooling resources",
-          "description": "As part of resource identification, the organization shall document information about the tooling resources utilized for the AI system."
+          "description": "As part of resource identification, the organization shall document information about the tooling resources utilized for the AI system.",
+          "guidance": [
+            {
+              "ref": "B.4.4",
+              "label": "Implementation guidance (Annex B)",
+              "text": "Record the tooling the AI system relies on, for example algorithm types and machine learning models, data conditioning tools or processes, optimization methods, evaluation methods, provisioning tools for resources, tools that support model development, and the software and hardware used for system design.",
+              "source_url": "https://www.iso.org/standard/81230.html"
+            }
+          ]
         },
         {
           "ref": "A.4.5",
           "label": "System and computing resources",
-          "description": "As part of resource identification, the organization shall document information about the system and computing resources utilized for the AI system."
+          "description": "As part of resource identification, the organization shall document information about the system and computing resources utilized for the AI system.",
+          "guidance": [
+            {
+              "ref": "B.4.5",
+              "label": "Implementation guidance (Annex B)",
+              "text": "Record the system and computing resources the AI system uses, including where processing happens (on-premises, cloud or edge), the processing, network and storage resources required, and the environmental impact of the hardware where known. Consider resource needs at each life cycle stage, including those of ongoing monitoring and updates.",
+              "source_url": "https://www.iso.org/standard/81230.html"
+            }
+          ]
         },
         {
           "ref": "A.4.6",
           "label": "Human resources",
-          "description": "As part of resource identification, the organization shall document information about the human resources and their competences utilized for the development, deployment, operation, change management, maintenance, transfer and decommissioning, as well as verification and integration of the AI system."
+          "description": "As part of resource identification, the organization shall document information about the human resources and their competences utilized for the development, deployment, operation, change management, maintenance, transfer and decommissioning, as well as verification and integration of the AI system.",
+          "guidance": [
+            {
+              "ref": "B.4.6",
+              "label": "Implementation guidance (Annex B)",
+              "text": "Record the roles and competences needed at each life cycle stage. Depending on the system these may include data scientists, roles concerned with human oversight, AI safety, security and privacy experts, researchers and domain experts. Include the diversity of competences and perspectives the system needs, particularly where it affects people.",
+              "source_url": "https://www.iso.org/standard/81230.html"
+            }
+          ]
         }
       ]
     },
@@ -99,22 +416,54 @@
         {
           "ref": "A.5.2",
           "label": "AI system impact assessment process",
-          "description": "The organization shall establish a process to assess the potential consequences for individuals or groups of individuals, or both, and societies that can result from the AI system throughout its life cycle."
+          "description": "The organization shall establish a process to assess the potential consequences for individuals or groups of individuals, or both, and societies that can result from the AI system throughout its life cycle.",
+          "guidance": [
+            {
+              "ref": "B.5.2",
+              "label": "Implementation guidance (Annex B)",
+              "text": "The impact assessment process covers when an assessment is triggered (for example by the system's criticality, intended purpose or complexity, or by sensitive data), what it covers, who performs it and what roles are involved, how results are used, and how they feed into design, development and decisions. Consider impacts on legal position and life opportunities, physical or psychological wellbeing, universal human rights, and society.",
+              "source_url": "https://www.iso.org/standard/81230.html"
+            }
+          ]
         },
         {
           "ref": "A.5.3",
           "label": "Documentation of AI system impact assessments",
-          "description": "The organization shall document the results of AI system impact assessments and retain results for a defined period."
+          "description": "The organization shall document the results of AI system impact assessments and retain results for a defined period.",
+          "guidance": [
+            {
+              "ref": "B.5.3",
+              "label": "Implementation guidance (Annex B)",
+              "text": "Record items such as the intended and reasonably foreseeable misuse of the AI system, its positive and negative impacts on individuals, groups and societies, its complexity and predictability, the data used, the human oversight in place and any mitigating measures, and who performed and approved the assessment. Set and follow a retention period that reflects legal requirements and organizational needs.",
+              "source_url": "https://www.iso.org/standard/81230.html"
+            }
+          ]
         },
         {
           "ref": "A.5.4",
           "label": "Assessing AI system impact on individuals or groups of individuals",
-          "description": "The organization shall assess and document the potential impacts of AI systems to individuals or groups of individuals throughout the system's life cycle."
+          "description": "The organization shall assess and document the potential impacts of AI systems to individuals or groups of individuals throughout the system's life cycle.",
+          "guidance": [
+            {
+              "ref": "B.5.4",
+              "label": "Implementation guidance (Annex B)",
+              "text": "Consider the expectations of the people affected, including fairness, accountability, transparency and explainability, security and privacy, safety and health, financial consequences, accessibility, and human rights. Pay particular attention to vulnerable groups such as children, older people and people with disabilities, and seek input from affected parties or their representatives where practicable.",
+              "source_url": "https://www.iso.org/standard/81230.html"
+            }
+          ]
         },
         {
           "ref": "A.5.5",
           "label": "Assessing societal impacts of AI systems",
-          "description": "The organization shall assess and document the potential societal impacts of their AI systems throughout their life cycle."
+          "description": "The organization shall assess and document the potential societal impacts of their AI systems throughout their life cycle.",
+          "guidance": [
+            {
+              "ref": "B.5.5",
+              "label": "Implementation guidance (Annex B)",
+              "text": "Societal impacts can be positive or negative and include effects on the environment and natural resources, economic effects such as access to financial services or employment, government and democratic processes (for example misinformation), health and safety, and norms, traditions and culture. Consider both the intended uses of the system and reasonably foreseeable misuse.",
+              "source_url": "https://www.iso.org/standard/81230.html"
+            }
+          ]
         }
       ]
     },
@@ -133,12 +482,28 @@
             {
               "ref": "A.6.1.2",
               "label": "Objectives for responsible development of AI system",
-              "description": "The organization shall identify and document objectives to guide the responsible development AI systems, and take those objectives into account and integrate measures to achieve them in the development life cycle."
+              "description": "The organization shall identify and document objectives to guide the responsible development AI systems, and take those objectives into account and integrate measures to achieve them in the development life cycle.",
+              "guidance": [
+                {
+                  "ref": "B.6.1.2",
+                  "label": "Implementation guidance (Annex B)",
+                  "text": "Translate the AI policy into development objectives, for example around fairness, transparency, security, safety and privacy, and integrate them across the development life cycle: in requirements, data acquisition and preparation, model training and verification. Use the objectives as acceptance criteria rather than aspirations.",
+                  "source_url": "https://www.iso.org/standard/81230.html"
+                }
+              ]
             },
             {
               "ref": "A.6.1.3",
               "label": "Processes for responsible AI system design and development",
-              "description": "The organization shall define and document the specific processes for the responsible design and development of the AI system."
+              "description": "The organization shall define and document the specific processes for the responsible design and development of the AI system.",
+              "guidance": [
+                {
+                  "ref": "B.6.1.3",
+                  "label": "Implementation guidance (Annex B)",
+                  "text": "Responsible development processes typically address life cycle stages and gates, testing requirements and means of testing, human oversight requirements, when and which impact assessments are performed, training data expectations and rules, expertise and training required, release criteria, approvals and sign-offs, change control, usability and controllability, and engagement with interested parties.",
+                  "source_url": "https://www.iso.org/standard/81230.html"
+                }
+              ]
             }
           ]
         },
@@ -151,37 +516,93 @@
             {
               "ref": "A.6.2.2",
               "label": "AI system requirements and specification",
-              "description": "The organization shall specify and document requirements for new AI systems or material enhancements to existing systems."
+              "description": "The organization shall specify and document requirements for new AI systems or material enhancements to existing systems.",
+              "guidance": [
+                {
+                  "ref": "B.6.2.2",
+                  "label": "Implementation guidance (Annex B)",
+                  "text": "Document why the AI system is being developed and the business case for it, what it is intended to do, and how its requirements will be met, including any model training and data requirements. Revisit the requirements through the life cycle as the system and its context change.",
+                  "source_url": "https://www.iso.org/standard/81230.html"
+                }
+              ]
             },
             {
               "ref": "A.6.2.3",
               "label": "Documentation of AI system design and development",
-              "description": "The organization shall document the AI system design and development based on organizational objectives, documented requirements and specification criteria."
+              "description": "The organization shall document the AI system design and development based on organizational objectives, documented requirements and specification criteria.",
+              "guidance": [
+                {
+                  "ref": "B.6.2.3",
+                  "label": "Implementation guidance (Annex B)",
+                  "text": "Document design and development decisions, such as the machine learning approach (supervised or unsupervised, for example), learning algorithms and model types, how the model will be trained and on what data, model refinement, evaluation metrics, hardware and software components, security threats specific to the system, and interfaces and presentation of outputs.",
+                  "source_url": "https://www.iso.org/standard/81230.html"
+                }
+              ]
             },
             {
               "ref": "A.6.2.4",
               "label": "AI system verification and validation",
-              "description": "The organization shall define and document verification and validation measures for the AI system and specify criteria for their use."
+              "description": "The organization shall define and document verification and validation measures for the AI system and specify criteria for their use.",
+              "guidance": [
+                {
+                  "ref": "B.6.2.4",
+                  "label": "Implementation guidance (Annex B)",
+                  "text": "Verification and validation measures can include testing methodologies and tools, selection of test data and how it represents the intended domain of use, release criteria requirements, and evaluation of the system against the objectives for responsible development and the impact assessment. Where results fall short, document the decision taken and its rationale.",
+                  "source_url": "https://www.iso.org/standard/81230.html"
+                }
+              ]
             },
             {
               "ref": "A.6.2.5",
               "label": "AI system deployment",
-              "description": "The organization shall document a deployment plan and ensure that appropriate requirements are met prior to deployment."
+              "description": "The organization shall document a deployment plan and ensure that appropriate requirements are met prior to deployment.",
+              "guidance": [
+                {
+                  "ref": "B.6.2.5",
+                  "label": "Implementation guidance (Annex B)",
+                  "text": "The deployment plan accounts for the differences between development and production environments (for example software versions, hardware configuration and data drift) and for deploying components separately. Define release criteria and approvals, and confirm verification and validation results and impact assessments are complete and acceptable before deployment.",
+                  "source_url": "https://www.iso.org/standard/81230.html"
+                }
+              ]
             },
             {
               "ref": "A.6.2.6",
               "label": "AI system operation and monitoring",
-              "description": "The organization shall define and document the necessary elements for the ongoing operation of the AI system. At the minimum, this should include system and performance monitoring, repairs, updates and support."
+              "description": "The organization shall define and document the necessary elements for the ongoing operation of the AI system. At the minimum, this should include system and performance monitoring, repairs, updates and support.",
+              "guidance": [
+                {
+                  "ref": "B.6.2.6",
+                  "label": "Implementation guidance (Annex B)",
+                  "text": "Operational elements include monitoring for errors and failures, performance against expected levels (for example accuracy and drift for systems that continue to learn), handling of repairs, updates and support requests, and monitoring for new threats. Define when retraining or redeployment is required and how operational information feeds back into risk and impact assessments.",
+                  "source_url": "https://www.iso.org/standard/81230.html"
+                }
+              ]
             },
             {
               "ref": "A.6.2.7",
               "label": "AI system technical documentation",
-              "description": "The organization shall determine what AI system technical documentation is needed for each relevant category of interested parties, such as users, partners, supervisory authorities, and provide the technical documentation to them in the appropriate form."
+              "description": "The organization shall determine what AI system technical documentation is needed for each relevant category of interested parties, such as users, partners, supervisory authorities, and provide the technical documentation to them in the appropriate form.",
+              "guidance": [
+                {
+                  "ref": "B.6.2.7",
+                  "label": "Implementation guidance (Annex B)",
+                  "text": "Technical documentation may include a general description and intended purpose, usage instructions, assumptions about deployment and operation, technical limitations, monitoring capabilities, evaluation results, hardware and software requirements, data descriptions, and any change history. Tailor the form to each audience (users, partners, supervisory authorities) and keep it current.",
+                  "source_url": "https://www.iso.org/standard/81230.html"
+                }
+              ]
             },
             {
               "ref": "A.6.2.8",
               "label": "AI system recording of event logs",
-              "description": "The organization shall determine at which phases of the AI system life cycle, record keeping of event logs should be enabled, but at the minimum when the AI system is in use."
+              "description": "The organization shall determine at which phases of the AI system life cycle, record keeping of event logs should be enabled, but at the minimum when the AI system is in use.",
+              "guidance": [
+                {
+                  "ref": "B.6.2.8",
+                  "label": "Implementation guidance (Annex B)",
+                  "text": "Event logs support traceability of the system's behaviour, detection of performance outside intended operating conditions, and investigation of incidents. Decide what to log, at which life cycle stages and for how long, taking privacy and security into account, and protect logs from tampering.",
+                  "source_url": "https://www.iso.org/standard/81230.html"
+                }
+              ]
             }
           ]
         }
@@ -196,27 +617,67 @@
         {
           "ref": "A.7.2",
           "label": "Data for development and enhancement of AI system",
-          "description": "The organization shall define, document and implement data management processes related to the development of AI systems."
+          "description": "The organization shall define, document and implement data management processes related to the development of AI systems.",
+          "guidance": [
+            {
+              "ref": "B.7.2",
+              "label": "Implementation guidance (Annex B)",
+              "text": "Data management processes address topics such as privacy and security implications of the data used, the effect of data on transparency and explainability, representativeness of training data relative to the operational domain, accuracy and integrity of data, and how data quality, provenance and preparation are handled across the life cycle.",
+              "source_url": "https://www.iso.org/standard/81230.html"
+            }
+          ]
         },
         {
           "ref": "A.7.3",
           "label": "Acquisition of data",
-          "description": "The organization shall determine and document details about the acquisition and selection of the data used in AI systems."
+          "description": "The organization shall determine and document details about the acquisition and selection of the data used in AI systems.",
+          "guidance": [
+            {
+              "ref": "B.7.3",
+              "label": "Implementation guidance (Annex B)",
+              "text": "Record the categories and quantity of data needed, data sources, characteristics of data sources (static or streaming, internal or acquired), demographic and other characteristics of data subjects, prior handling of the data, data rights such as personal data and copyright, and metadata. Confirm the organization has the right to use the data for the intended purpose.",
+              "source_url": "https://www.iso.org/standard/81230.html"
+            }
+          ]
         },
         {
           "ref": "A.7.4",
           "label": "Quality of data for AI systems",
-          "description": "The organization shall define and document requirements for data quality and ensure that data used to develop and operate the AI system meet those requirements."
+          "description": "The organization shall define and document requirements for data quality and ensure that data used to develop and operate the AI system meet those requirements.",
+          "guidance": [
+            {
+              "ref": "B.7.4",
+              "label": "Implementation guidance (Annex B)",
+              "text": "Define data quality requirements appropriate to the AI system and its intended use, and evaluate data against them before and during use. Consider the effect of bias on system performance and fairness, and adjust the model or data as needed to address it. Data quality frameworks such as ISO/IEC 5259 can support this.",
+              "source_url": "https://www.iso.org/standard/81230.html"
+            }
+          ]
         },
         {
           "ref": "A.7.5",
           "label": "Data provenance",
-          "description": "The organization shall define and document a process for recording the provenance of data used in its AI systems over the life cycles of the data and the AI system."
+          "description": "The organization shall define and document a process for recording the provenance of data used in its AI systems over the life cycles of the data and the AI system.",
+          "guidance": [
+            {
+              "ref": "B.7.5",
+              "label": "Implementation guidance (Annex B)",
+              "text": "Provenance records describe the creation, update, transcription, abstraction, validation and transfer of control of data, so the origin and history of each data set used by the system can be traced. Keep provenance records for the life of both the data and the AI system.",
+              "source_url": "https://www.iso.org/standard/81230.html"
+            }
+          ]
         },
         {
           "ref": "A.7.6",
           "label": "Data preparation",
-          "description": "The organization shall define and document its criteria for selecting data preparations and the data preparation methods to be used."
+          "description": "The organization shall define and document its criteria for selecting data preparations and the data preparation methods to be used.",
+          "guidance": [
+            {
+              "ref": "B.7.6",
+              "label": "Implementation guidance (Annex B)",
+              "text": "Document the data preparation methods used and why they were chosen, for example statistical exploration, cleaning, imputation, normalization, scaling, labelling and encoding. Check that preparation does not introduce bias or remove information the system depends on.",
+              "source_url": "https://www.iso.org/standard/81230.html"
+            }
+          ]
         }
       ]
     },
@@ -229,22 +690,54 @@
         {
           "ref": "A.8.2",
           "label": "System documentation and information for users",
-          "description": "The organization shall determine and provide the necessary information to users of the AI system."
+          "description": "The organization shall determine and provide the necessary information to users of the AI system.",
+          "guidance": [
+            {
+              "ref": "B.8.2",
+              "label": "Implementation guidance (Annex B)",
+              "text": "Information for users can include the system's purpose and intended use, that the user is interacting with an AI system, how to interact with it, its accuracy and performance, its limitations and known failure modes, how human oversight works, and how to report problems. Present it in a form users can understand.",
+              "source_url": "https://www.iso.org/standard/81230.html"
+            }
+          ]
         },
         {
           "ref": "A.8.3",
           "label": "External reporting",
-          "description": "The organization shall provide capabilities for interested parties to report adverse impacts of the AI system."
+          "description": "The organization shall provide capabilities for interested parties to report adverse impacts of the AI system.",
+          "guidance": [
+            {
+              "ref": "B.8.3",
+              "label": "Implementation guidance (Annex B)",
+              "text": "Provide channels such as a web form, email or helpdesk through which users, affected people and others can report adverse impacts. Define how reports are received, assessed, acted on and responded to, and feed the results into risk management and system improvement.",
+              "source_url": "https://www.iso.org/standard/81230.html"
+            }
+          ]
         },
         {
           "ref": "A.8.4",
           "label": "Communication of incidents",
-          "description": "The organization shall determine and document a plan for communicating incidents to users of the AI system."
+          "description": "The organization shall determine and document a plan for communicating incidents to users of the AI system.",
+          "guidance": [
+            {
+              "ref": "B.8.4",
+              "label": "Implementation guidance (Annex B)",
+              "text": "Plan how incidents affecting users are communicated: what triggers a notification, what information is included, through which channels and within what time frames. Align the plan with incident management and any legal or contractual notification obligations, including regulatory reporting.",
+              "source_url": "https://www.iso.org/standard/81230.html"
+            }
+          ]
         },
         {
           "ref": "A.8.5",
           "label": "Information for interested parties",
-          "description": "The organization shall determine and document their obligations to reporting information about the AI system to interested parties."
+          "description": "The organization shall determine and document their obligations to reporting information about the AI system to interested parties.",
+          "guidance": [
+            {
+              "ref": "B.8.5",
+              "label": "Implementation guidance (Annex B)",
+              "text": "Identify the reporting obligations that apply to the organization's AI systems, whether legal, regulatory or contractual, including reports to supervisory authorities. Document what information must be reported, to whom, when and in what form, and who is responsible for reporting.",
+              "source_url": "https://www.iso.org/standard/81230.html"
+            }
+          ]
         }
       ]
     },
@@ -257,17 +750,41 @@
         {
           "ref": "A.9.2",
           "label": "Processes for responsible use of AI systems",
-          "description": "The organization shall define and document the processes for the responsible use of AI systems."
+          "description": "The organization shall define and document the processes for the responsible use of AI systems.",
+          "guidance": [
+            {
+              "ref": "B.9.2",
+              "label": "Implementation guidance (Annex B)",
+              "text": "Responsible use processes cover the required approvals before use, cost and benefit considerations, sources of the system (in-house or supplied), legal requirements, the human oversight in place, and how use is monitored. They apply whether the organization developed the AI system or acquired it.",
+              "source_url": "https://www.iso.org/standard/81230.html"
+            }
+          ]
         },
         {
           "ref": "A.9.3",
           "label": "Objectives for responsible use of AI system",
-          "description": "The organization shall identify and document objectives to guide the responsible use of AI systems."
+          "description": "The organization shall identify and document objectives to guide the responsible use of AI systems.",
+          "guidance": [
+            {
+              "ref": "B.9.3",
+              "label": "Implementation guidance (Annex B)",
+              "text": "Set objectives for responsible use, for example around fairness, accountability, transparency, explainability, reliability, safety, robustness, privacy, security and accessibility, and define the mechanisms used to achieve them, such as human oversight, monitoring and periodic review.",
+              "source_url": "https://www.iso.org/standard/81230.html"
+            }
+          ]
         },
         {
           "ref": "A.9.4",
           "label": "Intended use of the AI system",
-          "description": "The organization shall ensure that the AI system is used according to the intended uses of the AI system and its accompanying documentation."
+          "description": "The organization shall ensure that the AI system is used according to the intended uses of the AI system and its accompanying documentation.",
+          "guidance": [
+            {
+              "ref": "B.9.4",
+              "label": "Implementation guidance (Annex B)",
+              "text": "Use AI systems according to their intended uses and accompanying documentation. Keep the system within its intended operating conditions, assign human oversight to people with the competence and authority to intervene, monitor for performance outside the intended use, and define what to do when use departs from it.",
+              "source_url": "https://www.iso.org/standard/81230.html"
+            }
+          ]
         }
       ]
     },
@@ -280,17 +797,41 @@
         {
           "ref": "A.10.2",
           "label": "Allocating responsibilities",
-          "description": "The organization shall ensure that responsibilities within their AI system life cycle are allocated between the organization, its partners, suppliers, customers and third parties."
+          "description": "The organization shall ensure that responsibilities within their AI system life cycle are allocated between the organization, its partners, suppliers, customers and third parties.",
+          "guidance": [
+            {
+              "ref": "B.10.2",
+              "label": "Implementation guidance (Annex B)",
+              "text": "Where third parties are involved, document who is responsible for which life cycle activities, for example development, data supply, deployment, operation, monitoring and impact assessment, in contracts or agreements. Make sure no activity falls between parties.",
+              "source_url": "https://www.iso.org/standard/81230.html"
+            }
+          ]
         },
         {
           "ref": "A.10.3",
           "label": "Suppliers",
-          "description": "The organization shall establish a process to ensure that its usage of services, products or materials provided by suppliers aligns with the organization's approach to the responsible development and use of AI systems."
+          "description": "The organization shall establish a process to ensure that its usage of services, products or materials provided by suppliers aligns with the organization's approach to the responsible development and use of AI systems.",
+          "guidance": [
+            {
+              "ref": "B.10.3",
+              "label": "Implementation guidance (Annex B)",
+              "text": "Supplier processes cover how suppliers of AI systems, components, data and services are selected, evaluated and monitored against the organization's responsible AI requirements, and how those requirements are set out in agreements. Consider the risks the supplied element introduces and how it affects the organization's own obligations.",
+              "source_url": "https://www.iso.org/standard/81230.html"
+            }
+          ]
         },
         {
           "ref": "A.10.4",
           "label": "Customers",
-          "description": "The organization shall ensure that its responsible approach to the development and use of AI systems considers their customer expectations and needs."
+          "description": "The organization shall ensure that its responsible approach to the development and use of AI systems considers their customer expectations and needs.",
+          "guidance": [
+            {
+              "ref": "B.10.4",
+              "label": "Implementation guidance (Annex B)",
+              "text": "Understand what customers expect of the AI system, through contracts, documentation and engagement, and reflect it in requirements, risk and impact assessments, and the information provided to them. Where the organization supplies AI to customers, provide them with what they need to use it responsibly.",
+              "source_url": "https://www.iso.org/standard/81230.html"
+            }
+          ]
         }
       ]
     }
