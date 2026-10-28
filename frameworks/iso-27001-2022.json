@@ -8,7 +8,7 @@
   "scf_keys": [
     "iso-27001-2022"
   ],
-  "last_updated": "2026-10-26",
+  "last_updated": "2026-10-28",
   "description": "International standard for establishing, implementing, and maintaining an information security management system (ISMS).",
   "category": "framework",
   "keywords": [
@@ -31,15 +31,15 @@
           "description": "The organization shall determine:\n\nNOTE The requirements of interested parties can include legal and regulatory requirements and contractual obligations.",
           "controls": [
             {
-              "ref": "4.2a)",
+              "ref": "4.2(a)",
               "label": "interested parties that are relevant to the information security management system;"
             },
             {
-              "ref": "4.2b)",
+              "ref": "4.2(b)",
               "label": "the relevant requirements of these interested parties;"
             },
             {
-              "ref": "4.2c)",
+              "ref": "4.2(c)",
               "label": "which of these requirements will be addressed through the information security management system."
             }
           ]
@@ -50,15 +50,15 @@
           "description": "The organization shall determine the boundaries and applicability of the information security management system to establish its scope.\n\nWhen determining this scope, the organization shall consider:",
           "controls": [
             {
-              "ref": "4.3a)",
+              "ref": "4.3(a)",
               "label": "the external and internal issues referred to in 4.1;"
             },
             {
-              "ref": "4.3b)",
+              "ref": "4.3(b)",
               "label": "the requirements referred to in 4.2;"
             },
             {
-              "ref": "4.3c)",
+              "ref": "4.3(c)",
               "label": "interfaces and dependencies between activities performed by the organization, and those that are performed by other organizations."
             },
             {
@@ -83,35 +83,35 @@
           "description": "Top management shall demonstrate leadership and commitment with respect to the information security management system by:\n\nNOTE Reference to “business” in this document can be interpreted broadly to mean those activities that are core to the purposes of the organization’s existence.",
           "controls": [
             {
-              "ref": "5.1a)",
+              "ref": "5.1(a)",
               "label": "ensuring the information security policy and the information security objectives are established and are compatible with the strategic direction of the organization;"
             },
             {
-              "ref": "5.1b)",
+              "ref": "5.1(b)",
               "label": "ensuring the integration of the information security management system requirements into the organization’s processes;"
             },
             {
-              "ref": "5.1c)",
+              "ref": "5.1(c)",
               "label": "ensuring that the resources needed for the information security management system are available;"
             },
             {
-              "ref": "5.1d)",
+              "ref": "5.1(d)",
               "label": "communicating the importance of effective information security management and of conforming to the information security management system requirements;"
             },
             {
-              "ref": "5.1e)",
+              "ref": "5.1(e)",
               "label": "ensuring that the information security management system achieves its intended outcome(s);"
             },
             {
-              "ref": "5.1f)",
+              "ref": "5.1(f)",
               "label": "directing and supporting persons to contribute to the effectiveness of the information security management system;"
             },
             {
-              "ref": "5.1g)",
+              "ref": "5.1(g)",
               "label": "promoting continual improvement; and"
             },
             {
-              "ref": "5.1h)",
+              "ref": "5.1(h)",
               "label": "supporting other relevant management roles to demonstrate their leadership as it applies to their areas of responsibility."
             }
           ]
@@ -122,31 +122,31 @@
           "description": "Top management shall establish an information security policy that:",
           "controls": [
             {
-              "ref": "5.2a)",
+              "ref": "5.2(a)",
               "label": "is appropriate to the purpose of the organization;"
             },
             {
-              "ref": "5.2b)",
+              "ref": "5.2(b)",
               "label": "includes information security objectives (see 6.2) or provides the framework for setting information security objectives;"
             },
             {
-              "ref": "5.2c)",
+              "ref": "5.2(c)",
               "label": "includes a commitment to satisfy applicable requirements related to information security;"
             },
             {
-              "ref": "5.2d)",
+              "ref": "5.2(d)",
               "label": "includes a commitment to continual improvement of the information security management system."
             },
             {
-              "ref": "5.2e)",
+              "ref": "5.2(e)",
               "label": "The information security policy shall be available as documented information;"
             },
             {
-              "ref": "5.2f)",
+              "ref": "5.2(f)",
               "label": "The information security policy shall be communicated within the organization;"
             },
             {
-              "ref": "5.2g)",
+              "ref": "5.2(g)",
               "label": "The information security policy shall be available to interested parties, as appropriate."
             }
           ]
@@ -157,11 +157,11 @@
           "description": "Top management shall ensure that the responsibilities and authorities for roles relevant to information security are assigned and communicated within the organization.\n\nTop management shall assign the responsibility and authority for:",
           "controls": [
             {
-              "ref": "5.3a)",
+              "ref": "5.3(a)",
               "label": "ensuring that the information security management system conforms to the requirements of this document;"
             },
             {
-              "ref": "5.3b)",
+              "ref": "5.3(b)",
               "label": "reporting on the performance of the information security management system to top management.\n\nNOTE Top management can also assign responsibilities and authorities for reporting performance of the information security management system within the organization."
             }
           ]
@@ -182,31 +182,31 @@
               "description": "When planning for the information security management system, the organization shall consider the issues referred to in 4.1 and the requirements referred to in 4.2 and determine the risks and opportunities that need to be addressed to:",
               "controls": [
                 {
-                  "ref": "6.1.1a)",
+                  "ref": "6.1.1(a)",
                   "label": "ensure the information security management system can achieve its intended outcome(s);"
                 },
                 {
-                  "ref": "6.1.1b)",
+                  "ref": "6.1.1(b)",
                   "label": "prevent, or reduce, undesired effects;"
                 },
                 {
-                  "ref": "6.1.1c)",
+                  "ref": "6.1.1(c)",
                   "label": "achieve continual improvement."
                 },
                 {
-                  "ref": "6.1.1d)",
+                  "ref": "6.1.1(d)",
                   "label": "The organization shall plan actions to address these risks and opportunities; and"
                 },
                 {
-                  "ref": "6.1.1e)",
+                  "ref": "6.1.1(e)",
                   "label": "The organization shall plan how to:",
                   "controls": [
                     {
-                      "ref": "6.1.1e)1)",
+                      "ref": "6.1.1(e)(1)",
                       "label": "integrate and implement the actions into its information security management system processes; and"
                     },
                     {
-                      "ref": "6.1.1e)2)",
+                      "ref": "6.1.1(e)(2)",
                       "label": "evaluate the effectiveness of these actions."
                     }
                   ]
@@ -219,65 +219,65 @@
               "description": "The organization shall define and apply an information security risk assessment process that:",
               "controls": [
                 {
-                  "ref": "6.1.2a)",
+                  "ref": "6.1.2(a)",
                   "label": "establishes and maintains information security risk criteria that include:",
                   "controls": [
                     {
-                      "ref": "6.1.2a)1)",
+                      "ref": "6.1.2(a)(1)",
                       "label": "the risk acceptance criteria; and"
                     },
                     {
-                      "ref": "6.1.2a)2)",
+                      "ref": "6.1.2(a)(2)",
                       "label": "criteria for performing information security risk assessments;"
                     }
                   ]
                 },
                 {
-                  "ref": "6.1.2b)",
+                  "ref": "6.1.2(b)",
                   "label": "ensures that repeated information security risk assessments produce consistent, valid and comparable results;"
                 },
                 {
-                  "ref": "6.1.2c)",
+                  "ref": "6.1.2(c)",
                   "label": "identifies the information security risks:",
                   "controls": [
                     {
-                      "ref": "6.1.2c)1)",
+                      "ref": "6.1.2(c)(1)",
                       "label": "apply the information security risk assessment process to identify risks associated with the loss of confidentiality, integrity and availability for information within the scope of the information security management system; and"
                     },
                     {
-                      "ref": "6.1.2c)2)",
+                      "ref": "6.1.2(c)(2)",
                       "label": "identify the risk owners;"
                     }
                   ]
                 },
                 {
-                  "ref": "6.1.2d)",
+                  "ref": "6.1.2(d)",
                   "label": "analyses the information security risks:",
                   "controls": [
                     {
-                      "ref": "6.1.2d)1)",
+                      "ref": "6.1.2(d)(1)",
                       "label": "assess the potential consequences that would result if the risks identified in 6.1.2 c) 1) were to materialize;"
                     },
                     {
-                      "ref": "6.1.2d)2)",
+                      "ref": "6.1.2(d)(2)",
                       "label": "assess the realistic likelihood of the occurrence of the risks identified in 6.1.2 c) 1); and"
                     },
                     {
-                      "ref": "6.1.2d)3)",
+                      "ref": "6.1.2(d)(3)",
                       "label": "determine the levels of risk;"
                     }
                   ]
                 },
                 {
-                  "ref": "6.1.2e)",
+                  "ref": "6.1.2(e)",
                   "label": "evaluates the information security risks:",
                   "controls": [
                     {
-                      "ref": "6.1.2e)1)",
+                      "ref": "6.1.2(e)(1)",
                       "label": "compare the results of risk analysis with the risk criteria established in 6.1.2 a); and"
                     },
                     {
-                      "ref": "6.1.2e)2)",
+                      "ref": "6.1.2(e)(2)",
                       "label": "prioritize the analysed risks for risk treatment."
                     }
                   ]
@@ -294,30 +294,30 @@
               "description": "The organization shall define and apply an information security risk treatment process to:\n\nNOTE 4 The information security risk assessment and treatment process in this document aligns with the principles and generic guidelines provided in ISO 31000\\[5\\].",
               "controls": [
                 {
-                  "ref": "6.1.3a)",
+                  "ref": "6.1.3(a)",
                   "label": "select appropriate information security risk treatment options, taking account of the risk assessment results;"
                 },
                 {
-                  "ref": "6.1.3b)",
+                  "ref": "6.1.3(b)",
                   "label": "determine all controls that are necessary to implement the information security risk treatment option(s) chosen;",
                   "description": "NOTE 1 Organizations can design controls as required, or identify them from any source."
                 },
                 {
-                  "ref": "6.1.3c)",
+                  "ref": "6.1.3(c)",
                   "label": "compare the controls determined in 6.1.3 b) above with those in Annex A and verify that no necessary controls have been omitted;",
                   "description": "NOTE 2 Annex A contains a list of possible information security controls. Users of this document are directed to Annex A to ensure that no necessary information security controls are overlooked.\n\nNOTE 3 The information security controls listed in Annex A are not exhaustive and additional information security controls can be included if needed."
                 },
                 {
-                  "ref": "6.1.3d)",
+                  "ref": "6.1.3(d)",
                   "label": "produce a Statement of Applicability that contains:",
                   "description": "- the necessary controls (see 6.1.3 b) and c));\n- justification for their inclusion;\n- whether the necessary controls are implemented or not; and\n- the justification for excluding any of the Annex A controls."
                 },
                 {
-                  "ref": "6.1.3e)",
+                  "ref": "6.1.3(e)",
                   "label": "formulate an information security risk treatment plan; and"
                 },
                 {
-                  "ref": "6.1.3f)",
+                  "ref": "6.1.3(f)",
                   "label": "obtain risk owners’ approval of the information security risk treatment plan and acceptance of the residual information security risks."
                 },
                 {
@@ -334,51 +334,51 @@
           "description": "The organization shall establish information security objectives at relevant functions and levels.\n\nThe information security objectives shall:",
           "controls": [
             {
-              "ref": "6.2a)",
+              "ref": "6.2(a)",
               "label": "be consistent with the information security policy;"
             },
             {
-              "ref": "6.2b)",
+              "ref": "6.2(b)",
               "label": "be measurable (if practicable);"
             },
             {
-              "ref": "6.2c)",
+              "ref": "6.2(c)",
               "label": "take into account applicable information security requirements, and results from risk assessment and risk treatment;"
             },
             {
-              "ref": "6.2d)",
+              "ref": "6.2(d)",
               "label": "be monitored;"
             },
             {
-              "ref": "6.2e)",
+              "ref": "6.2(e)",
               "label": "be communicated;"
             },
             {
-              "ref": "6.2f)",
+              "ref": "6.2(f)",
               "label": "be updated as appropriate;"
             },
             {
-              "ref": "6.2g)",
+              "ref": "6.2(g)",
               "label": "be available as documented information."
             },
             {
-              "ref": "6.2h)",
+              "ref": "6.2(h)",
               "label": "When planning how to achieve its information security objectives, the organization shall determine what will be done;"
             },
             {
-              "ref": "6.2i)",
+              "ref": "6.2(i)",
               "label": "When planning how to achieve its information security objectives, the organization shall determine what resources will be required;"
             },
             {
-              "ref": "6.2j)",
+              "ref": "6.2(j)",
               "label": "When planning how to achieve its information security objectives, the organization shall determine who will be responsible;"
             },
             {
-              "ref": "6.2k)",
+              "ref": "6.2(k)",
               "label": "When planning how to achieve its information security objectives, the organization shall determine when it will be completed; and"
             },
             {
-              "ref": "6.2l)",
+              "ref": "6.2(l)",
               "label": "When planning how to achieve its information security objectives, the organization shall determine how the results will be evaluated."
             },
             {
@@ -400,7 +400,7 @@
       "label": "​Support",
       "controls": [
         {
-          "ref": "7.1 ",
+          "ref": "7.1",
           "label": "​Resources",
           "description": "The organization shall determine and provide the resources needed for the establishment, implementation, maintenance and continual improvement of the information security management system."
         },
@@ -410,19 +410,19 @@
           "description": "The organization shall:\n\nNOTE Applicable actions can include, for example: the provision of training to, the mentoring of, or the re-assignment of current employees; or the hiring or contracting of competent persons.",
           "controls": [
             {
-              "ref": "7.2a)",
+              "ref": "7.2(a)",
               "label": "determine the necessary competence of person(s) doing work under its control that affects its information security performance;"
             },
             {
-              "ref": "7.2b)",
+              "ref": "7.2(b)",
               "label": "ensure that these persons are competent on the basis of appropriate education, training, or experience;"
             },
             {
-              "ref": "7.2c)",
+              "ref": "7.2(c)",
               "label": "where applicable, take actions to acquire the necessary competence, and evaluate the effectiveness of the actions taken; and"
             },
             {
-              "ref": "7.2d)",
+              "ref": "7.2(d)",
               "label": "retain appropriate documented information as evidence of competence."
             }
           ]
@@ -433,15 +433,15 @@
           "description": "Persons doing work under the organization’s control shall be aware of:",
           "controls": [
             {
-              "ref": "7.3a)",
+              "ref": "7.3(a)",
               "label": "the information security policy;"
             },
             {
-              "ref": "7.3b)",
+              "ref": "7.3(b)",
               "label": "their contribution to the effectiveness of the information security management system, including the benefits of improved information security performance; and"
             },
             {
-              "ref": "7.3c)",
+              "ref": "7.3(c)",
               "label": "the implications of not conforming with the information security management system requirements."
             }
           ]
@@ -451,19 +451,19 @@
           "label": "The organization shall determine the need for internal and external communications relevant to the information security management system including:",
           "controls": [
             {
-              "ref": "7.4a)",
+              "ref": "7.4(a)",
               "label": "on what to communicate;"
             },
             {
-              "ref": "7.4b)",
+              "ref": "7.4(b)",
               "label": "when to communicate;"
             },
             {
-              "ref": "7.4c)",
+              "ref": "7.4(c)",
               "label": "with whom to communicate;"
             },
             {
-              "ref": "7.4d)",
+              "ref": "7.4(d)",
               "label": "how to communicate."
             }
           ]
@@ -478,11 +478,11 @@
               "description": "The organization’s information security management system shall include:\n\nNOTE The extent of documented information for an information security management system can differ from one organization to another due to:\n\n1. the size of organization and its type of activities, processes, products and services;\n2. the complexity of processes and their interactions; and\n3. the competence of persons.",
               "controls": [
                 {
-                  "ref": "7.5.1a)",
+                  "ref": "7.5.1(a)",
                   "label": "documented information required by this document; and"
                 },
                 {
-                  "ref": "7.5.1b)",
+                  "ref": "7.5.1(b)",
                   "label": "documented information determined by the organization as being necessary for the effectiveness of the information security management system."
                 }
               ]
@@ -493,15 +493,15 @@
               "description": "When creating and updating documented information the organization shall ensure appropriate:",
               "controls": [
                 {
-                  "ref": "7.5.2a)",
+                  "ref": "7.5.2(a)",
                   "label": "identification and description (e.g. a title, date, author, or reference number);"
                 },
                 {
-                  "ref": "7.5.2b)",
+                  "ref": "7.5.2(b)",
                   "label": "format (e.g. language, software version, graphics) and media (e.g. paper, electronic); and"
                 },
                 {
-                  "ref": "7.5.2c)",
+                  "ref": "7.5.2(c)",
                   "label": "review and approval for suitability and adequacy."
                 }
               ]
@@ -512,27 +512,27 @@
               "description": "Documented information required by the information security management system and by this document shall be controlled to ensure:\n\nNOTE Access can imply a decision regarding the permission to view the documented information only, or the permission and authority to view and change the documented information, etc.",
               "controls": [
                 {
-                  "ref": "7.5.3a)",
+                  "ref": "7.5.3(a)",
                   "label": "it is available and suitable for use, where and when it is needed; and"
                 },
                 {
-                  "ref": "7.5.3b)",
+                  "ref": "7.5.3(b)",
                   "label": "it is adequately protected (e.g. from loss of confidentiality, improper use, or loss of integrity)."
                 },
                 {
-                  "ref": "7.5.3c)",
+                  "ref": "7.5.3(c)",
                   "label": "For the control of documented information, the organization shall address the following activities, as applicable:\n\ndistribution, access, retrieval and use;"
                 },
                 {
-                  "ref": "7.5.3d)",
+                  "ref": "7.5.3(d)",
                   "label": "For the control of documented information, the organization shall address the following activities, as applicable:\n\nstorage and preservation, including the preservation of legibility;"
                 },
                 {
-                  "ref": "7.5.3e)",
+                  "ref": "7.5.3(e)",
                   "label": "For the control of documented information, the organization shall address the following activities, as applicable:\n\ncontrol of changes (e.g. version control); and"
                 },
                 {
-                  "ref": "7.5.3f)",
+                  "ref": "7.5.3(f)",
                   "label": "For the control of documented information, the organization shall address the following activities, as applicable:\n\nretention and disposition."
                 },
                 {
@@ -576,27 +576,27 @@
           "description": "The organization shall determine:",
           "controls": [
             {
-              "ref": "9.1a)",
+              "ref": "9.1(a)",
               "label": "what needs to be monitored and measured, including information security processes and controls;"
             },
             {
-              "ref": "9.1b)",
+              "ref": "9.1(b)",
               "label": "the methods for monitoring, measurement, analysis and evaluation, as applicable, to ensure valid results. The methods selected should produce comparable and reproducible results to be considered valid;"
             },
             {
-              "ref": "9.1c)",
+              "ref": "9.1(c)",
               "label": "when the monitoring and measuring shall be performed;"
             },
             {
-              "ref": "9.1d)",
+              "ref": "9.1(d)",
               "label": "who shall monitor and measure;"
             },
             {
-              "ref": "9.1e)",
+              "ref": "9.1(e)",
               "label": "when the results from monitoring and measurement shall be analysed and evaluated;"
             },
             {
-              "ref": "9.1f)",
+              "ref": "9.1(f)",
               "label": "who shall analyse and evaluate these results."
             },
             {
@@ -619,21 +619,21 @@
               "description": "The organization shall conduct internal audits at planned intervals to provide information on whether the information security management system:",
               "controls": [
                 {
-                  "ref": "9.2.1a)",
+                  "ref": "9.2.1(a)",
                   "label": "conforms to",
                   "controls": [
                     {
-                      "ref": "9.2.1.a)1)",
+                      "ref": "9.2.1(a)(1)",
                       "label": "the organization’s own requirements for its information security management system;"
                     },
                     {
-                      "ref": "9.2.1.a)2)",
+                      "ref": "9.2.1(a)(2)",
                       "label": "the requirements of this document;"
                     }
                   ]
                 },
                 {
-                  "ref": "9.2.1b)",
+                  "ref": "9.2.1(b)",
                   "label": "is effectively implemented and maintained."
                 }
               ]
@@ -644,15 +644,15 @@
               "description": "The organization shall plan, establish, implement and maintain an audit programme(s), including the frequency, methods, responsibilities, planning requirements and reporting.\n\nWhen establishing the internal audit programme(s), the organization shall consider the importance of the processes concerned and the results of previous audits.\n\nThe organization shall:",
               "controls": [
                 {
-                  "ref": "9.2.2a)",
+                  "ref": "9.2.2(a)",
                   "label": "define the audit criteria and scope for each audit;"
                 },
                 {
-                  "ref": "9.2.2b)",
+                  "ref": "9.2.2(b)",
                   "label": "select auditors and conduct audits that ensure objectivity and the impartiality of the audit process;"
                 },
                 {
-                  "ref": "9.2.2c)",
+                  "ref": "9.2.2(c)",
                   "label": "ensure that the results of the audits are reported to relevant management;"
                 },
                 {
@@ -678,49 +678,49 @@
               "description": "The management review shall include consideration of:",
               "controls": [
                 {
-                  "ref": "9.3.2a)",
+                  "ref": "9.3.2(a)",
                   "label": "the status of actions from previous management reviews;"
                 },
                 {
-                  "ref": "9.3.2b)",
+                  "ref": "9.3.2(b)",
                   "label": "changes in external and internal issues that are relevant to the information security management system;"
                 },
                 {
-                  "ref": "9.3.2c)",
+                  "ref": "9.3.2(c)",
                   "label": "changes in needs and expectations of interested parties that are relevant to the information security management system;"
                 },
                 {
-                  "ref": "9.3.2d)",
+                  "ref": "9.3.2(d)",
                   "label": "feedback on the information security performance, including trends in:",
                   "controls": [
                     {
-                      "ref": "9.3.2d)1)",
+                      "ref": "9.3.2(d)(1)",
                       "label": "nonconformities and corrective actions;"
                     },
                     {
-                      "ref": "9.3.2d)2)",
+                      "ref": "9.3.2(d)(2)",
                       "label": "monitoring and measurement results;"
                     },
                     {
-                      "ref": "9.3.2d)3)",
+                      "ref": "9.3.2(d)(3)",
                       "label": "audit results;"
                     },
                     {
-                      "ref": "9.3.2d)4)",
+                      "ref": "9.3.2(d)(4)",
                       "label": "fulfilment of information security objectives;"
                     }
                   ]
                 },
                 {
-                  "ref": "9.3.2e)",
+                  "ref": "9.3.2(e)",
                   "label": "feedback from interested parties;"
                 },
                 {
-                  "ref": "9.3.2f)",
+                  "ref": "9.3.2(f)",
                   "label": "results of risk assessment and status of risk treatment plan;"
                 },
                 {
-                  "ref": "9.3.2g)",
+                  "ref": "9.3.2(g)",
                   "label": "opportunities for continual improvement."
                 }
               ]
@@ -755,56 +755,56 @@
           "description": "When a nonconformity occurs, the organization shall:",
           "controls": [
             {
-              "ref": "10.2a)",
+              "ref": "10.2(a)",
               "label": "react to the nonconformity, and as applicable:",
               "controls": [
                 {
-                  "ref": "10.2a)1)",
+                  "ref": "10.2(a)(1)",
                   "label": "take action to control and correct it;"
                 },
                 {
-                  "ref": "10.2a)2)",
+                  "ref": "10.2(a)(2)",
                   "label": "deal with the consequences;"
                 }
               ]
             },
             {
-              "ref": "10.2b)",
+              "ref": "10.2(b)",
               "label": "evaluate the need for action to eliminate the causes of nonconformity, in order that it does not recur or occur elsewhere, by:",
               "controls": [
                 {
-                  "ref": "10.2b)1)",
+                  "ref": "10.2(b)(1)",
                   "label": "reviewing the nonconformity;"
                 },
                 {
-                  "ref": "10.2b)2)",
+                  "ref": "10.2(b)(2)",
                   "label": "determining the causes of the nonconformity; and"
                 },
                 {
-                  "ref": "10.2b)3)",
+                  "ref": "10.2(b)(3)",
                   "label": "determining if similar nonconformities exist, or could potentially occur;"
                 }
               ]
             },
             {
-              "ref": "10.2c)",
+              "ref": "10.2(c)",
               "label": "implement any action needed;"
             },
             {
-              "ref": "10.2d)",
+              "ref": "10.2(d)",
               "label": "review the effectiveness of any corrective action taken; and"
             },
             {
-              "ref": "10.2e)",
+              "ref": "10.2(e)",
               "label": "make changes to the information security management system, if necessary."
             },
             {
-              "ref": "10.2f)",
+              "ref": "10.2(f)",
               "label": "Corrective actions shall be appropriate to the effects of the nonconformities encountered.",
               "description": "Documented information shall be available as evidence of the nature of the nonconformities and any subsequent actions taken,"
             },
             {
-              "ref": "10.2g)",
+              "ref": "10.2(g)",
               "label": "Corrective actions shall be appropriate to the effects of the nonconformities encountered.",
               "description": "Documented information shall be available as evidence of the nature of the results of any corrective action."
             },
