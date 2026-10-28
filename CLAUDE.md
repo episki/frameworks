@@ -34,8 +34,9 @@ Every file in `frameworks/` must conform to `framework.schema.json`. Key rules:
 
 - **Required top-level fields**: `name`, `short_name`, `last_updated` (ISO 8601 date), `description`, `category`, `keywords`, `controls`
 - **Optional top-level fields**: `version`, `publisher`, `source_url`, `effective_date`, `retired_date`
-- **Controls are recursive**: each `controlNode` has a required `ref` field and optional `label`, `description`, `group`, `tags`, `mappings`, `source_url`, `controls` (children), and `tests`
+- **Controls are recursive**: each `controlNode` has a required `ref` field and optional `label`, `description`, `group`, `tags`, `mappings`, `source_url`, `controls` (children), `tests`, and `guidance`
 - **`additionalProperties: false`** is enforced at every level — do not add custom fields to controlNode or testNode objects
+- **Guidance is not the requirement**: `description` holds the requirement text; non-normative implementation guidance (ISO 42001 Annex B, PCI DSS Purpose / Good Practice) goes in `guidance[]` as `{ ref?, label?, text, source_url? }`. Paraphrase copyrighted guidance rather than reproducing it — this repo is public
 - **Group nodes** use `"group": true` to indicate structural containers vs enforceable requirements
 - **Nested controls** use the `controls` array to create parent-child hierarchies (e.g., dimension > subdimension > control)
 - **Ref numbering**: use a hierarchical scheme matching the source framework (e.g., `1`, `1.1`, `1.1.1`). When the source has no refs, create a consistent numbering scheme
