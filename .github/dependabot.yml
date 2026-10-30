@@ -1,0 +1,74 @@
+version: 2
+updates:
+  # bun packages — grouped by ecosystem, weekly on mondays.
+  # must be `bun` (not `npm`) so dependabot updates bun.lock alongside
+  # package.json; otherwise ci fails on `bun install --frozen-lockfile`.
+  - package-ecosystem: bun
+    directory: '/'
+    schedule:
+      interval: weekly
+      day: monday
+      time: '06:00'
+    open-pull-requests-limit: 5
+    assignees:
+      - justinleapline
+    labels:
+      - dependencies
+    commit-message:
+      prefix: fix
+      prefix-development: chore
+      include: scope
+    groups:
+      nuxt:
+        patterns:
+          - 'nuxt'
+          - 'nuxt-*'
+          - '@nuxt/*'
+          - '@nuxtjs/*'
+      vue:
+        patterns:
+          - 'vue'
+          - 'vue-*'
+          - '@vue/*'
+          - '@vueuse/*'
+      supabase:
+        patterns:
+          - '@supabase/*'
+          - 'supabase'
+      tailwind:
+        patterns:
+          - 'tailwindcss'
+          - '@tailwindcss/*'
+      linting:
+        patterns:
+          - 'eslint'
+          - '@eslint/*'
+          - '@nuxt/eslint'
+          - 'typescript-eslint'
+          - 'oxlint'
+          - 'prettier'
+      types:
+        patterns:
+          - '@types/*'
+
+  # github actions — all grouped into a single pr
+  - package-ecosystem: github-actions
+    directory: '/'
+    schedule:
+      interval: weekly
+      day: monday
+      time: '06:00'
+    open-pull-requests-limit: 5
+    assignees:
+      - justinleapline
+    labels:
+      - dependencies
+      - github-actions
+    commit-message:
+      prefix: fix
+      prefix-development: chore
+      include: scope
+    groups:
+      actions:
+        patterns:
+          - '*'

@@ -1,0 +1,11 @@
+# Extends gitleaks' default rules; read automatically from the repo root.
+[extend]
+useDefault = true
+
+# generic-api-key fires on each framework's `"key": "nist-sp-800-53-r5-low"`
+# slug. A secret made only of lowercase words joined by hyphens is a slug,
+# not a credential.
+[[allowlists]]
+description = "kebab-case framework/profile slugs in `key` fields"
+regexTarget = "secret"
+regexes = ['''^[a-z0-9]+(-[a-z0-9]+)+$''']
