@@ -10,7 +10,7 @@
     "frameworks:validate-scf-keys": "bun scripts/validate-scf-keys.ts"
   },
   "devDependencies": {
-    "ajv": "^8.17.1",
+    "ajv": "^8.20.0",
     "jsonc-parser": "^3.3.1"
   },
   "dependencies": {
