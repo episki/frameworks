@@ -26,6 +26,7 @@ bun run frameworks:lint:fix          # fix malformed JSON and normalize formatti
 bun run frameworks:validate-schema   # validate all frameworks against framework.schema.json
 bun run frameworks:check             # lint + schema validation together
 bun run frameworks:minify            # minify framework JSON files
+bun run frameworks:derive-labels     # label untitled controls from their own text (dry run; --write saves)
 ```
 
 ## Framework JSON format
@@ -34,9 +35,10 @@ Every file in `frameworks/` must conform to `framework.schema.json`. Key rules:
 
 - **Required top-level fields**: `name`, `short_name`, `last_updated` (ISO 8601 date), `description`, `category`, `keywords`, `controls`
 - **Optional top-level fields**: `version`, `publisher`, `source_url`, `effective_date`, `retired_date`
-- **Controls are recursive**: each `controlNode` has a required `ref` field and optional `label`, `description`, `group`, `tags`, `mappings`, `source_url`, `controls` (children), `tests`, and `guidance`
+- **Controls are recursive**: each `controlNode` has required `ref` and `label` fields and optional `description`, `group`, `tags`, `mappings`, `source_url`, `controls` (children), `tests`, and `guidance`
 - **`additionalProperties: false`** is enforced at every level — do not add custom fields to controlNode or testNode objects
 - **Guidance is not the requirement**: `description` holds the requirement text; non-normative implementation guidance (ISO 42001 Annex B, PCI DSS Purpose / Good Practice) goes in `guidance[]` as `{ ref?, label?, text, source_url? }`. Paraphrase copyrighted guidance rather than reproducing it — this repo is public
+- **Every control has a label**: episki shows `label` as the control's name, and a missing one makes the app fall back to the ref. Where the source publishes no title (statute and regulation paragraphs), run `bun run frameworks:derive-labels --write <file>`, which takes the label from the requirement text itself: a printed paragraph heading, the term the paragraph defines, or its opening words. Review the dry run first
 - **Group nodes** use `"group": true` to indicate structural containers vs enforceable requirements
 - **Nested controls** use the `controls` array to create parent-child hierarchies (e.g., dimension > subdimension > control)
 - **Ref numbering**: use a hierarchical scheme matching the source framework (e.g., `1`, `1.1`, `1.1.1`). When the source has no refs, create a consistent numbering scheme
