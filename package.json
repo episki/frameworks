@@ -7,7 +7,8 @@
     "frameworks:lint:fix": "bun scripts/validate-json.ts --fix",
     "frameworks:validate-schema": "bun scripts/validate-schema.ts",
     "frameworks:check": "bun run frameworks:lint && bun run frameworks:validate-schema && bun run frameworks:validate-scf-keys",
-    "frameworks:validate-scf-keys": "bun scripts/validate-scf-keys.ts"
+    "frameworks:validate-scf-keys": "bun scripts/validate-scf-keys.ts",
+    "frameworks:derive-labels": "bun scripts/derive-labels.ts"
   },
   "devDependencies": {
     "ajv": "^8.20.0",

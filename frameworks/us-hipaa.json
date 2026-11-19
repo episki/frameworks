@@ -31,33 +31,41 @@
           "controls": [
             {
               "ref": "164.105(a)",
+              "label": "Organizational requirements",
               "controls": [
                 {
                   "ref": "164.105(a)(1)",
+                  "label": "Health care component",
                   "description": "Standard: Health care component. If a covered entity is a hybrid entity, the requirements of this part, other than the requirements of this section, §§ 164.314, and 164.504, apply only to the health care component(s) of the entity, as specified in this section."
                 },
                 {
                   "ref": "164.105(a)(2)",
+                  "label": "Implementation specifications",
                   "description": "Implementation specifications:",
                   "controls": [
                     {
                       "ref": "164.105(a)(2)(i)",
+                      "label": "Application of other provisions",
                       "description": "Application of other provisions. In applying a provision of this part, other than the requirements of this section, §§ 164.314, and 164.504, to a hybrid entity:",
                       "controls": [
                         {
                           "ref": "164.105(a)(2)(i)(A)",
+                          "label": "A reference in such provision to a “covered entity” refers to a health…",
                           "description": "A reference in such provision to a “covered entity” refers to a health care component of the covered entity;"
                         },
                         {
                           "ref": "164.105(a)(2)(i)(B)",
+                          "label": "A reference in such provision to a “health plan,” “covered health care…",
                           "description": "A reference in such provision to a “health plan,” “covered health care provider,” or “health care clearinghouse,” refers to a health care component of the covered entity if such health care component performs the functions of a health plan, health care provider, or health care clearinghouse, as applicable;"
                         },
                         {
                           "ref": "164.105(a)(2)(i)(C)",
+                          "label": "A reference in such provision to “protected health information” refers…",
                           "description": "A reference in such provision to “protected health information” refers to protected health information that is created or received by or on behalf of the health care component of the covered entity; and"
                         },
                         {
                           "ref": "164.105(a)(2)(i)(D)",
+                          "label": "A reference in such provision to “electronic protected health…",
                           "description": "A reference in such provision to “electronic protected health information” refers to electronic protected health information that is created, received, maintained, or transmitted by or on behalf of the health care component of the covered entity."
                         }
                       ],
@@ -65,18 +73,22 @@
                     },
                     {
                       "ref": "164.105(a)(2)(ii)",
+                      "label": "Safeguard requirements",
                       "description": "Safeguard requirements. The covered entity that is a hybrid entity must ensure that a health care component of the entity complies with the applicable requirements of this part. In particular, and without limiting this requirement, such covered entity must ensure that:",
                       "controls": [
                         {
                           "ref": "164.105(a)(2)(ii)(A)",
+                          "label": "Its health care component does not disclose protected health information…",
                           "description": "Its health care component does not disclose protected health information to another component of the covered entity in circumstances in which subpart E of this part would prohibit such disclosure if the health care component and the other component were separate and distinct legal entities;"
                         },
                         {
                           "ref": "164.105(a)(2)(ii)(B)",
+                          "label": "Its health care component protects electronic protected health…",
                           "description": "Its health care component protects electronic protected health information with respect to another component of the covered entity to the same extent that it would be required under subpart C of this part to protect such information if the health care component and the other component were separate and distinct legal entities;"
                         },
                         {
                           "ref": "164.105(a)(2)(ii)(C)",
+                          "label": "If a person performs duties for both the health care component in the…",
                           "description": "If a person performs duties for both the health care component in the capacity of a member of the workforce of such component and for another component of the entity in the same capacity with respect to that component, such workforce member must not use or disclose protected health information created or received in the course of or incident to the member's work for the health care component in a way prohibited by subpart E of this part."
                         }
                       ],
@@ -84,22 +96,27 @@
                     },
                     {
                       "ref": "164.105(a)(2)(iii)",
+                      "label": "Responsibilities of the covered entity",
                       "description": "Responsibilities of the covered entity. A covered entity that is a hybrid entity has the following responsibilities:",
                       "controls": [
                         {
                           "ref": "164.105(a)(2)(iii)(A)",
+                          "label": "For purposes of subpart C of part 160 of this subchapter, pertaining to…",
                           "description": "For purposes of subpart C of part 160 of this subchapter, pertaining to compliance and enforcement, the covered entity has the responsibility of complying with this part."
                         },
                         {
                           "ref": "164.105(a)(2)(iii)(B)",
+                          "label": "The covered entity is responsible for complying with §§ 164.316(a) and…",
                           "description": "The covered entity is responsible for complying with §§ 164.316(a) and 164.530(i), pertaining to the implementation of policies and procedures to ensure compliance with applicable requirements of this part, including the safeguard requirements in paragraph (a)(2)(ii) of this section."
                         },
                         {
                           "ref": "164.105(a)(2)(iii)(C)",
+                          "label": "The covered entity is responsible for complying with §§ 164.314 and…",
                           "description": "The covered entity is responsible for complying with §§ 164.314 and 164.504 regarding business associate arrangements and other organizational requirements."
                         },
                         {
                           "ref": "164.105(a)(2)(iii)(D)",
+                          "label": "The covered entity is responsible for designating the components that…",
                           "description": "The covered entity is responsible for designating the components that are part of one or more health care components of the covered entity and documenting the designation in accordance with paragraph (c) of this section, provided that, if the covered entity designates one or more health care components, it must include any component that would meet the definition of a covered entity or business associate if it were a separate legal entity. Health care component(s) also may include a component only to the extent that it performs covered functions."
                         }
                       ],
@@ -113,25 +130,31 @@
             },
             {
               "ref": "164.105(b)",
+              "label": "Organizational requirements",
               "controls": [
                 {
                   "ref": "164.105(b)(1)",
+                  "label": "Affiliated covered entities",
                   "description": "Standard: Affiliated covered entities. Legally separate covered entities that are affiliated may designate themselves as a single covered entity for purposes of this part."
                 },
                 {
                   "ref": "164.105(b)(2)",
+                  "label": "Implementation specifications",
                   "description": "Implementation specifications",
                   "controls": [
                     {
                       "ref": "164.105(b)(2)(i)",
+                      "label": "Requirements for designation of an affiliated covered entity",
                       "description": "Requirements for designation of an affiliated covered entity.",
                       "controls": [
                         {
                           "ref": "164.105(b)(2)(i)(A)",
+                          "label": "Legally separate covered entities may designate themselves (including…",
                           "description": "Legally separate covered entities may designate themselves (including any health care component of such covered entity) as a single affiliated covered entity, for purposes of this part, if all of the covered entities designated are under common ownership or control."
                         },
                         {
                           "ref": "164.105(b)(2)(i)(B)",
+                          "label": "The designation of an affiliated covered entity must be documented and…",
                           "description": "The designation of an affiliated covered entity must be documented and the documentation maintained as required by paragraph (c) of this section."
                         }
                       ],
@@ -139,6 +162,7 @@
                     },
                     {
                       "ref": "164.105(b)(2)(ii)",
+                      "label": "Safeguard requirements",
                       "description": "Safeguard requirements. An affiliated covered entity must ensure that it complies with the applicable requirements of this part, including, if the affiliated covered entity combines the functions of a health plan, health care provider, or health care clearinghouse, §§ 164.308(a)(4)(ii)(A) and 164.504(g), as applicable."
                     }
                   ],
@@ -149,13 +173,16 @@
             },
             {
               "ref": "164.105(c)",
+              "label": "Organizational requirements",
               "controls": [
                 {
                   "ref": "164.105(c)(1)",
+                  "label": "Documentation",
                   "description": "Standard: Documentation. A covered entity must maintain a written or electronic record of a designation as required by paragraphs (a) or (b) of this section."
                 },
                 {
                   "ref": "164.105(c)(2)",
+                  "label": "Retention period",
                   "description": "Implementation specification: Retention period. A covered entity must retain the documentation as required by paragraph (c)(1) of this section for 6 years from the date of its creation or the date when it last was in effect, whichever is later."
                 }
               ],
@@ -184,18 +211,22 @@
               "controls": [
                 {
                   "ref": "164.402-breach(1)",
+                  "label": "Breach",
                   "description": "Breach excludes:",
                   "controls": [
                     {
                       "ref": "164.402-breach(1)(i)",
+                      "label": "Any unintentional acquisition, access, or use of protected health…",
                       "description": "Any unintentional acquisition, access, or use of protected health information by a workforce member or person acting under the authority of a covered entity or a business associate, if such acquisition, access, or use was made in good faith and within the scope of authority and does not result in further use or disclosure in a manner not permitted under subpart E of this part."
                     },
                     {
                       "ref": "164.402-breach(1)(ii)",
+                      "label": "Any inadvertent disclosure by a person who is authorized to access…",
                       "description": "Any inadvertent disclosure by a person who is authorized to access protected health information at a covered entity or business associate to another person authorized to access protected health information at the same covered entity or business associate, or organized health care arrangement in which the covered entity participates, and the information received as a result of such disclosure is not further used or disclosed in a manner not permitted under subpart E of this part."
                     },
                     {
                       "ref": "164.402-breach(1)(iii)",
+                      "label": "A disclosure of protected health information where a covered entity or…",
                       "description": "A disclosure of protected health information where a covered entity or business associate has a good faith belief that an unauthorized person to whom the disclosure was made would not reasonably have been able to retain such information."
                     }
                   ],
@@ -203,22 +234,27 @@
                 },
                 {
                   "ref": "164.402-breach(2)",
+                  "label": "Except as provided in paragraph (1) of this definition, an acquisition…",
                   "description": "Except as provided in paragraph (1) of this definition, an acquisition, access, use, or disclosure of protected health information in a manner not permitted under subpart E is presumed to be a breach unless the covered entity or business associate, as applicable, demonstrates that there is a low probability that the protected health information has been compromised based on a risk assessment of at least the following factors:",
                   "controls": [
                     {
                       "ref": "164.402-breach(2)(i)",
+                      "label": "The nature and extent of the protected health information involved…",
                       "description": "The nature and extent of the protected health information involved, including the types of identifiers and the likelihood of re-identification;"
                     },
                     {
                       "ref": "164.402-breach(2)(ii)",
+                      "label": "The unauthorized person who used the protected health information or to…",
                       "description": "The unauthorized person who used the protected health information or to whom the disclosure was made;"
                     },
                     {
                       "ref": "164.402-breach(2)(iii)",
+                      "label": "Whether the protected health information was actually acquired or viewed",
                       "description": "Whether the protected health information was actually acquired or viewed; and"
                     },
                     {
                       "ref": "164.402-breach(2)(iv)",
+                      "label": "The extent to which the risk to the protected health information has…",
                       "description": "The extent to which the risk to the protected health information has been mitigated."
                     }
                   ],
