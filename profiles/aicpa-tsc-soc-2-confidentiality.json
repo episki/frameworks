@@ -1,0 +1,19 @@
+{
+  "key": "aicpa-tsc-soc-2-confidentiality",
+  "name": "AICPA Trust Services Criteria: Confidentiality",
+  "short_name": "TSC Confidentiality",
+  "publisher": "AICPA",
+  "last_updated": "2026-11-19",
+  "description": "The Confidentiality category of the AICPA Trust Services Criteria (2 criteria). Confidentiality is in scope only when the examination includes it.",
+  "category": "subset",
+  "subset_code": "confidentiality",
+  "imports": [
+    {
+      "catalog": "aicpa-tsc-soc-2",
+      "include_controls": [
+        "C1.1",
+        "C1.2"
+      ]
+    }
+  ]
+}

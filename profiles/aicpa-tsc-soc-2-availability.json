@@ -1,0 +1,20 @@
+{
+  "key": "aicpa-tsc-soc-2-availability",
+  "name": "AICPA Trust Services Criteria: Availability",
+  "short_name": "TSC Availability",
+  "publisher": "AICPA",
+  "last_updated": "2026-11-19",
+  "description": "The Availability category of the AICPA Trust Services Criteria (3 criteria). Availability is in scope only when the examination includes it.",
+  "category": "subset",
+  "subset_code": "availability",
+  "imports": [
+    {
+      "catalog": "aicpa-tsc-soc-2",
+      "include_controls": [
+        "A1.1",
+        "A1.2",
+        "A1.3"
+      ]
+    }
+  ]
+}
