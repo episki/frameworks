@@ -1,0 +1,22 @@
+{
+  "key": "aicpa-tsc-soc-2-processing-integrity",
+  "name": "AICPA Trust Services Criteria: Processing Integrity",
+  "short_name": "TSC Processing Integrity",
+  "publisher": "AICPA",
+  "last_updated": "2026-11-19",
+  "description": "The Processing Integrity category of the AICPA Trust Services Criteria (5 criteria). Processing Integrity is in scope only when the examination includes it.",
+  "category": "subset",
+  "subset_code": "processing_integrity",
+  "imports": [
+    {
+      "catalog": "aicpa-tsc-soc-2",
+      "include_controls": [
+        "PI1.1",
+        "PI1.2",
+        "PI1.3",
+        "PI1.4",
+        "PI1.5"
+      ]
+    }
+  ]
+}

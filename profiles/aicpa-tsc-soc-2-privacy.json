@@ -1,0 +1,35 @@
+{
+  "key": "aicpa-tsc-soc-2-privacy",
+  "name": "AICPA Trust Services Criteria: Privacy",
+  "short_name": "TSC Privacy",
+  "publisher": "AICPA",
+  "last_updated": "2026-11-19",
+  "description": "The Privacy category of the AICPA Trust Services Criteria (18 criteria). Privacy is in scope only when the examination includes it.",
+  "category": "subset",
+  "subset_code": "privacy",
+  "imports": [
+    {
+      "catalog": "aicpa-tsc-soc-2",
+      "include_controls": [
+        "P1.1",
+        "P2.1",
+        "P3.1",
+        "P3.2",
+        "P4.1",
+        "P4.2",
+        "P4.3",
+        "P5.1",
+        "P5.2",
+        "P6.1",
+        "P6.2",
+        "P6.3",
+        "P6.4",
+        "P6.5",
+        "P6.6",
+        "P6.7",
+        "P7.1",
+        "P8.1"
+      ]
+    }
+  ]
+}

@@ -164,6 +164,45 @@
       "additionalProperties": false
     },
 
+    "pointOfFocusNode": {
+      "description": "One point of focus under a criterion (AICPA Trust Services Criteria). Points of focus are guidance: they describe characteristics of a criterion and are not separately scored or tested, and not all of them apply to every entity. A consumer shows them as an unscored checklist on the criterion.",
+      "type": "object",
+      "required": ["ref", "title"],
+      "properties": {
+        "ref": {
+          "description": "Stable reference, unique within the framework (e.g. 'CC1.1.1').",
+          "type": "string",
+          "minLength": 1
+        },
+        "title": {
+          "description": "The point of focus's name (e.g. 'Sets the Tone at the Top').",
+          "type": "string",
+          "minLength": 1
+        },
+        "text": {
+          "description": "What the point of focus describes. Markdown is allowed.",
+          "type": "string",
+          "minLength": 1
+        },
+        "applies_to": {
+          "description": "The trust services categories this point of focus is limited to (the source's 'Additional point of focus … for confidentiality' headings). Omit when it applies to every engagement.",
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "enum": ["availability", "confidentiality", "processing_integrity", "privacy"]
+          }
+        },
+        "group": {
+          "description": "A heading the source lists the point of focus under that is not a category limit (e.g. 'Operations Objectives').",
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    },
+
     "controlNode": {
       "description": "A node in the framework control tree (chapter/domain/requirement/control).",
       "type": "object",
@@ -193,6 +232,13 @@
           "type": "array",
           "minItems": 1,
           "items": { "$ref": "#/$defs/guidanceNode" }
+        },
+
+        "points_of_focus": {
+          "description": "Optional points of focus for a criterion: guidance listed under it, not child requirements. A node with points of focus is an assessable leaf; don't also model them as child `controls`.",
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/pointOfFocusNode" }
         },
 
         "tags": {

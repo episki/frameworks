@@ -28,3 +28,7 @@ Every file must validate against `../profile.schema.json` (run `bun run framewor
 - Each import provides either **`include_controls`** (explicit refs) or
   **`include_all: true`** (optionally narrowed by **`exclude_controls`**).
 - Control refs are written exactly as they appear in the target catalog.
+- A framework's optional categories are profiles too: `aicpa-tsc-soc-2-<category>` selects each
+  Trust Services Criteria category's criteria (`subset_code` `security`, `availability`,
+  `confidentiality`, `processing_integrity`, `privacy`), so an assessment can scope to the
+  categories its examination covers.
