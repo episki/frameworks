@@ -173,7 +173,6 @@
         {
           "ref": "CC1.1",
           "label": "COSO Principle 1: The entity demonstrates a commitment to integrity and ethical values.",
-          "description": "Points of focus specified in the COSO framework:",
           "points_of_focus": [
             {
               "ref": "CC1.1.1",
